@@ -1,0 +1,26 @@
+{
+  "_fv": 60,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Wisdom",
+    "icon": "wisdomeffect.png",
+    "color": {
+      "value": -7960954,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": false,
+    "onStarted": {
+      "name": "WisdomWennEffektStartetangewendetWird"
+    },
+    "onActiveTick": {
+      "name": "WisdomWennEffektStartetangewendetWird"
+    },
+    "onExpired": {
+      "name": "WisdomWennDerEffektAblauft"
+    }
+  }
+}

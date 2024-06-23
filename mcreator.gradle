@@ -1,0 +1,64 @@
+repositories {
+    maven {
+    	url = "https://jitpack.io"
+    }
+}
+    
+dependencies {
+	implementation 'com.github.Virtuoel:Pehkui:3.8.0-1.20.4-neoforge'
+}
+
+
+
+repositories {
+    maven { url 'https://www.cursemaven.com'
+        content {
+            includeGroup "curse.maven"
+        }
+    }
+}
+
+dependencies {
+    implementation "curse.maven:mouse-tweaks-60089:5230342"
+	// Plugin Note: MouseTweaks versions can be found here: https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks/files/all?page=1&pageSize=20&gameVersionTypeId=6
+}
+
+
+
+
+
+repositories {
+    maven { url 'https://maven.blamejared.com' }
+}
+
+dependencies {
+    compileOnly "vazkii.patchouli:Patchouli:1.20.4-85-NEOFORGE:api"
+    runtimeOnly "vazkii.patchouli:Patchouli:1.20.4-85-NEOFORGE"
+	// Plugin Note: Patchouli versions can be found here: https://maven.blamejared.com/vazkii/patchouli/Patchouli/
+}
+
+
+repositories {
+    maven { url 'https://www.cursemaven.com'
+        content {
+            includeGroup "curse.maven"
+        }
+    }
+}
+
+dependencies {
+    implementation "curse.maven:jade-324717:5109393"
+	// Plugin Note: Jade versions can be found here: https://www.curseforge.com/minecraft/mc-mods/jade/files/all?page=1&pageSize=20&gameVersionTypeId=6
+}
+
+
+repositories {
+	maven { url "https://maven.ryanliptak.com/" }
+}
+
+dependencies {
+	compileOnly "squeek.appleskin:appleskin-neoforge:mc1.20.4-2.5.1:api"
+	// Plugin Note: AppleSkin versions can be found here: https://maven.ryanliptak.com/squeek/appleskin/appleskin-neoforge/
+}
+
+

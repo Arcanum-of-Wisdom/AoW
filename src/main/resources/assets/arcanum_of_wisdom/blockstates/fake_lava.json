@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "arcanum_of_wisdom:block/fake_lava"
+    }
+  }
+}

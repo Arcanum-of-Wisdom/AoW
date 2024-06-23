@@ -1,0 +1,12 @@
+{
+  "_fv": 60,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "AoW: Level Effects",
+    "description": "Every wisdom level has certain extra superpowers, such as more speed or luck. This can be very significant. TRUE=Activated FALSE=Deactivated",
+    "category": "MISC",
+    "defaultValueLogic": true,
+    "defaultValueNumber": 0
+  }
+}

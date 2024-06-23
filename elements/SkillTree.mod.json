@@ -1,0 +1,177 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "entitymodel",
+        "data": {
+          "entityModel": {
+            "name": "GUIEntityReturn"
+          },
+          "scale": 40,
+          "rotationX": 0,
+          "followMouseMovement": true,
+          "x": 205,
+          "y": 138
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "skilltree2.png",
+          "use1Xscale": false,
+          "x": 15,
+          "y": 19
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_water_racer",
+          "text": "Water Racer",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "SkillTreeWaterRacerButton"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 286,
+          "y": 55
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_lava_racer",
+          "text": "Lava Racer",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "SkillTreeLavaRacerButton"
+          },
+          "width": 77,
+          "height": 20,
+          "x": 302,
+          "y": 79
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_shadow_warrior",
+          "text": "Shadow Warrior",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "SkillTreeShadowPowerButton"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 281,
+          "y": 138
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_arcana_dimension",
+          "text": "Arcana Dimension",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "SkillTreeArcanumDimensionButton"
+          },
+          "width": 108,
+          "height": 20,
+          "x": 259,
+          "y": 162
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_deactivate_all",
+          "text": "Deactivate all",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DeactivateAllButton"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 55,
+          "y": 73
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_activate_all",
+          "text": "Activate all",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ActivateAllButton"
+          },
+          "width": 87,
+          "height": 20,
+          "x": 61,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_lvl_effects",
+          "text": "LVL Effects",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "OpenLVLEffectsGUI"
+          },
+          "width": 82,
+          "height": 20,
+          "x": 63,
+          "y": 162
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonred",
+          "image": "buttonred.png",
+          "hoveredImage": "buttonredhighlight.png",
+          "onClick": {
+            "name": "CloseGUIs"
+          },
+          "x": 199,
+          "y": 7
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_buttons",
+          "text": "Buttons",
+          "isUndecorated": true,
+          "onClick": {
+            "name": "OpenButtonsGUI"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 379,
+          "y": 219
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 17,
+      "sy": 17,
+      "ox": 7,
+      "oy": 12,
+      "snapOnGrid": false
+    }
+  }
+}

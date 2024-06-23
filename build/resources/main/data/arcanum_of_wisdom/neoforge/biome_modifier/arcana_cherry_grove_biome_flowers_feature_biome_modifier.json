@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "arcanum_of_wisdom:arcana_cherry_grove_biome",
+  "features": "arcanum_of_wisdom:arcana_cherry_grove_biome_flowers_feature",
+  "step": "raw_generation"
+}

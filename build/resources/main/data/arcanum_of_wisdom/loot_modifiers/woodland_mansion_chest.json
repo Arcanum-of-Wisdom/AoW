@@ -1,0 +1,10 @@
+{
+  "type": "arcanum_of_wisdom:arcanum_of_wisdom_loot_modifier",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "chests/woodland_mansion"
+    }
+  ],
+  "lootTable": "arcanum_of_wisdom:chests/woodland_mansion_chest_extra"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "arcanum_of_wisdom:custom/holy_branch_recycled",
+  "textures": {
+    "1": "arcanum_of_wisdom:block/holy_branch_recycled_texture",
+    "particle": "arcanum_of_wisdom:item/holy_branch_recycled_texture"
+  }
+}

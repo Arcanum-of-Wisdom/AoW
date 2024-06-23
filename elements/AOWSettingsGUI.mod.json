@@ -1,0 +1,263 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 240,
+    "height": 118,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_arcanum_of_wisdom_settings",
+          "text": {
+            "fixedValue": "Arcanum of Wisdom - Settings"
+          },
+          "color": {
+            "value": -6750157,
+            "falpha": 0.0
+          },
+          "x": 99,
+          "y": 64
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_show_overlay",
+          "text": {
+            "fixedValue": "Toggle Overlay"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 99,
+          "y": 76
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_toggle",
+          "text": "Toggle",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ToggleOverlay"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 274,
+          "y": 76
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_reset_wisdom",
+          "text": {
+            "fixedValue": "Reset Wisdom"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 99,
+          "y": 105
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_reset",
+          "text": "Reset",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ResetWisdomButton"
+          },
+          "displayCondition": {
+            "name": "ToggleResetWisdomButton"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 279,
+          "y": 100
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_only_in",
+          "text": {
+            "fixedValue": "Only in"
+          },
+          "color": {
+            "value": -3407821,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "ToggleWarningResetButton"
+          },
+          "x": 279,
+          "y": 100
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_creative_mode",
+          "text": {
+            "fixedValue": "creative mode"
+          },
+          "color": {
+            "value": -3407821,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "ToggleWarningResetButton"
+          },
+          "x": 262,
+          "y": 110
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_reset_countdowns",
+          "text": {
+            "fixedValue": "Reset Countdowns"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 99,
+          "y": 124
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_for_the",
+          "text": {
+            "fixedValue": "for the"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 98,
+          "y": 132
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_holy_branch",
+          "text": {
+            "fixedValue": "Holy Branch"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 99,
+          "y": 140
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_only_in1",
+          "text": {
+            "fixedValue": "Only in"
+          },
+          "color": {
+            "value": -3407821,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "ToggleWarningResetButton"
+          },
+          "x": 280,
+          "y": 124
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_creative_mode1",
+          "text": {
+            "fixedValue": "creative mode"
+          },
+          "color": {
+            "value": -3407821,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "ToggleWarningResetButton"
+          },
+          "x": 262,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_reset1",
+          "text": "Reset",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ResetHolyBranchCountdowns"
+          },
+          "displayCondition": {
+            "name": "ToggleResetWisdomButton"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 279,
+          "y": 124
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_and_shadow_worrior",
+          "text": {
+            "fixedValue": "and Shadow Warrior Abilities"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 99,
+          "y": 149
+        }
+      },
+      {
+        "type": "entitymodel",
+        "data": {
+          "entityModel": {
+            "name": "GUIEntityReturn"
+          },
+          "scale": 35,
+          "rotationX": 0,
+          "followMouseMovement": false,
+          "x": 35,
+          "y": 148
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

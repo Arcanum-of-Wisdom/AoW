@@ -1,0 +1,166 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "skilltree2.png",
+          "use1Xscale": false,
+          "x": 13,
+          "y": 14
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonred",
+          "image": "buttonred.png",
+          "hoveredImage": "buttonredhighlight.png",
+          "onClick": {
+            "name": "CloseGUIs"
+          },
+          "x": 196,
+          "y": 0
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_shadow_warrior",
+          "text": {
+            "fixedValue": "Shadow Power:"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 47,
+          "y": 49
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_arcana_dimension",
+          "text": {
+            "fixedValue": "Arcana Dimension:"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 47,
+          "y": 151
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_you_can_edit_these_keys",
+          "text": {
+            "fixedValue": "You can edit these keys"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 248,
+          "y": 49
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_in_your_settings",
+          "text": {
+            "fixedValue": "in your settings!"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 266,
+          "y": 59
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_buttons_gui_shadow_power",
+          "text": {
+            "fixedValue": "",
+            "name": "ButtonsGUIShadowPower"
+          },
+          "color": {
+            "value": -16738048,
+            "falpha": 0.0
+          },
+          "x": 47,
+          "y": 67
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_buttons_gui_arcana_dimensio",
+          "text": {
+            "fixedValue": "",
+            "name": "ButtonsGUIArcanaDimension"
+          },
+          "color": {
+            "value": -16738048,
+            "falpha": 0.0
+          },
+          "x": 47,
+          "y": 168
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_default_n",
+          "text": {
+            "fixedValue": "Default: N"
+          },
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "x": 47,
+          "y": 160
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_default_b",
+          "text": {
+            "fixedValue": "Default: B"
+          },
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "x": 47,
+          "y": 58
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 17,
+      "sy": 17,
+      "ox": 7,
+      "oy": 12,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_fv": 60,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Stunned by magic",
+    "icon": "stunnedeffect.png",
+    "color": {
+      "value": -6710887,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "StunnedEffektBeimTrankAktivierterTick"
+    }
+  }
+}

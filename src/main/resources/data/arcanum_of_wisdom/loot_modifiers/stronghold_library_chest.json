@@ -1,0 +1,10 @@
+{
+  "type": "arcanum_of_wisdom:arcanum_of_wisdom_loot_modifier",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "chests/stronghold_library"
+    }
+  ],
+  "lootTable": "arcanum_of_wisdom:chests/stronghold_library_chest_extra"
+}

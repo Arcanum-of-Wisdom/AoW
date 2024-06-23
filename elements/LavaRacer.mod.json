@@ -1,0 +1,20 @@
+{
+  "_fv": 60,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Lava Racer",
+    "icon": "lavaracericon.png",
+    "color": {
+      "value": -65436,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": false,
+    "onActiveTick": {
+      "name": "LavaRacerBeimTrankAktivierterTick"
+    }
+  }
+}

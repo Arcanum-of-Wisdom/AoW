@@ -1,0 +1,23 @@
+{
+  "_fv": 60,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Holy Spell",
+    "icon": "stunned_effekt.png",
+    "color": {
+      "value": -13369345,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "HolySpellWennEffektStartetangewendetWird"
+    },
+    "onExpired": {
+      "name": "HolySpellWennDerEffektAblauft"
+    }
+  }
+}

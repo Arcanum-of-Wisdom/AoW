@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "holy_branch_recycled_texture"
+      },
+      "name": "default"
+    }
+  }
+}

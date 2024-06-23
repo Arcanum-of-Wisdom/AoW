@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "arcanum_of_wisdom:holy_branch"
+    },
+    "title": {
+      "translate": "advancements.discoveryofexpandedpowers.title"
+    },
+    "description": {
+      "translate": "advancements.discoveryofexpandedpowers.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "discoveryofexpandedpowers_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "arcanum_of_wisdom:the_pathof_wisdom"
+}

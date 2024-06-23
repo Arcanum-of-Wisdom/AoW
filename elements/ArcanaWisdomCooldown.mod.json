@@ -1,0 +1,23 @@
+{
+  "_fv": 60,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Arcana Wisdom Cooldown",
+    "icon": "arcana_wisdom_cooldown.png",
+    "color": {
+      "value": -16773270,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": false,
+    "onActiveTick": {
+      "name": "ArcanaWisdomCooldownBeimTrankAktivierterTick"
+    },
+    "onExpired": {
+      "name": "ArcanaWisdomCooldownWennDerEffektAblauft"
+    }
+  }
+}

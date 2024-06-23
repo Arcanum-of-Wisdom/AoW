@@ -1,0 +1,233 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty",
+          "text": {
+            "fixedValue": "LVL Effects deactivated!"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "LVLEffectsWarningDisplayCondition"
+          },
+          "x": 151,
+          "y": 178
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "skilltree2.png",
+          "use1Xscale": false,
+          "x": 12,
+          "y": 15
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_lvl_effects",
+          "text": {
+            "fixedValue": "LVL Effects:"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 46,
+          "y": 51
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_off",
+          "text": "Off",
+          "isUndecorated": true,
+          "onClick": {
+            "name": "LVLEffectsOff"
+          },
+          "displayCondition": {
+            "name": "LVLEffectsOffDisplayCondition"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 82,
+          "y": 60
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonred",
+          "image": "buttonred.png",
+          "hoveredImage": "buttonredhighlight.png",
+          "onClick": {
+            "name": "CloseGUIs"
+          },
+          "x": 196,
+          "y": 0
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_on",
+          "text": "On",
+          "isUndecorated": true,
+          "onClick": {
+            "name": "LVLEffectsOn"
+          },
+          "displayCondition": {
+            "name": "LVLEffectsOnDisplayCondition"
+          },
+          "width": 35,
+          "height": 20,
+          "x": 46,
+          "y": 60
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_every_wisdom_level_enables_verta",
+          "text": {
+            "fixedValue": "Every wisdom level enables certain effects, such as more speed or luck."
+          },
+          "width": 24,
+          "height": 24,
+          "x": 389,
+          "y": 217
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_info",
+          "text": {
+            "fixedValue": "Info"
+          },
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "x": 390,
+          "y": 217
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_status",
+          "text": {
+            "fixedValue": "Status:"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 46,
+          "y": 88
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_lvl_effects_status",
+          "text": {
+            "fixedValue": "",
+            "name": "LVLEffectsStatus"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 46,
+          "y": 97
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_wisdom_lvl",
+          "text": {
+            "fixedValue": "Wisdom LVL:"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 46,
+          "y": 121
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_wisdom_overlay_text",
+          "text": {
+            "fixedValue": "",
+            "name": "WisdomOverlayText"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 46,
+          "y": 130
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_lvl_effects_can_be_deactivated_b",
+          "text": {
+            "fixedValue": "LVL Effects can be"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 272,
+          "y": 50
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_deactivated_by_admins",
+          "text": {
+            "fixedValue": "deactivated by Admins."
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 262,
+          "y": 58
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 17,
+      "sy": 17,
+      "ox": 7,
+      "oy": 12,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_fv": 60,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Arcana Wisdom",
+    "icon": "arcana_wisdom.png",
+    "color": {
+      "value": -10016022,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": false,
+    "onActiveTick": {
+      "name": "ArcanaWisdomBeimTrankAktivierterTick"
+    }
+  }
+}

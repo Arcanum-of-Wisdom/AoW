@@ -1,0 +1,50 @@
+/effect clear
+/effect clear Dev arcanum_of_wisdom:water_racer
+/effect clear
+/wisdom Dev 100
+/wisdom Dev 99
+/effect give Dev arcanum_of_wisdom:grace_of_the_arcana infinite 1 true
+/effect clear
+/effect give Dev minecraft:night_vision infinite 255 true
+/wisdom Dev 99
+/summon minecraft:spider
+/gamerule aOWLevelEffects false
+/gamerule aOWLevelEffects true
+/gamerule aOWLevelEffects false
+/seed
+/gamerule noCooldowns true
+/gamerule noCooldowns false
+/gamerule aOWLevelEffects true
+/attribute Dev minecraft:generic.luck get
+/gamerule aOWLevelEffects false
+/gamerule aOWLevelEffects true
+/wisdom Dev 100
+/wisdom Dev 99
+/kill @e[type=spider]
+/enterlpd
+/locate biome minecraft:the_void
+/tp @s 334 77 701
+/summon zombie
+/setblock ~ ~ ~ stone
+/leavelpd
+/enterlpd
+/leavelpd
+/summon minecraft:giant
+/time set day
+/summon minecraft:skeleton
+/time query
+/locate biome arcanum_of_wisdom:arcana_cherry_grove_biome
+/tp @s -373 127 326
+/wisdom Dev 100
+/locate biome arcanum_of_wisdom:arcana_cherry_grove_biome#
+/locate biome arcanum_of_wisdom:arcana_cherry_grove_biome
+/tp @s 588 73 -864
+/locate biome arcanum_of_wisdom:arcana_cherry_grove_biome
+/tp @s 1054 117 -1046
+/locate biome arcanum_of_wisdom:arcana_cherry_grove_biome
+/tp @s 1071 110 -1058
+/advancement revoke Dev everything
+/gamerule aOWLevelEffects false
+/gamerule aOWLevelEffects true
+/wisdom Dev 99
+/effect clear

@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGHEST",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "book_of_wisdom_small.png",
+          "use1Xscale": true,
+          "anchorPoint": "CENTER",
+          "x": 299,
+          "y": 233
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_wisdom",
+          "text": {
+            "fixedValue": "",
+            "name": "WisdomOverlayText"
+          },
+          "color": {
+            "value": -13261,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 319,
+          "y": 242
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "ShowOverlayRight"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

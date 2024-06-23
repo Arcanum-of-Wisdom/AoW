@@ -1,0 +1,12 @@
+{
+  "_fv": 60,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "X",
+    "keyBindingName": "Open AoW-Skill Tree",
+    "keyBindingCategoryKey": "aow",
+    "onKeyPressed": {
+      "name": "TalentUebersichtBeiTastendruck"
+    }
+  }
+}

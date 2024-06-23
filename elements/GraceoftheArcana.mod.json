@@ -1,0 +1,26 @@
+{
+  "_fv": 60,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Grace of the Arcana",
+    "icon": "grace_of_the_arcana.png",
+    "color": {
+      "value": -996502,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "GraceoftheArcanaWennEffektStartetangewendetWird"
+    },
+    "onActiveTick": {
+      "name": "GraceoftheArcanaBeimTrankAktivierterTick"
+    },
+    "onExpired": {
+      "name": "GraceoftheArcanaWennDerEffektAblauft"
+    }
+  }
+}

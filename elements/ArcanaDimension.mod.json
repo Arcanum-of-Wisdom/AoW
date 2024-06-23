@@ -1,0 +1,12 @@
+{
+  "_fv": 60,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "AoW: (De-) Activate the Arcana Dimension",
+    "description": "The Arcana Dimension can be very overpowered in PvP. This is why you can enable and disable it with this game rule. TRUE=Activated / FALSE=Deactivated",
+    "category": "MISC",
+    "defaultValueLogic": true,
+    "defaultValueNumber": 0
+  }
+}

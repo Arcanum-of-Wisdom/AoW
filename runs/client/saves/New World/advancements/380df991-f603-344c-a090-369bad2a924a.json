@@ -1,0 +1,170 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-06-22 11:42:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2024-06-22 12:10:09 +0200",
+      "minecraft:taiga": "2024-06-22 12:00:22 +0200",
+      "minecraft:river": "2024-06-22 12:00:46 +0200",
+      "minecraft:windswept_hills": "2024-06-22 11:42:15 +0200",
+      "minecraft:plains": "2024-06-22 12:16:33 +0200"
+    },
+    "done": false
+  },
+  "arcanum_of_wisdom:thediscoveryoftruestrenght": {
+    "criteria": {
+      "thediscoveryoftruestrenght_0": "2024-06-22 11:42:15 +0200"
+    },
+    "done": true
+  },
+  "arcanum_of_wisdom:discoveryofexpandedpowers": {
+    "criteria": {
+      "discoveryofexpandedpowers_0": "2024-06-22 11:42:15 +0200"
+    },
+    "done": true
+  },
+  "arcanum_of_wisdom:the_pathof_wisdom": {
+    "criteria": {
+      "the_pathof_wisdom_0": "2024-06-22 11:42:38 +0200"
+    },
+    "done": true
+  },
+  "arcanum_of_wisdom:recruitofthe_wise": {
+    "criteria": {
+      "recruitofthe_wise_0": "2024-06-22 11:42:38 +0200"
+    },
+    "done": true
+  },
+  "arcanum_of_wisdom:masterof_wisdom": {
+    "criteria": {
+      "masterof_wisdom_0": "2024-06-22 11:42:38 +0200"
+    },
+    "done": true
+  },
+  "arcanum_of_wisdom:controloverliquids": {
+    "criteria": {
+      "controloverliquids_0": "2024-06-22 11:43:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2024-06-22 12:00:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2024-06-22 12:00:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2024-06-22 12:00:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2024-06-22 12:00:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2024-06-22 12:00:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2024-06-22 12:00:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2024-06-22 12:00:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2024-06-22 12:00:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2024-06-22 12:00:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2024-06-22 12:00:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2024-06-22 12:00:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2024-06-22 12:00:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-06-22 12:01:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2024-06-22 12:01:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2024-06-22 12:03:02 +0200",
+      "minecraft:basalt_deltas": "2024-06-22 12:01:15 +0200"
+    },
+    "done": false
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2024-06-22 12:02:09 +0200"
+    },
+    "done": true
+  },
+  "arcanum_of_wisdom:masterofthe_arcana": {
+    "criteria": {
+      "masterofthe_arcana_0": "2024-06-22 12:10:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_mud": {
+    "criteria": {
+      "has_mud": "2024-06-22 12:11:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-06-22 12:24:04 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3700
+}
