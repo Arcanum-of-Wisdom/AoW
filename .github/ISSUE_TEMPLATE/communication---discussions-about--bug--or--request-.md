@@ -7,6 +7,9 @@ assignees: benl4b
 
 ---
 
+Info: 
+Compliance with the Rules (under the Discussion tab) and GitHub's Terms is mandatory.
+
 **Is your topic related to a question, an update, or something else?**
 A clear and concise description of what you are referring to.
 
