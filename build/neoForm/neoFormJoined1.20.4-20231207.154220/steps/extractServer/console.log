@@ -1,14 +1,14 @@
 JVM Args:          
-Run Args:          "--task", "bundler_extract", "--input", "C:\Users\benlo\MCreatorWorkspaces\arcanum_of_wisdom\.gradle\caches\minecraft\versions\1.20.4\server.jar", "--output", "C:\Users\benlo\MCreatorWorkspaces\arcanum_of_wisdom\build\neoForm\neoFormJoined1.20.4-20231207.154220\steps\extractServer\output.jar", "--jar-only"
+Run Args:          "--task", "bundler_extract", "--input", "C:\Users\benlo\OneDrive\Desktop\AoW\AoW\.gradle\caches\minecraft\versions\1.20.4\server.jar", "--output", "C:\Users\benlo\OneDrive\Desktop\AoW\AoW\build\neoForm\neoFormJoined1.20.4-20231207.154220\steps\extractServer\output.jar", "--jar-only"
 JVM:               C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
 Classpath:         C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\installertools\1.3.2\216361298c683887c4cf0cc62988b5c3fba713fb\installertools-1.3.2-fatjar.jar
-Working Dir:       C:\Users\benlo\MCreatorWorkspaces\arcanum_of_wisdom\build\neoForm\neoFormJoined1.20.4-20231207.154220\steps\extractServer
+Working Dir:       C:\Users\benlo\OneDrive\Desktop\AoW\AoW\build\neoForm\neoFormJoined1.20.4-20231207.154220\steps\extractServer
 Main Class:        net.minecraftforge.installertools.ConsoleTool
-Program log file:  C:\Users\benlo\MCreatorWorkspaces\arcanum_of_wisdom\build\neoForm\neoFormJoined1.20.4-20231207.154220\steps\extractServer\log.log
-Output file:       C:\Users\benlo\MCreatorWorkspaces\arcanum_of_wisdom\build\neoForm\neoFormJoined1.20.4-20231207.154220\steps\extractServer\output.jar
+Program log file:  C:\Users\benlo\OneDrive\Desktop\AoW\AoW\build\neoForm\neoFormJoined1.20.4-20231207.154220\steps\extractServer\log.log
+Output file:       C:\Users\benlo\OneDrive\Desktop\AoW\AoW\build\neoForm\neoFormJoined1.20.4-20231207.154220\steps\extractServer\output.jar
 Task: BUNDLER_EXTRACT
-Input:   C:\Users\benlo\MCreatorWorkspaces\arcanum_of_wisdom\.gradle\caches\minecraft\versions\1.20.4\server.jar
-Output:  C:\Users\benlo\MCreatorWorkspaces\arcanum_of_wisdom\build\neoForm\neoFormJoined1.20.4-20231207.154220\steps\extractServer\output.jar
+Input:   C:\Users\benlo\OneDrive\Desktop\AoW\AoW\.gradle\caches\minecraft\versions\1.20.4\server.jar
+Output:  C:\Users\benlo\OneDrive\Desktop\AoW\AoW\build\neoForm\neoFormJoined1.20.4-20231207.154220\steps\extractServer\output.jar
 All:     false
 JarOnly: true
 Libs:    false
