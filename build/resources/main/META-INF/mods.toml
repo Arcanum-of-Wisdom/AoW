@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="[2,)"
-license="Academic Free License v3.0"
+license="MIT License"
 
 [[mods]]
 modId="arcanum_of_wisdom"

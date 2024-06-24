@@ -3312,7 +3312,7 @@
     "description": "Welcome to Arcanum of Wisdom! Earned experience levels unlock new dimensions of knowledge and unleash exponentially improved abilities. The journey through this mod is an odyssey of wisdom, leading you to the hidden realms of the Minecraft universe.  Discover new spells, forge artifacts of incredible power, and unveil the secrets of the cosmos as you step through the gates of enlightenment. Are you ready to delve into the wisdom of the Minecraft cosmos?  (Warning: The contents of this description are exaggerated to some extent; nevertheless, have fun!) (Tip: The following XP levels increase your wisdom: 5, 10, 20, 50, 80, 100)",
     "author": "benl4b",
     "websiteURL": "https://benl4b.wixsite.com/benl4bcommunity",
-    "license": "Academic Free License v3.0",
+    "license": "MIT License",
     "serverSideOnly": false,
     "modPicture": "arcanumofwisdom",
     "requiredMods": [],
