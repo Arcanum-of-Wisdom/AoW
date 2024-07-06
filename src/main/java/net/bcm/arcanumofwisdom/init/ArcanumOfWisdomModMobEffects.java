@@ -25,6 +25,7 @@ import net.bcm.arcanumofwisdom.potion.WaterRacerMobEffect;
 import net.bcm.arcanumofwisdom.potion.StunnedMobEffect;
 import net.bcm.arcanumofwisdom.potion.ShadowWarriorMobEffect;
 import net.bcm.arcanumofwisdom.potion.ShadowPowerMobEffect;
+import net.bcm.arcanumofwisdom.potion.NightHunterMobEffect;
 import net.bcm.arcanumofwisdom.potion.LavaRacerMobEffect;
 import net.bcm.arcanumofwisdom.potion.HolySpellMobEffect;
 import net.bcm.arcanumofwisdom.potion.GraceoftheArcanaMobEffect;
@@ -45,6 +46,7 @@ public class ArcanumOfWisdomModMobEffects {
 	public static final DeferredHolder<MobEffect, MobEffect> GRACE_OF_THE_ARCANA = REGISTRY.register("grace_of_the_arcana", () -> new GraceoftheArcanaMobEffect());
 	public static final DeferredHolder<MobEffect, MobEffect> ARCANA_WISDOM = REGISTRY.register("arcana_wisdom", () -> new ArcanaWisdomMobEffect());
 	public static final DeferredHolder<MobEffect, MobEffect> ARCANA_WISDOM_COOLDOWN = REGISTRY.register("arcana_wisdom_cooldown", () -> new ArcanaWisdomCooldownMobEffect());
+	public static final DeferredHolder<MobEffect, MobEffect> NIGHT_HUNTER = REGISTRY.register("night_hunter", () -> new NightHunterMobEffect());
 
 	@SubscribeEvent
 	public static void onEffectRemoved(MobEffectEvent.Remove event) {
