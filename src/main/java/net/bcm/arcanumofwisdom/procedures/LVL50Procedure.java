@@ -84,6 +84,8 @@ public class LVL50Procedure {
 				_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.WATER_RACER.get(), (int) Double.POSITIVE_INFINITY, 1, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.SHADOW_WARRIOR.get(), (int) Double.POSITIVE_INFINITY, 1, false, false));
+			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+				_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.NIGHT_HUNTER.get(), (int) Double.POSITIVE_INFINITY, 1, false, false));
 		}
 	}
 }

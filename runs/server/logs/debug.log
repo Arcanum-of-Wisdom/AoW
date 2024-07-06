@@ -1,0 +1,1020 @@
+[06Jul2024 09:12:54.768] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserveruserdev, --gameDir, ., --fml.neoForgeVersion, 20.4.223, --fml.fmlVersion, 2.0.17, --fml.mcVersion, 1.20.4, --fml.neoFormVersion, 20231207.154220]
+[06Jul2024 09:12:54.780] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[06Jul2024 09:12:54.828] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,forgeclient,forgedatauserdev,testharness,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev]
+[06Jul2024 09:12:54.875] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[06Jul2024 09:12:54.905] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,slf4jfixer,runtime_enum_extender,accesstransformer,runtimedistcleaner]
+[06Jul2024 09:12:54.929] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[06Jul2024 09:12:54.941] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\benlo\OneDrive\Desktop\AoW\AoW\runs\server
+[06Jul2024 09:12:54.942] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\benlo\OneDrive\Desktop\AoW\AoW\runs\server\mods
+[06Jul2024 09:12:54.943] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\benlo\OneDrive\Desktop\AoW\AoW\runs\server\config
+[06Jul2024 09:12:54.943] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\benlo\OneDrive\Desktop\AoW\AoW\runs\server\config\fml.toml
+[06Jul2024 09:12:55.026] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: Loaded FML config from C:\Users\benlo\OneDrive\Desktop\AoW\AoW\runs\server\config\fml.toml
+[06Jul2024 09:12:55.027] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableConfigWatcher is false
+[06Jul2024 09:12:55.027] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowControl is true
+[06Jul2024 09:12:55.027] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig maxThreads is 12
+[06Jul2024 09:12:55.027] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig versionCheck is true
+[06Jul2024 09:12:55.027] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig defaultConfigPath is defaultconfigs
+[06Jul2024 09:12:55.028] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableOptimizedDFU is true
+[06Jul2024 09:12:55.028] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowProvider is fmlearlywindow
+[06Jul2024 09:12:55.028] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowWidth is 854
+[06Jul2024 09:12:55.028] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowHeight is 480
+[06Jul2024 09:12:55.028] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowFBScale is 1
+[06Jul2024 09:12:55.029] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowMaximized is false
+[06Jul2024 09:12:55.029] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSkipGLVersions is []
+[06Jul2024 09:12:55.029] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSquir is false
+[06Jul2024 09:12:55.049] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: 
+[06Jul2024 09:12:55.077] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserveruserdev
+[06Jul2024 09:12:55.095] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,mixin-synthetic-package,fml]
+[06Jul2024 09:12:55.095] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[06Jul2024 09:12:55.096] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[06Jul2024 09:12:55.097] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[06Jul2024 09:12:55.097] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin-synthetic-package
+[06Jul2024 09:12:55.097] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin-synthetic-package
+[06Jul2024 09:12:55.097] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[06Jul2024 09:12:55.099] [main/DEBUG] [net.neoforged.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 2.0
+[06Jul2024 09:12:55.099] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML 2.0 loading
+[06Jul2024 09:12:55.099] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 10.0.9+10.0.9+main.dcd20f30
+[06Jul2024 09:12:55.100] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 10.0.1+139da711
+[06Jul2024 09:12:55.100] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found EventBus version : null
+[06Jul2024 09:12:55.101] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[06Jul2024 09:12:55.104] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 6.0.4+main.1ed25481
+[06Jul2024 09:12:55.104] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 2.0
+[06Jul2024 09:12:55.105] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 2
+[06Jul2024 09:12:55.105] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[06Jul2024 09:12:55.106] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[06Jul2024 09:12:55.116] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[06Jul2024 09:12:55.116] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[06Jul2024 09:12:55.141] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@47d90b9e
+[06Jul2024 09:12:55.163] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/benlo/.mcreator/gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.13.1+mixin.0.8.5/618f4dff860cf2d6b5196073b1a5f5e0a8591acb/sponge-mixin-0.13.1+mixin.0.8.5.jar%23155!/ Service=ModLauncher Env=SERVER
+[06Jul2024 09:12:55.170] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[06Jul2024 09:12:55.170] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[06Jul2024 09:12:55.171] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[06Jul2024 09:12:55.172] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[06Jul2024 09:12:55.173] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[06Jul2024 09:12:55.173] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[06Jul2024 09:12:55.177] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[06Jul2024 09:12:55.177] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin-synthetic-package
+[06Jul2024 09:12:55.178] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin-synthetic-package
+[06Jul2024 09:12:55.178] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[06Jul2024 09:12:55.178] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[06Jul2024 09:12:55.180] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\benlo\OneDrive\Desktop\AoW\AoW\runs\server
+[06Jul2024 09:12:55.180] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\benlo\OneDrive\Desktop\AoW\AoW\runs\server\mods
+[06Jul2024 09:12:55.181] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\benlo\OneDrive\Desktop\AoW\AoW\runs\server\config
+[06Jul2024 09:12:55.181] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\benlo\OneDrive\Desktop\AoW\AoW\runs\server\config\fml.toml
+[06Jul2024 09:12:55.181] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[06Jul2024 09:12:55.184] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: Loaded FML config from C:\Users\benlo\OneDrive\Desktop\AoW\AoW\runs\server\config\fml.toml
+[06Jul2024 09:12:55.185] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableConfigWatcher is false
+[06Jul2024 09:12:55.185] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowControl is true
+[06Jul2024 09:12:55.185] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig maxThreads is 12
+[06Jul2024 09:12:55.185] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig versionCheck is true
+[06Jul2024 09:12:55.185] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig defaultConfigPath is defaultconfigs
+[06Jul2024 09:12:55.185] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableOptimizedDFU is true
+[06Jul2024 09:12:55.185] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowProvider is fmlearlywindow
+[06Jul2024 09:12:55.186] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowWidth is 854
+[06Jul2024 09:12:55.186] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowHeight is 480
+[06Jul2024 09:12:55.186] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowFBScale is 1
+[06Jul2024 09:12:55.186] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowMaximized is false
+[06Jul2024 09:12:55.186] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSkipGLVersions is []
+[06Jul2024 09:12:55.186] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSquir is false
+[06Jul2024 09:12:55.186] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[06Jul2024 09:12:55.192] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[06Jul2024 09:12:55.192] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Using forgeserveruserdev as launch service
+[06Jul2024 09:12:55.208] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[neoForgeVersion=20.4.223, fmlVersion=2.0.17, mcVersion=1.20.4, neoFormVersion=20231207.154220]
+[06Jul2024 09:12:55.209] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Configuring for Dist DEDICATED_SERVER
+[06Jul2024 09:12:55.212] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[06Jul2024 09:12:55.213] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'mcp'
+[06Jul2024 09:12:55.217] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {srg=srgtomcp:1234}
+[06Jul2024 09:12:55.217] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[06Jul2024 09:12:55.219] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[06Jul2024 09:12:55.220] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[06Jul2024 09:12:55.221] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin-synthetic-package
+[06Jul2024 09:12:55.227] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin-synthetic-package
+[06Jul2024 09:12:55.227] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[06Jul2024 09:12:55.227] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[06Jul2024 09:12:55.227] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Scanning for Mod Locators
+[06Jul2024 09:12:55.254] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[06Jul2024 09:12:55.261] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:2.0),(maven libs:2.0),(exploded directory:2.0),(minecraft:2.0),(userdev classpath:2.0),(builtin game layer libraries:2.0)
+[06Jul2024 09:12:55.262] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (JarInJar:2.0)
+[06Jul2024 09:12:55.262] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Scanning for mods and other resources to load. We know 6 ways to find mods
+[06Jul2024 09:12:55.262] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator {mods folder locator at C:\Users\benlo\OneDrive\Desktop\AoW\AoW\runs\server\mods}
+[06Jul2024 09:12:55.262] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModsFolderLocator/SCAN]: Scanning mods dir C:\Users\benlo\OneDrive\Desktop\AoW\AoW\runs\server\mods for mods
+[06Jul2024 09:12:55.270] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at C:\Users\benlo\OneDrive\Desktop\AoW\AoW\runs\server\mods} found 0 candidates or errors
+[06Jul2024 09:12:55.272] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at C:\Users\benlo\OneDrive\Desktop\AoW\AoW\runs\server\mods} found 0 valid mod files
+[06Jul2024 09:12:55.274] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator {Maven Directory locator for mods []}
+[06Jul2024 09:12:55.274] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {Maven Directory locator for mods []} found 0 candidates or errors
+[06Jul2024 09:12:55.274] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {Maven Directory locator for mods []} found 0 valid mod files
+[06Jul2024 09:12:55.274] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator {ExplodedDir locator}
+[06Jul2024 09:12:55.276] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {ExplodedDir locator} found 0 candidates or errors
+[06Jul2024 09:12:55.276] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {ExplodedDir locator} found 0 valid mod files
+[06Jul2024 09:12:55.276] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator net.neoforged.fml.loading.moddiscovery.MinecraftLocator@5949eba8
+[06Jul2024 09:12:55.279] [main/DEBUG] [net.neoforged.fml.loading.targets.CommonLaunchHandler/CORE]: Got mod coordinates AoW%%C:\Users\benlo\OneDrive\Desktop\AoW\AoW\build\resources\main;AoW%%C:\Users\benlo\OneDrive\Desktop\AoW\AoW\build\classes\java\main from env
+[06Jul2024 09:12:55.283] [main/DEBUG] [net.neoforged.fml.loading.targets.CommonLaunchHandler/CORE]: Found supplied mod coordinates [{AoW=[C:\Users\benlo\OneDrive\Desktop\AoW\AoW\build\resources\main, C:\Users\benlo\OneDrive\Desktop\AoW\AoW\build\classes\java\main]}]
+[06Jul2024 09:12:55.605] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-20.4.223.jar with {minecraft} mods - versions {1.20.4}
+[06Jul2024 09:12:55.611] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/mods.toml mod of type null: [C:\Users\benlo\OneDrive\Desktop\AoW\AoW\build\resources\main, C:\Users\benlo\OneDrive\Desktop\AoW\AoW\build\classes\java\main]
+[06Jul2024 09:12:55.612] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\benlo\OneDrive\Desktop\AoW\AoW\build\resources\main
+[06Jul2024 09:12:55.631] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {arcanum_of_wisdom} mods - versions {1.0.0}
+[06Jul2024 09:12:55.632] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/mods.toml mod of type null: []
+[06Jul2024 09:12:55.633] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
+[06Jul2024 09:12:55.637] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {neoforge} mods - versions {20.4.223}
+[06Jul2024 09:12:55.637] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator net.neoforged.fml.loading.moddiscovery.MinecraftLocator@5949eba8 found 3 candidates or errors
+[06Jul2024 09:12:55.637] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator net.neoforged.fml.loading.moddiscovery.MinecraftLocator@5949eba8 found 3 valid mod files
+[06Jul2024 09:12:55.637] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-20.4.223.jar" of type MOD with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@5949eba8
+[06Jul2024 09:12:55.638] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "main" of type MOD with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@5949eba8
+[06Jul2024 09:12:55.638] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "" of type MOD with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@5949eba8
+[06Jul2024 09:12:55.639] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator net.neoforged.fml.loading.moddiscovery.ClasspathLocator@777c9dc9
+[06Jul2024 09:12:55.674] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/mods.toml mod of type null: [C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\com.github.Virtuoel\Pehkui\3.8.0-1.20.4-neoforge\2abb515d4e43adb8ea3cfefacc7378ea16245684\Pehkui-3.8.0-1.20.4-neoforge.jar]
+[06Jul2024 09:12:55.675] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\com.github.Virtuoel\Pehkui\3.8.0-1.20.4-neoforge\2abb515d4e43adb8ea3cfefacc7378ea16245684\Pehkui-3.8.0-1.20.4-neoforge.jar
+[06Jul2024 09:12:55.676] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Pehkui-3.8.0-1.20.4-neoforge.jar with {pehkui} mods - versions {3.8.0+1.20.4-neoforge}
+[06Jul2024 09:12:55.682] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/mods.toml mod of type null: [C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\curse.maven\mouse-tweaks-60089\5230342\6722df792543fefd96c018ea26ea5dc60ab7a964\mouse-tweaks-60089-5230342.jar]
+[06Jul2024 09:12:55.683] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\curse.maven\mouse-tweaks-60089\5230342\6722df792543fefd96c018ea26ea5dc60ab7a964\mouse-tweaks-60089-5230342.jar
+[06Jul2024 09:12:55.684] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mouse-tweaks-60089-5230342.jar with {mousetweaks} mods - versions {2.26}
+[06Jul2024 09:12:55.691] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/mods.toml mod of type null: [C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\curse.maven\jade-324717\5109393\ca67a4f7a53ddfb6cd25bd0c6dda8d2b1033ef45\jade-324717-5109393.jar]
+[06Jul2024 09:12:55.692] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\curse.maven\jade-324717\5109393\ca67a4f7a53ddfb6cd25bd0c6dda8d2b1033ef45\jade-324717-5109393.jar
+[06Jul2024 09:12:55.699] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jade-324717-5109393.jar with {jade} mods - versions {13.3.1}
+[06Jul2024 09:12:55.706] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/mods.toml mod of type null: [C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\vazkii.patchouli\Patchouli\1.20.4-85-NEOFORGE\7c3fcc0b876f84c368df4e22a37a64db3b0a6004\Patchouli-1.20.4-85-NEOFORGE.jar]
+[06Jul2024 09:12:55.707] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\vazkii.patchouli\Patchouli\1.20.4-85-NEOFORGE\7c3fcc0b876f84c368df4e22a37a64db3b0a6004\Patchouli-1.20.4-85-NEOFORGE.jar
+[06Jul2024 09:12:55.709] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Patchouli-1.20.4-85-NEOFORGE.jar with {patchouli} mods - versions {1.20.4-85-NEOFORGE}
+[06Jul2024 09:12:55.716] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/mods.toml mod of type null: [C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\com.github.Virtuoel\Pehkui\3.8.0-1.20.4-neoforge\2abb515d4e43adb8ea3cfefacc7378ea16245684\Pehkui-3.8.0-1.20.4-neoforge.jar]
+[06Jul2024 09:12:55.716] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\com.github.Virtuoel\Pehkui\3.8.0-1.20.4-neoforge\2abb515d4e43adb8ea3cfefacc7378ea16245684\Pehkui-3.8.0-1.20.4-neoforge.jar
+[06Jul2024 09:12:55.718] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Pehkui-3.8.0-1.20.4-neoforge.jar with {pehkui} mods - versions {3.8.0+1.20.4-neoforge}
+[06Jul2024 09:12:55.724] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/mods.toml mod of type null: [C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\curse.maven\mouse-tweaks-60089\5230342\6722df792543fefd96c018ea26ea5dc60ab7a964\mouse-tweaks-60089-5230342.jar]
+[06Jul2024 09:12:55.725] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\curse.maven\mouse-tweaks-60089\5230342\6722df792543fefd96c018ea26ea5dc60ab7a964\mouse-tweaks-60089-5230342.jar
+[06Jul2024 09:12:55.725] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mouse-tweaks-60089-5230342.jar with {mousetweaks} mods - versions {2.26}
+[06Jul2024 09:12:55.731] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/mods.toml mod of type null: [C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\curse.maven\jade-324717\5109393\ca67a4f7a53ddfb6cd25bd0c6dda8d2b1033ef45\jade-324717-5109393.jar]
+[06Jul2024 09:12:55.732] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\curse.maven\jade-324717\5109393\ca67a4f7a53ddfb6cd25bd0c6dda8d2b1033ef45\jade-324717-5109393.jar
+[06Jul2024 09:12:55.733] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jade-324717-5109393.jar with {jade} mods - versions {13.3.1}
+[06Jul2024 09:12:55.739] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/mods.toml mod of type null: [C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\vazkii.patchouli\Patchouli\1.20.4-85-NEOFORGE\7c3fcc0b876f84c368df4e22a37a64db3b0a6004\Patchouli-1.20.4-85-NEOFORGE.jar]
+[06Jul2024 09:12:55.740] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\vazkii.patchouli\Patchouli\1.20.4-85-NEOFORGE\7c3fcc0b876f84c368df4e22a37a64db3b0a6004\Patchouli-1.20.4-85-NEOFORGE.jar
+[06Jul2024 09:12:55.741] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Patchouli-1.20.4-85-NEOFORGE.jar with {patchouli} mods - versions {1.20.4-85-NEOFORGE}
+[06Jul2024 09:12:55.742] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator net.neoforged.fml.loading.moddiscovery.ClasspathLocator@777c9dc9 found 8 candidates or errors
+[06Jul2024 09:12:55.742] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator net.neoforged.fml.loading.moddiscovery.ClasspathLocator@777c9dc9 found 8 valid mod files
+[06Jul2024 09:12:55.742] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Pehkui-3.8.0-1.20.4-neoforge.jar" of type MOD with provider net.neoforged.fml.loading.moddiscovery.ClasspathLocator@777c9dc9
+[06Jul2024 09:12:55.742] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mouse-tweaks-60089-5230342.jar" of type MOD with provider net.neoforged.fml.loading.moddiscovery.ClasspathLocator@777c9dc9
+[06Jul2024 09:12:55.743] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jade-324717-5109393.jar" of type MOD with provider net.neoforged.fml.loading.moddiscovery.ClasspathLocator@777c9dc9
+[06Jul2024 09:12:55.743] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Patchouli-1.20.4-85-NEOFORGE.jar" of type MOD with provider net.neoforged.fml.loading.moddiscovery.ClasspathLocator@777c9dc9
+[06Jul2024 09:12:55.743] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Pehkui-3.8.0-1.20.4-neoforge.jar" of type MOD with provider net.neoforged.fml.loading.moddiscovery.ClasspathLocator@777c9dc9
+[06Jul2024 09:12:55.744] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mouse-tweaks-60089-5230342.jar" of type MOD with provider net.neoforged.fml.loading.moddiscovery.ClasspathLocator@777c9dc9
+[06Jul2024 09:12:55.744] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jade-324717-5109393.jar" of type MOD with provider net.neoforged.fml.loading.moddiscovery.ClasspathLocator@777c9dc9
+[06Jul2024 09:12:55.744] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Patchouli-1.20.4-85-NEOFORGE.jar" of type MOD with provider net.neoforged.fml.loading.moddiscovery.ClasspathLocator@777c9dc9
+[06Jul2024 09:12:55.744] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator net.neoforged.fml.loading.moddiscovery.BuiltinGameLibraryLocator@6bb7cce7
+[06Jul2024 09:12:55.745] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator net.neoforged.fml.loading.moddiscovery.BuiltinGameLibraryLocator@6bb7cce7 found 0 candidates or errors
+[06Jul2024 09:12:55.745] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator net.neoforged.fml.loading.moddiscovery.BuiltinGameLibraryLocator@6bb7cce7 found 0 valid mod files
+[06Jul2024 09:12:55.755] [main/DEBUG] [net.neoforged.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid pehkui, selecting most recent based on version data
+[06Jul2024 09:12:55.757] [main/DEBUG] [net.neoforged.fml.loading.UniqueModListBuilder/]: Selected file Pehkui-3.8.0-1.20.4-neoforge.jar for modid pehkui with version 3.8.0+1.20.4-neoforge
+[06Jul2024 09:12:55.757] [main/DEBUG] [net.neoforged.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid mousetweaks, selecting most recent based on version data
+[06Jul2024 09:12:55.757] [main/DEBUG] [net.neoforged.fml.loading.UniqueModListBuilder/]: Selected file mouse-tweaks-60089-5230342.jar for modid mousetweaks with version 2.26
+[06Jul2024 09:12:55.757] [main/DEBUG] [net.neoforged.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid patchouli, selecting most recent based on version data
+[06Jul2024 09:12:55.757] [main/DEBUG] [net.neoforged.fml.loading.UniqueModListBuilder/]: Selected file Patchouli-1.20.4-85-NEOFORGE.jar for modid patchouli with version 1.20.4-85-NEOFORGE
+[06Jul2024 09:12:55.757] [main/DEBUG] [net.neoforged.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid jade, selecting most recent based on version data
+[06Jul2024 09:12:55.757] [main/DEBUG] [net.neoforged.fml.loading.UniqueModListBuilder/]: Selected file jade-324717-5109393.jar for modid jade with version 13.3.1
+[06Jul2024 09:12:55.764] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Successfully Loaded 7 mods. Attempting to load dependencies...
+[06Jul2024 09:12:55.764] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator@7af707e0
+[06Jul2024 09:12:55.778] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from Pehkui-3.8.0-1.20.4-neoforge.jar, it does not contain dependency information.
+[06Jul2024 09:12:55.779] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from main, it does not contain dependency information.
+[06Jul2024 09:12:55.780] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mouse-tweaks-60089-5230342.jar, it does not contain dependency information.
+[06Jul2024 09:12:55.780] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from Patchouli-1.20.4-85-NEOFORGE.jar, it does not contain dependency information.
+[06Jul2024 09:12:55.780] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from jade-324717-5109393.jar, it does not contain dependency information.
+[06Jul2024 09:12:55.890] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: []
+[06Jul2024 09:12:55.897] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: []
+[06Jul2024 09:12:55.897] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mixinextras-neoforge-0.3.5.jar, it does not contain dependency information.
+[06Jul2024 09:12:55.898] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mixinextras-neoforge-0.3.5.jar, it does not contain dependency information.
+[06Jul2024 09:12:55.940] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: []
+[06Jul2024 09:12:55.943] [main/INFO] [net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[06Jul2024 09:12:55.944] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mixinextras-neoforge-0.3.5.jar" of type GAMELIBRARY with provider net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator@7af707e0
+[06Jul2024 09:12:55.947] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-20.4.223.jar with {minecraft} mods - versions {1.20.4}
+[06Jul2024 09:12:55.951] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\benlo\OneDrive\Desktop\AoW\AoW\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\20.4.223\neoforge-20.4.223.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[06Jul2024 09:12:55.954] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\com.github.Virtuoel\Pehkui\3.8.0-1.20.4-neoforge\2abb515d4e43adb8ea3cfefacc7378ea16245684\Pehkui-3.8.0-1.20.4-neoforge.jar
+[06Jul2024 09:12:55.956] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Pehkui-3.8.0-1.20.4-neoforge.jar with {pehkui} mods - versions {3.8.0+1.20.4-neoforge}
+[06Jul2024 09:12:55.956] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\com.github.Virtuoel\Pehkui\3.8.0-1.20.4-neoforge\2abb515d4e43adb8ea3cfefacc7378ea16245684\Pehkui-3.8.0-1.20.4-neoforge.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[1,)]]
+[06Jul2024 09:12:55.957] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config pehkui.mixins.json
+[06Jul2024 09:12:55.957] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\benlo\OneDrive\Desktop\AoW\AoW\build\resources\main
+[06Jul2024 09:12:55.961] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {arcanum_of_wisdom} mods - versions {1.0.0}
+[06Jul2024 09:12:55.961] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\benlo\OneDrive\Desktop\AoW\AoW\build\resources\main with languages [LanguageSpec[languageName=javafml, acceptedVersions=[2,)]]
+[06Jul2024 09:12:55.961] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\curse.maven\mouse-tweaks-60089\5230342\6722df792543fefd96c018ea26ea5dc60ab7a964\mouse-tweaks-60089-5230342.jar
+[06Jul2024 09:12:55.963] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mouse-tweaks-60089-5230342.jar with {mousetweaks} mods - versions {2.26}
+[06Jul2024 09:12:55.963] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\curse.maven\mouse-tweaks-60089\5230342\6722df792543fefd96c018ea26ea5dc60ab7a964\mouse-tweaks-60089-5230342.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[2,)]]
+[06Jul2024 09:12:55.963] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config mousetweaks.mixins.json
+[06Jul2024 09:12:55.964] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\curse.maven\jade-324717\5109393\ca67a4f7a53ddfb6cd25bd0c6dda8d2b1033ef45\jade-324717-5109393.jar
+[06Jul2024 09:12:55.965] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jade-324717-5109393.jar with {jade} mods - versions {13.3.1}
+[06Jul2024 09:12:55.965] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\curse.maven\jade-324717\5109393\ca67a4f7a53ddfb6cd25bd0c6dda8d2b1033ef45\jade-324717-5109393.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[1,)]]
+[06Jul2024 09:12:55.965] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\vazkii.patchouli\Patchouli\1.20.4-85-NEOFORGE\7c3fcc0b876f84c368df4e22a37a64db3b0a6004\Patchouli-1.20.4-85-NEOFORGE.jar
+[06Jul2024 09:12:55.966] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Patchouli-1.20.4-85-NEOFORGE.jar with {patchouli} mods - versions {1.20.4-85-NEOFORGE}
+[06Jul2024 09:12:55.966] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\vazkii.patchouli\Patchouli\1.20.4-85-NEOFORGE\7c3fcc0b876f84c368df4e22a37a64db3b0a6004\Patchouli-1.20.4-85-NEOFORGE.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[2,)]]
+[06Jul2024 09:12:55.967] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config patchouli_xplat.mixins.json
+[06Jul2024 09:12:55.967] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /
+[06Jul2024 09:12:55.967] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file  with {neoforge} mods - versions {20.4.223}
+[06Jul2024 09:12:55.968] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file / with languages [LanguageSpec[languageName=javafml, acceptedVersions=[1,]]]
+[06Jul2024 09:12:55.973] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[06Jul2024 09:12:55.973] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[06Jul2024 09:12:55.974] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[06Jul2024 09:12:55.974] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod method_redirector with Javascript path coremods/method_redirector.js
+[06Jul2024 09:12:55.974] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
+[06Jul2024 09:12:55.974] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
+[06Jul2024 09:12:55.974] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
+[06Jul2024 09:12:55.974] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/method_redirector.js
+[06Jul2024 09:12:55.974] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages []
+[06Jul2024 09:12:55.976] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModValidator/SCAN]: Found 8 mod files with 7 mods
+[06Jul2024 09:12:55.976] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[06Jul2024 09:12:55.985] [main/DEBUG] [net.neoforged.fml.loading.LanguageLoadingProvider/CORE]: Found 3 language providers
+[06Jul2024 09:12:55.986] [main/DEBUG] [net.neoforged.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 2.0
+[06Jul2024 09:12:55.987] [main/DEBUG] [net.neoforged.fml.loading.LanguageLoadingProvider/CORE]: Found language provider lowcodefml, version 2.0
+[06Jul2024 09:12:55.988] [main/DEBUG] [net.neoforged.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 2.0
+[06Jul2024 09:12:55.995] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Configured system mods: [minecraft, neoforge]
+[06Jul2024 09:12:55.995] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: minecraft
+[06Jul2024 09:12:55.996] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: neoforge
+[06Jul2024 09:12:55.999] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 11 mod requirements (5 mandatory, 6 optional)
+[06Jul2024 09:12:56.000] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[06Jul2024 09:12:56.521] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in C:\Users\benlo\OneDrive\Desktop\AoW\AoW\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\20.4.223\neoforge-20.4.223.jar
+[06Jul2024 09:12:56.530] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[06Jul2024 09:12:56.712] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[06Jul2024 09:12:56.712] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in C:\Users\benlo\OneDrive\Desktop\AoW\AoW\build\resources\main
+[06Jul2024 09:12:56.713] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[06Jul2024 09:12:56.717] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[06Jul2024 09:12:56.718] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\curse.maven\jade-324717\5109393\ca67a4f7a53ddfb6cd25bd0c6dda8d2b1033ef45\jade-324717-5109393.jar
+[06Jul2024 09:12:56.718] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[06Jul2024 09:12:56.724] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[06Jul2024 09:12:56.724] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in /
+[06Jul2024 09:12:56.725] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[06Jul2024 09:12:56.762] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[06Jul2024 09:12:56.765] [main/DEBUG] [mixin/]: Adding mixin platform agents for container net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@62db0521
+[06Jul2024 09:12:56.765] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@62db0521
+[06Jul2024 09:12:56.766] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@62db0521
+[06Jul2024 09:12:56.766] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@62db0521
+[06Jul2024 09:12:56.766] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@62db0521
+[06Jul2024 09:12:56.766] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@62db0521
+[06Jul2024 09:12:56.766] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent accepted container net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@62db0521
+[06Jul2024 09:12:56.776] [background-scan-handler-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileModProvider/SCAN]: Scan started: Mod File: C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\com.github.Virtuoel\Pehkui\3.8.0-1.20.4-neoforge\2abb515d4e43adb8ea3cfefacc7378ea16245684\Pehkui-3.8.0-1.20.4-neoforge.jar
+[06Jul2024 09:12:56.776] [background-scan-handler-4/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileModProvider/SCAN]: Scan started: Mod File: C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\vazkii.patchouli\Patchouli\1.20.4-85-NEOFORGE\7c3fcc0b876f84c368df4e22a37a64db3b0a6004\Patchouli-1.20.4-85-NEOFORGE.jar
+[06Jul2024 09:12:56.776] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.MinecraftLocator/SCAN]: Scan started: Mod File: C:\Users\benlo\OneDrive\Desktop\AoW\AoW\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\20.4.223\neoforge-20.4.223.jar
+[06Jul2024 09:12:56.777] [background-scan-handler-3/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileModProvider/SCAN]: Scan started: Mod File: C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\curse.maven\mouse-tweaks-60089\5230342\6722df792543fefd96c018ea26ea5dc60ab7a964\mouse-tweaks-60089-5230342.jar
+[06Jul2024 09:12:56.777] [background-scan-handler-2/DEBUG] [net.neoforged.fml.loading.moddiscovery.MinecraftLocator/SCAN]: Scan started: Mod File: C:\Users\benlo\OneDrive\Desktop\AoW\AoW\build\resources\main
+[06Jul2024 09:12:56.777] [background-scan-handler-6/DEBUG] [net.neoforged.fml.loading.moddiscovery.MinecraftLocator/SCAN]: Scan started: Mod File: /
+[06Jul2024 09:12:56.777] [background-scan-handler-5/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileModProvider/SCAN]: Scan started: Mod File: C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\curse.maven\jade-324717\5109393\ca67a4f7a53ddfb6cd25bd0c6dda8d2b1033ef45\jade-324717-5109393.jar
+[06Jul2024 09:12:56.783] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[06Jul2024 09:12:56.785] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[06Jul2024 09:12:56.788] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[06Jul2024 09:12:56.788] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin-synthetic-package
+[06Jul2024 09:12:56.788] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin-synthetic-package
+[06Jul2024 09:12:56.788] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[06Jul2024 09:12:56.788] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[06Jul2024 09:12:56.791] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
+[06Jul2024 09:12:56.828] [background-scan-handler-3/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileModProvider/SCAN]: Scan finished: Mod File: C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\curse.maven\mouse-tweaks-60089\5230342\6722df792543fefd96c018ea26ea5dc60ab7a964\mouse-tweaks-60089-5230342.jar
+[06Jul2024 09:12:56.831] [background-scan-handler-3/DEBUG] [net.neoforged.fml.loading.moddiscovery.Scanner/SCAN]: Scanning C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\curse.maven\mouse-tweaks-60089\5230342\6722df792543fefd96c018ea26ea5dc60ab7a964\mouse-tweaks-60089-5230342.jar with language loader javafml
+[06Jul2024 09:12:56.889] [background-scan-handler-4/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileModProvider/SCAN]: Scan finished: Mod File: C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\vazkii.patchouli\Patchouli\1.20.4-85-NEOFORGE\7c3fcc0b876f84c368df4e22a37a64db3b0a6004\Patchouli-1.20.4-85-NEOFORGE.jar
+[06Jul2024 09:12:56.889] [background-scan-handler-4/DEBUG] [net.neoforged.fml.loading.moddiscovery.Scanner/SCAN]: Scanning C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\vazkii.patchouli\Patchouli\1.20.4-85-NEOFORGE\7c3fcc0b876f84c368df4e22a37a64db3b0a6004\Patchouli-1.20.4-85-NEOFORGE.jar with language loader javafml
+[06Jul2024 09:12:56.895] [background-scan-handler-4/DEBUG] [net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider/SCAN]: Found @Mod class vazkii.patchouli.neoforge.common.NeoForgeModInitializer with id patchouli
+[06Jul2024 09:12:56.897] [background-scan-handler-3/DEBUG] [net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider/SCAN]: Found @Mod class yalter.mousetweaks.neoforge.MouseTweaksNeo with id mousetweaks
+[06Jul2024 09:12:56.905] [background-scan-handler-5/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileModProvider/SCAN]: Scan finished: Mod File: C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\curse.maven\jade-324717\5109393\ca67a4f7a53ddfb6cd25bd0c6dda8d2b1033ef45\jade-324717-5109393.jar
+[06Jul2024 09:12:56.906] [background-scan-handler-5/DEBUG] [net.neoforged.fml.loading.moddiscovery.Scanner/SCAN]: Scanning C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\curse.maven\jade-324717\5109393\ca67a4f7a53ddfb6cd25bd0c6dda8d2b1033ef45\jade-324717-5109393.jar with language loader javafml
+[06Jul2024 09:12:56.906] [background-scan-handler-5/DEBUG] [net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider/SCAN]: Found @Mod class snownee.jade.util.CommonProxy with id jade
+[06Jul2024 09:12:56.958] [background-scan-handler-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileModProvider/SCAN]: Scan finished: Mod File: C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\com.github.Virtuoel\Pehkui\3.8.0-1.20.4-neoforge\2abb515d4e43adb8ea3cfefacc7378ea16245684\Pehkui-3.8.0-1.20.4-neoforge.jar
+[06Jul2024 09:12:56.958] [background-scan-handler-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.Scanner/SCAN]: Scanning C:\Users\benlo\.mcreator\gradle\caches\modules-2\files-2.1\com.github.Virtuoel\Pehkui\3.8.0-1.20.4-neoforge\2abb515d4e43adb8ea3cfefacc7378ea16245684\Pehkui-3.8.0-1.20.4-neoforge.jar with language loader javafml
+[06Jul2024 09:12:56.959] [background-scan-handler-1/DEBUG] [net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider/SCAN]: Found @Mod class virtuoel.pehkui.Pehkui with id pehkui
+[06Jul2024 09:12:57.106] [background-scan-handler-2/DEBUG] [net.neoforged.fml.loading.moddiscovery.MinecraftLocator/SCAN]: Scan finished: Mod File: C:\Users\benlo\OneDrive\Desktop\AoW\AoW\build\resources\main
+[06Jul2024 09:12:57.106] [background-scan-handler-2/DEBUG] [net.neoforged.fml.loading.moddiscovery.Scanner/SCAN]: Scanning C:\Users\benlo\OneDrive\Desktop\AoW\AoW\build\resources\main with language loader javafml
+[06Jul2024 09:12:57.106] [background-scan-handler-2/DEBUG] [net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider/SCAN]: Found @Mod class net.bcm.arcanumofwisdom.ArcanumOfWisdomMod with id arcanum_of_wisdom
+[06Jul2024 09:12:57.126] [background-scan-handler-6/DEBUG] [net.neoforged.fml.loading.moddiscovery.MinecraftLocator/SCAN]: Scan finished: Mod File: /
+[06Jul2024 09:12:57.126] [background-scan-handler-6/DEBUG] [net.neoforged.fml.loading.moddiscovery.Scanner/SCAN]: Scanning / with language loader javafml
+[06Jul2024 09:12:57.127] [background-scan-handler-6/DEBUG] [net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider/SCAN]: Found @Mod class net.neoforged.neoforge.common.NeoForgeMod with id neoforge
+[06Jul2024 09:12:57.211] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[06Jul2024 09:12:57.211] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[06Jul2024 09:12:57.316] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[06Jul2024 09:12:57.317] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[06Jul2024 09:12:57.367] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[06Jul2024 09:12:57.368] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/method_redirector.js
+[06Jul2024 09:12:57.446] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[06Jul2024 09:12:57.465] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@28237492 to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[06Jul2024 09:12:57.467] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@42a0501e to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
+[06Jul2024 09:12:57.467] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@6aa3bfc to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[06Jul2024 09:12:57.467] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@6e4599c0 to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[06Jul2024 09:12:57.467] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@7dffda8b to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+[06Jul2024 09:12:57.467] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@3d1f558a to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[06Jul2024 09:12:57.467] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@6abdec0e to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[06Jul2024 09:12:57.467] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@28f4f300 to Target : CLASS {Lnet/minecraft/server/commands/SummonCommand;} {} {V}
+[06Jul2024 09:12:57.467] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@28f4f300 to Target : CLASS {Lnet/minecraft/world/level/levelgen/PatrolSpawner;} {} {V}
+[06Jul2024 09:12:57.467] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@28f4f300 to Target : CLASS {Lnet/minecraft/world/entity/monster/Spider;} {} {V}
+[06Jul2024 09:12:57.467] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@28f4f300 to Target : CLASS {Lnet/minecraft/world/entity/monster/Strider;} {} {V}
+[06Jul2024 09:12:57.468] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@28f4f300 to Target : CLASS {Lnet/minecraft/world/entity/raid/Raid;} {} {V}
+[06Jul2024 09:12:57.468] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@28f4f300 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece;} {} {V}
+[06Jul2024 09:12:57.468] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@28f4f300 to Target : CLASS {Lnet/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal;} {} {V}
+[06Jul2024 09:12:57.468] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@28f4f300 to Target : CLASS {Lnet/minecraft/world/entity/npc/Villager;} {} {V}
+[06Jul2024 09:12:57.468] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@28f4f300 to Target : CLASS {Lnet/minecraft/server/commands/RaidCommand;} {} {V}
+[06Jul2024 09:12:57.468] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@28f4f300 to Target : CLASS {Lnet/minecraft/world/entity/npc/CatSpawner;} {} {V}
+[06Jul2024 09:12:57.468] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@28f4f300 to Target : CLASS {Lnet/minecraft/world/entity/ai/village/VillageSiege;} {} {V}
+[06Jul2024 09:12:57.469] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@28f4f300 to Target : CLASS {Lnet/minecraft/world/entity/monster/Zombie;} {} {V}
+[06Jul2024 09:12:57.469] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@28f4f300 to Target : CLASS {Lnet/minecraft/world/level/levelgen/PhantomSpawner;} {} {V}
+[06Jul2024 09:12:57.469] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@28f4f300 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece;} {} {V}
+[06Jul2024 09:12:57.469] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@28f4f300 to Target : CLASS {Lnet/minecraft/world/entity/EntityType;} {} {V}
+[06Jul2024 09:12:57.469] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@28f4f300 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/SwampHutPiece;} {} {V}
+[06Jul2024 09:12:57.469] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@28f4f300 to Target : CLASS {Lnet/minecraft/world/entity/monster/ZombieVillager;} {} {V}
+[06Jul2024 09:12:57.469] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@28f4f300 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece;} {} {V}
+[06Jul2024 09:12:57.469] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@28f4f300 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;} {} {V}
+[06Jul2024 09:12:57.469] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@28f4f300 to Target : CLASS {Lnet/minecraft/world/entity/animal/frog/Tadpole;} {} {V}
+[06Jul2024 09:12:57.469] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@28f4f300 to Target : CLASS {Lnet/minecraft/world/level/NaturalSpawner;} {} {V}
+[06Jul2024 09:12:57.469] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@28f4f300 to Target : CLASS {Lnet/minecraft/world/entity/animal/horse/SkeletonTrapGoal;} {} {V}
+[06Jul2024 09:12:57.469] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[06Jul2024 09:12:57.652] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[06Jul2024 09:12:57.652] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@62db0521]
+[06Jul2024 09:12:57.652] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[FMLMixinPlatformAgent:null]
+[06Jul2024 09:12:57.720] [main/DEBUG] [mixin/]: Compatibility level JAVA_17 specified by pehkui.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[06Jul2024 09:12:57.726] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[06Jul2024 09:12:57.731] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[06Jul2024 09:12:57.732] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mixinsynthetic)
+[06Jul2024 09:12:57.732] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mixinsynthetic)
+[06Jul2024 09:12:57.732] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mixinsynthetic)
+[06Jul2024 09:12:57.732] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mixinsynthetic)
+[06Jul2024 09:12:57.732] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mixinsynthetic)
+[06Jul2024 09:12:57.732] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(mixinsynthetic)
+[06Jul2024 09:12:57.732] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(mixinsynthetic)
+[06Jul2024 09:12:57.732] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinsynthetic)]
+[06Jul2024 09:12:57.732] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[06Jul2024 09:12:57.732] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[06Jul2024 09:12:57.732] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[06Jul2024 09:12:57.732] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[06Jul2024 09:12:57.732] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[06Jul2024 09:12:57.732] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(minecraft)
+[06Jul2024 09:12:57.732] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(minecraft)
+[06Jul2024 09:12:57.732] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[06Jul2024 09:12:57.732] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(pehkui)
+[06Jul2024 09:12:57.732] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(pehkui)
+[06Jul2024 09:12:57.734] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(pehkui)
+[06Jul2024 09:12:57.734] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(pehkui)
+[06Jul2024 09:12:57.734] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(pehkui)
+[06Jul2024 09:12:57.734] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(pehkui)
+[06Jul2024 09:12:57.734] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(pehkui)
+[06Jul2024 09:12:57.734] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(pehkui)]
+[06Jul2024 09:12:57.734] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(arcanum_of_wisdom)
+[06Jul2024 09:12:57.735] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(arcanum_of_wisdom)
+[06Jul2024 09:12:57.735] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(arcanum_of_wisdom)
+[06Jul2024 09:12:57.735] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(arcanum_of_wisdom)
+[06Jul2024 09:12:57.735] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(arcanum_of_wisdom)
+[06Jul2024 09:12:57.735] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(arcanum_of_wisdom)
+[06Jul2024 09:12:57.735] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(arcanum_of_wisdom)
+[06Jul2024 09:12:57.735] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(arcanum_of_wisdom)]
+[06Jul2024 09:12:57.735] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mousetweaks)
+[06Jul2024 09:12:57.735] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mousetweaks)
+[06Jul2024 09:12:57.736] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mousetweaks)
+[06Jul2024 09:12:57.736] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mousetweaks)
+[06Jul2024 09:12:57.736] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mousetweaks)
+[06Jul2024 09:12:57.736] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(mousetweaks)
+[06Jul2024 09:12:57.736] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(mousetweaks)
+[06Jul2024 09:12:57.736] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mousetweaks)]
+[06Jul2024 09:12:57.736] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(patchouli)
+[06Jul2024 09:12:57.737] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(patchouli)
+[06Jul2024 09:12:57.737] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(patchouli)
+[06Jul2024 09:12:57.737] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(patchouli)
+[06Jul2024 09:12:57.737] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(patchouli)
+[06Jul2024 09:12:57.737] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(patchouli)
+[06Jul2024 09:12:57.737] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(patchouli)
+[06Jul2024 09:12:57.737] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(patchouli)]
+[06Jul2024 09:12:57.737] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(jade)
+[06Jul2024 09:12:57.737] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(jade)
+[06Jul2024 09:12:57.737] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(jade)
+[06Jul2024 09:12:57.737] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(jade)
+[06Jul2024 09:12:57.738] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(jade)
+[06Jul2024 09:12:57.738] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(jade)
+[06Jul2024 09:12:57.738] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(jade)
+[06Jul2024 09:12:57.738] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(jade)]
+[06Jul2024 09:12:57.738] [main/DEBUG] [mixin/]: Registering mixin config: jade.mixins.json
+[06Jul2024 09:12:57.740] [main/DEBUG] [mixin/]: Compatibility level JAVA_16 specified by jade.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[06Jul2024 09:12:57.740] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(neoforge)
+[06Jul2024 09:12:57.740] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(neoforge)
+[06Jul2024 09:12:57.740] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(neoforge)
+[06Jul2024 09:12:57.741] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(neoforge)
+[06Jul2024 09:12:57.741] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(neoforge)
+[06Jul2024 09:12:57.741] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(neoforge)
+[06Jul2024 09:12:57.741] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(neoforge)
+[06Jul2024 09:12:57.741] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(neoforge)]
+[06Jul2024 09:12:57.741] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mixinextras.neoforge)
+[06Jul2024 09:12:57.741] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mixinextras.neoforge)
+[06Jul2024 09:12:57.741] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mixinextras.neoforge)
+[06Jul2024 09:12:57.741] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mixinextras.neoforge)
+[06Jul2024 09:12:57.741] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mixinextras.neoforge)
+[06Jul2024 09:12:57.742] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(mixinextras.neoforge)
+[06Jul2024 09:12:57.742] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(mixinextras.neoforge)
+[06Jul2024 09:12:57.742] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinextras.neoforge)]
+[06Jul2024 09:12:57.742] [main/DEBUG] [mixin/]: Registering mixin config: mixinextras.init.mixins.json
+[06Jul2024 09:12:57.744] [main/DEBUG] [mixin/]: inject() running with 11 agents
+[06Jul2024 09:12:57.744] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[06Jul2024 09:12:57.744] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@62db0521]
+[06Jul2024 09:12:57.744] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[FMLMixinPlatformAgent:null]
+[06Jul2024 09:12:57.744] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinsynthetic)]
+[06Jul2024 09:12:57.745] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[06Jul2024 09:12:57.745] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(pehkui)]
+[06Jul2024 09:12:57.745] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(arcanum_of_wisdom)]
+[06Jul2024 09:12:57.745] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mousetweaks)]
+[06Jul2024 09:12:57.745] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(patchouli)]
+[06Jul2024 09:12:57.745] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(jade)]
+[06Jul2024 09:12:57.745] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(neoforge)]
+[06Jul2024 09:12:57.745] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinextras.neoforge)]
+[06Jul2024 09:12:57.745] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserveruserdev' with arguments [--gameDir, .]
+[06Jul2024 09:12:57.854] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[06Jul2024 09:12:57.860] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[06Jul2024 09:12:57.860] [main/DEBUG] [mixin/]: Selecting config pehkui.mixins.json
+[06Jul2024 09:12:57.870] [main/DEBUG] [mixin/]: Selecting config mousetweaks.mixins.json
+[06Jul2024 09:12:57.872] [main/WARN] [mixin/]: Reference map 'mousetweaks.mixins.refmap.json' for mousetweaks.mixins.json could not be read. If this is a development environment you can ignore this message
+[06Jul2024 09:12:57.872] [main/DEBUG] [mixin/]: Selecting config patchouli_xplat.mixins.json
+[06Jul2024 09:12:57.875] [main/WARN] [mixin/]: Reference map 'patchouli.refmap.json' for patchouli_xplat.mixins.json could not be read. If this is a development environment you can ignore this message
+[06Jul2024 09:12:57.875] [main/DEBUG] [mixin/]: Selecting config jade.mixins.json
+[06Jul2024 09:12:57.877] [main/DEBUG] [mixin/]: Selecting config mixinextras.init.mixins.json
+[06Jul2024 09:12:57.911] [main/DEBUG] [MixinExtras|Service/]: com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5) is taking over from null
+[06Jul2024 09:12:57.960] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[06Jul2024 09:12:57.961] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[06Jul2024 09:12:57.964] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[06Jul2024 09:12:57.966] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[06Jul2024 09:12:57.967] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[06Jul2024 09:12:57.969] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[06Jul2024 09:12:57.984] [main/DEBUG] [mixin/]: Preparing pehkui.mixins.json (246)
+[06Jul2024 09:12:58.020] [main/DEBUG] [net.neoforged.neoforge.internal.versions.neoform.NeoFormVersion/CORE]: NeoForm Version package package net.neoforged.neoforge.internal.versions.neoform from cpw.mods.modlauncher.TransformingClassLoader@724b939e
+[06Jul2024 09:12:58.021] [main/DEBUG] [net.neoforged.neoforge.internal.versions.neoform.NeoFormVersion/CORE]: Found MC version information 1.20.4
+[06Jul2024 09:12:58.021] [main/DEBUG] [net.neoforged.neoforge.internal.versions.neoform.NeoFormVersion/CORE]: Found NeoForm version information 20231207.154220
+[06Jul2024 09:12:58.149] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/decoration/HangingEntity to metadata cache
+[06Jul2024 09:12:58.156] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/AreaEffectCloud to metadata cache
+[06Jul2024 09:12:58.163] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/decoration/ArmorStand to metadata cache
+[06Jul2024 09:12:58.165] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/monster/Blaze$BlazeAttackGoal to metadata cache
+[06Jul2024 09:12:58.173] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/vehicle/Boat to metadata cache
+[06Jul2024 09:12:58.176] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/item/CrossbowItem to metadata cache
+[06Jul2024 09:12:58.181] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/commands/data/DataCommands to metadata cache
+[06Jul2024 09:12:58.188] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/boss/enderdragon/EnderDragon to metadata cache
+[06Jul2024 09:12:58.201] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.Entity FIELD ENTITY_COUNTER to access PROTECTED and LEAVE
+[06Jul2024 09:12:58.202] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.Entity METHOD getEncodeId()Ljava/lang/String; to access PUBLIC and LEAVE
+[06Jul2024 09:12:58.234] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/Entity to metadata cache
+[06Jul2024 09:12:58.237] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/commands/arguments/selector/EntitySelector to metadata cache
+[06Jul2024 09:12:58.240] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.commands.arguments.selector.options.EntitySelectorOptions METHOD register(Ljava/lang/String;Lnet/minecraft/commands/arguments/selector/options/EntitySelectorOptions$Modifier;Ljava/util/function/Predicate;Lnet/minecraft/network/chat/Component;)V to access PUBLIC and LEAVE
+[06Jul2024 09:12:58.246] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/commands/arguments/selector/options/EntitySelectorOptions to metadata cache
+[06Jul2024 09:12:58.248] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.commands.arguments.selector.EntitySelectorParser METHOD finalizePredicates()V to access PUBLIC and LEAVE
+[06Jul2024 09:12:58.248] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.commands.arguments.selector.EntitySelectorParser METHOD parseOptions()V to access PUBLIC and LEAVE
+[06Jul2024 09:12:58.253] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/commands/arguments/selector/EntitySelectorParser to metadata cache
+[06Jul2024 09:12:58.255] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/level/ServerEntity to metadata cache
+[06Jul2024 09:12:58.257] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/projectile/EvokerFangs to metadata cache
+[06Jul2024 09:12:58.259] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/projectile/AbstractHurtingProjectile to metadata cache
+[06Jul2024 09:12:58.261] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/monster/Ghast$GhastShootFireballGoal to metadata cache
+[06Jul2024 09:12:58.262] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/HorseInventoryMenu to metadata cache
+[06Jul2024 09:12:58.265] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/item/ItemEntity to metadata cache
+[06Jul2024 09:12:58.267] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/decoration/ItemFrame to metadata cache
+[06Jul2024 09:12:58.286] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/LivingEntity to metadata cache
+[06Jul2024 09:12:58.288] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/projectile/LlamaSpit to metadata cache
+[06Jul2024 09:12:58.292] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.Mob FIELD goalSelector to access PUBLIC and LEAVE
+[06Jul2024 09:12:58.292] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.Mob FIELD targetSelector to access PUBLIC and LEAVE
+[06Jul2024 09:12:58.302] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/Mob to metadata cache
+[06Jul2024 09:12:58.304] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/advancements/critereon/NbtPredicate to metadata cache
+[06Jul2024 09:12:58.306] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/commands/arguments/OperationArgument to metadata cache
+[06Jul2024 09:12:58.310] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/projectile/AbstractArrow to metadata cache
+[06Jul2024 09:12:58.315] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.player.Player METHOD closeContainer()V to access PUBLIC and LEAVE
+[06Jul2024 09:12:58.325] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/player/Player to metadata cache
+[06Jul2024 09:12:58.326] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/block/NetherPortalBlock to metadata cache
+[06Jul2024 09:12:58.328] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/projectile/ThrownPotion to metadata cache
+[06Jul2024 09:12:58.333] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/vehicle/AbstractMinecart to metadata cache
+[06Jul2024 09:12:58.335] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/boss/enderdragon/EndCrystal to metadata cache
+[06Jul2024 09:12:58.338] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/item/FallingBlockEntity to metadata cache
+[06Jul2024 09:12:58.339] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.item.PrimedTnt METHOD explode()V to access PROTECTED and LEAVE
+[06Jul2024 09:12:58.341] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/item/PrimedTnt to metadata cache
+[06Jul2024 09:12:58.345] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/AbstractContainerMenu to metadata cache
+[06Jul2024 09:12:58.350] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.server.level.ServerPlayer FIELD containerCounter to access PUBLIC and LEAVE
+[06Jul2024 09:12:58.351] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.server.level.ServerPlayer METHOD initMenu(Lnet/minecraft/world/inventory/AbstractContainerMenu;)V to access PUBLIC and LEAVE
+[06Jul2024 09:12:58.351] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.server.level.ServerPlayer METHOD nextContainerCounter()V to access PUBLIC and LEAVE
+[06Jul2024 09:12:58.362] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/level/ServerPlayer to metadata cache
+[06Jul2024 09:12:58.373] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/network/ServerGamePacketListenerImpl to metadata cache
+[06Jul2024 09:12:58.375] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.MinecraftLocator/SCAN]: Scan finished: Mod File: C:\Users\benlo\OneDrive\Desktop\AoW\AoW\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\20.4.223\neoforge-20.4.223.jar
+[06Jul2024 09:12:58.375] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.Scanner/SCAN]: Scanning C:\Users\benlo\OneDrive\Desktop\AoW\AoW\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\20.4.223\neoforge-20.4.223.jar with language loader minecraft
+[06Jul2024 09:12:58.377] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/monster/Shulker to metadata cache
+[06Jul2024 09:12:58.379] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/projectile/ThrowableProjectile to metadata cache
+[06Jul2024 09:12:58.380] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/ai/goal/target/TargetGoal to metadata cache
+[06Jul2024 09:12:58.383] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/boss/wither/WitherBoss to metadata cache
+[06Jul2024 09:12:58.387] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/block/state/BlockBehaviour$BlockStateBase to metadata cache
+[06Jul2024 09:12:58.389] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/animal/Animal to metadata cache
+[06Jul2024 09:12:58.390] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/projectile/DragonFireball to metadata cache
+[06Jul2024 09:12:58.391] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/projectile/ThrownEgg to metadata cache
+[06Jul2024 09:12:58.392] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/projectile/ThrownEnderpearl to metadata cache
+[06Jul2024 09:12:58.395] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/projectile/FishingHook to metadata cache
+[06Jul2024 09:12:58.397] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/inventory/ItemCombinerMenu to metadata cache
+[06Jul2024 09:12:58.398] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/animal/Fox$FoxBreedGoal to metadata cache
+[06Jul2024 09:12:58.401] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/nbt/CompoundTag to metadata cache
+[06Jul2024 09:12:58.402] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/animal/Pig to metadata cache
+[06Jul2024 09:12:58.404] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.projectile.Projectile METHOD <init>(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;)V to access PROTECTED and LEAVE
+[06Jul2024 09:12:58.406] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/projectile/Projectile to metadata cache
+[06Jul2024 09:12:58.407] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/item/SpawnEggItem to metadata cache
+[06Jul2024 09:12:58.412] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal
+[06Jul2024 09:12:58.561] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal to metadata cache
+[06Jul2024 09:12:58.562] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/ai/targeting/TargetingConditions to metadata cache
+[06Jul2024 09:12:58.564] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/ai/behavior/VillagerMakeLove to metadata cache
+[06Jul2024 09:12:58.568] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/Villager
+[06Jul2024 09:12:58.750] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/npc/Villager to metadata cache
+[06Jul2024 09:12:58.752] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/projectile/ProjectileUtil to metadata cache
+[06Jul2024 09:12:58.754] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/monster/Slime to metadata cache
+[06Jul2024 09:12:58.755] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/block/entity/ContainerOpenersCounter to metadata cache
+[06Jul2024 09:12:58.756] [main/TRACE] [mixin/]: Added class metadata for net/neoforged/neoforge/common/extensions/IItemExtension to metadata cache
+[06Jul2024 09:12:58.758] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/vehicle/ChestBoat to metadata cache
+[06Jul2024 09:12:58.760] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/ai/behavior/BehaviorUtils to metadata cache
+[06Jul2024 09:12:58.764] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/animal/camel/Camel to metadata cache
+[06Jul2024 09:12:58.765] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/entity/EntitySection to metadata cache
+[06Jul2024 09:12:58.766] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/projectile/LargeFireball to metadata cache
+[06Jul2024 09:12:58.772] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/players/PlayerList to metadata cache
+[06Jul2024 09:12:58.774] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/monster/Ravager to metadata cache
+[06Jul2024 09:12:58.775] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/item/BrushItem to metadata cache
+[06Jul2024 09:12:58.777] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/Explosion to metadata cache
+[06Jul2024 09:12:58.778] [main/TRACE] [mixin/]: Added class metadata for virtuoel/pehkui/api/ScaleType to metadata cache
+[06Jul2024 09:12:58.779] [main/TRACE] [mixin/]: Added class metadata for net/neoforged/neoforge/common/extensions/IPlayerExtension to metadata cache
+[06Jul2024 09:12:58.781] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/item/Item to metadata cache
+[06Jul2024 09:12:58.782] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/Container to metadata cache
+[06Jul2024 09:12:58.783] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/level/ServerPlayerGameMode to metadata cache
+[06Jul2024 09:12:58.784] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/vehicle/AbstractMinecartContainer to metadata cache
+[06Jul2024 09:12:58.786] [main/TRACE] [mixin/]: Added class metadata for net/neoforged/neoforge/common/extensions/IEntityExtension to metadata cache
+[06Jul2024 09:12:58.787] [main/DEBUG] [mixin/]: Preparing mousetweaks.mixins.json (1)
+[06Jul2024 09:12:58.788] [main/DEBUG] [mixin/]: Preparing patchouli_xplat.mixins.json (10)
+[06Jul2024 09:12:58.789] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/item/crafting/SmithingTransformRecipe to metadata cache
+[06Jul2024 09:12:58.791] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/item/crafting/SmithingTrimRecipe to metadata cache
+[06Jul2024 09:12:58.791] [main/DEBUG] [mixin/]: Preparing jade.mixins.json (3)
+[06Jul2024 09:12:58.791] [main/DEBUG] [mixin/]: Preparing mixinextras.init.mixins.json (0)
+[06Jul2024 09:12:58.805] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/commands/arguments/NbtPathArgument$NbtPath to metadata cache
+[06Jul2024 09:12:58.808] [main/TRACE] [mixin/]: Added class metadata for virtuoel/pehkui/api/ScaleData$Builder to metadata cache
+[06Jul2024 09:12:58.809] [main/TRACE] [mixin/]: Added class metadata for java/util/Map$Entry to metadata cache
+[06Jul2024 09:12:58.814] [main/TRACE] [mixin/]: Added class metadata for java/lang/invoke/MethodHandles$Lookup to metadata cache
+[06Jul2024 09:12:58.815] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/commands/arguments/selector/options/EntitySelectorOptions$Modifier to metadata cache
+[06Jul2024 09:12:58.817] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/asm/mixin/injection/At$Shift to metadata cache
+[06Jul2024 09:12:58.818] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/advancements/critereon/MinMaxBounds$Doubles to metadata cache
+[06Jul2024 09:12:58.822] [main/TRACE] [mixin/]: Added class metadata for virtuoel/pehkui/api/PehkuiConfig$Common to metadata cache
+[06Jul2024 09:12:58.822] [main/TRACE] [mixin/]: Added class metadata for net/neoforged/neoforge/common/ModConfigSpec$BooleanValue to metadata cache
+[06Jul2024 09:12:58.828] [main/TRACE] [mixin/]: Added class metadata for net/neoforged/neoforge/attachment/AttachmentHolder to metadata cache
+[06Jul2024 09:12:58.831] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.vehicle.VehicleEntity METHOD getDropItem()Lnet/minecraft/world/item/Item; to access PROTECTED and LEAVE
+[06Jul2024 09:12:58.832] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/vehicle/VehicleEntity to metadata cache
+[06Jul2024 09:12:58.838] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/ai/goal/BreedGoal to metadata cache
+[06Jul2024 09:12:58.845] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/Explosion$BlockInteraction to metadata cache
+[06Jul2024 09:12:58.849] [main/DEBUG] [mixin/]: Prepared 101 mixins in 0.987 sec (9.8ms avg) (0ms load, 0ms transform, 0ms plugin)
+[06Jul2024 09:12:59.107] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[06Jul2024 09:12:59.116] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[06Jul2024 09:12:59.116] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[06Jul2024 09:12:59.377] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@724b939e
+[06Jul2024 09:12:59.823] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@724b939e
+[06Jul2024 09:13:01.203] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/EntityType
+[06Jul2024 09:13:01.347] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[06Jul2024 09:13:01.350] [main/DEBUG] [mixin/]: Registering new injector for @SugarWrapper with com.llamalad7.mixinextras.sugar.impl.SugarWrapperInjectionInfo
+[06Jul2024 09:13:01.352] [main/DEBUG] [mixin/]: Registering new injector for @FactoryRedirectWrapper with com.llamalad7.mixinextras.wrapper.factory.FactoryRedirectWrapperInjectionInfo
+[06Jul2024 09:13:01.362] [main/DEBUG] [mixin/]: Mixing reach.compat116plus.ItemMixin from pehkui.mixins.json into net.minecraft.world.item.Item
+[06Jul2024 09:13:01.390] [main/DEBUG] [mixin/]: Mixing compat117plus.patchwork.compat.IForgeItemMixin from pehkui.mixins.json into net.neoforged.neoforge.common.extensions.IItemExtension
+[06Jul2024 09:13:01.622] [main/DEBUG] [mixin/]: Mixing compat116plus.AbstractBlockStateMixin from pehkui.mixins.json into net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase
+[06Jul2024 09:13:01.670] [main/DEBUG] [mixin/]: Mixing EntityMixin from pehkui.mixins.json into net.minecraft.world.entity.Entity
+[06Jul2024 09:13:01.768] [main/DEBUG] [mixin/]: Mixing compat116plus.EntityMixin from pehkui.mixins.json into net.minecraft.world.entity.Entity
+[06Jul2024 09:13:01.771] [main/DEBUG] [mixin/]: Mixing compat117plus.EntityCalculateDimensionsMixin from pehkui.mixins.json into net.minecraft.world.entity.Entity
+[06Jul2024 09:13:01.772] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$pehkui$calculateDimensions$0(Lnet/minecraft/world/entity/Entity;DLnet/minecraft/world/phys/Vec3;)V to md49f47a$pehkui$lambda$pehkui$calculateDimensions$0$0 in pehkui.mixins.json:compat117plus.EntityCalculateDimensionsMixin from mod pehkui
+[06Jul2024 09:13:01.791] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/EntityType
+[06Jul2024 09:13:01.944] [main/DEBUG] [mixin/]: Mixing compat117plus.EntityMixin from pehkui.mixins.json into net.minecraft.world.entity.Entity
+[06Jul2024 09:13:01.953] [main/DEBUG] [mixin/]: Mixing compat120plus.EntityMixin from pehkui.mixins.json into net.minecraft.world.entity.Entity
+[06Jul2024 09:13:01.956] [main/DEBUG] [mixin/]: Mixing compat1202plus.EntityMixin from pehkui.mixins.json into net.minecraft.world.entity.Entity
+[06Jul2024 09:13:01.957] [main/DEBUG] [mixin/]: Mixing step_height.compat1194plus.EntityMixin from pehkui.mixins.json into net.minecraft.world.entity.Entity
+[06Jul2024 09:13:02.194] [main/DEBUG] [mixin/]: pehkui.mixins.json:EntityMixin from mod pehkui->@Inject::pehkui$readNbt(Lnet/minecraft/nbt/CompoundTag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:02.195] [main/DEBUG] [mixin/]: pehkui.mixins.json:EntityMixin from mod pehkui->@Inject::pehkui$readNbt(Lnet/minecraft/nbt/CompoundTag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:02.195] [main/DEBUG] [mixin/]: pehkui.mixins.json:EntityMixin from mod pehkui->@Inject::pehkui$readNbt(Lnet/minecraft/nbt/CompoundTag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:13:02.197] [main/DEBUG] [mixin/]: pehkui.mixins.json:EntityMixin from mod pehkui->@Inject::pehkui$writeNbt(Lnet/minecraft/nbt/CompoundTag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[06Jul2024 09:13:02.197] [main/DEBUG] [mixin/]: pehkui.mixins.json:EntityMixin from mod pehkui->@Inject::pehkui$writeNbt(Lnet/minecraft/nbt/CompoundTag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V has 0 override(s) in child classes
+[06Jul2024 09:13:02.198] [main/DEBUG] [mixin/]: pehkui.mixins.json:EntityMixin from mod pehkui->@Inject::pehkui$writeNbt(Lnet/minecraft/nbt/CompoundTag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V won't be passed a CallbackInfoReturnable as a result
+[06Jul2024 09:13:02.198] [main/DEBUG] [mixin/]: pehkui.mixins.json:EntityMixin from mod pehkui->@Inject::pehkui$tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:02.199] [main/DEBUG] [mixin/]: pehkui.mixins.json:EntityMixin from mod pehkui->@Inject::pehkui$tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:02.199] [main/DEBUG] [mixin/]: pehkui.mixins.json:EntityMixin from mod pehkui->@Inject::pehkui$tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:13:02.202] [main/DEBUG] [mixin/]: pehkui.mixins.json:EntityMixin from mod pehkui->@Inject::pehkui$onStartedTrackingBy(Lnet/minecraft/server/level/ServerPlayer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:02.202] [main/DEBUG] [mixin/]: pehkui.mixins.json:EntityMixin from mod pehkui->@Inject::pehkui$onStartedTrackingBy(Lnet/minecraft/server/level/ServerPlayer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:02.203] [main/DEBUG] [mixin/]: pehkui.mixins.json:EntityMixin from mod pehkui->@Inject::pehkui$onStartedTrackingBy(Lnet/minecraft/server/level/ServerPlayer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:13:02.206] [main/DEBUG] [mixin/]: pehkui.mixins.json:EntityMixin from mod pehkui->@Inject::pehkui$spawnSprintingParticles(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[06Jul2024 09:13:02.211] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat117plus.EntityCalculateDimensionsMixin from mod pehkui->@Inject::pehkui$calculateDimensions(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:02.211] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat117plus.EntityCalculateDimensionsMixin from mod pehkui->@Inject::pehkui$calculateDimensions(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:02.212] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat117plus.EntityCalculateDimensionsMixin from mod pehkui->@Inject::pehkui$calculateDimensions(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:13:02.297] [main/DEBUG] [mixin/]: Mixing step_height.IForgeEntityMixin from pehkui.mixins.json into net.neoforged.neoforge.common.extensions.IEntityExtension
+[06Jul2024 09:13:02.329] [main/DEBUG] [mixin/]: Mixing LivingEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.LivingEntity
+[06Jul2024 09:13:02.331] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$pehkui$tickMovement$minVelocity$0(I)Z to md49f47a$pehkui$lambda$pehkui$tickMovement$minVelocity$0$0 in pehkui.mixins.json:LivingEntityMixin from mod pehkui
+[06Jul2024 09:13:02.378] [main/DEBUG] [mixin/]: Mixing compat117plus.LivingEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.LivingEntity
+[06Jul2024 09:13:02.381] [main/DEBUG] [mixin/]: Mixing compat1194plus.LivingEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.LivingEntity
+[06Jul2024 09:13:02.383] [main/DEBUG] [mixin/]: Mixing compat1202plus.LivingEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.LivingEntity
+[06Jul2024 09:13:02.385] [main/DEBUG] [mixin/]: Mixing compat115plus.LivingEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.LivingEntity
+[06Jul2024 09:13:02.456] [main/DEBUG] [mixin/]: pehkui.mixins.json:LivingEntityMixin from mod pehkui->@Inject::pehkui$tickMovement$minVelocity(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:02.456] [main/DEBUG] [mixin/]: pehkui.mixins.json:LivingEntityMixin from mod pehkui->@Inject::pehkui$tickMovement$minVelocity(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:02.456] [main/DEBUG] [mixin/]: pehkui.mixins.json:LivingEntityMixin from mod pehkui->@Inject::pehkui$tickMovement$minVelocity(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:13:02.584] [main/DEBUG] [mixin/]: Mixing ItemEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.item.ItemEntity
+[06Jul2024 09:13:02.610] [main/DEBUG] [mixin/]: Mixing reach.PlayerEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.player.Player
+[06Jul2024 09:13:02.612] [main/DEBUG] [mixin/]: Mixing PlayerEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.player.Player
+[06Jul2024 09:13:02.625] [main/DEBUG] [mixin/]: Mixing compat117plus.PlayerEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.player.Player
+[06Jul2024 09:13:02.627] [main/DEBUG] [mixin/]: Mixing compat1194plus.PlayerEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.player.Player
+[06Jul2024 09:13:02.658] [main/DEBUG] [mixin/]: pehkui.mixins.json:PlayerEntityMixin from mod pehkui->@Inject::pehkui$dropItem(Lnet/minecraft/world/item/ItemStack;ZZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[06Jul2024 09:13:02.658] [main/DEBUG] [mixin/]: pehkui.mixins.json:PlayerEntityMixin from mod pehkui->@Inject::pehkui$dropItem(Lnet/minecraft/world/item/ItemStack;ZZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[06Jul2024 09:13:02.659] [main/DEBUG] [mixin/]: pehkui.mixins.json:PlayerEntityMixin from mod pehkui->@Inject::pehkui$getBlockBreakingSpeed(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[06Jul2024 09:13:02.679] [main/DEBUG] [mixin/]: Mixing reach.IForgePlayerMixin from pehkui.mixins.json into net.neoforged.neoforge.common.extensions.IPlayerExtension
+[06Jul2024 09:13:02.983] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
+[06Jul2024 09:13:03.136] [main/DEBUG] [mixin/]: Mixing PortalBlockMixin from pehkui.mixins.json into net.minecraft.world.level.block.NetherPortalBlock
+[06Jul2024 09:13:03.156] [main/DEBUG] [mixin/]: pehkui.mixins.json:PortalBlockMixin from mod pehkui->@Inject::pehkui$onEntityCollision(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[06Jul2024 09:13:03.394] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/StairBlock
+[06Jul2024 09:13:03.472] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
+[06Jul2024 09:13:03.743] [main/DEBUG] [mixin/]: Mixing PreEntityTickMixin from pehkui.mixins.json into net.minecraft.world.entity.item.FallingBlockEntity
+[06Jul2024 09:13:03.746] [main/DEBUG] [mixin/]: pehkui.mixins.json:PreEntityTickMixin from mod pehkui->@Inject::pehkui$tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:03.746] [main/DEBUG] [mixin/]: pehkui.mixins.json:PreEntityTickMixin from mod pehkui->@Inject::pehkui$tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:03.746] [main/DEBUG] [mixin/]: pehkui.mixins.json:PreEntityTickMixin from mod pehkui->@Inject::pehkui$tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:13:03.853] [main/DEBUG] [mixin/]: Mixing reach.compat1194plus.InventoryMixin from pehkui.mixins.json into net.minecraft.world.Container
+[06Jul2024 09:13:04.308] [main/DEBUG] [mixin/]: Mixing PreEntityTickMixin from pehkui.mixins.json into net.minecraft.world.entity.item.PrimedTnt
+[06Jul2024 09:13:04.311] [main/DEBUG] [mixin/]: pehkui.mixins.json:PreEntityTickMixin from mod pehkui->@Inject::pehkui$tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:04.312] [main/DEBUG] [mixin/]: pehkui.mixins.json:PreEntityTickMixin from mod pehkui->@Inject::pehkui$tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:04.312] [main/DEBUG] [mixin/]: pehkui.mixins.json:PreEntityTickMixin from mod pehkui->@Inject::pehkui$tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:13:04.614] [main/DEBUG] [mixin/]: Mixing ScreenHandlerMixin from pehkui.mixins.json into net.minecraft.world.inventory.AbstractContainerMenu
+[06Jul2024 09:13:04.615] [main/DEBUG] [mixin/]: Mixing reach.ScreenHandlerMixin from pehkui.mixins.json into net.minecraft.world.inventory.AbstractContainerMenu
+[06Jul2024 09:13:04.762] [main/DEBUG] [mixin/]: Mixing PersistentProjectileEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.projectile.AbstractArrow
+[06Jul2024 09:13:04.763] [main/DEBUG] [mixin/]: Mixing compat116plus.PersistentProjectileEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.projectile.AbstractArrow
+[06Jul2024 09:13:04.764] [main/DEBUG] [mixin/]: Mixing compat1203plus.PersistentProjectileEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.projectile.AbstractArrow
+[06Jul2024 09:13:04.772] [main/DEBUG] [mixin/]: pehkui.mixins.json:PersistentProjectileEntityMixin from mod pehkui->@Inject::pehkui$setOwner(Lnet/minecraft/world/entity/Entity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:04.773] [main/DEBUG] [mixin/]: pehkui.mixins.json:PersistentProjectileEntityMixin from mod pehkui->@Inject::pehkui$setOwner(Lnet/minecraft/world/entity/Entity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:04.773] [main/DEBUG] [mixin/]: pehkui.mixins.json:PersistentProjectileEntityMixin from mod pehkui->@Inject::pehkui$setOwner(Lnet/minecraft/world/entity/Entity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:13:04.774] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat1203plus.PersistentProjectileEntityMixin from mod pehkui->@Inject::pehkui$construct(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:04.774] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat1203plus.PersistentProjectileEntityMixin from mod pehkui->@Inject::pehkui$construct(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:04.774] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat1203plus.PersistentProjectileEntityMixin from mod pehkui->@Inject::pehkui$construct(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:13:04.784] [main/DEBUG] [mixin/]: Mixing compat116plus.ProjectileEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.projectile.Projectile
+[06Jul2024 09:13:04.790] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat116plus.ProjectileEntityMixin from mod pehkui->@Inject::pehkui$setOwner(Lnet/minecraft/world/entity/Entity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:04.790] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat116plus.ProjectileEntityMixin from mod pehkui->@Inject::pehkui$setOwner(Lnet/minecraft/world/entity/Entity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:04.790] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat116plus.ProjectileEntityMixin from mod pehkui->@Inject::pehkui$setOwner(Lnet/minecraft/world/entity/Entity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:13:04.832] [main/DEBUG] [mixin/]: Mixing MobEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.Mob
+[06Jul2024 09:13:04.834] [main/DEBUG] [mixin/]: Mixing compat1202plus.MobEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.Mob
+[06Jul2024 09:13:04.836] [main/DEBUG] [mixin/]: Mixing compat116plus.MobEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.Mob
+[06Jul2024 09:13:04.846] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat116plus.MobEntityMixin from mod pehkui->@Inject::pehkui$convertTo(Lnet/minecraft/world/entity/EntityType;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[06Jul2024 09:13:04.847] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat116plus.MobEntityMixin from mod pehkui->@Inject::pehkui$convertTo(Lnet/minecraft/world/entity/EntityType;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[06Jul2024 09:13:04.847] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat116plus.MobEntityMixin from mod pehkui->@Inject::pehkui$convertTo(Lnet/minecraft/world/entity/EntityType;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[06Jul2024 09:13:05.034] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/biome/Biome
+[06Jul2024 09:13:05.181] [main/DEBUG] [mixin/]: Mixing WitherEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.boss.wither.WitherBoss
+[06Jul2024 09:13:05.212] [main/DEBUG] [mixin/]: Mixing compat116plus.ForgingScreenHandlerMixin from pehkui.mixins.json into net.minecraft.world.inventory.ItemCombinerMenu
+[06Jul2024 09:13:05.213] [main/DEBUG] [mixin/]: Mixing reach.compat116plus.ForgingScreenHandlerMixin from pehkui.mixins.json into net.minecraft.world.inventory.ItemCombinerMenu
+[06Jul2024 09:13:05.429] [main/DEBUG] [mixin/]: Mixing compat116plus.AnimalEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.animal.Animal
+[06Jul2024 09:13:05.447] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat116plus.AnimalEntityMixin from mod pehkui->@Inject::pehkui$breed(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/animal/Animal;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:05.447] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat116plus.AnimalEntityMixin from mod pehkui->@Inject::pehkui$breed(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/animal/Animal;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:05.447] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat116plus.AnimalEntityMixin from mod pehkui->@Inject::pehkui$breed(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/animal/Animal;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:13:06.401] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/frog/Tadpole
+[06Jul2024 09:13:06.463] [main/DEBUG] [mixin/]: Mixing compat116plus.NbtCompoundMixin from pehkui.mixins.json into net.minecraft.nbt.CompoundTag
+[06Jul2024 09:13:07.443] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
+[06Jul2024 09:13:07.484] [main/DEBUG] [mixin/]: Mixing compat116plus.SpawnEggItemMixin from pehkui.mixins.json into net.minecraft.world.item.SpawnEggItem
+[06Jul2024 09:13:07.485] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$pehkui$spawnBaby$0(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/entity/Mob;)V to md49f47a$pehkui$lambda$pehkui$spawnBaby$0$0 in pehkui.mixins.json:compat116plus.SpawnEggItemMixin from mod pehkui
+[06Jul2024 09:13:07.487] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat116plus.SpawnEggItemMixin from mod pehkui->@Inject::pehkui$spawnBaby(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/item/ItemStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[06Jul2024 09:13:07.487] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat116plus.SpawnEggItemMixin from mod pehkui->@Inject::pehkui$spawnBaby(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/item/ItemStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[06Jul2024 09:13:07.488] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat116plus.SpawnEggItemMixin from mod pehkui->@Inject::pehkui$spawnBaby(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/item/ItemStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[06Jul2024 09:13:07.488] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat116plus.SpawnEggItemMixin from mod pehkui->@Inject::pehkui$spawnBaby(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/item/ItemStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[06Jul2024 09:13:07.515] [main/DEBUG] [mixin/]: Mixing CrossbowItemMixin from pehkui.mixins.json into net.minecraft.world.item.CrossbowItem
+[06Jul2024 09:13:07.527] [main/DEBUG] [mixin/]: Mixing compat1203plus.BrushItemMixin from pehkui.mixins.json into net.minecraft.world.item.BrushItem
+[06Jul2024 09:13:07.565] [main/DEBUG] [mixin/]: Mixing PreEntityTickMixin from pehkui.mixins.json into net.minecraft.world.entity.vehicle.AbstractMinecart
+[06Jul2024 09:13:07.569] [main/DEBUG] [mixin/]: pehkui.mixins.json:PreEntityTickMixin from mod pehkui->@Inject::pehkui$tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:07.569] [main/DEBUG] [mixin/]: pehkui.mixins.json:PreEntityTickMixin from mod pehkui->@Inject::pehkui$tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:07.569] [main/DEBUG] [mixin/]: pehkui.mixins.json:PreEntityTickMixin from mod pehkui->@Inject::pehkui$tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:13:07.616] [main/DEBUG] [mixin/]: Mixing AbstractDecorationEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.decoration.HangingEntity
+[06Jul2024 09:13:07.619] [main/DEBUG] [mixin/]: Mixing PreEntityTickMixin from pehkui.mixins.json into net.minecraft.world.entity.decoration.HangingEntity
+[06Jul2024 09:13:07.622] [main/DEBUG] [mixin/]: pehkui.mixins.json:AbstractDecorationEntityMixin from mod pehkui->@Inject::pehkui$calculateDimensions(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:07.623] [main/DEBUG] [mixin/]: pehkui.mixins.json:AbstractDecorationEntityMixin from mod pehkui->@Inject::pehkui$calculateDimensions(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:07.623] [main/DEBUG] [mixin/]: pehkui.mixins.json:AbstractDecorationEntityMixin from mod pehkui->@Inject::pehkui$calculateDimensions(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:13:07.623] [main/DEBUG] [mixin/]: pehkui.mixins.json:PreEntityTickMixin from mod pehkui->@Inject::pehkui$tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:07.623] [main/DEBUG] [mixin/]: pehkui.mixins.json:PreEntityTickMixin from mod pehkui->@Inject::pehkui$tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:07.623] [main/DEBUG] [mixin/]: pehkui.mixins.json:PreEntityTickMixin from mod pehkui->@Inject::pehkui$tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:13:08.919] [main/DEBUG] [mixin/]: Mixing AreaEffectCloudEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.AreaEffectCloud
+[06Jul2024 09:13:08.929] [main/DEBUG] [mixin/]: Mixing ArmorStandEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.decoration.ArmorStand
+[06Jul2024 09:13:08.981] [main/DEBUG] [mixin/]: Mixing TrackTargetGoalMixin from pehkui.mixins.json into net.minecraft.world.entity.ai.goal.target.TargetGoal
+[06Jul2024 09:13:08.994] [main/DEBUG] [mixin/]: Mixing BlazeEntityShootFireballGoalMixin from pehkui.mixins.json into net.minecraft.world.entity.monster.Blaze$BlazeAttackGoal
+[06Jul2024 09:13:09.011] [main/DEBUG] [mixin/]: Mixing BoatEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.vehicle.Boat
+[06Jul2024 09:13:09.035] [main/DEBUG] [mixin/]: Mixing compat1193plus.CamelEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.animal.camel.Camel
+[06Jul2024 09:13:09.079] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Spider
+[06Jul2024 09:13:09.136] [main/DEBUG] [mixin/]: Mixing compat119plus.ChestBoatEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.vehicle.ChestBoat
+[06Jul2024 09:13:09.137] [main/DEBUG] [mixin/]: Mixing reach.compat119plus.ChestBoatEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.vehicle.ChestBoat
+[06Jul2024 09:13:09.150] [main/DEBUG] [mixin/]: Mixing reach.compat119plus.StorageMinecartEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.vehicle.AbstractMinecartContainer
+[06Jul2024 09:13:09.199] [main/DEBUG] [mixin/]: Mixing compat116plus.DragonFireballEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.projectile.DragonFireball
+[06Jul2024 09:13:09.204] [main/DEBUG] [mixin/]: Mixing ExplosiveProjectileEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.projectile.AbstractHurtingProjectile
+[06Jul2024 09:13:09.206] [main/DEBUG] [mixin/]: pehkui.mixins.json:ExplosiveProjectileEntityMixin from mod pehkui->@Inject::pehkui$construct(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/entity/LivingEntity;DDDLnet/minecraft/world/level/Level;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:09.206] [main/DEBUG] [mixin/]: pehkui.mixins.json:ExplosiveProjectileEntityMixin from mod pehkui->@Inject::pehkui$construct(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/entity/LivingEntity;DDDLnet/minecraft/world/level/Level;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:09.206] [main/DEBUG] [mixin/]: pehkui.mixins.json:ExplosiveProjectileEntityMixin from mod pehkui->@Inject::pehkui$construct(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/entity/LivingEntity;DDDLnet/minecraft/world/level/Level;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:13:09.213] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Zombie
+[06Jul2024 09:13:09.285] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/ZombieVillager
+[06Jul2024 09:13:09.334] [main/DEBUG] [mixin/]: Mixing compat116plus.EggEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.projectile.ThrownEgg
+[06Jul2024 09:13:09.340] [main/DEBUG] [mixin/]: Mixing ThrownEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.projectile.ThrowableProjectile
+[06Jul2024 09:13:09.343] [main/DEBUG] [mixin/]: pehkui.mixins.json:ThrownEntityMixin from mod pehkui->@Inject::pehkui$construct(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/Level;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:09.344] [main/DEBUG] [mixin/]: pehkui.mixins.json:ThrownEntityMixin from mod pehkui->@Inject::pehkui$construct(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/Level;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:09.344] [main/DEBUG] [mixin/]: pehkui.mixins.json:ThrownEntityMixin from mod pehkui->@Inject::pehkui$construct(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/Level;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:13:09.358] [main/DEBUG] [mixin/]: Mixing PreEntityTickMixin from pehkui.mixins.json into net.minecraft.world.entity.boss.enderdragon.EndCrystal
+[06Jul2024 09:13:09.359] [main/DEBUG] [mixin/]: Mixing compat1203plus.EndCrystalEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.boss.enderdragon.EndCrystal
+[06Jul2024 09:13:09.362] [main/DEBUG] [mixin/]: pehkui.mixins.json:PreEntityTickMixin from mod pehkui->@Inject::pehkui$tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:09.362] [main/DEBUG] [mixin/]: pehkui.mixins.json:PreEntityTickMixin from mod pehkui->@Inject::pehkui$tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:09.362] [main/DEBUG] [mixin/]: pehkui.mixins.json:PreEntityTickMixin from mod pehkui->@Inject::pehkui$tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:13:09.367] [main/DEBUG] [mixin/]: Mixing EnderDragonEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.boss.enderdragon.EnderDragon
+[06Jul2024 09:13:09.384] [main/DEBUG] [mixin/]: Mixing compat116plus.EnderPearlEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.projectile.ThrownEnderpearl
+[06Jul2024 09:13:09.401] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat116plus.EnderPearlEntityMixin from mod pehkui->@Inject::pehkui$onCollision(Lnet/minecraft/world/phys/HitResult;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:09.401] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat116plus.EnderPearlEntityMixin from mod pehkui->@Inject::pehkui$onCollision(Lnet/minecraft/world/phys/HitResult;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:09.401] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat116plus.EnderPearlEntityMixin from mod pehkui->@Inject::pehkui$onCollision(Lnet/minecraft/world/phys/HitResult;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:13:09.434] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal
+[06Jul2024 09:13:09.443] [main/DEBUG] [mixin/]: Mixing compat116plus.SummonVexGoalMixin from pehkui.mixins.json into net.minecraft.world.entity.monster.Evoker$EvokerSummonSpellGoal
+[06Jul2024 09:13:09.457] [main/DEBUG] [mixin/]: Mixing EvokerFangsEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.projectile.EvokerFangs
+[06Jul2024 09:13:09.460] [main/DEBUG] [mixin/]: pehkui.mixins.json:EvokerFangsEntityMixin from mod pehkui->@Inject::pehkui$construct(Lnet/minecraft/world/level/Level;DDDFILnet/minecraft/world/entity/LivingEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:09.460] [main/DEBUG] [mixin/]: pehkui.mixins.json:EvokerFangsEntityMixin from mod pehkui->@Inject::pehkui$construct(Lnet/minecraft/world/level/Level;DDDFILnet/minecraft/world/entity/LivingEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:09.461] [main/DEBUG] [mixin/]: pehkui.mixins.json:EvokerFangsEntityMixin from mod pehkui->@Inject::pehkui$construct(Lnet/minecraft/world/level/Level;DDDFILnet/minecraft/world/entity/LivingEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:13:09.496] [main/DEBUG] [mixin/]: Mixing compat116plus.FoxEntityMateGoalMixin from pehkui.mixins.json into net.minecraft.world.entity.animal.Fox$FoxBreedGoal
+[06Jul2024 09:13:09.503] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat116plus.FoxEntityMateGoalMixin from mod pehkui->@Inject::pehkui$breed(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:09.503] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat116plus.FoxEntityMateGoalMixin from mod pehkui->@Inject::pehkui$breed(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:09.503] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat116plus.FoxEntityMateGoalMixin from mod pehkui->@Inject::pehkui$breed(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:13:09.531] [main/DEBUG] [mixin/]: Mixing GhastEntityShootFireballGoalMixin from pehkui.mixins.json into net.minecraft.world.entity.monster.Ghast$GhastShootFireballGoal
+[06Jul2024 09:13:09.543] [main/DEBUG] [mixin/]: Mixing ItemFrameEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.decoration.ItemFrame
+[06Jul2024 09:13:09.637] [main/DEBUG] [mixin/]: Mixing compat1193plus.FireballEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.projectile.LargeFireball
+[06Jul2024 09:13:09.656] [main/DEBUG] [mixin/]: Mixing LlamaSpitEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.projectile.LlamaSpit
+[06Jul2024 09:13:09.699] [main/DEBUG] [mixin/]: pehkui.mixins.json:LlamaSpitEntityMixin from mod pehkui->@Inject::pehkui$construct(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/animal/horse/Llama;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:09.699] [main/DEBUG] [mixin/]: pehkui.mixins.json:LlamaSpitEntityMixin from mod pehkui->@Inject::pehkui$construct(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/animal/horse/Llama;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:09.700] [main/DEBUG] [mixin/]: pehkui.mixins.json:LlamaSpitEntityMixin from mod pehkui->@Inject::pehkui$construct(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/animal/horse/Llama;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:13:09.707] [main/DEBUG] [mixin/]: Mixing compat117plus.SlimeEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.monster.Slime
+[06Jul2024 09:13:09.809] [main/DEBUG] [mixin/]: Mixing compat116plus.PigEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.animal.Pig
+[06Jul2024 09:13:09.816] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat116plus.PigEntityMixin from mod pehkui->@Inject::pehkui$onStruckByLightning(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LightningBolt;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:09.816] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat116plus.PigEntityMixin from mod pehkui->@Inject::pehkui$onStruckByLightning(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LightningBolt;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:09.816] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat116plus.PigEntityMixin from mod pehkui->@Inject::pehkui$onStruckByLightning(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LightningBolt;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:13:09.857] [main/DEBUG] [mixin/]: Mixing PotionEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.projectile.ThrownPotion
+[06Jul2024 09:13:09.899] [main/DEBUG] [mixin/]: Mixing compat1202plus.RavagerEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.monster.Ravager
+[06Jul2024 09:13:09.921] [main/DEBUG] [mixin/]: Mixing ShulkerEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.monster.Shulker
+[06Jul2024 09:13:09.924] [main/DEBUG] [mixin/]: Mixing compat117plus.ShulkerEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.monster.Shulker
+[06Jul2024 09:13:09.967] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/horse/SkeletonTrapGoal
+[06Jul2024 09:13:10.012] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Strider
+[06Jul2024 09:13:10.159] [main/DEBUG] [mixin/]: Mixing ServerPlayerEntityMixin from pehkui.mixins.json into net.minecraft.server.level.ServerPlayer
+[06Jul2024 09:13:10.161] [main/DEBUG] [mixin/]: pehkui.mixins.json:ServerPlayerEntityMixin from mod pehkui->@Inject::pehkui$copyFrom(Lnet/minecraft/server/level/ServerPlayer;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:10.161] [main/DEBUG] [mixin/]: pehkui.mixins.json:ServerPlayerEntityMixin from mod pehkui->@Inject::pehkui$copyFrom(Lnet/minecraft/server/level/ServerPlayer;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:10.162] [main/DEBUG] [mixin/]: pehkui.mixins.json:ServerPlayerEntityMixin from mod pehkui->@Inject::pehkui$copyFrom(Lnet/minecraft/server/level/ServerPlayer;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:13:10.274] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/Villager
+[06Jul2024 09:13:10.351] [main/DEBUG] [mixin/]: Mixing compat116plus.VillagerEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.npc.Villager
+[06Jul2024 09:13:10.357] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat116plus.VillagerEntityMixin from mod pehkui->@Inject::pehkui$onStruckByLightning(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LightningBolt;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:10.357] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat116plus.VillagerEntityMixin from mod pehkui->@Inject::pehkui$onStruckByLightning(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LightningBolt;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:10.357] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat116plus.VillagerEntityMixin from mod pehkui->@Inject::pehkui$onStruckByLightning(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LightningBolt;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:13:10.455] [main/DEBUG] [mixin/]: Mixing compat116plus.FishingBobberEntityMixin from pehkui.mixins.json into net.minecraft.world.entity.projectile.FishingHook
+[06Jul2024 09:13:11.889] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[06Jul2024 09:13:11.889] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 17
+[06Jul2024 09:13:11.892] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[06Jul2024 09:13:11.893] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
+[06Jul2024 09:13:11.893] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[06Jul2024 09:13:11.894] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[06Jul2024 09:13:11.896] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[06Jul2024 09:13:11.899] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+[06Jul2024 09:13:11.899] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[06Jul2024 09:13:11.901] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 4261412864 bytes (maybe)
+[06Jul2024 09:13:11.902] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\benlo\AppData\Local\Temp (java.io.tmpdir)
+[06Jul2024 09:13:11.902] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[06Jul2024 09:13:11.902] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
+[06Jul2024 09:13:11.904] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[06Jul2024 09:13:11.904] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[06Jul2024 09:13:11.906] [main/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[06Jul2024 09:13:11.907] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[06Jul2024 09:13:11.933] [main/DEBUG] [mixin/]: Mixing EntitySelectorOptionsInvoker from pehkui.mixins.json into net.minecraft.commands.arguments.selector.options.EntitySelectorOptions
+[06Jul2024 09:13:11.934] [main/DEBUG] [mixin/]: Renaming @Invoker method callRegister(Ljava/lang/String;Lnet/minecraft/commands/arguments/selector/options/EntitySelectorOptions$Modifier;Ljava/util/function/Predicate;Lnet/minecraft/network/chat/Component;)V to callRegister$pehkui_$md$49f47a$0 in pehkui.mixins.json:EntitySelectorOptionsInvoker from mod pehkui
+[06Jul2024 09:13:11.942] [main/DEBUG] [mixin/]: Mixing EntitySelectorOptionsMixin from pehkui.mixins.json into net.minecraft.commands.arguments.selector.options.EntitySelectorOptions
+[06Jul2024 09:13:11.946] [main/DEBUG] [mixin/]: pehkui.mixins.json:EntitySelectorOptionsMixin from mod pehkui->@Inject::pehkui$nbtSelector$before(Lnet/minecraft/nbt/CompoundTag;ZLnet/minecraft/world/entity/Entity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[06Jul2024 09:13:11.947] [main/DEBUG] [mixin/]: pehkui.mixins.json:EntitySelectorOptionsMixin from mod pehkui->@Inject::pehkui$nbtSelector$after(Lnet/minecraft/nbt/CompoundTag;ZLnet/minecraft/world/entity/Entity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[06Jul2024 09:13:11.967] [main/DEBUG] [mixin/]: Mixing EntitySelectorReaderMixin from pehkui.mixins.json into net.minecraft.commands.arguments.selector.EntitySelectorParser
+[06Jul2024 09:13:11.969] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$pehkui$buildPredicate$1(Lvirtuoel/pehkui/api/ScaleType;Lnet/minecraft/world/entity/Entity;)Z to md49f47a$pehkui$lambda$pehkui$buildPredicate$1$0 in pehkui.mixins.json:EntitySelectorReaderMixin from mod pehkui
+[06Jul2024 09:13:11.969] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$pehkui$buildPredicate$0(Lvirtuoel/pehkui/api/ScaleType;Lnet/minecraft/world/entity/Entity;)Z to md49f47a$pehkui$lambda$pehkui$buildPredicate$0$1 in pehkui.mixins.json:EntitySelectorReaderMixin from mod pehkui
+[06Jul2024 09:13:11.979] [main/DEBUG] [mixin/]: pehkui.mixins.json:EntitySelectorReaderMixin from mod pehkui->@Inject::pehkui$buildPredicate(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:11.979] [main/DEBUG] [mixin/]: pehkui.mixins.json:EntitySelectorReaderMixin from mod pehkui->@Inject::pehkui$buildPredicate(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:11.979] [main/DEBUG] [mixin/]: pehkui.mixins.json:EntitySelectorReaderMixin from mod pehkui->@Inject::pehkui$buildPredicate(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:13:12.079] [main/DEBUG] [mixin/]: Mixing compat117plus.ViewerCountManagerMixin from pehkui.mixins.json into net.minecraft.world.level.block.entity.ContainerOpenersCounter
+[06Jul2024 09:13:12.082] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat117plus.ViewerCountManagerMixin from mod pehkui->@Inject::pehkui$openContainer(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:12.082] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat117plus.ViewerCountManagerMixin from mod pehkui->@Inject::pehkui$openContainer(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:12.083] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat117plus.ViewerCountManagerMixin from mod pehkui->@Inject::pehkui$openContainer(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:13:12.083] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat117plus.ViewerCountManagerMixin from mod pehkui->@Inject::pehkui$closeContainer(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:12.083] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat117plus.ViewerCountManagerMixin from mod pehkui->@Inject::pehkui$closeContainer(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:12.083] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat117plus.ViewerCountManagerMixin from mod pehkui->@Inject::pehkui$closeContainer(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:13:12.377] [main/DEBUG] [mixin/]: Mixing AccessorSmithingTransformRecipe from patchouli_xplat.mixins.json into net.minecraft.world.item.crafting.SmithingTransformRecipe
+[06Jul2024 09:13:12.385] [main/DEBUG] [mixin/]: Mixing AccessorSmithingTrimRecipe from patchouli_xplat.mixins.json into net.minecraft.world.item.crafting.SmithingTrimRecipe
+[06Jul2024 09:13:12.446] [main/DEBUG] [mixin/]: Mixing OperationArgumentTypeAccessor from pehkui.mixins.json into net.minecraft.commands.arguments.OperationArgument
+[06Jul2024 09:13:12.447] [main/DEBUG] [mixin/]: Renaming @Accessor method getInvalidOperationException()Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType; to getInvalidOperationException$pehkui_$md$49f47a$0 in pehkui.mixins.json:OperationArgumentTypeAccessor from mod pehkui
+[06Jul2024 09:13:12.447] [main/DEBUG] [mixin/]: Renaming @Accessor method getDivisionZeroException()Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType; to getDivisionZeroException$pehkui_$md$49f47a$1 in pehkui.mixins.json:OperationArgumentTypeAccessor from mod pehkui
+[06Jul2024 09:13:12.671] [main/DEBUG] [mixin/]: Mixing NbtPredicateMixin from pehkui.mixins.json into net.minecraft.advancements.critereon.NbtPredicate
+[06Jul2024 09:13:12.673] [main/DEBUG] [mixin/]: pehkui.mixins.json:NbtPredicateMixin from mod pehkui->@Inject::pehkui$entityToNbt$before(Lnet/minecraft/world/entity/Entity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[06Jul2024 09:13:12.673] [main/DEBUG] [mixin/]: pehkui.mixins.json:NbtPredicateMixin from mod pehkui->@Inject::pehkui$entityToNbt$after(Lnet/minecraft/world/entity/Entity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[06Jul2024 09:13:13.335] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/Structure
+[06Jul2024 09:13:13.422] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece
+[06Jul2024 09:13:13.442] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/SwampHutPiece
+[06Jul2024 09:13:13.458] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece
+[06Jul2024 09:13:13.492] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece
+[06Jul2024 09:13:14.234] [main/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Creating vanilla freeze snapshot
+[06Jul2024 09:13:14.288] [main/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Vanilla freeze snapshot created
+[06Jul2024 09:13:14.981] [main/DEBUG] [mixin/]: Mixing DataCommandInvoker$Get from pehkui.mixins.json into net.minecraft.server.commands.data.DataCommands
+[06Jul2024 09:13:14.982] [main/DEBUG] [mixin/]: Renaming @Invoker method callGetData(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/server/commands/data/DataAccessor;)I to callGetData$pehkui_$md$49f47a$0 in pehkui.mixins.json:DataCommandInvoker$Get from mod pehkui
+[06Jul2024 09:13:14.982] [main/DEBUG] [mixin/]: Mixing DataCommandInvoker$Path from pehkui.mixins.json into net.minecraft.server.commands.data.DataCommands
+[06Jul2024 09:13:14.983] [main/DEBUG] [mixin/]: Renaming @Invoker method callGetData(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/server/commands/data/DataAccessor;Lnet/minecraft/commands/arguments/NbtPathArgument$NbtPath;)I to callGetData$pehkui_$md$49f47a$1 in pehkui.mixins.json:DataCommandInvoker$Path from mod pehkui
+[06Jul2024 09:13:14.983] [main/DEBUG] [mixin/]: Mixing DataCommandInvoker$Scaled from pehkui.mixins.json into net.minecraft.server.commands.data.DataCommands
+[06Jul2024 09:13:14.984] [main/DEBUG] [mixin/]: Renaming @Invoker method callGetNumeric(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/server/commands/data/DataAccessor;Lnet/minecraft/commands/arguments/NbtPathArgument$NbtPath;D)I to callGetNumeric$pehkui_$md$49f47a$2 in pehkui.mixins.json:DataCommandInvoker$Scaled from mod pehkui
+[06Jul2024 09:13:15.233] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/server/commands/SummonCommand
+[06Jul2024 09:13:15.418] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/server/commands/RaidCommand
+[06Jul2024 09:13:15.548] [main/DEBUG] [mixin/]: Mixing pehkui.compat.ScaleTypeMixin from pehkui.mixins.json into virtuoel.pehkui.api.ScaleType
+[06Jul2024 09:13:15.604] [main/DEBUG] [mixin/]: Mixing EntitySelectorMixin from pehkui.mixins.json into net.minecraft.commands.arguments.selector.EntitySelector
+[06Jul2024 09:13:15.635] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06Jul2024 09:13:15.637] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06Jul2024 09:13:15.645] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[06Jul2024 09:13:15.648] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[06Jul2024 09:13:15.660] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06Jul2024 09:13:15.710] [main/DEBUG] [net.neoforged.neoforge.common.I18nExtension/CORE]: Loading I18N data entries: 6783
+[06Jul2024 09:13:15.754] [main/DEBUG] [net.neoforged.fml.ModWorkManager/LOADING]: Using 12 threads for parallel mod-loading
+[06Jul2024 09:13:15.766] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for virtuoel.pehkui.Pehkui
+[06Jul2024 09:13:15.768] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.bcm.arcanumofwisdom.ArcanumOfWisdomMod
+[06Jul2024 09:13:15.770] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for yalter.mousetweaks.neoforge.MouseTweaksNeo
+[06Jul2024 09:13:15.772] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for vazkii.patchouli.neoforge.common.NeoForgeModInitializer
+[06Jul2024 09:13:15.774] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for snownee.jade.util.CommonProxy
+[06Jul2024 09:13:15.779] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.neoforged.neoforge.common.NeoForgeMod
+[06Jul2024 09:13:15.811] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: NeoForge Version package package net.neoforged.neoforge.internal.versions.neoforge, NeoForge, version 20.4 from cpw.mods.modlauncher.TransformingClassLoader@724b939e
+[06Jul2024 09:13:15.811] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found NeoForge version 20.4.223
+[06Jul2024 09:13:15.812] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found NeoForge spec 20.4
+[06Jul2024 09:13:15.812] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found NeoForge group net.neoforged
+[06Jul2024 09:13:15.812] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 20.4.223, for MC 1.20.4 with MCP 20231207.154220
+[06Jul2024 09:13:15.813] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: Loading Network data for FML net version: 20.4
+[06Jul2024 09:13:15.816] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for mousetweaks
+[06Jul2024 09:13:15.845] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for jade
+[06Jul2024 09:13:15.878] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-client.toml for neoforge tracking
+[06Jul2024 09:13:15.878] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file patchouli-client.toml for patchouli tracking
+[06Jul2024 09:13:15.878] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-server.toml for neoforge tracking
+[06Jul2024 09:13:15.879] [modloading-worker-0/DEBUG] [net.neoforged.fml.ModLoadingContext/]: Attempted to register an empty config for type COMMON on mod neoforge
+[06Jul2024 09:13:15.884] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for patchouli
+[06Jul2024 09:13:15.891] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file pehkui-client.toml for pehkui tracking
+[06Jul2024 09:13:15.891] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file pehkui-server.toml for pehkui tracking
+[06Jul2024 09:13:15.891] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file pehkui-common.toml for pehkui tracking
+[06Jul2024 09:13:15.896] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for arcanum_of_wisdom
+[06Jul2024 09:13:15.900] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing vazkii.patchouli.neoforge.common.NeoForgeModInitializer to MOD
+[06Jul2024 09:13:15.900] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.command.AowsmenableCommand to FORGE
+[06Jul2024 09:13:15.904] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.command.WisdomCMDCommand to FORGE
+[06Jul2024 09:13:15.909] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.init.ArcanumOfWisdomModGameRules to MOD
+[06Jul2024 09:13:15.912] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.init.ArcanumOfWisdomModLootModifier to MOD
+[06Jul2024 09:13:15.914] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.init.ArcanumOfWisdomModMobEffects to FORGE
+[06Jul2024 09:13:15.917] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.init.ArcanumOfWisdomModTabs to MOD
+[06Jul2024 09:13:15.917] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.network.AOWSettingsGUIButtonMessage to MOD
+[06Jul2024 09:13:15.925] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.network.ArcanaDimensionEnterMessage to MOD
+[06Jul2024 09:13:15.926] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for pehkui
+[06Jul2024 09:13:15.929] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.network.ArcanumOfWisdomModVariables$EventBusVariableHandlers to FORGE
+[06Jul2024 09:13:15.933] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.network.ArcanumOfWisdomModVariables to MOD
+[06Jul2024 09:13:15.936] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.network.ButtonsGUIButtonMessage to MOD
+[06Jul2024 09:13:15.941] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.network.EinstellungenMessage to MOD
+[06Jul2024 09:13:15.947] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.network.HolyBranchSecAbilityMessage to MOD
+[06Jul2024 09:13:15.952] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.network.HolyBranchUltAbilityMessage to MOD
+[06Jul2024 09:13:15.956] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.network.LVLEffectsGUIButtonMessage to MOD
+[06Jul2024 09:13:15.962] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.network.ShadowPowerKeyMessage to MOD
+[06Jul2024 09:13:15.965] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.network.SkillTreeButtonMessage to MOD
+[06Jul2024 09:13:15.969] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.network.TalentUebersichtMessage to MOD
+[06Jul2024 09:13:15.970] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for neoforge
+[06Jul2024 09:13:15.971] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.network.NetworkInitialization to MOD
+[06Jul2024 09:13:15.973] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.procedures.ArcanaDimensionRulesProcedure to FORGE
+[06Jul2024 09:13:15.974] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.network.filters.GenericPacketSplitter to MOD
+[06Jul2024 09:13:15.976] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.procedures.AutomaticVarResetsProcedure to FORGE
+[06Jul2024 09:13:15.978] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.procedures.ControloverliquidsPProcedure to FORGE
+[06Jul2024 09:13:15.980] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.procedures.DiscoveryofexpandedpowersPProcedure to FORGE
+[06Jul2024 09:13:15.983] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.procedures.FakeWaterDeactivateFallDamageProcedure to FORGE
+[06Jul2024 09:13:15.985] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.procedures.GraceOfTheArcanaUnvulnarableProcedure to FORGE
+[06Jul2024 09:13:15.988] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.procedures.LVL100Procedure to FORGE
+[06Jul2024 09:13:15.992] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.procedures.LVL10PProcedure to FORGE
+[06Jul2024 09:13:15.994] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.procedures.LVL30Procedure to FORGE
+[06Jul2024 09:13:15.998] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.procedures.LVL50Procedure to FORGE
+[06Jul2024 09:13:16.001] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.procedures.LVL5PProcedure to FORGE
+[06Jul2024 09:13:16.003] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.procedures.LVL80Procedure to FORGE
+[06Jul2024 09:13:16.007] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.procedures.MasteroftheArcanaPProcedure to FORGE
+[06Jul2024 09:13:16.010] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.procedures.MasterofWisdomPProcedure to FORGE
+[06Jul2024 09:13:16.015] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.procedures.NoCooldownsPProcedure to FORGE
+[06Jul2024 09:13:16.018] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.procedures.OutoftheshadowsPProcedure to FORGE
+[06Jul2024 09:13:16.021] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.procedures.RecruitoftheWisePProcedure to FORGE
+[06Jul2024 09:13:16.024] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.procedures.StartupInfoMessageClientsidePProcedure to FORGE
+[06Jul2024 09:13:16.026] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.procedures.StartupInfoMessageServersidePProcedure to MOD
+[06Jul2024 09:13:16.029] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.procedures.ThediscoveryoftruestrenghtPProcedure to FORGE
+[06Jul2024 09:13:16.031] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.procedures.ThePathofWisdomPProcedure to FORGE
+[06Jul2024 09:13:16.033] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.procedures.UpdateEffectsAfterDeathProcedure to FORGE
+[06Jul2024 09:13:16.037] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.world.dimension.ArcanaPlainsDimension to FORGE
+[06Jul2024 09:13:16.040] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.world.features.treedecorators.ArcanaRiversBiomeFruitDecorator to MOD
+[06Jul2024 09:13:16.046] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.world.features.treedecorators.ArcanaRiversBiomeLeaveDecorator to MOD
+[06Jul2024 09:13:16.050] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.bcm.arcanumofwisdom.world.features.treedecorators.ArcanaRiversBiomeTrunkDecorator to MOD
+[06Jul2024 09:13:16.298] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[06Jul2024 09:13:16.298] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[06Jul2024 09:13:16.300] [modloading-worker-0/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2043ce23
+[06Jul2024 09:13:16.314] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[06Jul2024 09:13:16.314] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[06Jul2024 09:13:16.321] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 24
+[06Jul2024 09:13:16.321] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 24
+[06Jul2024 09:13:16.321] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[06Jul2024 09:13:16.321] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[06Jul2024 09:13:16.321] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[06Jul2024 09:13:16.321] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[06Jul2024 09:13:16.321] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[06Jul2024 09:13:16.321] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[06Jul2024 09:13:16.321] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[06Jul2024 09:13:16.321] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[06Jul2024 09:13:16.321] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[06Jul2024 09:13:16.322] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[06Jul2024 09:13:16.339] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[06Jul2024 09:13:16.340] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[06Jul2024 09:13:16.340] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[06Jul2024 09:13:16.356] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.network.ConfigurationInitialization to MOD
+[06Jul2024 09:13:16.358] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.common.DeferredSpawnEggItem$CommonHandler to MOD
+[06Jul2024 09:13:16.360] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.attachment.AttachmentInternals to FORGE
+[06Jul2024 09:13:16.363] [main/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue CONSTRUCT: 1 jobs
+[06Jul2024 09:13:16.368] [main/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 4.167 ms
+[06Jul2024 09:13:16.390] [main/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Unfreezing registries
+[06Jul2024 09:13:16.639] [main/DEBUG] [mixin/]: Mixing compat116plus.TargetPredicateMixin from pehkui.mixins.json into net.minecraft.world.entity.ai.targeting.TargetingConditions
+[06Jul2024 09:13:16.734] [main/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Freezing registries
+[06Jul2024 09:13:16.770] [main/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: All registries frozen
+[06Jul2024 09:13:16.776] [main/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[06Jul2024 09:13:16.781] [main/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\benlo\OneDrive\Desktop\AoW\AoW\runs\server\config\pehkui-common.toml
+[06Jul2024 09:13:16.782] [main/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\benlo\OneDrive\Desktop\AoW\AoW\runs\server\config\pehkui-common.toml
+[06Jul2024 09:13:16.792] [main/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\benlo\OneDrive\Desktop\AoW\AoW\runs\server\config\pehkui-common.toml for changes
+[06Jul2024 09:13:16.802] [main/DEBUG] [pehkui/]: Loaded Pehkui config file pehkui-common.toml
+[06Jul2024 09:13:16.804] [Thread-1/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Config file pehkui-common.toml changed, sending notifies
+[06Jul2024 09:13:16.804] [Thread-1/DEBUG] [pehkui/]: Pehkui config just got changed on the file system!
+[06Jul2024 09:13:16.806] [Thread-1/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Config file pehkui-common.toml changed, sending notifies
+[06Jul2024 09:13:16.806] [Thread-1/DEBUG] [pehkui/]: Pehkui config just got changed on the file system!
+[06Jul2024 09:13:16.818] [modloading-worker-0/DEBUG] [patchouli/]: Instantiating xplat impl: vazkii.patchouli.neoforge.xplat.NeoForgeXplatImpl
+[06Jul2024 09:13:16.827] [main/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue COMMON_SETUP: 1 jobs
+[06Jul2024 09:13:16.830] [main/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 1.570 ms
+[06Jul2024 09:13:16.831] [modloading-worker-0/WARN] [net.bcm.arcanumofwisdom.ArcanumOfWisdomMod/]: Arcanum of Wisdom: Serverside startup information / AoW uses Minecraft's attribute function for LVL effects. Even though changing these attributes using /attribute does not destroy the mod, some functions can only be activated after repeated attempts. It is recommended not to use /attribute. Unlike clientside, this message is not displayed ingame!
+[06Jul2024 09:13:16.908] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[06Jul2024 09:13:16.981] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[06Jul2024 09:13:16.992] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin at snownee.jade.addon.debug.DebugPlugin
+[06Jul2024 09:13:16.993] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[06Jul2024 09:13:17.165] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06Jul2024 09:13:17.380] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/benlo/OneDrive/Desktop/AoW/AoW/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/20.4.223/neoforge-20.4.223.jar%23192!/assets/.mcassetsroot' uses unexpected schema
+[06Jul2024 09:13:17.381] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/benlo/OneDrive/Desktop/AoW/AoW/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/20.4.223/neoforge-20.4.223.jar%23192!/data/.mcassetsroot' uses unexpected schema
+[06Jul2024 09:13:17.413] [main/DEBUG] [mixin/]: Mixing reach.compat119plus.ServerPlayerInteractionManagerMixin from pehkui.mixins.json into net.minecraft.server.level.ServerPlayerGameMode
+[06Jul2024 09:13:19.103] [Worker-Main-9/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/raid/Raid
+[06Jul2024 09:13:19.685] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[06Jul2024 09:13:20.057] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1279 advancements
+[06Jul2024 09:13:20.879] [main/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[06Jul2024 09:13:20.904] [main/DEBUG] [mixin/]: Mixing compat1202plus.PlayerManagerMixin from pehkui.mixins.json into net.minecraft.server.players.PlayerList
+[06Jul2024 09:13:20.909] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat1202plus.PlayerManagerMixin from mod pehkui->@Inject::pehkui$onPlayerConnect(Lnet/minecraft/network/Connection;Lnet/minecraft/server/level/ServerPlayer;Ljava/lang/Object;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:20.909] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat1202plus.PlayerManagerMixin from mod pehkui->@Inject::pehkui$onPlayerConnect(Lnet/minecraft/network/Connection;Lnet/minecraft/server/level/ServerPlayer;Ljava/lang/Object;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:20.909] [main/DEBUG] [mixin/]: pehkui.mixins.json:compat1202plus.PlayerManagerMixin from mod pehkui->@Inject::pehkui$onPlayerConnect(Lnet/minecraft/network/Connection;Lnet/minecraft/server/level/ServerPlayer;Ljava/lang/Object;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:13:21.510] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.4
+[06Jul2024 09:13:21.510] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[06Jul2024 09:13:21.510] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
+[06Jul2024 09:13:21.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[06Jul2024 09:13:21.721] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25463
+[06Jul2024 09:13:21.721] [Server thread/DEBUG] [net.neoforged.neoforge.network.DualStackUtils/]: Detected IPv6 address: "0:0:0:0:0:0:0:0"
+[06Jul2024 09:13:21.762] [Server thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 24
+[06Jul2024 09:13:21.787] [Server thread/DEBUG] [io.netty.util.concurrent.GlobalEventExecutor/]: -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[06Jul2024 09:13:21.813] [Server thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.noKeySetOptimization: false
+[06Jul2024 09:13:21.813] [Server thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.selectorAutoRebuildThreshold: 512
+[06Jul2024 09:13:21.829] [Server thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
+[06Jul2024 09:13:21.905] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[06Jul2024 09:13:21.947] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 15140 (auto-detected)
+[06Jul2024 09:13:21.952] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: false
+[06Jul2024 09:13:21.952] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: true
+[06Jul2024 09:13:21.976] [Server thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[06Jul2024 09:13:21.978] [Server thread/DEBUG] [io.netty.util.NetUtil/]: Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[06Jul2024 09:13:22.014] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: f0:57:a6:ff:fe:f9:db:07 (auto-detected)
+[06Jul2024 09:13:22.069] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06Jul2024 09:13:22.069] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[06Jul2024 09:13:22.070] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06Jul2024 09:13:22.070] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[06Jul2024 09:13:22.099] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[06Jul2024 09:13:22.100] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\benlo\OneDrive\Desktop\AoW\AoW\runs\server\config\neoforge-server.toml
+[06Jul2024 09:13:22.104] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\benlo\OneDrive\Desktop\AoW\AoW\runs\server\config\neoforge-server.toml
+[06Jul2024 09:13:22.105] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\benlo\OneDrive\Desktop\AoW\AoW\runs\server\config\neoforge-server.toml for changes
+[06Jul2024 09:13:22.106] [Server thread/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: Loaded NeoForge config file neoforge-server.toml
+[06Jul2024 09:13:22.107] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\benlo\OneDrive\Desktop\AoW\AoW\runs\server\config\pehkui-server.toml
+[06Jul2024 09:13:22.109] [Thread-1/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Config file neoforge-server.toml changed, sending notifies
+[06Jul2024 09:13:22.110] [Thread-1/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: NeoForge config just got changed on the file system!
+[06Jul2024 09:13:22.112] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\benlo\OneDrive\Desktop\AoW\AoW\runs\server\config\pehkui-server.toml
+[06Jul2024 09:13:22.113] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\benlo\OneDrive\Desktop\AoW\AoW\runs\server\config\pehkui-server.toml for changes
+[06Jul2024 09:13:22.115] [Server thread/DEBUG] [pehkui/]: Loaded Pehkui config file pehkui-server.toml
+[06Jul2024 09:13:22.121] [Thread-1/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Config file pehkui-server.toml changed, sending notifies
+[06Jul2024 09:13:22.121] [Thread-1/DEBUG] [pehkui/]: Pehkui config just got changed on the file system!
+[06Jul2024 09:13:22.122] [Thread-1/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Config file pehkui-server.toml changed, sending notifies
+[06Jul2024 09:13:22.122] [Thread-1/DEBUG] [pehkui/]: Pehkui config just got changed on the file system!
+[06Jul2024 09:13:22.127] [Thread-1/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Config file pehkui-server.toml changed, sending notifies
+[06Jul2024 09:13:22.127] [Thread-1/DEBUG] [pehkui/]: Pehkui config just got changed on the file system!
+[06Jul2024 09:13:22.211] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[06Jul2024 09:13:22.230] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PhantomSpawner
+[06Jul2024 09:13:22.242] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PatrolSpawner
+[06Jul2024 09:13:22.252] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/CatSpawner
+[06Jul2024 09:13:22.261] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/ai/village/VillageSiege
+[06Jul2024 09:13:24.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[06Jul2024 09:13:27.254] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate
+[06Jul2024 09:13:29.178] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2024 09:13:29.262] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2024 09:13:29.335] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2024 09:13:29.370] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2024 09:13:29.380] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2024 09:13:29.446] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2024 09:13:29.465] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2024 09:13:29.488] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2024 09:13:29.503] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2024 09:13:29.524] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2024 09:13:29.553] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2024 09:13:29.841] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2024 09:13:30.335] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2024 09:13:30.833] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2024 09:13:31.137] [Server thread/DEBUG] [mixin/]: Mixing compat1193plus.EntityTrackingSectionMixin from pehkui.mixins.json into net.minecraft.world.level.entity.EntitySection
+[06Jul2024 09:13:31.333] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
+[06Jul2024 09:13:31.356] [entity-deserializer/DEBUG] [mixin/]: Mixing compat117plus.ProjectileUtilMixin from pehkui.mixins.json into net.minecraft.world.entity.projectile.ProjectileUtil
+[06Jul2024 09:13:31.363] [entity-deserializer/DEBUG] [mixin/]: Mixing compat1203plus.ProjectileUtilMixin from pehkui.mixins.json into net.minecraft.world.entity.projectile.ProjectileUtil
+[06Jul2024 09:13:31.833] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 30%
+[06Jul2024 09:13:32.336] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
+[06Jul2024 09:13:32.833] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
+[06Jul2024 09:13:33.068] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8736 ms
+[06Jul2024 09:13:33.069] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.975s)! For help, type "help"
+[06Jul2024 09:13:33.088] [Server thread/DEBUG] [net.neoforged.neoforge.network.DualStackUtils/]: Detected IPv6 address: "0:0:0:0:0:0:0:0"
+[06Jul2024 09:13:33.258] [Server thread/DEBUG] [net.neoforged.neoforge.server.LanguageHook/]: Loaded 6 language files for en_us
+[06Jul2024 09:13:33.266] [Server thread/DEBUG] [net.neoforged.neoforge.common.I18nExtension/CORE]: Loading I18N data entries: 7397
+[06Jul2024 09:13:33.267] [Server thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
+[06Jul2024 09:13:33.282] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[06Jul2024 09:13:33.284] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[06Jul2024 09:13:33.487] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/NaturalSpawner
+[06Jul2024 09:13:33.623] [Server thread/DEBUG] [mixin/]: Mixing EntityTrackerEntryMixin from pehkui.mixins.json into net.minecraft.server.level.ServerEntity
+[06Jul2024 09:13:33.626] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$pehkui$syncEntityData$1(Lnet/minecraft/network/protocol/Packet;)V to md49f47a$pehkui$lambda$pehkui$syncEntityData$1$0 in pehkui.mixins.json:EntityTrackerEntryMixin from mod pehkui
+[06Jul2024 09:13:33.626] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$pehkui$tick$0(Lnet/minecraft/network/protocol/Packet;)V to md49f47a$pehkui$lambda$pehkui$tick$0$1 in pehkui.mixins.json:EntityTrackerEntryMixin from mod pehkui
+[06Jul2024 09:13:33.631] [Server thread/DEBUG] [mixin/]: pehkui.mixins.json:EntityTrackerEntryMixin from mod pehkui->@Inject::pehkui$tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:33.631] [Server thread/DEBUG] [mixin/]: pehkui.mixins.json:EntityTrackerEntryMixin from mod pehkui->@Inject::pehkui$tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:33.631] [Server thread/DEBUG] [mixin/]: pehkui.mixins.json:EntityTrackerEntryMixin from mod pehkui->@Inject::pehkui$tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:13:33.632] [Server thread/DEBUG] [mixin/]: pehkui.mixins.json:EntityTrackerEntryMixin from mod pehkui->@Inject::pehkui$syncEntityData(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[06Jul2024 09:13:33.632] [Server thread/DEBUG] [mixin/]: pehkui.mixins.json:EntityTrackerEntryMixin from mod pehkui->@Inject::pehkui$syncEntityData(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[06Jul2024 09:13:33.632] [Server thread/DEBUG] [mixin/]: pehkui.mixins.json:EntityTrackerEntryMixin from mod pehkui->@Inject::pehkui$syncEntityData(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[06Jul2024 09:18:33.514] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[06Jul2024 09:23:33.344] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[06Jul2024 09:28:33.376] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world

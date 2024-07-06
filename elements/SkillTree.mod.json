@@ -37,14 +37,14 @@
         "data": {
           "name": "button_water_racer",
           "text": "Water Racer",
-          "isUndecorated": false,
+          "isUndecorated": true,
           "onClick": {
             "name": "SkillTreeWaterRacerButton"
           },
           "width": 82,
           "height": 20,
-          "x": 286,
-          "y": 55
+          "x": 268,
+          "y": 66
         }
       },
       {
@@ -52,14 +52,14 @@
         "data": {
           "name": "button_lava_racer",
           "text": "Lava Racer",
-          "isUndecorated": false,
+          "isUndecorated": true,
           "onClick": {
             "name": "SkillTreeLavaRacerButton"
           },
           "width": 77,
           "height": 20,
-          "x": 302,
-          "y": 79
+          "x": 285,
+          "y": 83
         }
       },
       {
@@ -67,14 +67,14 @@
         "data": {
           "name": "button_shadow_warrior",
           "text": "Shadow Warrior",
-          "isUndecorated": false,
+          "isUndecorated": true,
           "onClick": {
             "name": "SkillTreeShadowPowerButton"
           },
           "width": 98,
           "height": 20,
-          "x": 281,
-          "y": 138
+          "x": 285,
+          "y": 134
         }
       },
       {
@@ -82,14 +82,14 @@
         "data": {
           "name": "button_arcana_dimension",
           "text": "Arcana Dimension",
-          "isUndecorated": false,
+          "isUndecorated": true,
           "onClick": {
             "name": "SkillTreeArcanumDimensionButton"
           },
           "width": 108,
           "height": 20,
           "x": 259,
-          "y": 162
+          "y": 160
         }
       },
       {
@@ -164,6 +164,21 @@
           "x": 379,
           "y": 219
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_night_hunter",
+          "text": "Night Hunter",
+          "isUndecorated": true,
+          "onClick": {
+            "name": "SkillTreeNightHunterButton"
+          },
+          "width": 87,
+          "height": 20,
+          "x": 251,
+          "y": 49
+        }
       }
     ],
     "gridSettings": {
@@ -171,7 +186,7 @@
       "sy": 17,
       "ox": 7,
       "oy": 12,
-      "snapOnGrid": false
+      "snapOnGrid": true
     }
   }
 }

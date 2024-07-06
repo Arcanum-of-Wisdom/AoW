@@ -19,7 +19,9 @@ public class WisdomWennEffektStartetangewendetWirdProcedure {
 		if (entity == null)
 			return;
 		if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()).getAmplifier() : 0) <= 1
-				|| entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).lvleffects == false) {
+				|| entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).lvleffects == false
+				|| (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()).getAmplifier() : 0) <= 1
+						&& entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).lvleffects == false) {
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"attribute @p minecraft:generic.luck base set 0");
@@ -85,7 +87,7 @@ public class WisdomWennEffektStartetangewendetWirdProcedure {
 				if (world instanceof ServerLevel _level)
 					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 							"attribute @p minecraft:generic.attack_damage base set 2.5");
-				if (!(entity instanceof LivingEntity _livEnt23 && _livEnt23.hasEffect(MobEffects.HEALTH_BOOST))) {
+				if (!(entity instanceof LivingEntity _livEnt24 && _livEnt24.hasEffect(MobEffects.HEALTH_BOOST))) {
 					if (world instanceof ServerLevel _level)
 						_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 								"attribute @p minecraft:generic.max_health base set 25");
@@ -108,7 +110,7 @@ public class WisdomWennEffektStartetangewendetWirdProcedure {
 				if (world instanceof ServerLevel _level)
 					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 							"attribute @p minecraft:generic.attack_damage base set 4.0");
-				if (!(entity instanceof LivingEntity _livEnt31 && _livEnt31.hasEffect(MobEffects.HEALTH_BOOST))) {
+				if (!(entity instanceof LivingEntity _livEnt32 && _livEnt32.hasEffect(MobEffects.HEALTH_BOOST))) {
 					if (world instanceof ServerLevel _level)
 						_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 								"attribute @p minecraft:generic.max_health base set 30");
@@ -131,7 +133,7 @@ public class WisdomWennEffektStartetangewendetWirdProcedure {
 				if (world instanceof ServerLevel _level)
 					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 							"attribute @p minecraft:generic.attack_damage base set 5.0");
-				if (!(entity instanceof LivingEntity _livEnt39 && _livEnt39.hasEffect(MobEffects.HEALTH_BOOST))) {
+				if (!(entity instanceof LivingEntity _livEnt40 && _livEnt40.hasEffect(MobEffects.HEALTH_BOOST))) {
 					if (world instanceof ServerLevel _level)
 						_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 								"attribute @p minecraft:generic.max_health base set 40");

@@ -18,6 +18,7 @@ import net.minecraft.core.BlockPos;
 import net.bcm.arcanumofwisdom.world.inventory.SkillTreeMenu;
 import net.bcm.arcanumofwisdom.procedures.SkillTreeWaterRacerButtonProcedure;
 import net.bcm.arcanumofwisdom.procedures.SkillTreeShadowPowerButtonProcedure;
+import net.bcm.arcanumofwisdom.procedures.SkillTreeNightHunterButtonProcedure;
 import net.bcm.arcanumofwisdom.procedures.SkillTreeLavaRacerButtonProcedure;
 import net.bcm.arcanumofwisdom.procedures.SkillTreeArcanumDimensionButtonProcedure;
 import net.bcm.arcanumofwisdom.procedures.OpenLVLEffectsGUIProcedure;
@@ -105,6 +106,10 @@ public record SkillTreeButtonMessage(int buttonID, int x, int y, int z) implemen
 			OpenButtonsGUIProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 8) {
+
+			SkillTreeNightHunterButtonProcedure.execute(entity);
+		}
+		if (buttonID == 9) {
 
 			CloseGUIsProcedure.execute(entity);
 		}

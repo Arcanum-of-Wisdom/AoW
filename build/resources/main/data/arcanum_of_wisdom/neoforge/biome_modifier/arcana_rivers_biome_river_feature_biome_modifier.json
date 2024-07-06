@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "arcanum_of_wisdom:arcana_rivers_biome",
+  "features": "arcanum_of_wisdom:arcana_rivers_biome_river_feature",
+  "step": "lakes"
+}

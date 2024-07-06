@@ -40,6 +40,7 @@ public class SkillTreeScreen extends AbstractContainerScreen<SkillTreeMenu> {
 	Button button_activate_all;
 	Button button_lvl_effects;
 	Button button_buttons;
+	Button button_night_hunter;
 	ImageButton imagebutton_buttonred;
 
 	public SkillTreeScreen(SkillTreeMenu container, Inventory inventory, Component text) {
@@ -93,36 +94,36 @@ public class SkillTreeScreen extends AbstractContainerScreen<SkillTreeMenu> {
 	@Override
 	public void init() {
 		super.init();
-		button_water_racer = Button.builder(Component.translatable("gui.arcanum_of_wisdom.skill_tree.button_water_racer"), e -> {
+		button_water_racer = new PlainTextButton(this.leftPos + 54, this.topPos + -54, 82, 20, Component.translatable("gui.arcanum_of_wisdom.skill_tree.button_water_racer"), e -> {
 			if (true) {
 				PacketDistributor.SERVER.noArg().send(new SkillTreeButtonMessage(0, x, y, z));
 				SkillTreeButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		}).bounds(this.leftPos + 72, this.topPos + -65, 82, 20).build();
+		}, this.font);
 		guistate.put("button:button_water_racer", button_water_racer);
 		this.addRenderableWidget(button_water_racer);
-		button_lava_racer = Button.builder(Component.translatable("gui.arcanum_of_wisdom.skill_tree.button_lava_racer"), e -> {
+		button_lava_racer = new PlainTextButton(this.leftPos + 71, this.topPos + -37, 77, 20, Component.translatable("gui.arcanum_of_wisdom.skill_tree.button_lava_racer"), e -> {
 			if (true) {
 				PacketDistributor.SERVER.noArg().send(new SkillTreeButtonMessage(1, x, y, z));
 				SkillTreeButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
-		}).bounds(this.leftPos + 88, this.topPos + -41, 77, 20).build();
+		}, this.font);
 		guistate.put("button:button_lava_racer", button_lava_racer);
 		this.addRenderableWidget(button_lava_racer);
-		button_shadow_warrior = Button.builder(Component.translatable("gui.arcanum_of_wisdom.skill_tree.button_shadow_warrior"), e -> {
+		button_shadow_warrior = new PlainTextButton(this.leftPos + 71, this.topPos + 14, 98, 20, Component.translatable("gui.arcanum_of_wisdom.skill_tree.button_shadow_warrior"), e -> {
 			if (true) {
 				PacketDistributor.SERVER.noArg().send(new SkillTreeButtonMessage(2, x, y, z));
 				SkillTreeButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
-		}).bounds(this.leftPos + 67, this.topPos + 18, 98, 20).build();
+		}, this.font);
 		guistate.put("button:button_shadow_warrior", button_shadow_warrior);
 		this.addRenderableWidget(button_shadow_warrior);
-		button_arcana_dimension = Button.builder(Component.translatable("gui.arcanum_of_wisdom.skill_tree.button_arcana_dimension"), e -> {
+		button_arcana_dimension = new PlainTextButton(this.leftPos + 45, this.topPos + 40, 108, 20, Component.translatable("gui.arcanum_of_wisdom.skill_tree.button_arcana_dimension"), e -> {
 			if (true) {
 				PacketDistributor.SERVER.noArg().send(new SkillTreeButtonMessage(3, x, y, z));
 				SkillTreeButtonMessage.handleButtonAction(entity, 3, x, y, z);
 			}
-		}).bounds(this.leftPos + 45, this.topPos + 42, 108, 20).build();
+		}, this.font);
 		guistate.put("button:button_arcana_dimension", button_arcana_dimension);
 		this.addRenderableWidget(button_arcana_dimension);
 		button_deactivate_all = Button.builder(Component.translatable("gui.arcanum_of_wisdom.skill_tree.button_deactivate_all"), e -> {
@@ -157,11 +158,19 @@ public class SkillTreeScreen extends AbstractContainerScreen<SkillTreeMenu> {
 		}, this.font);
 		guistate.put("button:button_buttons", button_buttons);
 		this.addRenderableWidget(button_buttons);
+		button_night_hunter = new PlainTextButton(this.leftPos + 37, this.topPos + -71, 87, 20, Component.translatable("gui.arcanum_of_wisdom.skill_tree.button_night_hunter"), e -> {
+			if (true) {
+				PacketDistributor.SERVER.noArg().send(new SkillTreeButtonMessage(8, x, y, z));
+				SkillTreeButtonMessage.handleButtonAction(entity, 8, x, y, z);
+			}
+		}, this.font);
+		guistate.put("button:button_night_hunter", button_night_hunter);
+		this.addRenderableWidget(button_night_hunter);
 		imagebutton_buttonred = new ImageButton(this.leftPos + -15, this.topPos + -113, 32, 32,
 				new WidgetSprites(new ResourceLocation("arcanum_of_wisdom:textures/screens/buttonred.png"), new ResourceLocation("arcanum_of_wisdom:textures/screens/buttonredhighlight.png")), e -> {
 					if (true) {
-						PacketDistributor.SERVER.noArg().send(new SkillTreeButtonMessage(8, x, y, z));
-						SkillTreeButtonMessage.handleButtonAction(entity, 8, x, y, z);
+						PacketDistributor.SERVER.noArg().send(new SkillTreeButtonMessage(9, x, y, z));
+						SkillTreeButtonMessage.handleButtonAction(entity, 9, x, y, z);
 					}
 				}) {
 			@Override
