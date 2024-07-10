@@ -1,0 +1,137 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_please_read_the_information_befo1",
+          "text": {
+            "fixedValue": "Please read the information before teleporting!"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 347,
+          "y": 101
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_please_read_the_information_befo2",
+          "text": {
+            "fixedValue": "Please read the information before teleporting!"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 348,
+          "y": 154
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_please_read_the_information_befo",
+          "text": {
+            "fixedValue": "Please read the information before teleporting!"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 347,
+          "y": 49
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "artifactofdimensionsbackground2.png",
+          "use1Xscale": false,
+          "x": 13,
+          "y": 18
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_4_right",
+          "image": "custom_arrow_4_right.png",
+          "hoveredImage": "custom_arrow_5_right.png",
+          "onClick": {
+            "name": "ArtifactOfDimensionsNetherTravel"
+          },
+          "x": 351,
+          "y": 54
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_4_right1",
+          "image": "custom_arrow_4_right.png",
+          "hoveredImage": "custom_arrow_5_right.png",
+          "onClick": {
+            "name": "ArtifactOfDimensionsEndTravel"
+          },
+          "x": 351,
+          "y": 106
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_4_right2",
+          "image": "custom_arrow_4_right.png",
+          "hoveredImage": "custom_arrow_5_right.png",
+          "onClick": {
+            "name": "ArtifactOfDimensionsOverworldTravel"
+          },
+          "x": 351,
+          "y": 159
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_info",
+          "text": {
+            "fixedValue": "Info"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 203,
+          "y": 218
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_be_careful_when_teleporting_if",
+          "text": {
+            "fixedValue": "Be careful when teleporting! You may spawn in a wall or in the air.."
+          },
+          "width": 24,
+          "height": 24,
+          "x": 202,
+          "y": 220
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

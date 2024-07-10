@@ -1,0 +1,10 @@
+{
+  "type": "arcanum_of_wisdom:arcanum_of_wisdom_loot_modifier",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "gameplay/hero_of_the_village/weaponsmith_gift"
+    }
+  ],
+  "lootTable": "arcanum_of_wisdom:gameplay/hero_of_the_village/weaponsmith_gift"
+}

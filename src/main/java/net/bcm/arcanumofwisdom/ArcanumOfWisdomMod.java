@@ -24,6 +24,7 @@ import net.bcm.arcanumofwisdom.init.ArcanumOfWisdomModMobEffects;
 import net.bcm.arcanumofwisdom.init.ArcanumOfWisdomModMenus;
 import net.bcm.arcanumofwisdom.init.ArcanumOfWisdomModItems;
 import net.bcm.arcanumofwisdom.init.ArcanumOfWisdomModBlocks;
+import net.bcm.arcanumofwisdom.init.ArcanumOfWisdomModBlockEntities;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -44,7 +45,7 @@ public class ArcanumOfWisdomMod {
 		modEventBus.addListener(this::registerNetworking);
 
 		ArcanumOfWisdomModBlocks.REGISTRY.register(modEventBus);
-
+		ArcanumOfWisdomModBlockEntities.REGISTRY.register(modEventBus);
 		ArcanumOfWisdomModItems.register(modEventBus);
 
 		ArcanumOfWisdomModTabs.REGISTRY.register(modEventBus);

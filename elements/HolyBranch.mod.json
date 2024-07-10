@@ -8,9 +8,9 @@
     "customProperties": {},
     "states": [],
     "name": "Holy Branch",
-    "rarity": "EPIC",
+    "rarity": "RARE",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:KreativtabAOW"
     },
     "stackSize": 1,
     "enchantability": 0,
@@ -27,8 +27,9 @@
     "enableMeleeDamage": true,
     "damageVsEntity": 5.0,
     "specialInformation": {
-      "fixedValue": [],
-      "name": "HolyBranchSpecialInformation"
+      "fixedValue": [
+        "This branch has been canonized in the name of wisdom and magic and is therefore very powerful. It grants you abilities which you can activate after wisdom level 20 and 80!"
+      ]
     },
     "glowCondition": {
       "fixedValue": true,

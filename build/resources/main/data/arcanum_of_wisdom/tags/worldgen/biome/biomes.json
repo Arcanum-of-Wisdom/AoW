@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "arcanum_of_wisdom:arcana_cherry_grove_biome",
+    "arcanum_of_wisdom:arcana_plains_biome",
+    "arcanum_of_wisdom:arcana_rivers_biome"
+  ]
+}

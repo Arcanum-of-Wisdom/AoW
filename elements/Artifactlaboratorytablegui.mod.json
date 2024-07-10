@@ -1,0 +1,133 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_combine",
+          "text": "Combine",
+          "isUndecorated": true,
+          "onClick": {
+            "name": "ALTCombineGUIP"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 155,
+          "y": 72
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_research",
+          "text": "Research",
+          "isUndecorated": true,
+          "onClick": {
+            "name": "ALTResearchGUIP"
+          },
+          "width": 67,
+          "height": 20,
+          "x": 155,
+          "y": 44
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonred",
+          "image": "buttonred.png",
+          "hoveredImage": "buttonredhighlight.png",
+          "onClick": {
+            "name": "CloseGUIs"
+          },
+          "x": 294,
+          "y": 7
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "altbackground.png",
+          "use1Xscale": false,
+          "x": 126,
+          "y": 31
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "book_of_wisdom_small.png",
+          "use1Xscale": true,
+          "x": 222,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "book_of_wisdom_small.png",
+          "use1Xscale": true,
+          "x": 222,
+          "y": 44
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_you_can_combine_all_5_artifacts",
+          "text": {
+            "fixedValue": "You can combine all 5 artifacts to one very strong artifact."
+          },
+          "width": 24,
+          "height": 24,
+          "x": 222,
+          "y": 71
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_you_can_study_artifacts_to_imple",
+          "text": {
+            "fixedValue": "You can study artifacts to implement them into weapons to strengthen them."
+          },
+          "width": 24,
+          "height": 24,
+          "x": 222,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_artifact_laboratory_table",
+          "text": {
+            "fixedValue": "Artifact Laboratory Table"
+          },
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "x": 150,
+          "y": 21
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

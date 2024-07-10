@@ -16,12 +16,14 @@ import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.bcm.arcanumofwisdom.block.FakeWaterBlock;
 import net.bcm.arcanumofwisdom.block.FakeLavaBlock;
+import net.bcm.arcanumofwisdom.block.ArtifactlaboratorytableBlock;
 import net.bcm.arcanumofwisdom.ArcanumOfWisdomMod;
 
 public class ArcanumOfWisdomModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(BuiltInRegistries.BLOCK, ArcanumOfWisdomMod.MODID);
 	public static final DeferredHolder<Block, Block> FAKE_WATER = REGISTRY.register("fake_water", () -> new FakeWaterBlock());
 	public static final DeferredHolder<Block, Block> FAKE_LAVA = REGISTRY.register("fake_lava", () -> new FakeLavaBlock());
+	public static final DeferredHolder<Block, Block> ARTIFACTLABORATORYTABLE = REGISTRY.register("artifactlaboratorytable", () -> new ArtifactlaboratorytableBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

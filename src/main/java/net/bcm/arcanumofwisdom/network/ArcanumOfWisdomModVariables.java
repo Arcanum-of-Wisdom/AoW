@@ -68,6 +68,7 @@ public class ArcanumOfWisdomModVariables {
 			clone.lvleffects = original.lvleffects;
 			clone.nighthunter_active = original.nighthunter_active;
 			clone.startup_message = original.startup_message;
+			clone.ALTCombineWork = original.ALTCombineWork;
 			if (!event.isWasDeath()) {
 				clone.holybranch_secattack_cooldown = original.holybranch_secattack_cooldown;
 				clone.holybranch_ultattack_cooldown = original.holybranch_ultattack_cooldown;
@@ -96,6 +97,7 @@ public class ArcanumOfWisdomModVariables {
 		public boolean lvleffects = false;
 		public boolean nighthunter_active = false;
 		public boolean startup_message = false;
+		public boolean ALTCombineWork = false;
 
 		@Override
 		public CompoundTag serializeNBT() {
@@ -115,6 +117,7 @@ public class ArcanumOfWisdomModVariables {
 			nbt.putBoolean("lvleffects", lvleffects);
 			nbt.putBoolean("nighthunter_active", nighthunter_active);
 			nbt.putBoolean("startup_message", startup_message);
+			nbt.putBoolean("ALTCombineWork", ALTCombineWork);
 			return nbt;
 		}
 
@@ -135,6 +138,7 @@ public class ArcanumOfWisdomModVariables {
 			lvleffects = nbt.getBoolean("lvleffects");
 			nighthunter_active = nbt.getBoolean("nighthunter_active");
 			startup_message = nbt.getBoolean("startup_message");
+			ALTCombineWork = nbt.getBoolean("ALTCombineWork");
 		}
 
 		public void syncPlayerVariables(Entity entity) {

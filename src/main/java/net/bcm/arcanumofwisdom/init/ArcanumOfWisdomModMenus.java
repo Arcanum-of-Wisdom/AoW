@@ -14,7 +14,11 @@ import net.minecraft.core.registries.Registries;
 import net.bcm.arcanumofwisdom.world.inventory.SkillTreeMenu;
 import net.bcm.arcanumofwisdom.world.inventory.LVLEffectsGUIMenu;
 import net.bcm.arcanumofwisdom.world.inventory.ButtonsGUIMenu;
+import net.bcm.arcanumofwisdom.world.inventory.ArtifactlaboratorytableguiMenu;
+import net.bcm.arcanumofwisdom.world.inventory.ArtifactOfDimensionsGUIMenu;
 import net.bcm.arcanumofwisdom.world.inventory.AOWSettingsGUIMenu;
+import net.bcm.arcanumofwisdom.world.inventory.ALTResearchGUIMenu;
+import net.bcm.arcanumofwisdom.world.inventory.ALTCombineGUIMenu;
 import net.bcm.arcanumofwisdom.ArcanumOfWisdomMod;
 
 public class ArcanumOfWisdomModMenus {
@@ -23,4 +27,8 @@ public class ArcanumOfWisdomModMenus {
 	public static final DeferredHolder<MenuType<?>, MenuType<AOWSettingsGUIMenu>> AOW_SETTINGS_GUI = REGISTRY.register("aow_settings_gui", () -> IMenuTypeExtension.create(AOWSettingsGUIMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<LVLEffectsGUIMenu>> LVL_EFFECTS_GUI = REGISTRY.register("lvl_effects_gui", () -> IMenuTypeExtension.create(LVLEffectsGUIMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<ButtonsGUIMenu>> BUTTONS_GUI = REGISTRY.register("buttons_gui", () -> IMenuTypeExtension.create(ButtonsGUIMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<ArtifactlaboratorytableguiMenu>> ARTIFACTLABORATORYTABLEGUI = REGISTRY.register("artifactlaboratorytablegui", () -> IMenuTypeExtension.create(ArtifactlaboratorytableguiMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<ALTResearchGUIMenu>> ALT_RESEARCH_GUI = REGISTRY.register("alt_research_gui", () -> IMenuTypeExtension.create(ALTResearchGUIMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<ALTCombineGUIMenu>> ALT_COMBINE_GUI = REGISTRY.register("alt_combine_gui", () -> IMenuTypeExtension.create(ALTCombineGUIMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<ArtifactOfDimensionsGUIMenu>> ARTIFACT_OF_DIMENSIONS_GUI = REGISTRY.register("artifact_of_dimensions_gui", () -> IMenuTypeExtension.create(ArtifactOfDimensionsGUIMenu::new));
 }
