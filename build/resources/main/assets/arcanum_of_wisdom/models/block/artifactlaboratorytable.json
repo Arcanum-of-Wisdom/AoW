@@ -1,0 +1,9 @@
+{
+  "parent": "arcanum_of_wisdom:custom/artifact_laboratory_table",
+  "textures": {
+    "all": "arcanum_of_wisdom:block/textureartifactlaboratorytable",
+    "particle": "arcanum_of_wisdom:block/textureartifactlaboratorytable",
+    "0": "arcanum_of_wisdom:block/textureartifactlaboratorytable"
+  },
+  "render_type": "cutout"
+}

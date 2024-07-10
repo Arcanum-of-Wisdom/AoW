@@ -1,0 +1,236 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "altbackground.png",
+          "use1Xscale": false,
+          "x": 126,
+          "y": 33
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_click_here_to_craft_the_netherit",
+          "text": {
+            "fixedValue": "Click here to craft the netherite artifact sword!"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 210,
+          "y": 72
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_research",
+          "text": {
+            "fixedValue": "Research"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 193,
+          "y": 39
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonred",
+          "image": "buttonred.png",
+          "hoveredImage": "buttonredhighlight.png",
+          "onClick": {
+            "name": "CloseGUIs"
+          },
+          "x": 294,
+          "y": 7
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_skill.png",
+          "use1Xscale": false,
+          "x": 162,
+          "y": 64
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_skill_highlight.png",
+          "use1Xscale": false,
+          "x": 142,
+          "y": 84
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_skill_highlight.png",
+          "use1Xscale": false,
+          "x": 182,
+          "y": 84
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_1_right",
+          "image": "custom_arrow_1_right.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "ALTResearchGUIWorkP"
+          },
+          "x": 214,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_vanilla_2_pressed.png",
+          "use1Xscale": false,
+          "x": 249,
+          "y": 74
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "color": {
+            "value": -9633581,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 250,
+          "y": 75
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.DIAMOND_SWORD"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 6,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 143,
+          "y": 85
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.NETHERITE_INGOT"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 7,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 183,
+          "y": 85
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_info",
+          "text": {
+            "fixedValue": "Info"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 303,
+          "y": 192
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_you_can_use_1_diamond_sword_1_n",
+          "text": {
+            "fixedValue": "Use a diamond sword, a netherite ingot and a combined artifact to craft the new sword!"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 302,
+          "y": 185
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:CombinedArtifact"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "color": {
+            "value": -16750951,
+            "falpha": 0.0
+          },
+          "id": 8,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 163,
+          "y": 65
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_large_button_back",
+          "image": "large_button_back.png",
+          "hoveredImage": "large_button_back_highlight.png",
+          "onClick": {
+            "name": "ALTGUIsBackButtonP"
+          },
+          "x": 326,
+          "y": 13
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

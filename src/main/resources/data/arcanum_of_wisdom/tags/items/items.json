@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "arcanum_of_wisdom:artifact_of_life",
+    "arcanum_of_wisdom:artifact_of_materials",
+    "arcanum_of_wisdom:artifact_of_fluids",
+    "arcanum_of_wisdom:artifact_of_magic",
+    "arcanum_of_wisdom:artifact_of_dimensions",
+    "arcanum_of_wisdom:combined_artifact",
+    "arcanum_of_wisdom:holy_branch",
+    "arcanum_of_wisdom:netherite_artifact_sword",
+    "arcanum_of_wisdom:fake_water",
+    "arcanum_of_wisdom:fake_lava",
+    "arcanum_of_wisdom:artifactlaboratorytable"
+  ]
+}

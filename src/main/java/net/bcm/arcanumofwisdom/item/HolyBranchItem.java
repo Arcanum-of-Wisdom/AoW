@@ -19,7 +19,6 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.client.Minecraft;
 
 import net.bcm.arcanumofwisdom.procedures.HolyBranchWennGegenstandImInventarTickProcedure;
-import net.bcm.arcanumofwisdom.procedures.HolyBranchSpecialInformationProcedure;
 import net.bcm.arcanumofwisdom.procedures.HolyBranchHatGegenstandGluheffektProcedure;
 import net.bcm.arcanumofwisdom.procedures.HolyBranchBeimTickDesGegenstandesInDerHandProcedure;
 
@@ -30,7 +29,7 @@ import com.google.common.collect.ImmutableMultimap;
 
 public class HolyBranchItem extends Item {
 	public HolyBranchItem() {
-		super(new Item.Properties().stacksTo(1).fireResistant().rarity(Rarity.EPIC));
+		super(new Item.Properties().stacksTo(1).fireResistant().rarity(Rarity.RARE));
 	}
 
 	@Override
@@ -65,8 +64,7 @@ public class HolyBranchItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, level, list, flag);
-		Entity entity = itemstack.getEntityRepresentation();
-		list.add(Component.literal(HolyBranchSpecialInformationProcedure.execute(entity)));
+		list.add(Component.literal("This branch has been canonized in the name of wisdom and magic and is therefore very powerful. It grants you abilities which you can activate after wisdom level 20 and 80!"));
 	}
 
 	@Override

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arcanum_of_wisdom:block/artifactlaboratorytable"
+    },
+    "facing=east": {
+      "model": "arcanum_of_wisdom:block/artifactlaboratorytable",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arcanum_of_wisdom:block/artifactlaboratorytable",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arcanum_of_wisdom:block/artifactlaboratorytable",
+      "y": 270
+    }
+  }
+}

@@ -36,7 +36,7 @@ public class HolyBranchBeimTickDesGegenstandesInDerHandProcedure {
 					_vars.holybranch_ability_1 = false;
 					_vars.syncPlayerVariables(entity);
 				}
-				if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).wisdom >= 50 && entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).holybranch_secattack_cooldown == 0) {
+				if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).wisdom >= 20 && entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).holybranch_secattack_cooldown == 0) {
 					{
 						ArcanumOfWisdomModVariables.PlayerVariables _vars = entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES);
 						_vars.holybranch_secattack_cooldown = 100;
@@ -65,9 +65,9 @@ public class HolyBranchBeimTickDesGegenstandesInDerHandProcedure {
 								"effect give @e[distance=..5] arcanum_of_wisdom:stunned 2 1 true");
 					if (entity instanceof LivingEntity _entity)
 						_entity.removeEffect(ArcanumOfWisdomModMobEffects.STUNNED.get());
-				} else if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).wisdom < 50) {
+				} else if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).wisdom < 20) {
 					if (entity instanceof Player _player && !_player.level().isClientSide())
-						_player.displayClientMessage(Component.literal("Second Ability available at LVL 50!"), true);
+						_player.displayClientMessage(Component.literal("Second Ability available at LVL 20!"), true);
 				} else if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).holybranch_secattack_cooldown > 0) {
 					if (entity instanceof Player _player && !_player.level().isClientSide())
 						_player.displayClientMessage(Component.literal("The countdown hasn't ended yet!"), true);
@@ -79,7 +79,7 @@ public class HolyBranchBeimTickDesGegenstandesInDerHandProcedure {
 					_vars.holybranch_ability_ult = false;
 					_vars.syncPlayerVariables(entity);
 				}
-				if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).wisdom >= 100 && entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).holybranch_ultattack_cooldown == 0
+				if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).wisdom >= 80 && entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).holybranch_ultattack_cooldown == 0
 						&& entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).holybranch_secattack_cooldown == 0 && entity.isShiftKeyDown()) {
 					if (world.isClientSide())
 						Minecraft.getInstance().gameRenderer.displayItemActivation(itemstack);
@@ -143,9 +143,9 @@ public class HolyBranchBeimTickDesGegenstandesInDerHandProcedure {
 						_entity.addEffect(new MobEffectInstance(MobEffects.GLOWING, 60, 1, false, false));
 					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 						_entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 80, 1, false, false));
-				} else if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).wisdom < 100 && entity.isShiftKeyDown()) {
+				} else if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).wisdom < 80 && entity.isShiftKeyDown()) {
 					if (entity instanceof Player _player && !_player.level().isClientSide())
-						_player.displayClientMessage(Component.literal("Ultimate ability is available at LVL 100!"), true);
+						_player.displayClientMessage(Component.literal("Ultimate ability is available at LVL 80!"), true);
 				} else if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).holybranch_ultattack_cooldown > 0 && entity.isShiftKeyDown()) {
 					if (entity instanceof Player _player && !_player.level().isClientSide())
 						_player.displayClientMessage(Component.literal(("The countdown hasn't ended yet! Time left: " + entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).holybranch_ultattack_cooldown)), true);

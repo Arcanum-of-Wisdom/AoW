@@ -1,50 +1,50 @@
-/summon minecraft:giant
+/locate structure #minecraft:on_treasure_maps
+/tp @s -215 ~ -1767
+/effect give Dev minecraft:night_vision infinite 255 true
+/gamerule aOWAutomaticCountdownResets true
+/wisdom Dev 99
+/kill
+/wisdom Dev 99
 /time set day
-/summon minecraft:skeleton
-/time query
-/locate biome arcanum_of_wisdom:arcana_cherry_grove_biome
-/tp @s -373 127 326
-/wisdom Dev 100
-/locate biome arcanum_of_wisdom:arcana_cherry_grove_biome#
-/locate biome arcanum_of_wisdom:arcana_cherry_grove_biome
-/tp @s 588 73 -864
-/locate biome arcanum_of_wisdom:arcana_cherry_grove_biome
-/tp @s 1054 117 -1046
-/locate biome arcanum_of_wisdom:arcana_cherry_grove_biome
-/tp @s 1071 110 -1058
-/advancement revoke Dev everything
-/gamerule aOWLevelEffects false
-/gamerule aOWLevelEffects true
-/wisdom Dev 99
-/effect clear
-/locate biome arcanum_of_wisdom:arcana_rivers_biome
-/tp @s 1672 91 -1742
 /weather clear
-/effect give Dev arcanum_of_wisdom:night_hunter infinite 255 true
-/wisdom Dev 10
-/effect give Dev arcanum_of_wisdom:night_hunter infinite 255 true
-/effect give Dev minecraft:hunger infinite 5 true
+/effect give Dev minecraft:night_vision infinite 255 true
+/kill @e[type=minecraft:ender_dragon]
+/effect give Dev minecraft:night_vision infinite 255 true
+/locate biome minecraft:plains
+/tp @s -496 92 298
+/spawnpoint
+/summon sheep
+/summon minecraft:warden
+/summon minecraft:guardian
+/effect give @e[type=#minecraft:undead, distance=..3] wither 4 2 false
 /time set night
-/effect give Dev minecraft:hunger infinite 15 true
-/effect clear Dev minecraft:hunger
-/effect give Dev minecraft:hunger infinite 15 true
-/effect clear Dev minecraft:hunger
-/effect clear
-/effect give Dev arcanum_of_wisdom:night_hunter infinite 1 true
-/effect clear
-/effect give Dev minecraft:night_vision infinite 5 true
-/effect give Dev arcanum_of_wisdom:night_hunter infinite 1 true
-/effect clear
-/effect give Dev minecraft:night_vision 10 5 true
-/effect give Dev arcanum_of_wisdom:night_hunter infinite 1 true
-/aow_sm_enable
-/wisdom Dev 20
-/summon minecraft:experience_orb
-/summon minecraft:experience_bottle ~ ~5 ~
-/summon minecraft:slime
-/time set night
-/time add 1000
-/wisdom Dev 100
+/summon zombie
+/effect give @e[type=#minecraft:undead, distance=..3] wither 4 2 false
+/effect give @e[type=!player, distance=..3] wither 5 2 false
+/summon minecraft:iron_golem
+/summon minecraft:skeleton
+/wisdom Dev 19
+/wisdom Dev 49
 /wisdom Dev 99
-/locate biome arcanum_of_wisdom:arcana_cherry_grove_biome
-/tp @s 589 84 -866
+/time set night
+/time set day
+/locate structure #minecraft:village
+/tp @s -320 ~ 656
+/locate structure minecraft:village_taiga
+/tp @s 160 ~ -336
+/locate poi minecraft:weaponsmith
+/locate poi minecraft:toolsmith
+/locate structure minecraft:village_savanna
+/tp @s -1488 ~ 1376
+/locate structure minecraft:village_desert
+/tp @s 576 ~ 5008
+/locate structure minecraft:desert_pyramid
+/tp @s -944 ~ 6320
+/locate structure minecraft:jungle_pyramid
+/tp @s -1376 ~ 8048
+/locate structure minecraft:stronghold
+/tp @s 384 ~ 8336
+/locate structure #minecraft:on_treasure_maps
+/locate structure minecraft:shipwreck
+/tp @s 480 ~ 8656
+/locate structure #minecraft:on_treasure_maps

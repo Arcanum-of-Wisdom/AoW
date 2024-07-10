@@ -1,0 +1,295 @@
+{
+  "_fv": 60,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "ARMORER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:CombinedArtifact"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.DIAMOND_CHESTPLATE"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 2,
+            "xp": 8,
+            "priceMultiplier": 0.09999999999999999
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CombinedArtifact"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "Items.NETHERITE_INGOT"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.NETHERITE_CHESTPLATE"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 1,
+            "xp": 10,
+            "priceMultiplier": 0.2
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "FISHERMAN"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:CombinedArtifact"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.NAUTILUS_SHELL"
+            },
+            "countOffer": 2,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.08
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CombinedArtifact"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.HEART_OF_THE_SEA"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 6,
+            "priceMultiplier": 0.060000000000000005
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CombinedArtifact"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.PRISMARINE_SHARD"
+            },
+            "countOffer": 25,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.060000000000000005
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CLERIC"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:CombinedArtifact"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.BLAZE_ROD"
+            },
+            "countOffer": 3,
+            "level": 1,
+            "maxTrades": 8,
+            "xp": 6,
+            "priceMultiplier": 0.06999999999999999
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CombinedArtifact"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.BREWING_STAND"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 8,
+            "priceMultiplier": 0.09999999999999999
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "LIBRARIAN"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:CombinedArtifact"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.ENCHANTING_TABLE"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 1,
+            "xp": 8,
+            "priceMultiplier": 0.060000000000000005
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CombinedArtifact"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.GOLDEN_APPLE#1"
+            },
+            "countOffer": 2,
+            "level": 5,
+            "maxTrades": 8,
+            "xp": 8,
+            "priceMultiplier": 0.06999999999999999
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CombinedArtifact"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EXPERIENCE_BOTTLE"
+            },
+            "countOffer": 10,
+            "level": 3,
+            "maxTrades": 15,
+            "xp": 5,
+            "priceMultiplier": 0.060000000000000005
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CombinedArtifact"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.BURN_POTTERY_SHERD"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 8,
+            "xp": 7,
+            "priceMultiplier": 0.060000000000000005
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CombinedArtifact"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.HEART_POTTERY_SHERD"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 8,
+            "xp": 7,
+            "priceMultiplier": 0.060000000000000005
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "WEAPONSMITH"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:CombinedArtifact"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": "Items.NETHERITE_SWORD"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:NetheriteArtifactSword"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.3
+          },
+          {
+            "price1": {
+              "value": "Items.NETHERITE_UPGRADE"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:NetheriteArtifactSword"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}

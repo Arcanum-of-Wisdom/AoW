@@ -3,7 +3,7 @@
     {
       "name": "LVL5P",
       "type": "procedure",
-      "sortid": 2,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lvl_5_p",
@@ -39,7 +39,7 @@
     {
       "name": "LVL10P",
       "type": "procedure",
-      "sortid": 1,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lvl_10_p",
@@ -75,7 +75,7 @@
     {
       "name": "WaterRacerBeimTrankAktivierterTick",
       "type": "procedure",
-      "sortid": 3,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "water_racer_beim_trank_aktivierter_tick",
@@ -111,7 +111,7 @@
     {
       "name": "WaterRacer",
       "type": "potioneffect",
-      "sortid": 4,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "water_racer",
@@ -125,7 +125,7 @@
     {
       "name": "FakeWaterBlockWennBlockPlatziertWird",
       "type": "procedure",
-      "sortid": 5,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fake_water_block_wenn_block_platziert_wird",
@@ -157,7 +157,7 @@
     {
       "name": "FakeWater",
       "type": "block",
-      "sortid": 6,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fake_water",
@@ -175,7 +175,7 @@
     {
       "name": "LVL30",
       "type": "procedure",
-      "sortid": 7,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lvl_20",
@@ -211,7 +211,7 @@
     {
       "name": "LavaRacerBeimTrankAktivierterTick",
       "type": "procedure",
-      "sortid": 8,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lava_racer_beim_trank_aktivierter_tick",
@@ -247,7 +247,7 @@
     {
       "name": "LavaRacer",
       "type": "potioneffect",
-      "sortid": 9,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lava_racer",
@@ -261,7 +261,7 @@
     {
       "name": "FakeLavaBlockWennBlockPlatziertWird",
       "type": "procedure",
-      "sortid": 10,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fake_lava_block_wenn_block_platziert_wird",
@@ -293,7 +293,7 @@
     {
       "name": "FakeLava",
       "type": "block",
-      "sortid": 11,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fake_lava",
@@ -311,7 +311,7 @@
     {
       "name": "SkillTree",
       "type": "gui",
-      "sortid": 12,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skill_tree",
@@ -327,7 +327,7 @@
     {
       "name": "GUIEntityReturn",
       "type": "procedure",
-      "sortid": 13,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_entity_return",
@@ -348,7 +348,7 @@
     {
       "name": "TalentUebersicht",
       "type": "keybind",
-      "sortid": 14,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "talent_uebersicht",
@@ -362,7 +362,7 @@
     {
       "name": "TalentUebersichtBeiTastendruck",
       "type": "procedure",
-      "sortid": 15,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "talent_uebersicht_bei_tastendruck",
@@ -398,7 +398,7 @@
     {
       "name": "WisdomOverlay",
       "type": "overlay",
-      "sortid": 16,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wisdom_overlay",
@@ -412,7 +412,7 @@
     {
       "name": "WisdomOverlayText",
       "type": "procedure",
-      "sortid": 17,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wisdom_overlay_text",
@@ -433,7 +433,7 @@
     {
       "name": "AOWSettingsGUI",
       "type": "gui",
-      "sortid": 19,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aow_settings_gui",
@@ -449,7 +449,7 @@
     {
       "name": "ShowOverlayRight",
       "type": "procedure",
-      "sortid": 22,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "show_overlay_right",
@@ -470,7 +470,7 @@
     {
       "name": "ToggleOverlay",
       "type": "procedure",
-      "sortid": 23,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "toggle_overlay",
@@ -490,7 +490,7 @@
     {
       "name": "ToggleResetWisdomButton",
       "type": "procedure",
-      "sortid": 24,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "toggle_reset_wisdom_button",
@@ -511,7 +511,7 @@
     {
       "name": "ToggleWarningResetButton",
       "type": "procedure",
-      "sortid": 25,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "toggle_warning_reset_button",
@@ -532,7 +532,7 @@
     {
       "name": "ResetWisdomButton",
       "type": "procedure",
-      "sortid": 26,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reset_wisdom_button",
@@ -568,7 +568,7 @@
     {
       "name": "EinstellungenBeiTastendruck",
       "type": "procedure",
-      "sortid": 27,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "einstellungen_bei_tastendruck",
@@ -604,7 +604,7 @@
     {
       "name": "Einstellungen",
       "type": "keybind",
-      "sortid": 28,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "einstellungen",
@@ -618,7 +618,7 @@
     {
       "name": "WisdomWennEffektStartetangewendetWird",
       "type": "procedure",
-      "sortid": 29,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wisdom_wenn_effekt_startetangewendet_wird",
@@ -654,7 +654,7 @@
     {
       "name": "Wisdom",
       "type": "potioneffect",
-      "sortid": 30,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wisdom",
@@ -668,7 +668,7 @@
     {
       "name": "WisdomWennDerEffektAblauft",
       "type": "procedure",
-      "sortid": 31,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wisdom_wenn_der_effekt_ablauft",
@@ -700,7 +700,7 @@
     {
       "name": "LVL50",
       "type": "procedure",
-      "sortid": 32,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lvl_50",
@@ -736,7 +736,7 @@
     {
       "name": "HolyBranchHatGegenstandGluheffekt",
       "type": "procedure",
-      "sortid": 33,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "holy_branch_hat_gegenstand_gluheffekt",
@@ -752,12 +752,12 @@
           }
         ]
       },
-      "path": "~/Weissheit/Holy Branch"
+      "path": "~/Items/Holy Branch"
     },
     {
       "name": "HolyBranch",
       "type": "item",
-      "sortid": 34,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "holy_branch",
@@ -767,33 +767,12 @@
           "src/main/resources/assets/arcanum_of_wisdom/models/item/holy_branch.json"
         ]
       },
-      "path": "~/Weissheit/Holy Branch"
-    },
-    {
-      "name": "HolyBranchSpecialInformation",
-      "type": "procedure",
-      "sortid": 35,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "holy_branch_special_information",
-      "metadata": {
-        "return_type": "string",
-        "files": [
-          "src/main/java/net/bcm/arcanumofwisdom/procedures/HolyBranchSpecialInformationProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Weissheit/Holy Branch"
+      "path": "~/Items/Holy Branch"
     },
     {
       "name": "HolyBranchWennGegenstandImInventarTick",
       "type": "procedure",
-      "sortid": 37,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "holy_branch_wenn_gegenstand_im_inventar_tick",
@@ -808,12 +787,12 @@
           }
         ]
       },
-      "path": "~/Weissheit/Holy Branch"
+      "path": "~/Items/Holy Branch"
     },
     {
       "name": "StunnedEffektBeimTrankAktivierterTick",
       "type": "procedure",
-      "sortid": 38,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stunned_effekt_beim_trank_aktivierter_tick",
@@ -828,12 +807,12 @@
           }
         ]
       },
-      "path": "~/Weissheit/StunnedEffekt"
+      "path": "~/Weissheit/Effekte/StunnedEffekt"
     },
     {
       "name": "Stunned",
       "type": "potioneffect",
-      "sortid": 41,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stunned",
@@ -842,7 +821,7 @@
           "src/main/java/net/bcm/arcanumofwisdom/potion/StunnedMobEffect.java"
         ]
       },
-      "path": "~/Weissheit/StunnedEffekt"
+      "path": "~/Weissheit/Effekte/StunnedEffekt"
     },
     {
       "name": "WisdomCMD",
@@ -861,7 +840,7 @@
     {
       "name": "WisdomCMDP",
       "type": "procedure",
-      "sortid": 45,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wisdom_cmdp",
@@ -885,7 +864,7 @@
     {
       "name": "AutomaticVarResets",
       "type": "procedure",
-      "sortid": 46,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "automatic_var_resets",
@@ -909,7 +888,7 @@
     {
       "name": "ResetHolyBranchCountdowns",
       "type": "procedure",
-      "sortid": 47,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reset_holy_branch_countdowns",
@@ -929,7 +908,7 @@
     {
       "name": "AOWAutomaticCountdownResets",
       "type": "gamerule",
-      "sortid": 48,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aow_automatic_countdown_resets",
@@ -942,7 +921,7 @@
     {
       "name": "HolySpellWennEffektStartetangewendetWird",
       "type": "procedure",
-      "sortid": 49,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "holy_spell_wenn_effekt_startetangewendet_wird",
@@ -973,12 +952,12 @@
           }
         ]
       },
-      "path": "~/Weissheit/HolySpellEffekt"
+      "path": "~/Weissheit/Effekte/HolySpellEffekt"
     },
     {
       "name": "HolySpellWennDerEffektAblauft",
       "type": "procedure",
-      "sortid": 50,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "holy_spell_wenn_der_effekt_ablauft",
@@ -1009,12 +988,12 @@
           }
         ]
       },
-      "path": "~/Weissheit/HolySpellEffekt"
+      "path": "~/Weissheit/Effekte/HolySpellEffekt"
     },
     {
       "name": "HolySpell",
       "type": "potioneffect",
-      "sortid": 51,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "holy_spell",
@@ -1023,12 +1002,12 @@
           "src/main/java/net/bcm/arcanumofwisdom/potion/HolySpellMobEffect.java"
         ]
       },
-      "path": "~/Weissheit/HolySpellEffekt"
+      "path": "~/Weissheit/Effekte/HolySpellEffekt"
     },
     {
       "name": "HolyBranchBeimTickDesGegenstandesInDerHand",
       "type": "procedure",
-      "sortid": 52,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "holy_branch_beim_tick_des_gegenstandes_in_der_hand",
@@ -1063,12 +1042,12 @@
           }
         ]
       },
-      "path": "~/Weissheit/Holy Branch"
+      "path": "~/Items/Holy Branch"
     },
     {
       "name": "HolyBranchSecAbilityP",
       "type": "procedure",
-      "sortid": 53,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "holy_branch_sec_ability_p",
@@ -1088,7 +1067,7 @@
     {
       "name": "HolyBranchSecAbility",
       "type": "keybind",
-      "sortid": 54,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "holy_branch_sec_ability",
@@ -1102,7 +1081,7 @@
     {
       "name": "HolyBranchUltAbilityP",
       "type": "procedure",
-      "sortid": 55,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "holy_branch_ult_ability_p",
@@ -1122,7 +1101,7 @@
     {
       "name": "HolyBranchUltAbility",
       "type": "keybind",
-      "sortid": 56,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "holy_branch_ult_ability",
@@ -1136,7 +1115,7 @@
     {
       "name": "ShadowPowerBeimTrankAktivierterTick",
       "type": "procedure",
-      "sortid": 57,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shadow_power_beim_trank_aktivierter_tick",
@@ -1172,7 +1151,7 @@
     {
       "name": "ShadowPower",
       "type": "potioneffect",
-      "sortid": 58,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shadow_power",
@@ -1186,7 +1165,7 @@
     {
       "name": "ShadowPowerKeyBeiTastendruck",
       "type": "procedure",
-      "sortid": 59,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shadow_power_key_bei_tastendruck",
@@ -1222,7 +1201,7 @@
     {
       "name": "ShadowPowerKey",
       "type": "keybind",
-      "sortid": 60,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shadow_power_key",
@@ -1236,7 +1215,7 @@
     {
       "name": "ShadowPowerWennEffektStartetangewendetWird",
       "type": "procedure",
-      "sortid": 61,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shadow_power_wenn_effekt_startetangewendet_wird",
@@ -1256,7 +1235,7 @@
     {
       "name": "ShadowWarrior",
       "type": "potioneffect",
-      "sortid": 62,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shadow_warrior",
@@ -1270,7 +1249,7 @@
     {
       "name": "NoCooldowns",
       "type": "gamerule",
-      "sortid": 63,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aow_no_cooldowns",
@@ -1283,7 +1262,7 @@
     {
       "name": "NoCooldownsP",
       "type": "procedure",
-      "sortid": 64,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "no_cooldowns_p",
@@ -1307,7 +1286,7 @@
     {
       "name": "JungleTempleTreasure",
       "type": "lootmodifier",
-      "sortid": 66,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jungle_temple_treasure",
@@ -1321,7 +1300,7 @@
     {
       "name": "StrongholdLibraryChest",
       "type": "lootmodifier",
-      "sortid": 67,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stronghold_library_chest",
@@ -1335,7 +1314,7 @@
     {
       "name": "WoodlandMansionChest",
       "type": "lootmodifier",
-      "sortid": 68,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "woodland_mansion_chest",
@@ -1349,7 +1328,7 @@
     {
       "name": "StrongholdLibraryChestExtra",
       "type": "loottable",
-      "sortid": 69,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stronghold_library_chest_extra",
@@ -1363,7 +1342,7 @@
     {
       "name": "JungleTempleChestExtra",
       "type": "loottable",
-      "sortid": 70,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jungle_temple_chest_extra",
@@ -1377,7 +1356,7 @@
     {
       "name": "WoodlandMansionChestExtra",
       "type": "loottable",
-      "sortid": 71,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "woodland_mansion_chest_extra",
@@ -1391,7 +1370,7 @@
     {
       "name": "LVL80",
       "type": "procedure",
-      "sortid": 74,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lvl_80",
@@ -1427,7 +1406,7 @@
     {
       "name": "LVL100",
       "type": "procedure",
-      "sortid": 75,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lvl_100",
@@ -1463,7 +1442,7 @@
     {
       "name": "ArcanaPlainsWennSpielerDimensionBetritt",
       "type": "procedure",
-      "sortid": 76,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcana_plains_wenn_spieler_dimension_betritt",
@@ -1483,7 +1462,7 @@
     {
       "name": "ArcanaPlainsWennSpielerDimensionVerlasst",
       "type": "procedure",
-      "sortid": 77,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcana_plains_wenn_spieler_dimension_verlasst",
@@ -1503,7 +1482,7 @@
     {
       "name": "ArcanaPlains",
       "type": "dimension",
-      "sortid": 78,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcana_plains",
@@ -1519,7 +1498,7 @@
     {
       "name": "GraceoftheArcanaBeimTrankAktivierterTick",
       "type": "procedure",
-      "sortid": 79,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "graceofthe_arcana_beim_trank_aktivierter_tick",
@@ -1539,7 +1518,7 @@
     {
       "name": "GraceoftheArcanaWennEffektStartetangewendetWird",
       "type": "procedure",
-      "sortid": 80,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "graceofthe_arcana_wenn_effekt_startetangewendet_wird",
@@ -1575,7 +1554,7 @@
     {
       "name": "GraceoftheArcanaWennDerEffektAblauft",
       "type": "procedure",
-      "sortid": 81,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "graceofthe_arcana_wenn_der_effekt_ablauft",
@@ -1611,7 +1590,7 @@
     {
       "name": "GraceoftheArcana",
       "type": "potioneffect",
-      "sortid": 82,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grace_of_the_arcana",
@@ -1625,7 +1604,7 @@
     {
       "name": "GraceOfTheArcanaUnvulnarable",
       "type": "procedure",
-      "sortid": 83,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grace_of_the_arcana_unvulnarable",
@@ -1661,7 +1640,7 @@
     {
       "name": "ArcanaWisdom",
       "type": "potioneffect",
-      "sortid": 84,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcana_wisdom",
@@ -1675,7 +1654,7 @@
     {
       "name": "ArcanaWisdomBeimTrankAktivierterTick",
       "type": "procedure",
-      "sortid": 85,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcana_wisdom_beim_trank_aktivierter_tick",
@@ -1695,7 +1674,7 @@
     {
       "name": "ArcanaDimensionEnterBeiTastendruck",
       "type": "procedure",
-      "sortid": 86,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcana_dimension_enter_bei_tastendruck",
@@ -1719,7 +1698,7 @@
     {
       "name": "ArcanaDimensionEnter",
       "type": "keybind",
-      "sortid": 87,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcana_dimension_enter",
@@ -1733,7 +1712,7 @@
     {
       "name": "ArcanaWisdomCooldownBeimTrankAktivierterTick",
       "type": "procedure",
-      "sortid": 88,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcana_wisdom_cooldown_beim_trank_aktivierter_tick",
@@ -1753,7 +1732,7 @@
     {
       "name": "ArcanaWisdomCooldownWennDerEffektAblauft",
       "type": "procedure",
-      "sortid": 89,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcana_wisdom_cooldown_wenn_der_effekt_ablauft",
@@ -1773,7 +1752,7 @@
     {
       "name": "ArcanaWisdomCooldown",
       "type": "potioneffect",
-      "sortid": 90,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcana_wisdom_cooldown",
@@ -1787,7 +1766,7 @@
     {
       "name": "ArcanaPlainsBiome",
       "type": "biome",
-      "sortid": 91,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcana_plains_biome",
@@ -1801,7 +1780,7 @@
     {
       "name": "ArcanaRiversBiome",
       "type": "biome",
-      "sortid": 92,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcana_rivers_biome",
@@ -1820,7 +1799,7 @@
     {
       "name": "ArcanaDimensionRules",
       "type": "procedure",
-      "sortid": 93,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcana_dimension_rules",
@@ -1840,7 +1819,7 @@
     {
       "name": "UpdateEffectsAfterDeath",
       "type": "procedure",
-      "sortid": 94,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "update_effects_after_death",
@@ -1876,7 +1855,7 @@
     {
       "name": "ShadowPowerWennEffektAufhoert",
       "type": "procedure",
-      "sortid": 95,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shadow_power_wenn_effekt_aufhoert",
@@ -1900,7 +1879,7 @@
     {
       "name": "ShadowWarriorOnEffectActiveTick",
       "type": "procedure",
-      "sortid": 96,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shadow_warrior_on_effect_active_tick",
@@ -1920,7 +1899,7 @@
     {
       "name": "FakeWaterDeactivateFallDamage",
       "type": "procedure",
-      "sortid": 97,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fake_water_or_lava_deactivate_fall_damage",
@@ -1956,7 +1935,7 @@
     {
       "name": "ActivateAllButton",
       "type": "procedure",
-      "sortid": 113,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "activate_all_button",
@@ -1976,7 +1955,7 @@
     {
       "name": "DeactivateAllButton",
       "type": "procedure",
-      "sortid": 114,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "deactivate_all_button",
@@ -1996,7 +1975,7 @@
     {
       "name": "LVLEffectsGUI",
       "type": "gui",
-      "sortid": 115,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lvl_effects_gui",
@@ -2012,7 +1991,7 @@
     {
       "name": "OpenLVLEffectsGUI",
       "type": "procedure",
-      "sortid": 116,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "open_lvl_effects_gui",
@@ -2048,7 +2027,7 @@
     {
       "name": "CloseGUIs",
       "type": "procedure",
-      "sortid": 117,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "close_gu_is",
@@ -2068,7 +2047,7 @@
     {
       "name": "ButtonsGUI",
       "type": "gui",
-      "sortid": 118,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "buttons_gui",
@@ -2084,7 +2063,7 @@
     {
       "name": "OpenButtonsGUI",
       "type": "procedure",
-      "sortid": 119,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "open_buttons_gui",
@@ -2120,7 +2099,7 @@
     {
       "name": "ButtonsGUIShadowPower",
       "type": "procedure",
-      "sortid": 120,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "buttons_gui_shadow_power",
@@ -2136,7 +2115,7 @@
     {
       "name": "ButtonsGUIArcanaDimension",
       "type": "procedure",
-      "sortid": 121,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "buttons_gui_arcana_dimension",
@@ -2152,7 +2131,7 @@
     {
       "name": "ArcanaDimensionMobRules",
       "type": "procedure",
-      "sortid": 122,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcana_dimension_mob_rules",
@@ -2167,7 +2146,7 @@
     {
       "name": "ArcanaDimension",
       "type": "gamerule",
-      "sortid": 123,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aow_arcana_dimension",
@@ -2180,7 +2159,7 @@
     {
       "name": "ThePathofWisdom",
       "type": "achievement",
-      "sortid": 124,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_pathof_wisdom",
@@ -2194,7 +2173,7 @@
     {
       "name": "RecruitoftheWise",
       "type": "achievement",
-      "sortid": 125,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recruitofthe_wise",
@@ -2208,7 +2187,7 @@
     {
       "name": "RecruitoftheWiseP",
       "type": "procedure",
-      "sortid": 126,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recruitofthe_wise_p",
@@ -2244,7 +2223,7 @@
     {
       "name": "Discoveryofexpandedpowers",
       "type": "achievement",
-      "sortid": 127,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "discoveryofexpandedpowers",
@@ -2258,7 +2237,7 @@
     {
       "name": "Thediscoveryoftruestrenght",
       "type": "achievement",
-      "sortid": 128,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thediscoveryoftruestrenght",
@@ -2272,7 +2251,7 @@
     {
       "name": "MasterofWisdom",
       "type": "achievement",
-      "sortid": 129,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "masterof_wisdom",
@@ -2286,7 +2265,7 @@
     {
       "name": "ThePathofWisdomP",
       "type": "procedure",
-      "sortid": 130,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_pathof_wisdom_p",
@@ -2306,7 +2285,7 @@
     {
       "name": "DiscoveryofexpandedpowersP",
       "type": "procedure",
-      "sortid": 131,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "discoveryofexpandedpowers_p",
@@ -2326,7 +2305,7 @@
     {
       "name": "ThediscoveryoftruestrenghtP",
       "type": "procedure",
-      "sortid": 132,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thediscoveryoftruestrenght_p",
@@ -2346,7 +2325,7 @@
     {
       "name": "MasterofWisdomP",
       "type": "procedure",
-      "sortid": 133,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "masterof_wisdom_p",
@@ -2366,7 +2345,7 @@
     {
       "name": "Outoftheshadows",
       "type": "achievement",
-      "sortid": 134,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "outoftheshadows",
@@ -2380,7 +2359,7 @@
     {
       "name": "OutoftheshadowsP",
       "type": "procedure",
-      "sortid": 135,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "outoftheshadows_p",
@@ -2400,7 +2379,7 @@
     {
       "name": "Controloverliquids",
       "type": "achievement",
-      "sortid": 136,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controloverliquids",
@@ -2414,7 +2393,7 @@
     {
       "name": "ControloverliquidsP",
       "type": "procedure",
-      "sortid": 137,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "controloverliquids_p",
@@ -2434,7 +2413,7 @@
     {
       "name": "MasteroftheArcana",
       "type": "achievement",
-      "sortid": 138,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "masterofthe_arcana",
@@ -2448,7 +2427,7 @@
     {
       "name": "MasteroftheArcanaP",
       "type": "procedure",
-      "sortid": 139,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "masterofthe_arcana_p",
@@ -2468,7 +2447,7 @@
     {
       "name": "LVLEffectsOn",
       "type": "procedure",
-      "sortid": 140,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lvl_effects_on",
@@ -2492,7 +2471,7 @@
     {
       "name": "LVLEffectsOff",
       "type": "procedure",
-      "sortid": 141,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lvl_effects_off",
@@ -2512,7 +2491,7 @@
     {
       "name": "LVLEffectsOnDisplayCondition",
       "type": "procedure",
-      "sortid": 142,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lvl_effects_on_display_condition",
@@ -2537,7 +2516,7 @@
     {
       "name": "LVLEffectsOffDisplayCondition",
       "type": "procedure",
-      "sortid": 143,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lvl_effects_off_display_condition",
@@ -2562,7 +2541,7 @@
     {
       "name": "LVLEffectsStatus",
       "type": "procedure",
-      "sortid": 144,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lvl_effects_status",
@@ -2583,7 +2562,7 @@
     {
       "name": "AOWLevelEffects",
       "type": "gamerule",
-      "sortid": 145,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aow_level_effects",
@@ -2596,7 +2575,7 @@
     {
       "name": "LVLEffectsWarningDisplayCondition",
       "type": "procedure",
-      "sortid": 146,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lvl_effects_warning_display_condition",
@@ -2617,7 +2596,7 @@
     {
       "name": "ArcanaCherryGroveBiome",
       "type": "biome",
-      "sortid": 147,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcana_cherry_grove_biome",
@@ -2631,7 +2610,7 @@
     {
       "name": "ArcanaCherryGroveBiomeFlowersFeature",
       "type": "feature",
-      "sortid": 148,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcana_cherry_grove_biome_flowers_feature",
@@ -2647,7 +2626,7 @@
     {
       "name": "ArcanaCherryGroveBiomeFlowersFeature2",
       "type": "feature",
-      "sortid": 149,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcana_cherry_grove_biome_flowers_feature_2",
@@ -2663,7 +2642,7 @@
     {
       "name": "ArcanaCherryGroveBiomeFlowersFeature3",
       "type": "feature",
-      "sortid": 150,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcana_cherry_grove_biome_flowers_feature_3",
@@ -2679,7 +2658,7 @@
     {
       "name": "SkillTreeWaterRacerButton",
       "type": "procedure",
-      "sortid": 151,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skill_tree_water_racer_button",
@@ -2699,7 +2678,7 @@
     {
       "name": "SkillTreeLavaRacerButton",
       "type": "procedure",
-      "sortid": 152,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skill_tree_lava_racer_button",
@@ -2719,7 +2698,7 @@
     {
       "name": "SkillTreeShadowPowerButton",
       "type": "procedure",
-      "sortid": 153,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skill_tree_shadow_power_button",
@@ -2739,7 +2718,7 @@
     {
       "name": "SkillTreeArcanumDimensionButton",
       "type": "procedure",
-      "sortid": 154,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skill_tree_arcanum_dimension_button",
@@ -2759,7 +2738,7 @@
     {
       "name": "ArcanaRiversBiomeRiverFeature",
       "type": "feature",
-      "sortid": 155,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcana_rivers_biome_river_feature",
@@ -2775,7 +2754,7 @@
     {
       "name": "ArcanaPlainsBiomeFeature",
       "type": "feature",
-      "sortid": 156,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcana_plains_biome_feature",
@@ -2791,7 +2770,7 @@
     {
       "name": "ArcanaPlainsBiomeFeature1",
       "type": "feature",
-      "sortid": 157,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arcana_plains_biome_feature_1",
@@ -2807,7 +2786,7 @@
     {
       "name": "NightHunterOnEffectActiveTick",
       "type": "procedure",
-      "sortid": 158,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "night_hunter_on_effect_active_tick",
@@ -2843,7 +2822,7 @@
     {
       "name": "NightHunter",
       "type": "potioneffect",
-      "sortid": 159,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "night_hunter",
@@ -2857,7 +2836,7 @@
     {
       "name": "SkillTreeNightHunterButton",
       "type": "procedure",
-      "sortid": 160,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skill_tree_night_hunter_button",
@@ -2877,7 +2856,7 @@
     {
       "name": "StartupInfoMessageClientsideP",
       "type": "procedure",
-      "sortid": 161,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "startup_info_message_clientside_p",
@@ -2913,7 +2892,7 @@
     {
       "name": "StartupInfoMessageServersideP",
       "type": "procedure",
-      "sortid": 162,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "startup_info_message_serverside_p",
@@ -2928,7 +2907,7 @@
     {
       "name": "Aowsmenable",
       "type": "command",
-      "sortid": 163,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aowsmenable",
@@ -2942,7 +2921,7 @@
     {
       "name": "AowsmenableP",
       "type": "procedure",
-      "sortid": 164,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aowsmenable_p",
@@ -2962,7 +2941,7 @@
     {
       "name": "WisdomOverlayIngameMenu",
       "type": "overlay",
-      "sortid": 166,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wisdom_overlay_ingame_menu",
@@ -2972,6 +2951,1009 @@
         ]
       },
       "path": "~/TalentUebersicht/Overlay"
+    },
+    {
+      "name": "ArtifactOfLife",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "artifact_of_life",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/arcanum_of_wisdom/models/item/artifact_of_life.json",
+          "src/main/java/net/bcm/arcanumofwisdom/item/ArtifactOfLifeItem.java"
+        ]
+      },
+      "path": "~/Items/Artifacts/ArtifactOfLife"
+    },
+    {
+      "name": "ArtifactOfMaterials",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "artifact_of_materials",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/arcanum_of_wisdom/models/item/artifact_of_materials.json",
+          "src/main/java/net/bcm/arcanumofwisdom/item/ArtifactOfMaterialsItem.java"
+        ]
+      },
+      "path": "~/Items/Artifacts/ArtifactOfMaterials"
+    },
+    {
+      "name": "ArtifactOfFluids",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "artifact_of_fluids",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bcm/arcanumofwisdom/item/ArtifactOfFluidsItem.java",
+          "src/main/resources/assets/arcanum_of_wisdom/models/item/artifact_of_fluids.json"
+        ]
+      },
+      "path": "~/Items/Artifacts/ArtifactOfFluids"
+    },
+    {
+      "name": "ArtifactOfMagic",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "artifact_of_magic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bcm/arcanumofwisdom/item/ArtifactOfMagicItem.java",
+          "src/main/resources/assets/arcanum_of_wisdom/models/item/artifact_of_magic.json"
+        ]
+      },
+      "path": "~/Items/Artifacts/ArtifactOfMagic"
+    },
+    {
+      "name": "ArtifactOfDimensions",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "artifact_of_dimensions",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bcm/arcanumofwisdom/item/ArtifactOfDimensionsItem.java",
+          "src/main/resources/assets/arcanum_of_wisdom/models/item/artifact_of_dimensions.json"
+        ]
+      },
+      "path": "~/Items/Artifacts/ArtifactOfDimensions"
+    },
+    {
+      "name": "KreativtabAOW",
+      "type": "tab",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kreativtab_aow",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Kreativtab"
+    },
+    {
+      "name": "BuriedTreasureChestExtra",
+      "type": "loottable",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buried_treasure_chest_extra",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcanum_of_wisdom/loot_tables/chests/buried_treasure.json"
+        ]
+      },
+      "path": "~/Loottables and Lootmodifier/Loottables/Loottable Extras"
+    },
+    {
+      "name": "UnderwaterRuinBigChestExtra",
+      "type": "loottable",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "underwater_ruin_big_chest_extra",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcanum_of_wisdom/loot_tables/chests/underwater_ruin_big.json"
+        ]
+      },
+      "path": "~/Loottables and Lootmodifier/Loottables/Loottable Extras"
+    },
+    {
+      "name": "VillageToolsmithChestExtra",
+      "type": "loottable",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "village_toolsmith_chest_extra",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcanum_of_wisdom/loot_tables/chests/village/village_toolsmith.json"
+        ]
+      },
+      "path": "~/Loottables and Lootmodifier/Loottables/Loottable Extras"
+    },
+    {
+      "name": "VillagerClericGift",
+      "type": "loottable",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villager_cleric_gift",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcanum_of_wisdom/loot_tables/gameplay/hero_of_the_village/cleric_gift.json"
+        ]
+      },
+      "path": "~/Loottables and Lootmodifier/Loottables/Loottable Extras"
+    },
+    {
+      "name": "VillagerToolsmithGift",
+      "type": "loottable",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villager_toolsmith_gift",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcanum_of_wisdom/loot_tables/gameplay/hero_of_the_village/toolsmith_gift.json"
+        ]
+      },
+      "path": "~/Loottables and Lootmodifier/Loottables/Loottable Extras"
+    },
+    {
+      "name": "VillagerLibrarianGift",
+      "type": "loottable",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villager_librarian_gift",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcanum_of_wisdom/loot_tables/gameplay/hero_of_the_village/librarian_gift.json"
+        ]
+      },
+      "path": "~/Loottables and Lootmodifier/Loottables/Loottable Extras"
+    },
+    {
+      "name": "VillagerWeaponsmithGift",
+      "type": "loottable",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villager_weaponsmith_gift",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcanum_of_wisdom/loot_tables/gameplay/hero_of_the_village/weaponsmith_gift.json"
+        ]
+      },
+      "path": "~/Loottables and Lootmodifier/Loottables/Loottable Extras"
+    },
+    {
+      "name": "BuriedTreasureChest",
+      "type": "lootmodifier",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buried_treasure_chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcanum_of_wisdom/loot_modifiers/buried_treasure_chest.json"
+        ]
+      },
+      "path": "~/Loottables and Lootmodifier/Lootmodifiers"
+    },
+    {
+      "name": "UnderwaterRuinBigChest",
+      "type": "lootmodifier",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "underwater_ruin_big_chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcanum_of_wisdom/loot_modifiers/underwater_ruin_big_chest.json"
+        ]
+      },
+      "path": "~/Loottables and Lootmodifier/Lootmodifiers"
+    },
+    {
+      "name": "VillageToolsmithChest",
+      "type": "lootmodifier",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "village_toolsmith_chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcanum_of_wisdom/loot_modifiers/village_toolsmith_chest.json"
+        ]
+      },
+      "path": "~/Loottables and Lootmodifier/Lootmodifiers"
+    },
+    {
+      "name": "VillagerClericGiftP",
+      "type": "lootmodifier",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villager_cleric_gift_p",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcanum_of_wisdom/loot_modifiers/villager_cleric_gift_p.json"
+        ]
+      },
+      "path": "~/Loottables and Lootmodifier/Lootmodifiers"
+    },
+    {
+      "name": "VillagerToolsmithGiftP",
+      "type": "lootmodifier",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villager_toolsmith_gift_p",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcanum_of_wisdom/loot_modifiers/villager_toolsmith_gift_p.json"
+        ]
+      },
+      "path": "~/Loottables and Lootmodifier/Lootmodifiers"
+    },
+    {
+      "name": "VillagerWeaponsmithGiftP",
+      "type": "lootmodifier",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villager_weaponsmith_gift_p",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcanum_of_wisdom/loot_modifiers/villager_weaponsmith_gift_p.json"
+        ]
+      },
+      "path": "~/Loottables and Lootmodifier/Lootmodifiers"
+    },
+    {
+      "name": "VillagerLibrarianGiftP",
+      "type": "lootmodifier",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villager_librarian_gift_p",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcanum_of_wisdom/loot_modifiers/villager_librarian_gift_p.json"
+        ]
+      },
+      "path": "~/Loottables and Lootmodifier/Lootmodifiers"
+    },
+    {
+      "name": "Artifactlaboratorytablegui",
+      "type": "gui",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "artifactlaboratorytablegui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bcm/arcanumofwisdom/client/gui/ArtifactlaboratorytableguiScreen.java",
+          "src/main/java/net/bcm/arcanumofwisdom/network/ArtifactlaboratorytableguiButtonMessage.java",
+          "src/main/java/net/bcm/arcanumofwisdom/world/inventory/ArtifactlaboratorytableguiMenu.java"
+        ]
+      },
+      "path": "~/Bloecke/artifact laboratory table"
+    },
+    {
+      "name": "Artifactlaboratorytable",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "artifactlaboratorytable",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bcm/arcanumofwisdom/block/entity/ArtifactlaboratorytableBlockEntity.java",
+          "src/main/resources/assets/arcanum_of_wisdom/models/item/artifactlaboratorytable.json",
+          "src/main/resources/assets/arcanum_of_wisdom/blockstates/artifactlaboratorytable.json",
+          "src/main/resources/assets/arcanum_of_wisdom/models/block/artifactlaboratorytable.json",
+          "src/main/java/net/bcm/arcanumofwisdom/block/ArtifactlaboratorytableBlock.java",
+          "src/main/resources/data/arcanum_of_wisdom/loot_tables/blocks/artifactlaboratorytable.json"
+        ]
+      },
+      "path": "~/Bloecke/artifact laboratory table"
+    },
+    {
+      "name": "ALTCombineGUIP",
+      "type": "procedure",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alt_combine_guip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bcm/arcanumofwisdom/procedures/ALTCombineGUIPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Bloecke/artifact laboratory table/CombineFunktionALT"
+    },
+    {
+      "name": "ALTResearchGUIP",
+      "type": "procedure",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alt_research_guip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bcm/arcanumofwisdom/procedures/ALTResearchGUIPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Bloecke/artifact laboratory table/ResearchFunktionALT"
+    },
+    {
+      "name": "ALTResearchGUI",
+      "type": "gui",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alt_research_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bcm/arcanumofwisdom/world/inventory/ALTResearchGUIMenu.java",
+          "src/main/java/net/bcm/arcanumofwisdom/client/gui/ALTResearchGUIScreen.java",
+          "src/main/java/net/bcm/arcanumofwisdom/network/ALTResearchGUIButtonMessage.java"
+        ]
+      },
+      "path": "~/Bloecke/artifact laboratory table/ResearchFunktionALT"
+    },
+    {
+      "name": "ALTCombineGUI",
+      "type": "gui",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alt_combine_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bcm/arcanumofwisdom/network/ALTCombineGUIButtonMessage.java",
+          "src/main/java/net/bcm/arcanumofwisdom/world/inventory/ALTCombineGUIMenu.java",
+          "src/main/java/net/bcm/arcanumofwisdom/client/gui/ALTCombineGUIScreen.java"
+        ]
+      },
+      "path": "~/Bloecke/artifact laboratory table/CombineFunktionALT"
+    },
+    {
+      "name": "ALTRecipe",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcanum_of_wisdom/recipes/alt_recipe.json"
+        ]
+      },
+      "path": "~/Bloecke/artifact laboratory table"
+    },
+    {
+      "name": "CombinedArtifact",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "combined_artifact",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/arcanum_of_wisdom/models/item/combined_artifact.json",
+          "src/main/java/net/bcm/arcanumofwisdom/item/CombinedArtifactItem.java"
+        ]
+      },
+      "path": "~/Items/Artifacts/CombinedArtifact"
+    },
+    {
+      "name": "ALTCombineGUIWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alt_combine_gui_while_this_gui_is_open_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bcm/arcanumofwisdom/procedures/ALTCombineGUIWhileThisGUIIsOpenTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Bloecke/artifact laboratory table/CombineFunktionALT"
+    },
+    {
+      "name": "ALTCombineWorkP",
+      "type": "procedure",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alt_combine_work_p",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bcm/arcanumofwisdom/procedures/ALTCombineWorkPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Bloecke/artifact laboratory table/CombineFunktionALT"
+    },
+    {
+      "name": "ALTCombineGUIThisGUIIsOpened",
+      "type": "procedure",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alt_combine_gui_this_gui_is_opened",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bcm/arcanumofwisdom/procedures/ALTCombineGUIThisGUIIsOpenedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Bloecke/artifact laboratory table/CombineFunktionALT"
+    },
+    {
+      "name": "ArtifactOfLifeRightclicked",
+      "type": "procedure",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "artifact_of_life_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bcm/arcanumofwisdom/procedures/ArtifactOfLifeRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Artifacts/ArtifactOfLife"
+    },
+    {
+      "name": "ArtifactOfMaterialsRightclicked",
+      "type": "procedure",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "artifact_of_materials_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bcm/arcanumofwisdom/procedures/ArtifactOfMaterialsRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Artifacts/ArtifactOfMaterials"
+    },
+    {
+      "name": "ArtifactOfFluidsRightclicked",
+      "type": "procedure",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "artifact_of_fluids_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bcm/arcanumofwisdom/procedures/ArtifactOfFluidsRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Artifacts/ArtifactOfFluids"
+    },
+    {
+      "name": "ArtifactOfMagicRightclicked",
+      "type": "procedure",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "artifact_of_magic_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bcm/arcanumofwisdom/procedures/ArtifactOfMagicRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Artifacts/ArtifactOfMagic"
+    },
+    {
+      "name": "ArtifactOfDimensionsGUI",
+      "type": "gui",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "artifact_of_dimensions_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bcm/arcanumofwisdom/network/ArtifactOfDimensionsGUIButtonMessage.java",
+          "src/main/java/net/bcm/arcanumofwisdom/client/gui/ArtifactOfDimensionsGUIScreen.java",
+          "src/main/java/net/bcm/arcanumofwisdom/world/inventory/ArtifactOfDimensionsGUIMenu.java"
+        ]
+      },
+      "path": "~/Items/Artifacts/ArtifactOfDimensions"
+    },
+    {
+      "name": "ArtifactOfDimensionsNetherTravel",
+      "type": "procedure",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "artifact_of_dimensions_nether_travel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bcm/arcanumofwisdom/procedures/ArtifactOfDimensionsNetherTravelProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Artifacts/ArtifactOfDimensions"
+    },
+    {
+      "name": "ArtifactOfDimensionsEndTravel",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "artifact_of_dimensions_end_travel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bcm/arcanumofwisdom/procedures/ArtifactOfDimensionsEndTravelProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Artifacts/ArtifactOfDimensions"
+    },
+    {
+      "name": "ArtifactOfDimensionsOverworldTravel",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "artifact_of_dimensions_overworld_travel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bcm/arcanumofwisdom/procedures/ArtifactOfDimensionsOverworldTravelProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Artifacts/ArtifactOfDimensions"
+    },
+    {
+      "name": "ArtifactOfDimensionsGUIP",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "artifact_of_dimensions_guip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bcm/arcanumofwisdom/procedures/ArtifactOfDimensionsGUIPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Artifacts/ArtifactOfDimensions"
+    },
+    {
+      "name": "NetheriteArtifactSword",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "netherite_artifact_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bcm/arcanumofwisdom/item/NetheriteArtifactSwordItem.java",
+          "src/main/resources/assets/arcanum_of_wisdom/models/item/netherite_artifact_sword.json"
+        ]
+      },
+      "path": "~/Items/Netherite Artifact Sword"
+    },
+    {
+      "name": "NetheriteArtifactSwordHasItemGlowingEffect",
+      "type": "procedure",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_artifact_sword_has_item_glowing_effect",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/bcm/arcanumofwisdom/procedures/NetheriteArtifactSwordHasItemGlowingEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/Netherite Artifact Sword"
+    },
+    {
+      "name": "NetheriteArtifactSwordEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_artifact_sword_entity_swings_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bcm/arcanumofwisdom/procedures/NetheriteArtifactSwordEntitySwingsItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Netherite Artifact Sword"
+    },
+    {
+      "name": "CombinedArtifactTrade",
+      "type": "villagertrade",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "combined_artifact_trade",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Trades"
+    },
+    {
+      "name": "ALTResearchGUIWorkP",
+      "type": "procedure",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alt_research_gui_work_p",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bcm/arcanumofwisdom/procedures/ALTResearchGUIWorkPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Bloecke/artifact laboratory table/ResearchFunktionALT"
+    },
+    {
+      "name": "ALTGUIsBackButtonP",
+      "type": "procedure",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altgu_is_back_button_p",
+      "metadata": {
+        "files": [
+          "src/main/java/net/bcm/arcanumofwisdom/procedures/ALTGUIsBackButtonPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Bloecke/artifact laboratory table"
     }
   ],
   "variable_elements": [
@@ -3064,6 +4046,12 @@
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
+    },
+    {
+      "name": "ALTCombineWork",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
     }
   ],
   "sound_elements": [],
@@ -3071,9 +4059,40 @@
     "BIOMES:minecraft:has_structure/ruined_portal_jungle": [
       "~CUSTOM:ArcanaCherryGroveBiome"
     ],
+    "BIOMES:mod:biomes": [
+      "CUSTOM:ArcanaCherryGroveBiome",
+      "CUSTOM:ArcanaPlainsBiome",
+      "CUSTOM:ArcanaRiversBiome"
+    ],
+    "ITEMS:mod:artifacts": [
+      "CUSTOM:ArtifactOfLife",
+      "CUSTOM:ArtifactOfMaterials",
+      "CUSTOM:ArtifactOfFluids",
+      "CUSTOM:ArtifactOfMagic",
+      "CUSTOM:ArtifactOfDimensions",
+      "CUSTOM:CombinedArtifact"
+    ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~Blocks.DIRT#0",
       "~Blocks.GRASS"
+    ],
+    "BLOCKS:mod:blocks": [
+      "CUSTOM:FakeWater",
+      "CUSTOM:FakeLava",
+      "CUSTOM:Artifactlaboratorytable"
+    ],
+    "ITEMS:mod:items": [
+      "CUSTOM:ArtifactOfLife",
+      "CUSTOM:ArtifactOfMaterials",
+      "CUSTOM:ArtifactOfFluids",
+      "CUSTOM:ArtifactOfMagic",
+      "CUSTOM:ArtifactOfDimensions",
+      "CUSTOM:CombinedArtifact",
+      "CUSTOM:HolyBranch",
+      "CUSTOM:NetheriteArtifactSword",
+      "CUSTOM:FakeWater",
+      "CUSTOM:FakeLava",
+      "CUSTOM:Artifactlaboratorytable"
     ]
   },
   "language_map": {
@@ -3082,7 +4101,9 @@
       "death.attack.holy_branch_ult": "%1$s was shattered by holy forces",
       "gui.arcanum_of_wisdom.aow_settings_gui.button_left": "Left",
       "key.arcanum_of_wisdom.arcana_dimension_enter": "Arcana: Enter the Arcana Dimension",
+      "item.arcanum_of_wisdom.combined_artifact": "Combined Artifact",
       "gui.arcanum_of_wisdom.aow_settings_gui.label_only_in1": "Only in",
+      "gui.arcanum_of_wisdom.artifactlaboratorytablegui.button_combine": "Combine",
       "gamerule.aOWLevelEffects.description": "Every wisdom level has certain extra superpowers, such as more speed or luck. This can be very significant. TRUE\u003dActivated FALSE\u003dDeactivated",
       "gui.arcanum_of_wisdom.aow_settings_gui.button_toggle1": "Toggle",
       "gui.arcanum_of_wisdom.skill_tree.button_lvl50": "LVL50",
@@ -3095,26 +4116,32 @@
       "gui.arcanum_of_wisdom.aow_settings_gui.label_and_shadow_worrior": "and Shadow Warrior Abilities",
       "gui.arcanum_of_wisdom.skill_tree.button_activate_all": "Activate all",
       "gui.arcanum_of_wisdom.lvl_effects_gui.button_lvl80": "LVL80",
+      "gui.arcanum_of_wisdom.artifactlaboratorytablegui.tooltip_you_can_study_artifacts_to_imple": "You can study artifacts to implement them into weapons to strengthen them.",
       "gui.arcanum_of_wisdom.lvl_effects_gui.button_lava_racer": "Lava Racer",
       "gui.arcanum_of_wisdom.aow_settings_gui.label_creative_mode": "creative mode",
       "advancements.recruitofthe_wise.descr": "Earn your first 20 wisdom points.",
+      "item.arcanum_of_wisdom.artifact_of_fluids": "Artifact of fluids",
       "item.arcanum_of_wisdom.holy_branch": "Holy Branch",
       "gui.arcanum_of_wisdom.lvl_effects_gui.label_status": "Status:",
+      "gui.arcanum_of_wisdom.artifactlaboratorytablegui.tooltip_you_can_combine_all_5_artifacts": "You can combine all 5 artifacts to one very strong artifact.",
       "gui.arcanum_of_wisdom.skill_tree.button_lvl_50": "LVL 50",
       "gui.arcanum_of_wisdom.aow_settings_gui.button_right": "Right",
       "biome.arcanum_of_wisdom.arcana_plains_biome": "Arcana Plains Biome",
       "gui.arcanum_of_wisdom.aow_settings_gui.button_reset1": "Reset",
+      "item_group.arcanum_of_wisdom.kreativtab_aow": "Arcanum of wisdom",
       "gui.arcanum_of_wisdom.buttons_gui.button_lvl10": "LVL10",
       "gui.arcanum_of_wisdom.buttons_gui.label_shadow_warrior": "Shadow Power:",
       "gui.arcanum_of_wisdom.lvl_effects_gui.label_empty": "LVL Effects deactivated!",
       "gui.arcanum_of_wisdom.lvl_effects_gui.button_arcana_dimension": "Arcana Dimension",
       "gui.arcanum_of_wisdom.lvl_effects_gui.button_on": "On",
+      "gui.arcanum_of_wisdom.artifact_of_dimensions_gui.tooltip_please_read_the_information_befo": "Please read the information before teleporting!",
       "effect.arcanum_of_wisdom.wisdom": "Wisdom",
       "gui.arcanum_of_wisdom.skill_tree.button_lvl_effects": "LVL Effects",
       "effect.arcanum_of_wisdom.arcana_wisdom": "Arcana Wisdom",
-      "gui.arcanum_of_wisdom.skill_tree.button_arcana_dimension": "Arcana Dimension",
       "gui.arcanum_of_wisdom.buttons_gui.label_arcana_dimension": "Arcana Dimension:",
+      "gui.arcanum_of_wisdom.skill_tree.button_arcana_dimension": "Arcana Dimension",
       "gui.arcanum_of_wisdom.buttons_gui.button_off": "Off",
+      "item.arcanum_of_wisdom.artifact_of_life": "Artifact of life",
       "gui.arcanum_of_wisdom.aow_settings_gui.button_toggle": "Toggle",
       "advancements.masterof_wisdom.descr": "Earn your first 100 wisdom points.",
       "gui.arcanum_of_wisdom.buttons_gui.label_default_b": "Default: B",
@@ -3126,16 +4153,20 @@
       "gui.arcanum_of_wisdom.lvl_effects_gui.button_lvl_5": "LVL 5",
       "gui.arcanum_of_wisdom.skill_tree.button_lava_racer": "Lava Racer",
       "advancements.controloverliquids.title": "Control over liquids",
+      "gui.arcanum_of_wisdom.alt_combine_gui.tooltip_dont_close_this_window_while_yo": "Don´t close this window while you are working or your artifacts will be gone!",
       "effect.arcanum_of_wisdom.shadow_power": "Shadow Power",
       "gui.arcanum_of_wisdom.skill_tree.button_deactivate_all": "Deactivate all",
       "gui.arcanum_of_wisdom.aow_settings_gui.label_overlay_side": "Toggle Overlay side",
       "gui.arcanum_of_wisdom.lvl_effects_gui.button_activate_all": "Activate all",
       "effect.arcanum_of_wisdom.night_hunter": "Night Hunter",
+      "item.arcanum_of_wisdom.artifact_of_materials": "Artifact of materials",
       "block.arcanum_of_wisdom.fake_lava": "Fake Lava Block",
       "gui.arcanum_of_wisdom.skill_tree.button_lvl_5": "LVL 5",
       "gui.arcanum_of_wisdom.aow_settings_gui.label_show_overlay": "Toggle Overlay",
       "gui.arcanum_of_wisdom.buttons_gui.button_lvl80": "LVL80",
+      "item.arcanum_of_wisdom.netherite_artifact_sword": "Netherite Artifact Sword",
       "gui.arcanum_of_wisdom.aow_settings_gui.label_only_in": "Only in",
+      "gui.arcanum_of_wisdom.artifactlaboratorytablegui.button_research": "Research",
       "key.arcanum_of_wisdom.talent_uebersicht": "Open AoW-Skill Tree",
       "effect.arcanum_of_wisdom.water_racer": "Water Racer",
       "advancements.thediscoveryoftruestrenght.descr": "Press the Holy Branch ultimate ability key for the first time",
@@ -3144,7 +4175,10 @@
       "advancements.the_pathof_wisdom.title": "The Path of Wisdom",
       "gui.arcanum_of_wisdom.skill_tree.label_active_lvl_effect": "Active LVL Effect:",
       "gui.arcanum_of_wisdom.lvl_effects_gui.button_off": "Off",
+      "block.arcanum_of_wisdom.artifactlaboratorytable": "Artifact laboratory table",
+      "gui.arcanum_of_wisdom.artifact_of_dimensions_gui.label_info": "Info",
       "gui.arcanum_of_wisdom.lvl_effects_gui.label_info": "Info",
+      "gui.arcanum_of_wisdom.alt_research_gui.label_info": "Info",
       "gui.arcanum_of_wisdom.skill_tree.button_lvl10": "LVL10",
       "gui.arcanum_of_wisdom.skill_tree.button_lvl_20": "LVL 20",
       "advancements.outoftheshadows.descr": "Use the Shadow Power for the first time.",
@@ -3168,6 +4202,8 @@
       "gui.arcanum_of_wisdom.skill_tree.button_lvl80": "LVL80",
       "block.arcanum_of_wisdom.fake_water": "Fake Water Block",
       "biome.arcanum_of_wisdom.arcana_cherry_grove_biome": "Arcana Plains Biome",
+      "gui.arcanum_of_wisdom.alt_combine_gui.label_research": "Combine",
+      "gui.arcanum_of_wisdom.artifactlaboratorytablegui.label_artifact_laboratory_table": "Artifact Laboratory Table",
       "gui.arcanum_of_wisdom.buttons_gui.button_lvl_5": "LVL 5",
       "advancements.thediscoveryoftruestrenght.title": "The discovery of true strenght",
       "gui.arcanum_of_wisdom.skill_tree.button_lvl_100": "LVL 100",
@@ -3183,15 +4219,23 @@
       "gamerule.aOWLevelEffects": "AoW: Level Effects",
       "gui.arcanum_of_wisdom.lvl_effects_gui.button_lvl100": "LVL100",
       "advancements.masterof_wisdom.title": "Master of Wisdom",
+      "gui.arcanum_of_wisdom.artifact_of_dimensions_gui.tooltip_please_read_the_information_befo1": "Please read the information before teleporting!",
+      "item.arcanum_of_wisdom.artifact_of_dimensions": "Artifact of the dimensions",
+      "gui.arcanum_of_wisdom.alt_combine_gui.tooltip_click_here_to_combine_all_5_arti": "Click here to combine all 5 artifacts!",
+      "gui.arcanum_of_wisdom.artifact_of_dimensions_gui.tooltip_please_read_the_information_befo2": "Please read the information before teleporting!",
       "gui.arcanum_of_wisdom.aow_settings_gui.label_reset_countdowns": "Reset Countdowns",
       "gui.arcanum_of_wisdom.buttons_gui.button_lvl20": "LVL20",
       "key.arcanum_of_wisdom.einstellungen": "Open AoW settings",
       "gui.arcanum_of_wisdom.wisdom_overlay.label_wisdom": "Wisdom",
       "gui.arcanum_of_wisdom.skill_tree.button_shadow_warrior": "Shadow Warrior",
       "advancements.masterofthe_arcana.title": "Master of the Arcana",
+      "item.arcanum_of_wisdom.artifact_of_magic": "Artifact of magic",
       "key.arcanum_of_wisdom.holy_branch_ult_ability": "Holy Branch: Ultimate Ability",
       "gui.arcanum_of_wisdom.buttons_gui.label_you_can_edit_these_keys": "You can edit these keys",
       "gamerule.arcanaDimension": "AoW: (De-) Activate the Arcana Dimension",
+      "gui.arcanum_of_wisdom.alt_combine_gui.tooltip_use_all_5_artifacts_to_craft_a_c": "Use all 5 artifacts to craft a combined artifact!",
+      "gui.arcanum_of_wisdom.alt_combine_gui.label_info": "Info",
+      "gui.arcanum_of_wisdom.alt_research_gui.tooltip_click_here_to_craft_the_netherit": "Click here to craft the netherite artifact sword!",
       "effect.arcanum_of_wisdom.stunned": "Stunned by magic",
       "gui.arcanum_of_wisdom.lvl_effects_gui.label_active_lvl_effect": "Active LVL Effect:",
       "gui.arcanum_of_wisdom.aow_settings_gui.button_reset": "Reset",
@@ -3199,6 +4243,9 @@
       "key.arcanum_of_wisdom.shadow_power_key": "Activate \"Shadow Power\"",
       "advancements.discoveryofexpandedpowers.title": "The discovery of expanded powers",
       "gui.arcanum_of_wisdom.lvl_effects_gui.button_lvl20": "LVL20",
+      "gui.arcanum_of_wisdom.artifact_of_dimensions_gui.tooltip_be_careful_when_teleporting_if": "Be careful when teleporting! You may spawn in a wall or in the air..",
+      "gui.arcanum_of_wisdom.alt_research_gui.label_research": "Research",
+      "gui.arcanum_of_wisdom.alt_research_gui.tooltip_you_can_use_1_diamond_sword_1_n": "Use a diamond sword, a netherite ingot and a combined artifact to craft the new sword!",
       "gui.arcanum_of_wisdom.aow_settings_gui.label_reset_wisdom": "Reset Wisdom",
       "gui.arcanum_of_wisdom.skill_tree.button_lvl20": "LVL20",
       "gui.arcanum_of_wisdom.skill_tree.button_night_hunter": "Night Hunter",
@@ -3206,6 +4253,7 @@
       "advancements.the_pathof_wisdom.descr": "Earn your first 5 wisdom points.",
       "effect.arcanum_of_wisdom.arcana_wisdom_cooldown": "Arcana Wisdom Cooldown",
       "effect.arcanum_of_wisdom.grace_of_the_arcana": "Grace of the Arcana",
+      "gui.arcanum_of_wisdom.alt_combine_gui.tooltip_click_here_to_combine_the_artifa": "Click here to combine the artifacts.",
       "gamerule.aOWAutomaticCountdownResets": "AoW: Automatic Countdown Resets"
     },
     "de_de": {
@@ -3213,7 +4261,9 @@
       "death.attack.holy_branch_ult": "%1$s wurde von heiligen Kräften zerschmettert",
       "key.arcanum_of_wisdom.arcana_dimension_enter": "Arcana: Betrete die Arcana Dimension",
       "gui.arcanum_of_wisdom.aow_settings_gui.button_left": "Links",
+      "item.arcanum_of_wisdom.combined_artifact": "Combined Artifact",
       "gui.arcanum_of_wisdom.aow_settings_gui.label_only_in1": "Nur im",
+      "gui.arcanum_of_wisdom.artifactlaboratorytablegui.button_combine": "Combine",
       "gamerule.aOWLevelEffects.description": "Jede Weisheitsstufe verfügt über bestimmte zusätzliche Superkräfte, wie zum Beispiel mehr Geschwindigkeit oder Glück. Dies kann sehr signifikant sein. TRUE\u003dAktiviert FALSE\u003dDeaktiviert",
       "gui.arcanum_of_wisdom.aow_settings_gui.button_toggle1": "Umschalten",
       "gui.arcanum_of_wisdom.skill_tree.button_lvl50": "LVL50",
@@ -3226,26 +4276,32 @@
       "gui.arcanum_of_wisdom.aow_settings_gui.label_and_shadow_worrior": "und Schattenkrieger Effekt",
       "gui.arcanum_of_wisdom.skill_tree.button_activate_all": "Alle aktivieren",
       "gui.arcanum_of_wisdom.lvl_effects_gui.button_lvl80": "LVL80",
+      "gui.arcanum_of_wisdom.artifactlaboratorytablegui.tooltip_you_can_study_artifacts_to_imple": "You can study artifacts to implement them into weapons to strengthen them.",
       "gui.arcanum_of_wisdom.lvl_effects_gui.button_lava_racer": "Lava Racer",
       "gui.arcanum_of_wisdom.aow_settings_gui.label_creative_mode": "Kreativmodus",
       "advancements.recruitofthe_wise.descr": "Verdiene deine ersten 20 Weisheitspunkte.",
+      "item.arcanum_of_wisdom.artifact_of_fluids": "Artifact Of Fluids",
       "item.arcanum_of_wisdom.holy_branch": "Heiliger Ast",
       "gui.arcanum_of_wisdom.lvl_effects_gui.label_status": "Status:",
+      "gui.arcanum_of_wisdom.artifactlaboratorytablegui.tooltip_you_can_combine_all_5_artifacts": "You can combine all 5 artifacts to one very strong artifact.",
       "gui.arcanum_of_wisdom.skill_tree.button_lvl_50": "LVL 50",
       "gui.arcanum_of_wisdom.aow_settings_gui.button_right": "Rechts",
       "biome.arcanum_of_wisdom.arcana_plains_biome": "Arcana Plains Biom",
       "gui.arcanum_of_wisdom.aow_settings_gui.button_reset1": "Zurücksetzen",
+      "item_group.arcanum_of_wisdom.kreativtab_aow": "Arcanum of wisdom",
       "gui.arcanum_of_wisdom.lvl_effects_gui.label_empty": "LVL Effekte deaktiviert!",
       "gui.arcanum_of_wisdom.buttons_gui.label_shadow_warrior": "Schattenkraft:",
       "gui.arcanum_of_wisdom.buttons_gui.button_lvl10": "LVL10",
       "gui.arcanum_of_wisdom.lvl_effects_gui.button_arcana_dimension": "Arcana Dimension",
       "gui.arcanum_of_wisdom.lvl_effects_gui.button_on": "An",
+      "gui.arcanum_of_wisdom.artifact_of_dimensions_gui.tooltip_please_read_the_information_befo": "Please read the information before teleporting!",
       "effect.arcanum_of_wisdom.wisdom": "Weisheit",
       "gui.arcanum_of_wisdom.skill_tree.button_lvl_effects": "LVL Effekte",
       "effect.arcanum_of_wisdom.arcana_wisdom": "Arcana Weisheit",
-      "gui.arcanum_of_wisdom.buttons_gui.label_arcana_dimension": "Arcana Dimension:",
       "gui.arcanum_of_wisdom.skill_tree.button_arcana_dimension": "Arcana Dimension",
+      "gui.arcanum_of_wisdom.buttons_gui.label_arcana_dimension": "Arcana Dimension:",
       "gui.arcanum_of_wisdom.buttons_gui.button_off": "Aus",
+      "item.arcanum_of_wisdom.artifact_of_life": "Artifact Of Life",
       "gui.arcanum_of_wisdom.aow_settings_gui.button_toggle": "Umschalten",
       "advancements.masterof_wisdom.descr": "Verdiene deine ersten 100 Weisheitspunkte.",
       "gui.arcanum_of_wisdom.buttons_gui.label_default_b": "Standart: B",
@@ -3257,16 +4313,20 @@
       "gui.arcanum_of_wisdom.lvl_effects_gui.button_lvl_5": "LVL 5",
       "gui.arcanum_of_wisdom.skill_tree.button_lava_racer": "Lava Racer",
       "advancements.controloverliquids.title": "Kontrolle über Flüssigkeiten",
+      "gui.arcanum_of_wisdom.alt_combine_gui.tooltip_dont_close_this_window_while_yo": "Don´t close this window while you are working or your artifacts will be gone!",
       "effect.arcanum_of_wisdom.shadow_power": "Schattenkraft",
       "gui.arcanum_of_wisdom.skill_tree.button_deactivate_all": "Alle deaktivieren",
       "gui.arcanum_of_wisdom.aow_settings_gui.label_overlay_side": "Seite des Overlays umschalten",
       "gui.arcanum_of_wisdom.lvl_effects_gui.button_activate_all": "Alle aktivieren",
       "effect.arcanum_of_wisdom.night_hunter": "Night Hunter",
+      "item.arcanum_of_wisdom.artifact_of_materials": "Artifact Of Materials",
       "block.arcanum_of_wisdom.fake_lava": "Fake Lava Block",
       "gui.arcanum_of_wisdom.skill_tree.button_lvl_5": "LVL 5",
       "gui.arcanum_of_wisdom.aow_settings_gui.label_show_overlay": "Overlay umschalten",
       "gui.arcanum_of_wisdom.buttons_gui.button_lvl80": "LVL80",
+      "item.arcanum_of_wisdom.netherite_artifact_sword": "Netherite Artifact Sword",
       "gui.arcanum_of_wisdom.aow_settings_gui.label_only_in": "Nur im",
+      "gui.arcanum_of_wisdom.artifactlaboratorytablegui.button_research": "Research",
       "key.arcanum_of_wisdom.talent_uebersicht": "Öffne die AoW-Übersicht",
       "effect.arcanum_of_wisdom.water_racer": "Water Racer",
       "advancements.thediscoveryoftruestrenght.descr": "Drücke zum ersten Mal die Taste für die ultimative Fähigkeit des Heiligen Asts.",
@@ -3275,7 +4335,10 @@
       "advancements.the_pathof_wisdom.title": "Der Pfad der Weisheit",
       "gui.arcanum_of_wisdom.skill_tree.label_active_lvl_effect": "Aktive LVL Effekte:",
       "gui.arcanum_of_wisdom.lvl_effects_gui.button_off": "Aus",
+      "block.arcanum_of_wisdom.artifactlaboratorytable": "Artifact laboratory table",
+      "gui.arcanum_of_wisdom.artifact_of_dimensions_gui.label_info": "Info",
       "gui.arcanum_of_wisdom.lvl_effects_gui.label_info": "Info",
+      "gui.arcanum_of_wisdom.alt_research_gui.label_info": "Info",
       "gui.arcanum_of_wisdom.skill_tree.button_lvl10": "LVL10",
       "gui.arcanum_of_wisdom.skill_tree.button_lvl_20": "LVL 20",
       "advancements.outoftheshadows.descr": "Benutze die Schattenkraft zum ersten Mal.",
@@ -3299,6 +4362,8 @@
       "gui.arcanum_of_wisdom.skill_tree.button_lvl80": "LVL80",
       "block.arcanum_of_wisdom.fake_water": "Fake Wasser Block",
       "biome.arcanum_of_wisdom.arcana_cherry_grove_biome": "Arcana Plains Biome",
+      "gui.arcanum_of_wisdom.alt_combine_gui.label_research": "Research",
+      "gui.arcanum_of_wisdom.artifactlaboratorytablegui.label_artifact_laboratory_table": "Artifact Laboratory Table",
       "gui.arcanum_of_wisdom.buttons_gui.button_lvl_5": "LVL 5",
       "advancements.thediscoveryoftruestrenght.title": "Die Entdeckung wahrer Stärke",
       "gui.arcanum_of_wisdom.skill_tree.button_lvl_100": "LVL 100",
@@ -3314,15 +4379,23 @@
       "gamerule.aOWLevelEffects": "AoW: Level Effekte",
       "gui.arcanum_of_wisdom.lvl_effects_gui.button_lvl100": "LVL100",
       "advancements.masterof_wisdom.title": "Meister der Weisheit",
+      "gui.arcanum_of_wisdom.artifact_of_dimensions_gui.tooltip_please_read_the_information_befo1": "Please read the information before teleporting!",
+      "item.arcanum_of_wisdom.artifact_of_dimensions": "Artifact of the dimensions",
+      "gui.arcanum_of_wisdom.alt_combine_gui.tooltip_click_here_to_combine_all_5_arti": "Click here to combine all 5 artifacts!",
+      "gui.arcanum_of_wisdom.artifact_of_dimensions_gui.tooltip_please_read_the_information_befo2": "Please read the information before teleporting!",
       "gui.arcanum_of_wisdom.aow_settings_gui.label_reset_countdowns": "Countdowns zurücksetzen",
       "gui.arcanum_of_wisdom.buttons_gui.button_lvl20": "LVL20",
       "key.arcanum_of_wisdom.einstellungen": "Öffne die AoW Einstellungen",
       "gui.arcanum_of_wisdom.wisdom_overlay.label_wisdom": "Weisheit",
       "gui.arcanum_of_wisdom.skill_tree.button_shadow_warrior": "Schattenkrieger",
       "advancements.masterofthe_arcana.title": "Meister der Arcana",
+      "item.arcanum_of_wisdom.artifact_of_magic": "Artifact Of Magic",
       "key.arcanum_of_wisdom.holy_branch_ult_ability": "Heiliger Ast: Ultimative Fähigkeit",
       "gui.arcanum_of_wisdom.buttons_gui.label_you_can_edit_these_keys": "Du kannst diese Tastenbelegungen",
       "gamerule.arcanaDimension": "AoW: (De-) Aktiviere die Arcana Dimension",
+      "gui.arcanum_of_wisdom.alt_combine_gui.tooltip_use_all_5_artifacts_to_craft_a_c": "Use all 5 artifacts to craft a combined artifact!",
+      "gui.arcanum_of_wisdom.alt_combine_gui.label_info": "Info",
+      "gui.arcanum_of_wisdom.alt_research_gui.tooltip_click_here_to_craft_the_netherit": "Click here to craft the netherite artifact sword!",
       "effect.arcanum_of_wisdom.stunned": "Von Magie betäubt",
       "gui.arcanum_of_wisdom.lvl_effects_gui.label_active_lvl_effect": "Aktive LVL Effekte:",
       "gui.arcanum_of_wisdom.aow_settings_gui.button_reset": "Zurücksetzen",
@@ -3330,6 +4403,9 @@
       "key.arcanum_of_wisdom.shadow_power_key": "Aktiviere die Schattenkraft",
       "advancements.discoveryofexpandedpowers.title": "Die Entdeckung der erweiterten Fähigkeiten",
       "gui.arcanum_of_wisdom.lvl_effects_gui.button_lvl20": "LVL20",
+      "gui.arcanum_of_wisdom.artifact_of_dimensions_gui.tooltip_be_careful_when_teleporting_if": "Be careful when teleporting! If you spawn in a wall, the blocks around you will be automatically removed so you don\u0027t die. In addition, a block will be placed underneath you if you fall.",
+      "gui.arcanum_of_wisdom.alt_research_gui.label_research": "Research",
+      "gui.arcanum_of_wisdom.alt_research_gui.tooltip_you_can_use_1_diamond_sword_1_n": "You can use 1 diamond sword, 1 netherite ingot and all 5 artifacts zu craft the netherite artifact sword!",
       "gui.arcanum_of_wisdom.aow_settings_gui.label_reset_wisdom": "Weisheit zurücksetzen",
       "gui.arcanum_of_wisdom.skill_tree.button_lvl20": "LVL20",
       "gui.arcanum_of_wisdom.skill_tree.button_night_hunter": "Night Hunter",
@@ -3337,6 +4413,7 @@
       "advancements.the_pathof_wisdom.descr": "Verdiene deine ersten 5 Weisheitspunkte.",
       "effect.arcanum_of_wisdom.arcana_wisdom_cooldown": "Arcana Weisheit Cooldown",
       "effect.arcanum_of_wisdom.grace_of_the_arcana": "Gnade der Arcana",
+      "gui.arcanum_of_wisdom.alt_combine_gui.tooltip_click_here_to_combine_the_artifa": "Click here to combine the artifacts.",
       "gamerule.aOWAutomaticCountdownResets": "AoW: Automatische Countdown Zurücksetzungen"
     }
   },
@@ -3489,19 +4566,7 @@
             "children": []
           },
           {
-            "name": "Holy Branch",
-            "children": []
-          },
-          {
-            "name": "StunnedEffekt",
-            "children": []
-          },
-          {
             "name": "WisdomCommand",
-            "children": []
-          },
-          {
-            "name": "HolySpellEffekt",
             "children": []
           },
           {
@@ -3509,6 +4574,14 @@
             "children": [
               {
                 "name": "Wisdom",
+                "children": []
+              },
+              {
+                "name": "HolySpellEffekt",
+                "children": []
+              },
+              {
+                "name": "StunnedEffekt",
                 "children": []
               }
             ]
@@ -3539,13 +4612,81 @@
       {
         "name": "StartupInfoMessage",
         "children": []
+      },
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "Artifacts",
+            "children": [
+              {
+                "name": "ArtifactOfLife",
+                "children": []
+              },
+              {
+                "name": "ArtifactOfMaterials",
+                "children": []
+              },
+              {
+                "name": "ArtifactOfFluids",
+                "children": []
+              },
+              {
+                "name": "ArtifactOfMagic",
+                "children": []
+              },
+              {
+                "name": "ArtifactOfDimensions",
+                "children": []
+              },
+              {
+                "name": "CombinedArtifact",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Netherite Artifact Sword",
+            "children": []
+          },
+          {
+            "name": "Holy Branch",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Kreativtab",
+        "children": []
+      },
+      {
+        "name": "Bloecke",
+        "children": [
+          {
+            "name": "artifact laboratory table",
+            "children": [
+              {
+                "name": "CombineFunktionALT",
+                "children": []
+              },
+              {
+                "name": "ResearchFunktionALT",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Trades",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "arcanum_of_wisdom",
     "modName": "Arcanum of Wisdom",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "Welcome to Arcanum of Wisdom! Earned experience levels unlock new dimensions of knowledge and unleash exponentially improved abilities. The journey through this mod is an odyssey of wisdom, leading you to the hidden realms of the Minecraft universe.  Discover new spells, forge artifacts of incredible power, and unveil the secrets of the cosmos as you step through the gates of enlightenment. Are you ready to delve into the wisdom of the Minecraft cosmos?  (Warning: The contents of this description are exaggerated to some extent; nevertheless, have fun!) (Tip: The following XP levels increase your wisdom: 5, 10, 20, 50, 80, 100)",
     "author": "benl4b",
     "websiteURL": "https://benl4b.wixsite.com/benl4bcommunity",

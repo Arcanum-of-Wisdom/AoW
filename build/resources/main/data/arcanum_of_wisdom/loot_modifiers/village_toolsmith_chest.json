@@ -1,0 +1,10 @@
+{
+  "type": "arcanum_of_wisdom:arcanum_of_wisdom_loot_modifier",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "chests/village/village_toolsmith"
+    }
+  ],
+  "lootTable": "arcanum_of_wisdom:chests/village/village_toolsmith"
+}

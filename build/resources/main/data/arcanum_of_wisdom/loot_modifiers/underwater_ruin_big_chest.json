@@ -1,0 +1,10 @@
+{
+  "type": "arcanum_of_wisdom:arcanum_of_wisdom_loot_modifier",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "chests/underwater_ruin_big"
+    }
+  ],
+  "lootTable": "arcanum_of_wisdom:chests/underwater_ruin_big"
+}

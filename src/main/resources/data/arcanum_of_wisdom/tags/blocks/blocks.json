@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "arcanum_of_wisdom:fake_water",
+    "arcanum_of_wisdom:fake_lava",
+    "arcanum_of_wisdom:artifactlaboratorytable"
+  ]
+}

@@ -2,7 +2,14 @@
   "entries": [
     "arcanum_of_wisdom:jungle_temple_treasure",
     "arcanum_of_wisdom:stronghold_library_chest",
-    "arcanum_of_wisdom:woodland_mansion_chest"
+    "arcanum_of_wisdom:woodland_mansion_chest",
+    "arcanum_of_wisdom:buried_treasure_chest",
+    "arcanum_of_wisdom:underwater_ruin_big_chest",
+    "arcanum_of_wisdom:village_toolsmith_chest",
+    "arcanum_of_wisdom:villager_cleric_gift_p",
+    "arcanum_of_wisdom:villager_toolsmith_gift_p",
+    "arcanum_of_wisdom:villager_weaponsmith_gift_p",
+    "arcanum_of_wisdom:villager_librarian_gift_p"
   ],
   "replace": false
 }

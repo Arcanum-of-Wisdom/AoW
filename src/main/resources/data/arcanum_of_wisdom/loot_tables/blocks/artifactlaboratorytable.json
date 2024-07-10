@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "arcanum_of_wisdom:blocks/artifactlaboratorytable",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "arcanum_of_wisdom:artifactlaboratorytable"
+        }
+      ]
+    }
+  ]
+}

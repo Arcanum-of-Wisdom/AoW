@@ -1,0 +1,288 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 174,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_click_here_to_combine_all_5_arti",
+          "text": {
+            "fixedValue": "Click here to combine all 5 artifacts!"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 202,
+          "y": 63
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "altbackground.png",
+          "use1Xscale": false,
+          "x": 126,
+          "y": 31
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_research",
+          "text": {
+            "fixedValue": "Combine"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 195,
+          "y": 20
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_1_right",
+          "image": "custom_arrow_1_right.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "ALTCombineWorkP"
+          },
+          "x": 206,
+          "y": 66
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:ArtifactOfMaterials"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 156,
+          "y": 54
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:ArtifactOfFluids"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 4,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 169,
+          "y": 89
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:ArtifactOfDimensions"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 182,
+          "y": 54
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:ArtifactOfMagic"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 156,
+          "y": 76
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:ArtifactOfLife"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 182,
+          "y": 76
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 5,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 231,
+          "y": 66
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_vanilla_2_pressed.png",
+          "use1Xscale": false,
+          "x": 230,
+          "y": 64
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_skill.png",
+          "use1Xscale": false,
+          "x": 181,
+          "y": 53
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_skill.png",
+          "use1Xscale": false,
+          "x": 155,
+          "y": 53
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_skill.png",
+          "use1Xscale": false,
+          "x": 155,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_skill.png",
+          "use1Xscale": false,
+          "x": 181,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_skill.png",
+          "use1Xscale": false,
+          "x": 168,
+          "y": 88
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonred",
+          "image": "buttonred.png",
+          "hoveredImage": "buttonredhighlight.png",
+          "onClick": {
+            "name": "CloseGUIs"
+          },
+          "x": 294,
+          "y": 7
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_info",
+          "text": {
+            "fixedValue": "Info"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 302,
+          "y": 192
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_use_all_5_artifacts_to_craft_a_c",
+          "text": {
+            "fixedValue": "Use all 5 artifacts to craft a combined artifact!"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 301,
+          "y": 184
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_large_button_back",
+          "image": "large_button_back.png",
+          "hoveredImage": "large_button_back_highlight.png",
+          "onClick": {
+            "name": "ALTGUIsBackButtonP"
+          },
+          "x": 326,
+          "y": 13
+        }
+      }
+    ],
+    "onOpen": {
+      "name": "ALTCombineGUIThisGUIIsOpened"
+    },
+    "onTick": {
+      "name": "ALTCombineGUIWhileThisGUIIsOpenTick"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

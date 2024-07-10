@@ -1,0 +1,47 @@
+{
+  "_fv": 60,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "netheriteartifactsword",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Netherite Artifact Sword",
+    "specialInformation": {
+      "fixedValue": [
+        "A Netherite sword forged together with artifacts that now has the power to detect artifacts in the offhand and can make use of their their hidden power.",
+        "To use these abilities, you must be at Wisdom LVL 20, holding an artifact in your offhand and swinging the sword in your mainhand."
+      ]
+    },
+    "creativeTab": {
+      "value": "CUSTOM:KreativtabAOW"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 2.0,
+    "enchantability": 22,
+    "damageVsEntity": 8.5,
+    "usageCount": 2100,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false,
+      "name": "NetheriteArtifactSwordHasItemGlowingEffect"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:CombinedArtifact"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntitySwing": {
+      "name": "NetheriteArtifactSwordEntitySwingsItem"
+    }
+  }
+}
