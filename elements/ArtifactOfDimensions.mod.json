@@ -41,6 +41,9 @@
     "onRightClickedInAir": {
       "name": "ArtifactOfDimensionsGUIP"
     },
+    "onItemInInventoryTick": {
+      "name": "ArtifactOfDimensionsItemInInventoryTick"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "projectile": {

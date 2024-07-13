@@ -117,7 +117,7 @@
         "data": {
           "name": "tooltip_be_careful_when_teleporting_if",
           "text": {
-            "fixedValue": "Be careful when teleporting! You may spawn in a wall or in the air.."
+            "fixedValue": "Be careful when teleporting! You may spawn in a wall or in the air!"
           },
           "width": 24,
           "height": 24,

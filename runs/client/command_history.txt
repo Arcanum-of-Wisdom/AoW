@@ -1,14 +1,3 @@
-/locate structure #minecraft:on_treasure_maps
-/tp @s -215 ~ -1767
-/effect give Dev minecraft:night_vision infinite 255 true
-/gamerule aOWAutomaticCountdownResets true
-/wisdom Dev 99
-/kill
-/wisdom Dev 99
-/time set day
-/weather clear
-/effect give Dev minecraft:night_vision infinite 255 true
-/kill @e[type=minecraft:ender_dragon]
 /effect give Dev minecraft:night_vision infinite 255 true
 /locate biome minecraft:plains
 /tp @s -496 92 298
@@ -48,3 +37,14 @@
 /locate structure minecraft:shipwreck
 /tp @s 480 ~ 8656
 /locate structure #minecraft:on_treasure_maps
+/locate biome arcanum_of_wisdom:arcana_high_mountains_biome
+/tp @p ^ ^ ^100
+/locate biome arcanum_of_wisdom:arcana_high_mountains_biome
+/tp @p ^ ^ ^100
+/tp @p ^ ^ ^1000
+/locate biome arcanum_of_wisdom:arcana_high_mountains_biome
+/tp @s 2762 104 6676
+/tp @p ^ ^ ^1000
+/locate biome arcanum_of_wisdom:arcana_high_mountains_biome
+/tp @s 3780 64 7173
+/gamerule noCooldowns true

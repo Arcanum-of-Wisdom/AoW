@@ -41,6 +41,9 @@
     "onRightClickedInAir": {
       "name": "ArtifactOfLifeRightclicked"
     },
+    "onItemInInventoryTick": {
+      "name": "ArtifactOfLifeItemInInventoryTick"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "projectile": {

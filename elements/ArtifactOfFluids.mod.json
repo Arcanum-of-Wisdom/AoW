@@ -41,6 +41,9 @@
     "onRightClickedInAir": {
       "name": "ArtifactOfFluidsRightclicked"
     },
+    "onItemInInventoryTick": {
+      "name": "ArtifactOfFluidsItemInInventoryTick"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "projectile": {

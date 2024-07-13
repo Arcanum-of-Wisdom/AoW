@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "arcanum_of_wisdom:combined_artifact"
+    },
+    "title": {
+      "translate": "advancements.combined_powers.title"
+    },
+    "description": {
+      "translate": "advancements.combined_powers.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "combined_powers_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 30
+  },
+  "parent": "arcanum_of_wisdom:old_stones"
+}

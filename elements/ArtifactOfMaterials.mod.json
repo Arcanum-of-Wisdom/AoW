@@ -41,6 +41,9 @@
     "onRightClickedInAir": {
       "name": "ArtifactOfMaterialsRightclicked"
     },
+    "onItemInInventoryTick": {
+      "name": "ArtifactOfMaterialsItemInInventoryTick"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "projectile": {
