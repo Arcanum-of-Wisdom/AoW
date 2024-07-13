@@ -63,9 +63,44 @@ public class ArcanumOfWisdomModTrades {
 		if (event.getType() == VillagerProfession.WEAPONSMITH) {
 			event.getTrades().get(5)
 					.add(new BasicItemListing(new ItemStack(ArcanumOfWisdomModItems.COMBINED_ARTIFACT.get(), 2), new ItemStack(Items.NETHERITE_SWORD), new ItemStack(ArcanumOfWisdomModItems.NETHERITE_ARTIFACT_SWORD.get()), 1, 5, 0.3f));
-			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE),
+		}
+		if (event.getType() == VillagerProfession.ARMORER) {
+			event.getTrades().get(4).add(new BasicItemListing(new ItemStack(ArcanumOfWisdomModItems.ARTIFACT_OF_MATERIALS.get()), new ItemStack(Items.DIAMOND, 2), new ItemStack(Items.DIAMOND_CHESTPLATE), 2, 8, 0.1f));
+			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(ArcanumOfWisdomModItems.ARTIFACT_OF_MATERIALS.get()), new ItemStack(Items.NETHERITE_INGOT, 2), new ItemStack(Items.NETHERITE_CHESTPLATE), 1, 10, 0.2f));
+		}
+		if (event.getType() == VillagerProfession.FISHERMAN) {
+			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(ArcanumOfWisdomModItems.ARTIFACT_OF_LIFE.get()),
 
-					new ItemStack(ArcanumOfWisdomModItems.NETHERITE_ARTIFACT_SWORD.get()), 10, 5, 0.05f));
+					new ItemStack(Items.PRISMARINE_SHARD, 20), 10, 4, 0.06f));
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(ArcanumOfWisdomModItems.ARTIFACT_OF_FLUIDS.get()),
+
+					new ItemStack(Items.HEART_OF_THE_SEA), 5, 7, 0.06f));
+		}
+		if (event.getType() == VillagerProfession.CLERIC) {
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(ArcanumOfWisdomModItems.ARTIFACT_OF_MATERIALS.get()),
+
+					new ItemStack(Items.BLAZE_ROD, 10), 8, 6, 0.07f));
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(ArcanumOfWisdomModItems.ARTIFACT_OF_MATERIALS.get()),
+
+					new ItemStack(Items.GHAST_TEAR, 10), 10, 5, 0.05f));
+		}
+		if (event.getType() == VillagerProfession.LIBRARIAN) {
+			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(ArcanumOfWisdomModItems.ARTIFACT_OF_DIMENSIONS.get(), 2),
+
+					new ItemStack(Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE), 2, 15, 0.12f));
+			event.getTrades().get(3).add(new BasicItemListing(new ItemStack(ArcanumOfWisdomModItems.ARTIFACT_OF_LIFE.get(), 2),
+
+					new ItemStack(Items.EXPERIENCE_BOTTLE, 8), 10, 5, 0.06f));
+			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(ArcanumOfWisdomModItems.ARTIFACT_OF_MATERIALS.get()),
+
+					new ItemStack(Items.ECHO_SHARD, 10), 5, 7, 0.06f));
+			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(ArcanumOfWisdomModItems.ARTIFACT_OF_MAGIC.get()),
+
+					new ItemStack(Items.MUSIC_DISC_5), 8, 7, 0.06f));
+		}
+		if (event.getType() == VillagerProfession.WEAPONSMITH) {
+			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(ArcanumOfWisdomModItems.ARTIFACT_OF_DIMENSIONS.get(), 2), new ItemStack(Items.NETHERITE_INGOT), new ItemStack(Items.NETHERITE_SWORD), 1, 11, 0.3f));
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(ArcanumOfWisdomModItems.ARTIFACT_OF_DIMENSIONS.get(), 2), new ItemStack(Items.DIAMOND), new ItemStack(Items.DIAMOND_SWORD), 1, 11, 0.3f));
 		}
 	}
 }

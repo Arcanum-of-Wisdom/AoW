@@ -14,14 +14,18 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.Minecraft;
 
+import net.bcm.arcanumofwisdom.init.ArcanumOfWisdomModGameRules;
+
 public class ArtifactOfFluidsRightclickedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, ItemStack itemstack) {
 		if (entity == null)
 			return;
 		if (world.isClientSide())
 			Minecraft.getInstance().gameRenderer.displayItemActivation(itemstack);
-		if (entity instanceof Player _player)
-			_player.getCooldowns().addCooldown(itemstack.getItem(), 200);
+		if (world.getLevelData().getGameRules().getBoolean(ArcanumOfWisdomModGameRules.AOW_NO_COOLDOWNS) == false) {
+			if (entity instanceof Player _player)
+				_player.getCooldowns().addCooldown(itemstack.getItem(), 200);
+		}
 		if (world instanceof Level _level) {
 			if (!_level.isClientSide()) {
 				_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.beacon.power_select")), SoundSource.PLAYERS, 1, (float) 0.5);

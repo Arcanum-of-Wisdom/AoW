@@ -11,6 +11,9 @@
       },
       {
         "value": "CUSTOM:ArcanaCherryGroveBiome"
+      },
+      {
+        "value": "CUSTOM:ArcanaHighMountainsBiome"
       }
     ],
     "worldGenType": "Normal world gen",

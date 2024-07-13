@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "arcanum_of_wisdom:combined_artifact"
+    },
+    "title": {
+      "translate": "advancements.old_stones.title"
+    },
+    "description": {
+      "translate": "advancements.old_stones.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "old_stones_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "arcanum_of_wisdom:the_pathof_wisdom"
+}

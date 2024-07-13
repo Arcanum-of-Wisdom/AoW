@@ -1,0 +1,259 @@
+{
+  "_fv": 60,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "ARMORER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:ArtifactOfMaterials"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "Items.DIAMOND"
+            },
+            "countPrice2": 2,
+            "offer": {
+              "value": "Items.DIAMOND_CHESTPLATE"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 2,
+            "xp": 8,
+            "priceMultiplier": 0.09999999999999999
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:ArtifactOfMaterials"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "Items.NETHERITE_INGOT"
+            },
+            "countPrice2": 2,
+            "offer": {
+              "value": "Items.NETHERITE_CHESTPLATE"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 1,
+            "xp": 10,
+            "priceMultiplier": 0.2
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "FISHERMAN"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:ArtifactOfLife"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.PRISMARINE_SHARD"
+            },
+            "countOffer": 20,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 4,
+            "priceMultiplier": 0.060000000000000005
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:ArtifactOfFluids"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.HEART_OF_THE_SEA"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 5,
+            "xp": 7,
+            "priceMultiplier": 0.060000000000000005
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CLERIC"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:ArtifactOfMaterials"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.BLAZE_ROD"
+            },
+            "countOffer": 10,
+            "level": 1,
+            "maxTrades": 8,
+            "xp": 6,
+            "priceMultiplier": 0.06999999999999999
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:ArtifactOfMaterials"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.GHAST_TEAR"
+            },
+            "countOffer": 10,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "LIBRARIAN"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:ArtifactOfDimensions"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.NETHERITE_UPGRADE"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 2,
+            "xp": 15,
+            "priceMultiplier": 0.12000000000000001
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:ArtifactOfLife"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EXPERIENCE_BOTTLE"
+            },
+            "countOffer": 8,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.060000000000000005
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:ArtifactOfMaterials"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.ECHO_SHARD"
+            },
+            "countOffer": 10,
+            "level": 2,
+            "maxTrades": 5,
+            "xp": 7,
+            "priceMultiplier": 0.060000000000000005
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:ArtifactOfMagic"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.MUSIC_DISC_5"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 8,
+            "xp": 7,
+            "priceMultiplier": 0.060000000000000005
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "WEAPONSMITH"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:ArtifactOfDimensions"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": "Items.NETHERITE_INGOT"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.NETHERITE_SWORD"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 1,
+            "xp": 11,
+            "priceMultiplier": 0.3
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:ArtifactOfDimensions"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": "Items.DIAMOND"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.DIAMOND_SWORD"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 11,
+            "priceMultiplier": 0.3
+          }
+        ]
+      }
+    ]
+  }
+}

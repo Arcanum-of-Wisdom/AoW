@@ -33,8 +33,8 @@ damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
 gamma:1.0
-renderDistance:15
-simulationDistance:10
+renderDistance:32
+simulationDistance:5
 entityDistanceScaling:1.0
 guiScale:4
 particles:0
@@ -47,7 +47,7 @@ renderClouds:"fast"
 resourcePacks:[]
 incompatibleResourcePacks:[]
 lastServer:localhost:25463
-lang:en_us
+lang:de_de
 soundDevice:""
 chatVisibility:0
 chatOpacity:1.0

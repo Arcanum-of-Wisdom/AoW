@@ -41,6 +41,9 @@
     "onRightClickedInAir": {
       "name": "ArtifactOfMagicRightclicked"
     },
+    "onItemInInventoryTick": {
+      "name": "ArtifactOfMagicItemInInventoryTick"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "projectile": {

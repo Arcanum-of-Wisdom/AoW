@@ -20,6 +20,8 @@ import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
 import net.minecraft.client.Minecraft;
 
+import net.bcm.arcanumofwisdom.init.ArcanumOfWisdomModGameRules;
+
 public class ArtifactOfLifeRightclickedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, ItemStack itemstack) {
 		if (entity == null)
@@ -33,8 +35,10 @@ public class ArtifactOfLifeRightclickedProcedure {
 				_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.beacon.power_select")), SoundSource.PLAYERS, 1, (float) 0.5, false);
 			}
 		}
-		if (entity instanceof Player _player)
-			_player.getCooldowns().addCooldown(itemstack.getItem(), 400);
+		if (world.getLevelData().getGameRules().getBoolean(ArcanumOfWisdomModGameRules.AOW_NO_COOLDOWNS) == false) {
+			if (entity instanceof Player _player)
+				_player.getCooldowns().addCooldown(itemstack.getItem(), 400);
+		}
 		if (world instanceof ServerLevel _level)
 			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 					"effect give @e[distance=..10] minecraft:glowing 5 1 false");
@@ -42,7 +46,7 @@ public class ArtifactOfLifeRightclickedProcedure {
 			_entity.removeEffect(MobEffects.GLOWING);
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.HEAL, 20, 5, false, false));
-		if (entity instanceof LivingEntity _livEnt8 && _livEnt8.hasEffect(MobEffects.HEALTH_BOOST)) {
+		if (entity instanceof LivingEntity _livEnt9 && _livEnt9.hasEffect(MobEffects.HEALTH_BOOST)) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, (int) ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.HEALTH_BOOST) ? _livEnt.getEffect(MobEffects.HEALTH_BOOST).getDuration() : 0) + 100),
 						(int) ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.HEALTH_BOOST) ? _livEnt.getEffect(MobEffects.HEALTH_BOOST).getAmplifier() : 0) + 1), true, false));
