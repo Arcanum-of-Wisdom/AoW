@@ -1,8 +1,0 @@
-{
-  "_fv": 60,
-  "_type": "lootmodifier",
-  "definition": {
-    "modifiedTable": "gameplay/hero_of_the_village/librarian_gift",
-    "modifierTable": "VillagerLibrarianGift"
-  }
-}

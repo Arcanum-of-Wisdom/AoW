@@ -11,10 +11,7 @@
           "to_place": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:cherry_sapling",
-              "Properties": {
-                "stage": "0"
-              }
+              "Name": "minecraft:cherry_sapling"
             }
           }
         }

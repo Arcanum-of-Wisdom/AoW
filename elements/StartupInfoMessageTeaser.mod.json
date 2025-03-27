@@ -1,0 +1,83 @@
+{
+  "_fv": 77,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGHEST",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "book_of_wisdom_small.png",
+          "use1Xscale": true,
+          "anchorPoint": "TOP_LEFT",
+          "x": 18,
+          "y": 4,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_aow_message",
+          "text": {
+            "fixedValue": "AoW message: (/aow_sm_disable to disable)"
+          },
+          "color": {
+            "value": -3407770,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 22,
+          "y": -4,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_aow_uses_minecrafts_attribute_f",
+          "text": {
+            "fixedValue": "AoW uses vanilla attributes!"
+          },
+          "color": {
+            "value": -9728,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 22,
+          "y": 4,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_more_information_in_the_startup",
+          "text": {
+            "fixedValue": "More information in the startup message."
+          },
+          "color": {
+            "value": -9728,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 22,
+          "y": 12,
+          "locked": false
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "IngameMenu",
+    "displayCondition": {
+      "name": "StartupInfoMessageTeaserDisplayOverlayIngame"
+    },
+    "gridSettings": {
+      "sx": 8,
+      "sy": 8,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

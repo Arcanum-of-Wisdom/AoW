@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ominous_bottle"
+    },
+    "title": {
+      "translate": "advancements.apprentice_of_the_alchemist.title"
+    },
+    "description": {
+      "translate": "advancements.apprentice_of_the_alchemist.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "apprentice_of_the_alchemist_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 35,
+    "recipes": [
+      "arcanum_of_wisdom:altar_of_the_alchemist"
+    ]
+  },
+  "parent": "arcanum_of_wisdom:the_pathof_wisdom"
+}

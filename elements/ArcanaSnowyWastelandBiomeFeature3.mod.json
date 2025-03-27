@@ -1,0 +1,14 @@
+{
+  "_fv": 77,
+  "_type": "feature",
+  "definition": {
+    "skipPlacement": false,
+    "generationStep": "SURFACE_STRUCTURES",
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:ArcanaSnowyWastelandBiome"
+      }
+    ],
+    "featurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"feature_container\" x=\"40\" y=\"40\"><value name=\"feature\"><block type=\"feature_spring\"><field name=\"state\">WATER</field><field name=\"requires_block_below\">TRUE</field><field name=\"rock_count\">4</field><field name=\"hole_count\">1</field><comment h=\"80\" pinned=\"false\" w=\"160\">This block represents a water spring and should generate during the FLUID_SPRINGS generation stage.</comment><value name=\"valid_blocks\"><block inline=\"false\" type=\"block_holderset_list\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"11\"/><field name=\"block0\">Blocks.STONE#0</field><field name=\"block1\">Blocks.STONE#1</field><field name=\"block2\">Blocks.STONE#3</field><field name=\"block3\">Blocks.STONE#5</field><field name=\"block4\">Blocks.DEEPSLATE</field><field name=\"block5\">Blocks.TUFF</field><field name=\"block6\">Blocks.CALCITE</field><field name=\"block7\">Blocks.DIRT#0</field><field name=\"block8\">Blocks.SNOW</field><field name=\"block9\">Blocks.POWDER_SNOW</field><field name=\"block10\">Blocks.PACKED_ICE</field><comment h=\"80\" pinned=\"false\" w=\"160\">Water springs can generate inside these blocks</comment></block></value></block></value><next><block type=\"placement_count\"><comment h=\"80\" pinned=\"false\" w=\"160\">We try to generate at most 25 springs in each chunk.</comment><value name=\"count\"><block type=\"int_provider_constant\"><field name=\"value\">25</field></block></value><next><block type=\"placement_in_square\"><comment h=\"80\" pinned=\"false\" w=\"160\">We then move each position, so that the springs don't generate only in the chunk corner.</comment><next><block type=\"placement_height_uniform\"><comment h=\"80\" pinned=\"false\" w=\"160\">The springs are generated at a random height between the bottom of the world and y=192.</comment><value name=\"min\"><block type=\"vertical_anchor_above_bottom\"><field name=\"value\">0</field></block></value><value name=\"max\"><block type=\"vertical_anchor_absolute\"><field name=\"value\">192</field></block></value><next><block type=\"placement_biome_filter\"><comment h=\"80\" pinned=\"false\" w=\"160\">Finally, we generate the spring only if the biome has this feature.</comment></block></next></block></next></block></next></block></next></block></xml>"
+  }
+}

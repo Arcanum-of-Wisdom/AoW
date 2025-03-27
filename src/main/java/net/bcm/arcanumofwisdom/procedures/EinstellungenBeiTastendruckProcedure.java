@@ -30,6 +30,11 @@ public class EinstellungenBeiTastendruckProcedure {
 				}
 
 				@Override
+				public boolean shouldTriggerClientSideContainerClosingOnOpen() {
+					return false;
+				}
+
+				@Override
 				public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
 					return new AOWSettingsGUIMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
 				}

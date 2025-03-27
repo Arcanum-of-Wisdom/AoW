@@ -12,7 +12,7 @@ public class LVLEffectsOnProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		if (world.getLevelData().getGameRules().getBoolean(ArcanumOfWisdomModGameRules.AOW_LEVEL_EFFECTS) == true) {
+		if (world.getLevelData().getGameRules().getBoolean(ArcanumOfWisdomModGameRules.AOWLVLEFFECTS) == true) {
 			{
 				ArcanumOfWisdomModVariables.PlayerVariables _vars = entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES);
 				_vars.lvleffects = true;
@@ -24,5 +24,7 @@ public class LVLEffectsOnProcedure {
 			if (entity instanceof Player _player && !_player.level().isClientSide())
 				_player.displayClientMessage(Component.literal("LVL Effects are deactivated! Ask your Admin for help."), false);
 		}
+		if (entity instanceof Player _player)
+			_player.closeContainer();
 	}
 }

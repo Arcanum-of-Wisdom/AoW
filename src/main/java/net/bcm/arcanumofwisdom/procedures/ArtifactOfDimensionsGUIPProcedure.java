@@ -32,9 +32,9 @@ public class ArtifactOfDimensionsGUIPProcedure {
 					_player.closeContainer();
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {
-						_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("ui.toast.in")), SoundSource.PLAYERS, 1, 1);
+						_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("ui.toast.in")), SoundSource.PLAYERS, 1, 1);
 					} else {
-						_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("ui.toast.in")), SoundSource.PLAYERS, 1, 1, false);
+						_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("ui.toast.in")), SoundSource.PLAYERS, 1, 1, false);
 					}
 				}
 				if (entity instanceof ServerPlayer _ent) {
@@ -43,6 +43,11 @@ public class ArtifactOfDimensionsGUIPProcedure {
 						@Override
 						public Component getDisplayName() {
 							return Component.literal("ArtifactOfDimensionsGUI");
+						}
+
+						@Override
+						public boolean shouldTriggerClientSideContainerClosingOnOpen() {
+							return false;
 						}
 
 						@Override

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "arcanum_of_wisdom:bottle_of_elytra_enhancer"
+    },
+    "title": {
+      "translate": "advancements.student_of_the_alchemist.title"
+    },
+    "description": {
+      "translate": "advancements.student_of_the_alchemist.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "student_of_the_alchemist_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 25,
+    "recipes": [
+      "arcanum_of_wisdom:altar_of_the_alchemist"
+    ]
+  },
+  "parent": "arcanum_of_wisdom:apprentice_of_the_alchemist"
+}

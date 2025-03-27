@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 77,
   "_type": "achievement",
   "definition": {
     "achievementName": "The discovery of true strenght",
@@ -14,7 +14,6 @@
     "hideIfNotCompleted": false,
     "rewardLoot": [],
     "rewardRecipes": [],
-    "rewardFunction": "No function",
     "rewardXP": 40,
     "achievementType": "task",
     "parent": {

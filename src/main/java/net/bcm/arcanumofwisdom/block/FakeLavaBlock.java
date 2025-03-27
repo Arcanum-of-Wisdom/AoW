@@ -37,9 +37,9 @@ public class FakeLavaBlock extends Block implements SimpleWaterloggedBlock {
 
 	public FakeLavaBlock() {
 		super(BlockBehaviour.Properties.of().liquid()
-				.sound(new DeferredSoundType(1.0f, 1.0f, () -> BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("ambient.underwater.exit")), () -> BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("entity.boat.paddle_water")),
-						() -> BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.lily_pad.place")), () -> BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("entity.boat.paddle_water")),
-						() -> BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("ambient.underwater.enter"))))
+				.sound(new DeferredSoundType(1.0f, 1.0f, () -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("ambient.underwater.exit")), () -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.boat.paddle_water")),
+						() -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.lily_pad.place")), () -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.boat.paddle_water")),
+						() -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("ambient.underwater.enter"))))
 				.strength(-1, 3600000).lightLevel(s -> 10).friction(0.7f).speedFactor(1.2f).jumpFactor(1.1f).noOcclusion().randomTicks().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)
 				.isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(WATERLOGGED, false));
@@ -62,13 +62,14 @@ public class FakeLavaBlock extends Block implements SimpleWaterloggedBlock {
 
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
+		super.createBlockStateDefinition(builder);
 		builder.add(WATERLOGGED);
 	}
 
 	@Override
 	public BlockState getStateForPlacement(BlockPlaceContext context) {
 		boolean flag = context.getLevel().getFluidState(context.getClickedPos()).getType() == Fluids.WATER;
-		return this.defaultBlockState().setValue(WATERLOGGED, flag);
+		return super.getStateForPlacement(context).setValue(WATERLOGGED, flag);
 	}
 
 	@Override

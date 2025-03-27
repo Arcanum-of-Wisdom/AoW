@@ -19,30 +19,30 @@ public class ShadowPowerKeyBeiTastendruckProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if (entity instanceof LivingEntity _livEnt0 && _livEnt0.hasEffect(ArcanumOfWisdomModMobEffects.SHADOW_WARRIOR.get())) {
+		if (entity instanceof LivingEntity _livEnt0 && _livEnt0.hasEffect(ArcanumOfWisdomModMobEffects.SHADOW_WARRIOR)) {
 			if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).shadowwarrior_active == true) {
 				if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).shadowpower_cooldown <= 0) {
 					if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-						_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.SHADOW_POWER.get(), 120, 1, true, true));
+						_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.SHADOW_POWER, 120, 1, true, true));
 					if (entity instanceof Player _player && !_player.level().isClientSide())
 						_player.displayClientMessage(Component.literal("Shadow Power activated!"), true);
 					if (world instanceof Level _level) {
 						if (!_level.isClientSide()) {
-							_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("item.firecharge.use")), SoundSource.PLAYERS, 1, 2);
+							_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("item.firecharge.use")), SoundSource.PLAYERS, 1, 2);
 						} else {
-							_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("item.firecharge.use")), SoundSource.PLAYERS, 1, 2, false);
+							_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("item.firecharge.use")), SoundSource.PLAYERS, 1, 2, false);
 						}
 					}
 					if (world instanceof Level _level) {
 						if (!_level.isClientSide()) {
-							_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("particle.soul_escape")), SoundSource.PLAYERS, 2, 1);
+							_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("particle.soul_escape")), SoundSource.PLAYERS, 2, 1);
 						} else {
-							_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("particle.soul_escape")), SoundSource.PLAYERS, 2, 1, false);
+							_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("particle.soul_escape")), SoundSource.PLAYERS, 2, 1, false);
 						}
 					}
 				} else {
 					if (entity instanceof Player _player && !_player.level().isClientSide())
-						_player.displayClientMessage(Component.literal(("The countdown hasn\u00B4t ended yet! Time left:" + Math.round(Math.abs(entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).shadowpower_cooldown)))), true);
+						_player.displayClientMessage(Component.literal(("The countdown hasn\u00B4t ended yet! Time left: " + Math.round(Math.abs(entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).shadowpower_cooldown)))), true);
 				}
 			} else {
 				if (entity instanceof Player _player && !_player.level().isClientSide())

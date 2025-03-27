@@ -1,0 +1,536 @@
+{
+  "_fv": 77,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 300,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bookofwisdom_open.png",
+          "use1Xscale": false,
+          "x": 65,
+          "y": 21,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonred",
+          "image": "buttonred.png",
+          "hoveredImage": "buttonredhighlight.png",
+          "onClick": {
+            "name": "CloseBAWGUI"
+          },
+          "x": 362,
+          "y": 6,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_4_left",
+          "image": "custom_arrow_4_left.png",
+          "hoveredImage": "custom_arrow_5_left.png",
+          "onClick": {
+            "name": "BAWBackToMenuP"
+          },
+          "x": 346,
+          "y": 15,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_4_left1",
+          "image": "custom_arrow_4_left.png",
+          "hoveredImage": "custom_arrow_5_left.png",
+          "onClick": {
+            "name": "OpenBAWGUIArtifacts"
+          },
+          "x": 192,
+          "y": 196,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_4_right",
+          "image": "custom_arrow_4_right.png",
+          "hoveredImage": "custom_arrow_5_right.png",
+          "onClick": {
+            "name": "OpenBAWGUIArtifacts3"
+          },
+          "x": 234,
+          "y": 196,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_artifact_of_life",
+          "text": {
+            "fixedValue": "LIFE"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 148,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_artifact_of_fluids",
+          "text": {
+            "fixedValue": "FLUIDS"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 265,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "artifactoflife.png",
+          "use1Xscale": false,
+          "x": 151,
+          "y": 57,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "artifactoffluids.png",
+          "use1Xscale": false,
+          "x": 272,
+          "y": 57,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_main_ability",
+          "text": {
+            "fixedValue": "Main ability:"
+          },
+          "color": {
+            "value": -13312,
+            "falpha": 0.0
+          },
+          "x": 112,
+          "y": 72,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_main_ability1",
+          "text": {
+            "fixedValue": "Main ability: "
+          },
+          "color": {
+            "value": -13312,
+            "falpha": 0.0
+          },
+          "x": 235,
+          "y": 73,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_removes_glowing",
+          "text": {
+            "fixedValue": "Removes \"Glowing\""
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 113,
+          "y": 81,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_grants_hp",
+          "text": {
+            "fixedValue": "Grants HP"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 113,
+          "y": 90,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_grants_hp_boost",
+          "text": {
+            "fixedValue": "Grants \"HP Boost\""
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 113,
+          "y": 99,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_grants_water_breathing",
+          "text": {
+            "fixedValue": "Grants \"Water"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 235,
+          "y": 83,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_breathing",
+          "text": {
+            "fixedValue": "Breathing\""
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 273,
+          "y": 90,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_grants_conduit",
+          "text": {
+            "fixedValue": "Grants \"Conduit"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 235,
+          "y": 99,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_power",
+          "text": {
+            "fixedValue": "Power\""
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 273,
+          "y": 106,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_grants_dolphins",
+          "text": {
+            "fixedValue": "Grants \"Dolphins"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 235,
+          "y": 115,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_grace",
+          "text": {
+            "fixedValue": "Grace\""
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 273,
+          "y": 122,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_sword_ability",
+          "text": {
+            "fixedValue": "Sword ability:"
+          },
+          "color": {
+            "value": -13421569,
+            "falpha": 0.0
+          },
+          "x": 112,
+          "y": 108,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_sword_ability1",
+          "text": {
+            "fixedValue": "Sword ability:"
+          },
+          "color": {
+            "value": -13421569,
+            "falpha": 0.0
+          },
+          "x": 235,
+          "y": 130,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_deals_damage_to",
+          "text": {
+            "fixedValue": "Deals damage to"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 235,
+          "y": 138,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_nearby_elder",
+          "text": {
+            "fixedValue": "nearby (Elder-)"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 235,
+          "y": 146,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_guardians_and",
+          "text": {
+            "fixedValue": "Guardians and"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 235,
+          "y": 154,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_drowneds",
+          "text": {
+            "fixedValue": "drowned Zombies."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 235,
+          "y": 162,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_gives_players_in_a",
+          "text": {
+            "fixedValue": "Gives players, "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 112,
+          "y": 116,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_3x3_radius",
+          "text": {
+            "fixedValue": "3x3 radius regen."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 112,
+          "y": 141,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_vilagers_and",
+          "text": {
+            "fixedValue": "villagers and"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 112,
+          "y": 124,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_iron_golems",
+          "text": {
+            "fixedValue": "iron golems in a"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 112,
+          "y": 132,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_cd_400",
+          "text": {
+            "fixedValue": "CD:400"
+          },
+          "color": {
+            "value": -65485,
+            "falpha": 0.0
+          },
+          "x": 112,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_cd",
+          "text": {
+            "fixedValue": "CD:200"
+          },
+          "color": {
+            "value": -65485,
+            "falpha": 0.0
+          },
+          "x": 235,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_next_page",
+          "text": {
+            "fixedValue": "Next page"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 231,
+          "y": 191,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_last_page",
+          "text": {
+            "fixedValue": "Last page"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 187,
+          "y": 192,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

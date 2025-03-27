@@ -1,0 +1,274 @@
+{
+  "_fv": 77,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 50,
+    "height": 50,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "artifactofdeformationbg.png",
+          "use1Xscale": false,
+          "x": 15,
+          "y": 17,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_info",
+          "text": {
+            "fixedValue": "Info"
+          },
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "x": 205,
+          "y": 191,
+          "locked": true
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_you_gain_specific_updowngrades",
+          "text": {
+            "fixedValue": "You gain specific up-/downgrades when you transform. (strenght, health or speed changes)"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 204,
+          "y": 184,
+          "locked": true
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonred",
+          "image": "buttonred.png",
+          "hoveredImage": "buttonredhighlight.png",
+          "onClick": {
+            "name": "ArtifactOfDimensionsGUIClose"
+          },
+          "x": 199,
+          "y": 2,
+          "locked": true
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_1_up",
+          "image": "custom_arrow_1_up.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "ArtifactOfDeformationGUIButtonX12"
+          },
+          "x": 276,
+          "y": 89,
+          "locked": true
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_1_down",
+          "image": "custom_arrow_1_down.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "ArtifactOfDeformationGUIButtonXm12"
+          },
+          "x": 276,
+          "y": 107,
+          "locked": true
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_1_up1",
+          "image": "custom_arrow_1_up.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "ArtifactOfDeformationGUIButtonX15"
+          },
+          "x": 276,
+          "y": 71,
+          "locked": true
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_1_down1",
+          "image": "custom_arrow_1_down.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "ArtifactOfDeformationGUIButtonXm12"
+          },
+          "x": 276,
+          "y": 125,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_12",
+          "text": {
+            "fixedValue": "x1.2"
+          },
+          "color": {
+            "value": -16737997,
+            "falpha": 0.0
+          },
+          "x": 296,
+          "y": 92,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_x15",
+          "text": {
+            "fixedValue": "x1.5"
+          },
+          "color": {
+            "value": -16724890,
+            "falpha": 0.0
+          },
+          "x": 296,
+          "y": 74,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_x12",
+          "text": {
+            "fixedValue": "x-1.2"
+          },
+          "color": {
+            "value": -6750106,
+            "falpha": 0.0
+          },
+          "x": 297,
+          "y": 110,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_x151",
+          "text": {
+            "fixedValue": "x-1.5"
+          },
+          "color": {
+            "value": -3407770,
+            "falpha": 0.0
+          },
+          "x": 297,
+          "y": 128,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_cd_800",
+          "text": {
+            "fixedValue": "CD: 800"
+          },
+          "color": {
+            "value": -3407872,
+            "falpha": 0.0
+          },
+          "x": 332,
+          "y": 92,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_cd_1000",
+          "text": {
+            "fixedValue": "CD: 1000"
+          },
+          "color": {
+            "value": -65434,
+            "falpha": 0.0
+          },
+          "x": 332,
+          "y": 75,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_cd_8001",
+          "text": {
+            "fixedValue": "CD: 800"
+          },
+          "color": {
+            "value": -3407821,
+            "falpha": 0.0
+          },
+          "x": 332,
+          "y": 111,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_cd_10001",
+          "text": {
+            "fixedValue": "CD: 1000"
+          },
+          "color": {
+            "value": -65434,
+            "falpha": 0.0
+          },
+          "x": 332,
+          "y": 129,
+          "locked": true
+        }
+      },
+      {
+        "type": "entitymodel",
+        "data": {
+          "entityModel": {
+            "name": "GUIEntityReturn"
+          },
+          "scale": 30,
+          "rotationX": 0,
+          "followMouseMovement": true,
+          "x": 70,
+          "y": 177,
+          "locked": true
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

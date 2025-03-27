@@ -1,0 +1,14 @@
+{
+  "feature": "arcanum_of_wisdom:arcana_high_mountains_biome_feature",
+  "placement": [
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "Name": "minecraft:spruce_sapling"
+        }
+      }
+    }
+  ]
+}

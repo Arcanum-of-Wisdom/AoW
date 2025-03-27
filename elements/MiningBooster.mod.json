@@ -1,0 +1,54 @@
+{
+  "_fv": 77,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Mining Booster",
+    "icon": "miningbooster",
+    "color": {
+      "value": -10277587,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "attribute": {
+          "value": "BLOCK_REACH"
+        },
+        "amount": 5.0,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": {
+          "value": "LUCK"
+        },
+        "amount": 2.0,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": {
+          "value": "MINING_EFFICIENCY"
+        },
+        "amount": 0.8,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": {
+          "value": "SUBMERGED_MINING_SPEED"
+        },
+        "amount": 0.8,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": {
+          "value": "BLOCK_BREAK_SPEED"
+        },
+        "amount": 1.5,
+        "operation": "ADD_VALUE"
+      }
+    ]
+  }
+}

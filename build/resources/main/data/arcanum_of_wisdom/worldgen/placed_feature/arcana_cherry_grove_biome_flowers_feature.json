@@ -24,10 +24,7 @@
       "predicate": {
         "type": "minecraft:would_survive",
         "state": {
-          "Name": "minecraft:cherry_sapling",
-          "Properties": {
-            "stage": "0"
-          }
+          "Name": "minecraft:cherry_sapling"
         }
       }
     }

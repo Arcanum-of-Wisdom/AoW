@@ -4,7 +4,7 @@ package net.bcm.arcanumofwisdom.client.screens;
 import org.checkerframework.checker.units.qual.h;
 
 import net.neoforged.neoforge.client.event.ScreenEvent;
-import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.bus.api.EventPriority;
 import net.neoforged.api.distmarker.Dist;
@@ -22,13 +22,13 @@ import net.bcm.arcanumofwisdom.procedures.ShowOverlayRightProcedure;
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.platform.GlStateManager;
 
-@Mod.EventBusSubscriber({Dist.CLIENT})
+@EventBusSubscriber({Dist.CLIENT})
 public class WisdomOverlayIngameMenuOverlay {
 	@SubscribeEvent(priority = EventPriority.HIGHEST)
 	public static void eventHandler(ScreenEvent.Render.Post event) {
 		if (event.getScreen() instanceof PauseScreen) {
-			int w = event.getScreen().width;
-			int h = event.getScreen().height;
+			int w = event.getGuiGraphics().guiWidth();
+			int h = event.getGuiGraphics().guiHeight();
 			Level world = null;
 			double x = 0;
 			double y = 0;
@@ -47,7 +47,7 @@ public class WisdomOverlayIngameMenuOverlay {
 			RenderSystem.blendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA, GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
 			RenderSystem.setShaderColor(1, 1, 1, 1);
 			if (ShowOverlayRightProcedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("arcanum_of_wisdom:textures/screens/book_of_wisdom_small.png"), w / 2 + -20, h / 2 + 77, 0, 0, 25, 25, 25, 25);
+				event.getGuiGraphics().blit(ResourceLocation.parse("arcanum_of_wisdom:textures/screens/book_of_wisdom_small.png"), w / 2 + -20, h / 2 + 77, 0, 0, 25, 25, 25, 25);
 
 				event.getGuiGraphics().drawString(Minecraft.getInstance().font,
 

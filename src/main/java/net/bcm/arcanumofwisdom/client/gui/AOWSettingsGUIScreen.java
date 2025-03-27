@@ -46,11 +46,10 @@ public class AOWSettingsGUIScreen extends AbstractContainerScreen<AOWSettingsGUI
 		this.imageHeight = 118;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("arcanum_of_wisdom:textures/screens/aow_settings_gui.png");
+	private static final ResourceLocation texture = ResourceLocation.parse("arcanum_of_wisdom:textures/screens/aow_settings_gui.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(guiGraphics, mouseX, mouseY, partialTicks);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		if (GUIEntityReturnProcedure.execute(entity) instanceof LivingEntity livingEntity) {
 			this.renderEntityInInventoryFollowsAngle(guiGraphics, this.leftPos + -49, this.topPos + 107, 35, 0f, 0, livingEntity);
@@ -100,7 +99,7 @@ public class AOWSettingsGUIScreen extends AbstractContainerScreen<AOWSettingsGUI
 		super.init();
 		button_toggle = Button.builder(Component.translatable("gui.arcanum_of_wisdom.aow_settings_gui.button_toggle"), e -> {
 			if (true) {
-				PacketDistributor.SERVER.noArg().send(new AOWSettingsGUIButtonMessage(0, x, y, z));
+				PacketDistributor.sendToServer(new AOWSettingsGUIButtonMessage(0, x, y, z));
 				AOWSettingsGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}).bounds(this.leftPos + 180, this.topPos + 15, 56, 20).build();
@@ -108,28 +107,28 @@ public class AOWSettingsGUIScreen extends AbstractContainerScreen<AOWSettingsGUI
 		this.addRenderableWidget(button_toggle);
 		button_reset = Button.builder(Component.translatable("gui.arcanum_of_wisdom.aow_settings_gui.button_reset"), e -> {
 			if (ToggleResetWisdomButtonProcedure.execute(entity)) {
-				PacketDistributor.SERVER.noArg().send(new AOWSettingsGUIButtonMessage(1, x, y, z));
+				PacketDistributor.sendToServer(new AOWSettingsGUIButtonMessage(1, x, y, z));
 				AOWSettingsGUIButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		}).bounds(this.leftPos + 185, this.topPos + 39, 51, 20).build(builder -> new Button(builder) {
 			@Override
 			public void renderWidget(GuiGraphics guiGraphics, int gx, int gy, float ticks) {
-				if (ToggleResetWisdomButtonProcedure.execute(entity))
-					super.renderWidget(guiGraphics, gx, gy, ticks);
+				this.visible = ToggleResetWisdomButtonProcedure.execute(entity);
+				super.renderWidget(guiGraphics, gx, gy, ticks);
 			}
 		});
 		guistate.put("button:button_reset", button_reset);
 		this.addRenderableWidget(button_reset);
 		button_reset1 = Button.builder(Component.translatable("gui.arcanum_of_wisdom.aow_settings_gui.button_reset1"), e -> {
 			if (ToggleResetWisdomButtonProcedure.execute(entity)) {
-				PacketDistributor.SERVER.noArg().send(new AOWSettingsGUIButtonMessage(2, x, y, z));
+				PacketDistributor.sendToServer(new AOWSettingsGUIButtonMessage(2, x, y, z));
 				AOWSettingsGUIButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
 		}).bounds(this.leftPos + 185, this.topPos + 63, 51, 20).build(builder -> new Button(builder) {
 			@Override
 			public void renderWidget(GuiGraphics guiGraphics, int gx, int gy, float ticks) {
-				if (ToggleResetWisdomButtonProcedure.execute(entity))
-					super.renderWidget(guiGraphics, gx, gy, ticks);
+				this.visible = ToggleResetWisdomButtonProcedure.execute(entity);
+				super.renderWidget(guiGraphics, gx, gy, ticks);
 			}
 		});
 		guistate.put("button:button_reset1", button_reset1);

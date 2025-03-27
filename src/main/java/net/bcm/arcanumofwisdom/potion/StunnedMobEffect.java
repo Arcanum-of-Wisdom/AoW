@@ -1,15 +1,28 @@
 
 package net.bcm.arcanumofwisdom.potion;
 
+import net.neoforged.neoforge.common.EffectCures;
+import net.neoforged.neoforge.common.EffectCure;
+
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.effect.MobEffect;
 
 import net.bcm.arcanumofwisdom.procedures.StunnedEffektBeimTrankAktivierterTickProcedure;
 
+import java.util.Set;
+
 public class StunnedMobEffect extends MobEffect {
 	public StunnedMobEffect() {
 		super(MobEffectCategory.HARMFUL, -6710887);
+	}
+
+	@Override
+	public void fillEffectCures(Set<EffectCure> cures, MobEffectInstance effectInstance) {
+		cures.add(EffectCures.MILK);
+		cures.add(EffectCures.PROTECTED_BY_TOTEM);
+		cures.add(EffectCures.HONEY);
 	}
 
 	@Override
@@ -18,7 +31,8 @@ public class StunnedMobEffect extends MobEffect {
 	}
 
 	@Override
-	public void applyEffectTick(LivingEntity entity, int amplifier) {
+	public boolean applyEffectTick(LivingEntity entity, int amplifier) {
 		StunnedEffektBeimTrankAktivierterTickProcedure.execute(entity);
+		return super.applyEffectTick(entity, amplifier);
 	}
 }

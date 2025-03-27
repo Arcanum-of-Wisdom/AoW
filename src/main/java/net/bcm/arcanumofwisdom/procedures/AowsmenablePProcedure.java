@@ -15,7 +15,8 @@ public class AowsmenablePProcedure {
 			_vars.startup_message = false;
 			_vars.syncPlayerVariables(entity);
 		}
+		ArcanumOfWisdomModVariables.startup_message_teaser = true;
 		if (entity instanceof Player _player && !_player.level().isClientSide())
-			_player.displayClientMessage(Component.literal("Startup message is visible the next time you enter this world!"), false);
+			_player.displayClientMessage(Component.literal("The startup teaser is visible now and the startup message will appear once the next time you enter this world!"), false);
 	}
 }

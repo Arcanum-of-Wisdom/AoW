@@ -30,10 +30,11 @@ public class ArtifactOfMagicItem extends Item {
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, level, list, flag);
-		list.add(Component.literal("A very powerful artifact that can be combined with the remaining 4 artifacts. The artifact damages all undead entities when it is used with the netherite artifact sword."));
-		list.add(Component.literal("Otherwise it can be used with a right click."));
+	@OnlyIn(Dist.CLIENT)
+	public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, context, list, flag);
+		list.add(Component.translatable("item.arcanum_of_wisdom.artifact_of_magic.description_0"));
+		list.add(Component.translatable("item.arcanum_of_wisdom.artifact_of_magic.description_1"));
 	}
 
 	@Override

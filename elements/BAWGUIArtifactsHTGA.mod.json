@@ -1,0 +1,572 @@
+{
+  "_fv": 77,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 300,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bookofwisdom_open.png",
+          "use1Xscale": false,
+          "x": 64,
+          "y": 20,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonred",
+          "image": "buttonred.png",
+          "hoveredImage": "buttonredhighlight.png",
+          "onClick": {
+            "name": "CloseBAWGUI"
+          },
+          "x": 362,
+          "y": 6,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_4_left",
+          "image": "custom_arrow_4_left.png",
+          "hoveredImage": "custom_arrow_5_left.png",
+          "onClick": {
+            "name": "BAWBackToMenuP"
+          },
+          "x": 346,
+          "y": 15,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_artifacts",
+          "text": {
+            "fixedValue": "How to get"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 42,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_artifacts1",
+          "text": {
+            "fixedValue": "Artifacts"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 135,
+          "y": 51,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_loottables",
+          "text": {
+            "fixedValue": "Loottables:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 113,
+          "y": 61,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_mining",
+          "text": {
+            "fixedValue": "- Mining:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 113,
+          "y": 70,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_diamond_ores_1_in_16",
+          "text": {
+            "fixedValue": "diamond ores,"
+          },
+          "color": {
+            "value": -16763956,
+            "falpha": 0.0
+          },
+          "x": 113,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_emerald_ores",
+          "text": {
+            "fixedValue": "emerald ores &"
+          },
+          "color": {
+            "value": -16763956,
+            "falpha": 0.0
+          },
+          "x": 113,
+          "y": 88,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_1_in_16",
+          "text": {
+            "fixedValue": "1 in 16"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 113,
+          "y": 104,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_gold_ores",
+          "text": {
+            "fixedValue": "gold ores"
+          },
+          "color": {
+            "value": -16763956,
+            "falpha": 0.0
+          },
+          "x": 114,
+          "y": 112,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_1_in_32",
+          "text": {
+            "fixedValue": "1 in 32"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 113,
+          "y": 121,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_chances_are_getting",
+          "text": {
+            "fixedValue": "Chances are getting"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 113,
+          "y": 129,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_exponentially_smaller",
+          "text": {
+            "fixedValue": "exponentially"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 113,
+          "y": 136,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_smaller",
+          "text": {
+            "fixedValue": "smaller (1/2)"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 113,
+          "y": 143,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_killing_entities",
+          "text": {
+            "fixedValue": "- Executing:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 234,
+          "y": 43,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_warden",
+          "text": {
+            "fixedValue": "Warden"
+          },
+          "color": {
+            "value": -65485,
+            "falpha": 0.0
+          },
+          "x": 235,
+          "y": 51,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_artifact_of_materials",
+          "text": {
+            "fixedValue": "Materials"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 234,
+          "y": 59,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_evoker_1_in_8",
+          "text": {
+            "fixedValue": "Evoker"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "x": 234,
+          "y": 68,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_magic_or",
+          "text": {
+            "fixedValue": "Magic (100%) or"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 234,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_combined_a_1_in_8",
+          "text": {
+            "fixedValue": "combined artifact"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 235,
+          "y": 84,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_100",
+          "text": {
+            "fixedValue": "(100%)"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 280,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_1_in_8",
+          "text": {
+            "fixedValue": "(1 in 8)"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 233,
+          "y": 92,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_guardian",
+          "text": {
+            "fixedValue": "Guardian"
+          },
+          "color": {
+            "value": -65485,
+            "falpha": 0.0
+          },
+          "x": 234,
+          "y": 101,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_life_50_or_fluids_50",
+          "text": {
+            "fixedValue": "Life (50%) or"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 235,
+          "y": 109,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_fluids_50",
+          "text": {
+            "fixedValue": "fluids (50%)"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 234,
+          "y": 117,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_elder_guardian",
+          "text": {
+            "fixedValue": "Elder Guardian"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "x": 234,
+          "y": 126,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_life_50_or",
+          "text": {
+            "fixedValue": "Life (50%) or"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 235,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_fluids_501",
+          "text": {
+            "fixedValue": "fluids (50%) or"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 234,
+          "y": 142,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_combined_artifact",
+          "text": {
+            "fixedValue": "combined artifact"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 235,
+          "y": 150,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_1_in_5",
+          "text": {
+            "fixedValue": "(1 in 5)"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 234,
+          "y": 159,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ancient_debris",
+          "text": {
+            "fixedValue": "ancient debris"
+          },
+          "color": {
+            "value": -16763956,
+            "falpha": 0.0
+          },
+          "x": 113,
+          "y": 95,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_buried_treasures",
+          "text": {
+            "fixedValue": "- Advancements:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 113,
+          "y": 152,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_1001",
+          "text": {
+            "fixedValue": "Free the End"
+          },
+          "color": {
+            "value": -12802394,
+            "falpha": 0.0
+          },
+          "x": 113,
+          "y": 159,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_1002",
+          "text": {
+            "fixedValue": "(100%)"
+          },
+          "color": {
+            "value": -12802394,
+            "falpha": 0.0
+          },
+          "x": 112,
+          "y": 167,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

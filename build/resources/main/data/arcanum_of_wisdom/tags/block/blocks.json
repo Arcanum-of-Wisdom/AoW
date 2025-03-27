@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "arcanum_of_wisdom:fake_water",
+    "arcanum_of_wisdom:fake_lava",
+    "arcanum_of_wisdom:artifactlaboratorytable",
+    "arcanum_of_wisdom:artifactcraftingtable",
+    "arcanum_of_wisdom:altar_of_the_alchemist"
+  ]
+}

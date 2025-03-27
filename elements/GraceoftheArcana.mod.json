@@ -1,18 +1,19 @@
 {
-  "_fv": 60,
+  "_fv": 77,
   "_type": "potioneffect",
   "definition": {
     "effectName": "Grace of the Arcana",
-    "icon": "grace_of_the_arcana.png",
+    "icon": "grace_of_the_arcana",
     "color": {
       "value": -996502,
       "falpha": 0.0
     },
     "isInstant": false,
-    "isBad": false,
-    "isBenefitical": true,
+    "mobEffectCategory": "BENEFICIAL",
     "renderStatusInInventory": true,
     "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [],
     "onStarted": {
       "name": "GraceoftheArcanaWennEffektStartetangewendetWird"
     },

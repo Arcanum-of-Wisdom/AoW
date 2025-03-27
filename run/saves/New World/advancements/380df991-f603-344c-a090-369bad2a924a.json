@@ -1,0 +1,51 @@
+{
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-03-24 15:59:29 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2025-03-24 15:59:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2025-03-24 15:59:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-03-24 15:58:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-03-24 15:59:29 +0100"
+    },
+    "done": true
+  },
+  "arcanum_of_wisdom:decrypting_trader": {
+    "criteria": {
+      "decrypting_trader_0": "2025-03-24 15:59:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:old_growth_spruce_taiga": "2025-03-24 15:58:49 +0100"
+    },
+    "done": false
+  },
+  "arcanum_of_wisdom:apprentice_of_the_alchemist": {
+    "criteria": {
+      "apprentice_of_the_alchemist_0": "2025-03-24 15:59:42 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
+}

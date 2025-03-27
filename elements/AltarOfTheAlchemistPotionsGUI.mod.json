@@ -1,0 +1,347 @@
+{
+  "_fv": 77,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "altarofthealchemistpotionsgui.png",
+          "use1Xscale": false,
+          "x": 37,
+          "y": 37,
+          "locked": true
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glass_bottle",
+          "text": {
+            "fixedValue": "Glass bottle"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 202,
+          "y": 81,
+          "locked": true
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.REDSTONE"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 72,
+          "y": 62,
+          "locked": true
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.WATER_BUCKET"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 165,
+          "y": 84,
+          "locked": true
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.GLASS_BOTTLE"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 205,
+          "y": 84,
+          "locked": true
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 245,
+          "y": 84,
+          "locked": true
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 4,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 336,
+          "y": 84,
+          "locked": true
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_redstone",
+          "text": {
+            "fixedValue": "Redstone"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 69,
+          "y": 58,
+          "locked": true
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_water_bucket",
+          "text": {
+            "fixedValue": "Water bucket"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 162,
+          "y": 81,
+          "locked": true
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_empty",
+          "text": {
+            "fixedValue": "?"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 242,
+          "y": 81,
+          "locked": true
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_activate_brewing_stand",
+          "text": {
+            "fixedValue": "Activate brewing stand"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 285,
+          "y": 82,
+          "locked": true
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_output",
+          "text": {
+            "fixedValue": "Output"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 333,
+          "y": 81,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "redstonelampred.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "RedstonelampActivateP"
+          },
+          "x": 94,
+          "y": 63,
+          "locked": true
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_button_gear",
+          "image": "button_gear.png",
+          "hoveredImage": "button_gear_highlight.png",
+          "onClick": {
+            "name": "PotionsGUIWorkP"
+          },
+          "x": 287,
+          "y": 84,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "black_item.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "RedstonelampActivateP"
+          },
+          "x": 73,
+          "y": 63,
+          "locked": true
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_ominous_potion",
+          "text": {
+            "fixedValue": "Ominous bottle"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 69,
+          "y": 82,
+          "locked": true
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.OMINOUS_BOTTLE"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 5,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 72,
+          "y": 84,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "redstonelampred.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "RedstonelampActivate2P"
+          },
+          "x": 94,
+          "y": 85,
+          "locked": true
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonred",
+          "image": "buttonred.png",
+          "hoveredImage": "buttonredhighlight.png",
+          "onClick": {
+            "name": "CloseGUIs"
+          },
+          "x": 381,
+          "y": 13,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_close",
+          "text": {
+            "fixedValue": "Close"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 385,
+          "y": 17,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_when_both_lamps_turn_red_the_ma",
+          "text": {
+            "fixedValue": "When both lamps turn red, the machine is powered and ready for ingredients"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 93,
+          "y": 59,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_when_both_lamps_turn_red_the_ma1",
+          "text": {
+            "fixedValue": "When both lamps turn red, the machine is powered and ready for ingredients"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 93,
+          "y": 83,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

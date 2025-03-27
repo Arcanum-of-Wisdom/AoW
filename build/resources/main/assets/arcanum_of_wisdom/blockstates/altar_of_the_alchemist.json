@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arcanum_of_wisdom:block/altar_of_the_alchemist"
+    },
+    "facing=east": {
+      "model": "arcanum_of_wisdom:block/altar_of_the_alchemist",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "arcanum_of_wisdom:block/altar_of_the_alchemist",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "arcanum_of_wisdom:block/altar_of_the_alchemist",
+      "y": 270
+    }
+  }
+}

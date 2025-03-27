@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 77,
   "_type": "gui",
   "definition": {
     "type": 1,
@@ -16,7 +16,8 @@
           "image": "altbackground.png",
           "use1Xscale": false,
           "x": 126,
-          "y": 33
+          "y": 33,
+          "locked": false
         }
       },
       {
@@ -24,12 +25,13 @@
         "data": {
           "name": "tooltip_click_here_to_craft_the_netherit",
           "text": {
-            "fixedValue": "Click here to craft the netherite artifact sword!"
+            "fixedValue": "Click here to craft the netherite artifact sword or shield!"
           },
           "width": 24,
           "height": 24,
           "x": 210,
-          "y": 72
+          "y": 72,
+          "locked": false
         }
       },
       {
@@ -44,7 +46,8 @@
             "falpha": 0.0
           },
           "x": 193,
-          "y": 39
+          "y": 39,
+          "locked": false
         }
       },
       {
@@ -57,7 +60,8 @@
             "name": "CloseGUIs"
           },
           "x": 294,
-          "y": 7
+          "y": 7,
+          "locked": false
         }
       },
       {
@@ -66,7 +70,8 @@
           "image": "button_skill.png",
           "use1Xscale": false,
           "x": 162,
-          "y": 64
+          "y": 64,
+          "locked": false
         }
       },
       {
@@ -75,7 +80,8 @@
           "image": "button_skill_highlight.png",
           "use1Xscale": false,
           "x": 142,
-          "y": 84
+          "y": 84,
+          "locked": false
         }
       },
       {
@@ -84,7 +90,8 @@
           "image": "button_skill_highlight.png",
           "use1Xscale": false,
           "x": 182,
-          "y": 84
+          "y": 84,
+          "locked": false
         }
       },
       {
@@ -97,7 +104,8 @@
             "name": "ALTResearchGUIWorkP"
           },
           "x": 214,
-          "y": 76
+          "y": 76,
+          "locked": false
         }
       },
       {
@@ -106,7 +114,8 @@
           "image": "button_vanilla_2_pressed.png",
           "use1Xscale": false,
           "x": 249,
-          "y": 74
+          "y": 74,
+          "locked": false
         }
       },
       {
@@ -122,14 +131,15 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 250,
-          "y": 75
+          "y": 75,
+          "locked": false
         }
       },
       {
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": "Items.DIAMOND_SWORD"
+            "value": ""
           },
           "disablePlacement": {
             "fixedValue": false
@@ -140,7 +150,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 143,
-          "y": 85
+          "y": 85,
+          "locked": false
         }
       },
       {
@@ -158,7 +169,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 183,
-          "y": 85
+          "y": 85,
+          "locked": false
         }
       },
       {
@@ -173,7 +185,8 @@
             "falpha": 0.0
           },
           "x": 303,
-          "y": 192
+          "y": 192,
+          "locked": false
         }
       },
       {
@@ -181,12 +194,13 @@
         "data": {
           "name": "tooltip_you_can_use_1_diamond_sword_1_n",
           "text": {
-            "fixedValue": "Use a diamond sword, a netherite ingot and a combined artifact to craft the new sword!"
+            "fixedValue": "Use a diamond sword/shield, a netherite ingot and a combined artifact to craft the new sword/shield!"
           },
           "width": 24,
           "height": 24,
           "x": 302,
-          "y": 185
+          "y": 185,
+          "locked": false
         }
       },
       {
@@ -208,7 +222,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 163,
-          "y": 65
+          "y": 65,
+          "locked": false
         }
       },
       {
@@ -218,10 +233,95 @@
           "image": "large_button_back.png",
           "hoveredImage": "large_button_back_highlight.png",
           "onClick": {
-            "name": "ALTGUIsBackButtonP"
+            "name": "ACTGUIBackButton"
           },
           "x": 326,
-          "y": 13
+          "y": 13,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_netherite_ingot_input",
+          "text": {
+            "fixedValue": "Netherite ingot input"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 180,
+          "y": 82,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_combined_artifact_input",
+          "text": {
+            "fixedValue": "Combined artifact input"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 160,
+          "y": 61,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_diamond_swordshield_input",
+          "text": {
+            "fixedValue": "Diamond sword/shield input"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 140,
+          "y": 82,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_output",
+          "text": {
+            "fixedValue": "Output"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 247,
+          "y": 72,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_back",
+          "text": {
+            "fixedValue": "Back"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 324,
+          "y": 11,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_close",
+          "text": {
+            "fixedValue": "Close"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 298,
+          "y": 11,
+          "locked": false
         }
       }
     ],

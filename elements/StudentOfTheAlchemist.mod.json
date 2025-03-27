@@ -1,0 +1,26 @@
+{
+  "_fv": 77,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Student of the alchemist",
+    "achievementDescription": "Discover one potion of the alchemist",
+    "achievementIcon": {
+      "value": "CUSTOM:BottleOfElytraEnhancer"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "AltarOfTheAlchemistRecipe"
+    ],
+    "rewardXP": 25,
+    "achievementType": "goal",
+    "parent": {
+      "value": "CUSTOM:ApprenticeOfTheAlchemist"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"custom_trigger\"></block></next></block></xml>"
+  }
+}

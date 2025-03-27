@@ -1,7 +1,7 @@
 package net.bcm.arcanumofwisdom.procedures;
 
 import net.neoforged.neoforge.event.entity.player.PlayerEvent;
-import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.bus.api.Event;
 
@@ -29,7 +29,7 @@ import net.bcm.arcanumofwisdom.ArcanumOfWisdomMod;
 
 import javax.annotation.Nullable;
 
-@Mod.EventBusSubscriber
+@EventBusSubscriber
 public class UpdateEffectsAfterDeathProcedure {
 	@SubscribeEvent
 	public static void onPlayerRespawned(PlayerEvent.PlayerRespawnEvent event) {
@@ -50,27 +50,27 @@ public class UpdateEffectsAfterDeathProcedure {
 			LVL50Procedure.execute(world, x, y, z, entity);
 			LVL80Procedure.execute(world, x, y, z, entity);
 			LVL100Procedure.execute(world, x, y, z, entity);
-			if (!(entity instanceof LivingEntity _livEnt1 && _livEnt1.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()))) {
+			if (!(entity instanceof LivingEntity _livEnt1 && _livEnt1.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM))) {
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-					_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.WISDOM.get(), (int) Double.POSITIVE_INFINITY, 1, false, false));
+					_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.WISDOM, (int) Double.POSITIVE_INFINITY, 1, false, false));
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {
-						_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5);
+						_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.experience_orb.pickup")), SoundSource.PLAYERS, (float) 0.25, (float) 0.25);
 					} else {
-						_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5, false);
+						_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.experience_orb.pickup")), SoundSource.PLAYERS, (float) 0.25, (float) 0.25, false);
 					}
 				}
 			}
-			if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()).getAmplifier() : 0) <= 1
+			if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM).getAmplifier() : 0) <= 1
 					|| entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).lvleffects == false
-					|| (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()).getAmplifier() : 0) <= 1
+					|| (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM).getAmplifier() : 0) <= 1
 							&& entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).lvleffects == false) {
 				ArcanumOfWisdomMod.queueServerWork(5, () -> {
 					if (world instanceof Level _level) {
 						if (!_level.isClientSide()) {
-							_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5);
+							_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5);
 						} else {
-							_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5, false);
+							_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5, false);
 						}
 					}
 					if (world instanceof ServerLevel _level)
@@ -83,21 +83,21 @@ public class UpdateEffectsAfterDeathProcedure {
 						_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 								"attribute @p minecraft:generic.movement_speed base set 0.1");
 				});
-			} else if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()).getAmplifier() : 0) == 5) {
+			} else if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM).getAmplifier() : 0) == 5) {
 				if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).lvleffects == true) {
 					ArcanumOfWisdomMod.queueServerWork(5, () -> {
 						if (world instanceof Level _level) {
 							if (!_level.isClientSide()) {
-								_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5);
+								_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5);
 							} else {
-								_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5, false);
+								_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5, false);
 							}
 						}
 						if (world instanceof Level _level) {
 							if (!_level.isClientSide()) {
-								_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5);
+								_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5);
 							} else {
-								_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5, false);
+								_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5, false);
 							}
 						}
 						if (world instanceof ServerLevel _level)
@@ -111,14 +111,14 @@ public class UpdateEffectsAfterDeathProcedure {
 									"attribute @p minecraft:generic.movement_speed base set 0.13");
 					});
 				}
-			} else if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()).getAmplifier() : 0) == 10) {
+			} else if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM).getAmplifier() : 0) == 10) {
 				if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).lvleffects == true) {
 					ArcanumOfWisdomMod.queueServerWork(5, () -> {
 						if (world instanceof Level _level) {
 							if (!_level.isClientSide()) {
-								_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5);
+								_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5);
 							} else {
-								_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5, false);
+								_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5, false);
 							}
 						}
 						if (world instanceof ServerLevel _level)
@@ -132,14 +132,14 @@ public class UpdateEffectsAfterDeathProcedure {
 									"attribute @p minecraft:generic.movement_speed base set 0.14");
 					});
 				}
-			} else if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()).getAmplifier() : 0) == 20) {
+			} else if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM).getAmplifier() : 0) == 20) {
 				if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).lvleffects == true) {
 					ArcanumOfWisdomMod.queueServerWork(5, () -> {
 						if (world instanceof Level _level) {
 							if (!_level.isClientSide()) {
-								_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5);
+								_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5);
 							} else {
-								_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5, false);
+								_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5, false);
 							}
 						}
 						if (world instanceof ServerLevel _level)
@@ -156,14 +156,14 @@ public class UpdateEffectsAfterDeathProcedure {
 									"attribute @p minecraft:generic.attack_speed base set 5.0");
 					});
 				}
-			} else if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()).getAmplifier() : 0) == 50) {
+			} else if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM).getAmplifier() : 0) == 50) {
 				if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).lvleffects == true) {
 					ArcanumOfWisdomMod.queueServerWork(5, () -> {
 						if (world instanceof Level _level) {
 							if (!_level.isClientSide()) {
-								_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5);
+								_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5);
 							} else {
-								_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5, false);
+								_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5, false);
 							}
 						}
 						if (world instanceof ServerLevel _level)
@@ -188,14 +188,14 @@ public class UpdateEffectsAfterDeathProcedure {
 						}
 					});
 				}
-			} else if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()).getAmplifier() : 0) == 80) {
+			} else if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM).getAmplifier() : 0) == 80) {
 				if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).lvleffects == true) {
 					ArcanumOfWisdomMod.queueServerWork(5, () -> {
 						if (world instanceof Level _level) {
 							if (!_level.isClientSide()) {
-								_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5);
+								_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5);
 							} else {
-								_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5, false);
+								_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5, false);
 							}
 						}
 						if (world instanceof ServerLevel _level)
@@ -220,14 +220,14 @@ public class UpdateEffectsAfterDeathProcedure {
 						}
 					});
 				}
-			} else if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()).getAmplifier() : 0) >= 100) {
+			} else if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM).getAmplifier() : 0) >= 100) {
 				if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).lvleffects == true) {
 					ArcanumOfWisdomMod.queueServerWork(5, () -> {
 						if (world instanceof Level _level) {
 							if (!_level.isClientSide()) {
-								_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5);
+								_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5);
 							} else {
-								_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5, false);
+								_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.note_block.pling")), SoundSource.PLAYERS, 1, (float) 1.5, false);
 							}
 						}
 						if (world instanceof ServerLevel _level)

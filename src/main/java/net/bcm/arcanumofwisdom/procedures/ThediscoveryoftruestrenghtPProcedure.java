@@ -1,7 +1,7 @@
 package net.bcm.arcanumofwisdom.procedures;
 
-import net.neoforged.neoforge.event.TickEvent;
-import net.neoforged.fml.common.Mod;
+import net.neoforged.neoforge.event.tick.PlayerTickEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.bus.api.Event;
 
@@ -16,13 +16,11 @@ import net.bcm.arcanumofwisdom.network.ArcanumOfWisdomModVariables;
 
 import javax.annotation.Nullable;
 
-@Mod.EventBusSubscriber
+@EventBusSubscriber
 public class ThediscoveryoftruestrenghtPProcedure {
 	@SubscribeEvent
-	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
-		if (event.phase == TickEvent.Phase.END) {
-			execute(event, event.player);
-		}
+	public static void onPlayerTick(PlayerTickEvent.Post event) {
+		execute(event, event.getEntity());
 	}
 
 	public static void execute(Entity entity) {
@@ -33,10 +31,10 @@ public class ThediscoveryoftruestrenghtPProcedure {
 		if (entity == null)
 			return;
 		if (!(entity instanceof ServerPlayer _plr0 && _plr0.level() instanceof ServerLevel
-				&& _plr0.getAdvancements().getOrStartProgress(_plr0.server.getAdvancements().get(new ResourceLocation("arcanum_of_wisdom:thediscoveryoftruestrenght"))).isDone())
+				&& _plr0.getAdvancements().getOrStartProgress(_plr0.server.getAdvancements().get(ResourceLocation.parse("arcanum_of_wisdom:thediscoveryoftruestrenght"))).isDone())
 				&& entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).holybranch_ability_ult == true) {
 			if (entity instanceof ServerPlayer _player) {
-				AdvancementHolder _adv = _player.server.getAdvancements().get(new ResourceLocation("arcanum_of_wisdom:thediscoveryoftruestrenght"));
+				AdvancementHolder _adv = _player.server.getAdvancements().get(ResourceLocation.parse("arcanum_of_wisdom:thediscoveryoftruestrenght"));
 				if (_adv != null) {
 					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
 					if (!_ap.isDone()) {

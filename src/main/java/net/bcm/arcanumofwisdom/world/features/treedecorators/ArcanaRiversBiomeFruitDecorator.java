@@ -2,7 +2,7 @@
 package net.bcm.arcanumofwisdom.world.features.treedecorators;
 
 import net.neoforged.neoforge.registries.RegisterEvent;
-import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType;
@@ -19,16 +19,16 @@ import net.minecraft.core.BlockPos;
 
 import java.util.List;
 
-import com.mojang.serialization.Codec;
+import com.mojang.serialization.MapCodec;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class ArcanaRiversBiomeFruitDecorator extends CocoaDecorator {
-	public static Codec<ArcanaRiversBiomeFruitDecorator> CODEC = Codec.unit(ArcanaRiversBiomeFruitDecorator::new);
+	public static MapCodec<ArcanaRiversBiomeFruitDecorator> CODEC = MapCodec.unit(ArcanaRiversBiomeFruitDecorator::new);
 	public static TreeDecoratorType<?> DECORATOR_TYPE = new TreeDecoratorType<>(CODEC);
 
 	@SubscribeEvent
 	public static void registerTreeDecorator(RegisterEvent event) {
-		event.register(Registries.TREE_DECORATOR_TYPE, new ResourceLocation("arcanum_of_wisdom:arcana_rivers_biome_tree_fruit_decorator"), () -> DECORATOR_TYPE);
+		event.register(Registries.TREE_DECORATOR_TYPE, ResourceLocation.parse("arcanum_of_wisdom:arcana_rivers_biome_tree_fruit_decorator"), () -> DECORATOR_TYPE);
 	}
 
 	public ArcanaRiversBiomeFruitDecorator() {
@@ -60,11 +60,12 @@ public class ArcanaRiversBiomeFruitDecorator extends CocoaDecorator {
 		}
 	}
 
+	@SuppressWarnings("deprecation")
 	private static BlockState oriented(BlockState blockstate, Direction direction) {
 		return switch (direction) {
-			case SOUTH -> blockstate.getBlock().rotate(blockstate, Rotation.CLOCKWISE_180);
-			case EAST -> blockstate.getBlock().rotate(blockstate, Rotation.CLOCKWISE_90);
-			case WEST -> blockstate.getBlock().rotate(blockstate, Rotation.COUNTERCLOCKWISE_90);
+			case SOUTH -> blockstate.rotate(Rotation.CLOCKWISE_180);
+			case EAST -> blockstate.rotate(Rotation.CLOCKWISE_90);
+			case WEST -> blockstate.rotate(Rotation.COUNTERCLOCKWISE_90);
 			default -> blockstate;
 		};
 	}

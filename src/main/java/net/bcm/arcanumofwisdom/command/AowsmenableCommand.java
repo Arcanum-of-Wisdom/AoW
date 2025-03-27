@@ -5,7 +5,7 @@ import org.checkerframework.checker.units.qual.s;
 
 import net.neoforged.neoforge.event.RegisterCommandsEvent;
 import net.neoforged.neoforge.common.util.FakePlayerFactory;
-import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.level.Level;
@@ -16,7 +16,7 @@ import net.minecraft.commands.Commands;
 
 import net.bcm.arcanumofwisdom.procedures.AowsmenablePProcedure;
 
-@Mod.EventBusSubscriber
+@EventBusSubscriber
 public class AowsmenableCommand {
 	@SubscribeEvent
 	public static void registerCommand(RegisterCommandsEvent event) {
@@ -37,4 +37,5 @@ public class AowsmenableCommand {
 				return 0;
 			}));
 	}
+
 }

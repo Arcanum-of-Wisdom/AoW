@@ -1,0 +1,132 @@
+{
+  "_fv": 77,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 1,
+    "height": 1,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "0",
+          "name": "ABOE_xp_amount",
+          "width": 120,
+          "height": 20,
+          "x": 154,
+          "y": 147,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_select_xp_amount",
+          "text": {
+            "fixedValue": "Select XP amount:"
+          },
+          "color": {
+            "value": -16711936,
+            "falpha": 0.0
+          },
+          "x": 170,
+          "y": 138,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_throw",
+          "text": "Throw",
+          "isUndecorated": true,
+          "onClick": {
+            "name": "AdjustableBottleOfEnchantingThrowP"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 186,
+          "y": 171,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_experience_bottle",
+          "image": "experience_bottle.png",
+          "hoveredImage": "experience_bottle.png",
+          "onClick": {
+            "name": "AdjustableBottleOfEnchantingThrowP"
+          },
+          "x": 216,
+          "y": 168,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_throw",
+          "text": {
+            "fixedValue": "Throw"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 221,
+          "y": 167,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_throw1",
+          "text": {
+            "fixedValue": "Throw"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 197,
+          "y": 167,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "xpbigbottle.png",
+          "use1Xscale": false,
+          "x": 78,
+          "y": -19,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_throw2",
+          "text": {
+            "fixedValue": "Throw"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 173,
+          "y": 167,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

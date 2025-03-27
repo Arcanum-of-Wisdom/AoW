@@ -1,0 +1,558 @@
+{
+  "_fv": 77,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 300,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bookofwisdom_open.png",
+          "use1Xscale": false,
+          "x": 65,
+          "y": 21,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_arcana",
+          "text": {
+            "fixedValue": "Artifacts"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 134,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonred",
+          "image": "buttonred.png",
+          "hoveredImage": "buttonredhighlight.png",
+          "onClick": {
+            "name": "CloseBAWGUI"
+          },
+          "x": 362,
+          "y": 6,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_4_left",
+          "image": "custom_arrow_4_left.png",
+          "hoveredImage": "custom_arrow_5_left.png",
+          "onClick": {
+            "name": "BAWBackToMenuP"
+          },
+          "x": 346,
+          "y": 15,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_in_aow_artifacts",
+          "text": {
+            "fixedValue": "In AoW, artifacts"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 113,
+          "y": 57,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_are_one_of_the",
+          "text": {
+            "fixedValue": "are one of the"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 120,
+          "y": 66,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_keys_to_entering_the",
+          "text": {
+            "fixedValue": "keys to entering"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 116,
+          "y": 74,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_arcana_dimension",
+          "text": {
+            "fixedValue": "the Arcana"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 130,
+          "y": 82,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_dimension_as_you",
+          "text": {
+            "fixedValue": "Dimension, as you"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 113,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_need_all_5",
+          "text": {
+            "fixedValue": "need all 5"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 130,
+          "y": 98,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_artifacts_to_make",
+          "text": {
+            "fixedValue": "artifacts to make"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 114,
+          "y": 106,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_dimension_travel",
+          "text": {
+            "fixedValue": "dimension travel"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 116,
+          "y": 114,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_possible",
+          "text": {
+            "fixedValue": "possible."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 136,
+          "y": 123,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_every_artifact_has",
+          "text": {
+            "fixedValue": "Every artifact has"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 234,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_one_special_ability",
+          "text": {
+            "fixedValue": "a special ability"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 237,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_on_right_click_and",
+          "text": {
+            "fixedValue": "when right-clicked"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 235,
+          "y": 63,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_an",
+          "text": {
+            "fixedValue": "and another one"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 243,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_when_combined",
+          "text": {
+            "fixedValue": "when combined with"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 236,
+          "y": 78,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_a_netherite",
+          "text": {
+            "fixedValue": "a \"Netherite"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 252,
+          "y": 87,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_artifact_sword",
+          "text": {
+            "fixedValue": "Artifact Sword\""
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 245,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_it_will_trigger_when",
+          "text": {
+            "fixedValue": "It will trigger"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 243,
+          "y": 104,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_when_the_artifact_is",
+          "text": {
+            "fixedValue": "when the artifact"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 237,
+          "y": 113,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_is_in_the_offhand",
+          "text": {
+            "fixedValue": "is in the offhand,"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 236,
+          "y": 121,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_player_sneaks",
+          "text": {
+            "fixedValue": "the player is"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 248,
+          "y": 129,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_crouching_and",
+          "text": {
+            "fixedValue": "crouching and"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 247,
+          "y": 138,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_leftclicking",
+          "text": {
+            "fixedValue": "left-clicking"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 247,
+          "y": 147,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_4_right",
+          "image": "custom_arrow_4_right.png",
+          "hoveredImage": "custom_arrow_5_right.png",
+          "onClick": {
+            "name": "OpenBAWGUIArtifacts2"
+          },
+          "x": 234,
+          "y": 196,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "netheriteartifactsword.png",
+          "use1Xscale": false,
+          "x": 271,
+          "y": 158,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_cooldowns_are",
+          "text": {
+            "fixedValue": "Cooldowns (CD) are"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 112,
+          "y": 134,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_counted_in_ticks",
+          "text": {
+            "fixedValue": "counted in ticks."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 116,
+          "y": 143,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_how_to_get",
+          "text": {
+            "fixedValue": "How to get"
+          },
+          "color": {
+            "value": -16777012,
+            "falpha": 0.0
+          },
+          "x": 116,
+          "y": 156,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_artifacts",
+          "text": {
+            "fixedValue": "artifacts"
+          },
+          "color": {
+            "value": -16776961,
+            "falpha": 0.0
+          },
+          "x": 117,
+          "y": 165,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_4_right1",
+          "image": "custom_arrow_4_right.png",
+          "hoveredImage": "custom_arrow_5_right.png",
+          "onClick": {
+            "name": "OpenBAWGUIArtifactsHTGA"
+          },
+          "x": 190,
+          "y": 159,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_an_artifact_netherite_sword",
+          "text": {
+            "fixedValue": "An artifact netherite sword"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 266,
+          "y": 155,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_next_page",
+          "text": {
+            "fixedValue": "Next page"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 230,
+          "y": 192,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

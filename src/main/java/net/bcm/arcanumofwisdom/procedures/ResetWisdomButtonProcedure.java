@@ -48,28 +48,28 @@ public class ResetWisdomButtonProcedure {
 			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 					"attribute @p minecraft:generic.max_health base set 20");
 		if (entity instanceof LivingEntity _entity)
-			_entity.removeEffect(ArcanumOfWisdomModMobEffects.WISDOM.get());
+			_entity.removeEffect(ArcanumOfWisdomModMobEffects.WISDOM);
 		if (entity instanceof LivingEntity _entity)
-			_entity.removeEffect(ArcanumOfWisdomModMobEffects.HOLY_SPELL.get());
+			_entity.removeEffect(ArcanumOfWisdomModMobEffects.HOLY_SPELL);
 		if (entity instanceof LivingEntity _entity)
-			_entity.removeEffect(ArcanumOfWisdomModMobEffects.SHADOW_POWER.get());
+			_entity.removeEffect(ArcanumOfWisdomModMobEffects.SHADOW_POWER);
 		if (entity instanceof LivingEntity _entity)
-			_entity.removeEffect(ArcanumOfWisdomModMobEffects.STUNNED.get());
+			_entity.removeEffect(ArcanumOfWisdomModMobEffects.STUNNED);
 		if (entity instanceof LivingEntity _entity)
-			_entity.removeEffect(ArcanumOfWisdomModMobEffects.WATER_RACER.get());
+			_entity.removeEffect(ArcanumOfWisdomModMobEffects.WATER_RACER);
 		if (entity instanceof LivingEntity _entity)
-			_entity.removeEffect(ArcanumOfWisdomModMobEffects.ARCANA_WISDOM.get());
+			_entity.removeEffect(ArcanumOfWisdomModMobEffects.ARCANA_WISDOM);
 		if (entity instanceof LivingEntity _entity)
-			_entity.removeEffect(ArcanumOfWisdomModMobEffects.ARCANA_WISDOM_COOLDOWN.get());
+			_entity.removeEffect(ArcanumOfWisdomModMobEffects.ARCANA_WISDOM_COOLDOWN);
 		if (entity instanceof LivingEntity _entity)
-			_entity.removeEffect(ArcanumOfWisdomModMobEffects.GRACE_OF_THE_ARCANA.get());
+			_entity.removeEffect(ArcanumOfWisdomModMobEffects.GRACE_OF_THE_ARCANA);
 		if (entity instanceof LivingEntity _entity)
-			_entity.removeEffect(ArcanumOfWisdomModMobEffects.SHADOW_WARRIOR.get());
+			_entity.removeEffect(ArcanumOfWisdomModMobEffects.SHADOW_WARRIOR);
 		if (world instanceof Level _level) {
 			if (!_level.isClientSide()) {
-				_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("entity.player.levelup")), SoundSource.PLAYERS, (float) 0.5, (float) 0.5);
+				_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.player.levelup")), SoundSource.PLAYERS, (float) 0.5, (float) 0.5);
 			} else {
-				_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("entity.player.levelup")), SoundSource.PLAYERS, (float) 0.5, (float) 0.5, false);
+				_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.player.levelup")), SoundSource.PLAYERS, (float) 0.5, (float) 0.5, false);
 			}
 		}
 		if (world instanceof ServerLevel _level)

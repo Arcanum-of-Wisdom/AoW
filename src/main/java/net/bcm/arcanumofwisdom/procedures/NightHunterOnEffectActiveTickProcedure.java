@@ -18,32 +18,30 @@ public class NightHunterOnEffectActiveTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).nighthunter_active == true) {
-			if (!(world instanceof Level _lvl0 && _lvl0.isDay())) {
-				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-					_entity.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 210, 1, false, false));
-				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-					_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 210, 1, false, false));
-				if ((entity instanceof Player _plr ? _plr.getFoodData().getFoodLevel() : 0) <= 2) {
-					if (world instanceof Level _level) {
-						if (!_level.isClientSide()) {
-							_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("entity.player.burp")), SoundSource.PLAYERS, 2, 1);
-						} else {
-							_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("entity.player.burp")), SoundSource.PLAYERS, 2, 1, false);
-						}
+		if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).nighthunter_active == true && !(world instanceof Level _lvl0 && _lvl0.isDay())) {
+			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+				_entity.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 220, 2, true, false));
+			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 220, 1, true, false));
+			if ((entity instanceof Player _plr ? _plr.getFoodData().getFoodLevel() : 0) <= 2) {
+				if (world instanceof Level _level) {
+					if (!_level.isClientSide()) {
+						_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.player.burp")), SoundSource.PLAYERS, 2, 1);
+					} else {
+						_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.player.burp")), SoundSource.PLAYERS, 2, 1, false);
 					}
-					if (entity instanceof Player _player)
-						_player.getFoodData().setFoodLevel(3);
-					if (entity instanceof LivingEntity _livEnt6 && _livEnt6.hasEffect(MobEffects.HUNGER)) {
-						if (entity instanceof LivingEntity _entity)
-							_entity.removeEffect(MobEffects.HUNGER);
-						if (world instanceof Level _level) {
-							if (!_level.isClientSide()) {
-								_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.trial_spawner.detect_player")), SoundSource.PLAYERS, 1, 1);
-							} else {
-								_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.trial_spawner.detect_player")), SoundSource.PLAYERS, 1, 1, false);
-							}
-						}
+				}
+				if (entity instanceof Player _player)
+					_player.getFoodData().setFoodLevel(3);
+			}
+			if (entity instanceof LivingEntity _livEnt6 && _livEnt6.hasEffect(MobEffects.HUNGER)) {
+				if (entity instanceof LivingEntity _entity)
+					_entity.removeEffect(MobEffects.HUNGER);
+				if (world instanceof Level _level) {
+					if (!_level.isClientSide()) {
+						_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.trial_spawner.detect_player")), SoundSource.PLAYERS, 1, 1);
+					} else {
+						_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.trial_spawner.detect_player")), SoundSource.PLAYERS, 1, 1, false);
 					}
 				}
 			}

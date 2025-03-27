@@ -1,0 +1,283 @@
+{
+  "_fv": 77,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "CLERIC"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.BLAZE_POWDER"
+            },
+            "countPrice1": 10,
+            "price2": {
+              "value": "Blocks.WEB"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:BottleOfElytraEnhancer"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 8,
+            "priceMultiplier": 0.08
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CLERIC"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.BLAZE_POWDER"
+            },
+            "countPrice1": 10,
+            "price2": {
+              "value": "Items.GOLDEN_APPLE#1"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:BottleOfTotem"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 8,
+            "priceMultiplier": 0.08
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CLERIC"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.BLAZE_POWDER"
+            },
+            "countPrice1": 10,
+            "price2": {
+              "value": "Blocks.TORCHFLOWER"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:BottleOfRegenerativeHealthPool"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 8,
+            "priceMultiplier": 0.08
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CLERIC"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.BLAZE_POWDER"
+            },
+            "countPrice1": 10,
+            "price2": {
+              "value": "Items.COOKED_BEEF"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:BottleOfInstantSaturation"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 8,
+            "priceMultiplier": 0.08
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CLERIC"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.BLAZE_POWDER"
+            },
+            "countPrice1": 10,
+            "price2": {
+              "value": "Blocks.PITCHER_PLANT"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:BottleOfRegenerativeSaturationPool"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 8,
+            "priceMultiplier": 0.08
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CLERIC"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.BLAZE_POWDER"
+            },
+            "countPrice1": 10,
+            "price2": {
+              "value": "Items.ENDER_EYE"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:BottleOfInstantComeback"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 8,
+            "priceMultiplier": 0.08
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CLERIC"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.BLAZE_POWDER"
+            },
+            "countPrice1": 10,
+            "price2": {
+              "value": "Items.IRON_INGOT"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:BottleOfArmorBooster"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 8,
+            "priceMultiplier": 0.08
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CLERIC"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.BLAZE_POWDER"
+            },
+            "countPrice1": 10,
+            "price2": {
+              "value": "Items.IRON_PICKAXE"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:BottleOfMiningBooster"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 8,
+            "priceMultiplier": 0.08
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CLERIC"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.BLAZE_POWDER"
+            },
+            "countPrice1": 10,
+            "price2": {
+              "value": "Items.BLAZE_ROD"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:BottleOfFistbooster"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 8,
+            "priceMultiplier": 0.08
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CLERIC"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.BLAZE_POWDER"
+            },
+            "countPrice1": 10,
+            "price2": {
+              "value": "Items.LAVA_BUCKET"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:BottleOfFistOfDoom"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 8,
+            "priceMultiplier": 0.08
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "ARMORER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.BLAZE_POWDER"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "Items.PHANTOM_MEMBRANE"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:BottleOfElytraEnhancer"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 8,
+            "priceMultiplier": 0.08
+          }
+        ]
+      }
+    ]
+  }
+}

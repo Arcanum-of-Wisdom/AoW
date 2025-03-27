@@ -1,0 +1,50 @@
+/effect give Dev arcanum_of_wisdom:totem infinite 1 true
+/effect clear
+/give @p potion[potion_contents={potion:"arcanum_of_wisdom:elytra_enhancer"}] 1
+/give @p potion[potion_contents={potion:"minecraft:strength"}] 1
+/effect clear
+/effect give Dev arcanum_of_wisdom:instant_comeback 3600 1 true
+/effect clear
+/effect give Dev arcanum_of_wisdom:scale infinite 2 true
+/effect clear
+/gamerule aownocooldowns true
+/aow_scale 2
+/aow_scale 1
+/aow_scale 10000
+/aow_scale 1
+/aow_scale -1
+/aow_scale -1000
+/aow_scale -10
+/aow_scale -2
+/aow_scale 2
+/aow_scale 3
+/aow_scale 5
+/aow_scale 1
+/aowLoadSecMods true
+/aow_loadSecMods true
+/effect clear
+/xp set Dev 49 levels
+/aow_loadSecMods false
+/aow_wisdom Dev 0
+/xp set Dev 49 levels
+/time set day
+/aow_loadSecMods true
+/aow_wisdom Dev 49
+/setblock ~ ~5 ~ arcanum_of_dimensions:warrior_plains_portal replace
+/tag Dev remove lvl50
+/time set day
+/enchant Dev minecraft:protection 3
+/effect clear
+/effect give a81204e5-6c38-49ab-a140-bd374fa31a2c arcanum_of_wisdom:raiders_elixir infinite 255 false
+/effect give 9de578c6-bb6a-4736-86b6-be98c6d95398 arcanum_of_wisdom:raiders_elixir infinite 255 false
+/time set night
+/xp set Dev 59 levels
+/xp set Dev 79 levels
+/xp set Dev 0 levels
+/xp set Dev 0 points
+/xp set Dev 79 levels
+/locate biome arcanum_of_wisdom:arcana_snowy_wasteland_biome
+/tp @s -1508 82 473
+/locate biome arcanum_of_wisdom:arcana_high_mountains_biome
+/tp @s -3432 88 -1877
+/kill

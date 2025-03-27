@@ -1,0 +1,358 @@
+{
+  "_fv": 77,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 300,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bookofwisdom_open.png",
+          "use1Xscale": false,
+          "x": 64,
+          "y": 20,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_arcana",
+          "text": {
+            "fixedValue": "Blocks"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 141,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonred",
+          "image": "buttonred.png",
+          "hoveredImage": "buttonredhighlight.png",
+          "onClick": {
+            "name": "CloseBAWGUI"
+          },
+          "x": 362,
+          "y": 6,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_4_left",
+          "image": "custom_arrow_4_left.png",
+          "hoveredImage": "custom_arrow_5_left.png",
+          "onClick": {
+            "name": "BAWBackToMenuP"
+          },
+          "x": 346,
+          "y": 15,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_there_are_three",
+          "text": {
+            "fixedValue": "There are three"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 118,
+          "y": 57,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_special_blocks_in",
+          "text": {
+            "fixedValue": "special blocks in"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 113,
+          "y": 66,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_aow_which_all_have",
+          "text": {
+            "fixedValue": "AoW, which all"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 122,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_have_unique",
+          "text": {
+            "fixedValue": "have unique"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 130,
+          "y": 85,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_functions",
+          "text": {
+            "fixedValue": "functions:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 133,
+          "y": 95,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_alt",
+          "text": {
+            "fixedValue": "ALT"
+          },
+          "color": {
+            "value": -16724941,
+            "falpha": 0.0
+          },
+          "x": 114,
+          "y": 111,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_act",
+          "text": {
+            "fixedValue": "ACT"
+          },
+          "color": {
+            "value": -16724941,
+            "falpha": 0.0
+          },
+          "x": 115,
+          "y": 137,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_aota",
+          "text": {
+            "fixedValue": "AOTA"
+          },
+          "color": {
+            "value": -16724941,
+            "falpha": 0.0
+          },
+          "x": 115,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_artifact_laboratory_table",
+          "text": {
+            "fixedValue": "Artifact laboratory table"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 111,
+          "y": 104,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_artifact_crafting_table",
+          "text": {
+            "fixedValue": "Artifact crafting table"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 111,
+          "y": 128,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_altar_of_the_alchemist",
+          "text": {
+            "fixedValue": "Altar of the alchemist"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 113,
+          "y": 152,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_4_right",
+          "image": "custom_arrow_4_right.png",
+          "hoveredImage": "custom_arrow_5_right.png",
+          "onClick": {
+            "name": "OpenBAWGUILabTable"
+          },
+          "x": 189,
+          "y": 108,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_4_right1",
+          "image": "custom_arrow_4_right.png",
+          "hoveredImage": "custom_arrow_5_right.png",
+          "onClick": {
+            "name": "OpenBAWGUIACT"
+          },
+          "x": 189,
+          "y": 133,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_4_right2",
+          "image": "custom_arrow_4_right.png",
+          "hoveredImage": "custom_arrow_5_right.png",
+          "onClick": {
+            "name": "OpenBAWGUIAota"
+          },
+          "x": 189,
+          "y": 157,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_back",
+          "text": {
+            "fixedValue": "Back"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 342,
+          "y": 10,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_close",
+          "text": {
+            "fixedValue": "Close"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 366,
+          "y": 10,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_more_information",
+          "text": {
+            "fixedValue": "More information"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 186,
+          "y": 104,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_more_information1",
+          "text": {
+            "fixedValue": "More information"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 186,
+          "y": 129,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_more_information2",
+          "text": {
+            "fixedValue": "More information"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 186,
+          "y": 154,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

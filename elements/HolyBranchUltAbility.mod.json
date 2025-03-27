@@ -1,9 +1,9 @@
 {
-  "_fv": 60,
+  "_fv": 77,
   "_type": "keybind",
   "definition": {
     "triggerKey": "V",
-    "keyBindingName": "Holy Branch: Ultimate Ability",
+    "keyBindingName": "Holy Branch: Ultimate Ability (Holy spell)",
     "keyBindingCategoryKey": "aow",
     "onKeyPressed": {
       "name": "HolyBranchUltAbilityP"

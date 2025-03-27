@@ -20,13 +20,20 @@ public class ArtifactOfFluidsRightclickedProcedure {
 			return;
 		if (world.isClientSide())
 			Minecraft.getInstance().gameRenderer.displayItemActivation(itemstack);
+<<<<<<< Updated upstream
 		if (entity instanceof Player _player)
 			_player.getCooldowns().addCooldown(itemstack.getItem(), 200);
+=======
+		if (world.getLevelData().getGameRules().getBoolean(ArcanumOfWisdomModGameRules.AOWNOCOOLDOWNS) == false) {
+			if (entity instanceof Player _player)
+				_player.getCooldowns().addCooldown(itemstack.getItem(), 200);
+		}
+>>>>>>> Stashed changes
 		if (world instanceof Level _level) {
 			if (!_level.isClientSide()) {
-				_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.beacon.power_select")), SoundSource.PLAYERS, 1, (float) 0.5);
+				_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.beacon.power_select")), SoundSource.PLAYERS, 1, (float) 0.5);
 			} else {
-				_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("block.beacon.power_select")), SoundSource.PLAYERS, 1, (float) 0.5, false);
+				_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.beacon.power_select")), SoundSource.PLAYERS, 1, (float) 0.5, false);
 			}
 		}
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())

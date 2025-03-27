@@ -1,0 +1,398 @@
+{
+  "_fv": 77,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 300,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bookofwisdom_open.png",
+          "use1Xscale": false,
+          "x": 64,
+          "y": 21,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonred",
+          "image": "buttonred.png",
+          "hoveredImage": "buttonredhighlight.png",
+          "onClick": {
+            "name": "CloseBAWGUI"
+          },
+          "x": 362,
+          "y": 6,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_4_left",
+          "image": "custom_arrow_4_left.png",
+          "hoveredImage": "custom_arrow_5_left.png",
+          "onClick": {
+            "name": "BAWBackToMenuP"
+          },
+          "x": 346,
+          "y": 15,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_hot_to_get_to",
+          "text": {
+            "fixedValue": "How to enter the"
+          },
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "x": 117,
+          "y": 46,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_arcana_dimension",
+          "text": {
+            "fixedValue": "Arcana Dimension"
+          },
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "x": 117,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_1_get_all_artifacts",
+          "text": {
+            "fixedValue": "1. Get all artifacts"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 111,
+          "y": 68,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_2_craft_a_lab_table",
+          "text": {
+            "fixedValue": "2. Craft a lab."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 111,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_table",
+          "text": {
+            "fixedValue": "table"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 126,
+          "y": 84,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_3_combine_all",
+          "text": {
+            "fixedValue": "3. Combine all"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 111,
+          "y": 93,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_artifacts_to_one",
+          "text": {
+            "fixedValue": "artifacts to one"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 126,
+          "y": 101,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_combined_artifact",
+          "text": {
+            "fixedValue": "combined artifact"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 126,
+          "y": 109,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_4_hold_it_in_your",
+          "text": {
+            "fixedValue": "4. Hold it in your"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 111,
+          "y": 118,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_offhand",
+          "text": {
+            "fixedValue": "offhand."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 126,
+          "y": 127,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_5_press_the_key",
+          "text": {
+            "fixedValue": "5. Press the key"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 111,
+          "y": 136,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_to_enter_n",
+          "text": {
+            "fixedValue": "to enter"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 126,
+          "y": 144,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "buttoncombine.png",
+          "use1Xscale": false,
+          "x": 263,
+          "y": 88,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_combine_function",
+          "text": {
+            "fixedValue": "Combine function"
+          },
+          "color": {
+            "value": -3368704,
+            "falpha": 0.0
+          },
+          "x": 235,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_in_the",
+          "text": {
+            "fixedValue": "in the"
+          },
+          "color": {
+            "value": -3368704,
+            "falpha": 0.0
+          },
+          "x": 263,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_laboratory_table",
+          "text": {
+            "fixedValue": "laboratory table"
+          },
+          "color": {
+            "value": -3368704,
+            "falpha": 0.0
+          },
+          "x": 236,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_standard_is_n",
+          "text": {
+            "fixedValue": "(standard is N)"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 126,
+          "y": 152,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_read_artifacts_to_learn_more_a",
+          "text": {
+            "fixedValue": "For more help, see other chapters in this book."
+          },
+          "width": 24,
+          "height": 24,
+          "x": 267,
+          "y": 160,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_info",
+          "text": {
+            "fixedValue": "Info"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 269,
+          "y": 167,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_this_is_the_symbol_which_you_fin",
+          "text": {
+            "fixedValue": "This is the symbol you will find when you want to combine in the lab table."
+          },
+          "width": 24,
+          "height": 24,
+          "x": 267,
+          "y": 92,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_back",
+          "text": {
+            "fixedValue": "Back"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 341,
+          "y": 10,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_close",
+          "text": {
+            "fixedValue": "Close"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 365,
+          "y": 10,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

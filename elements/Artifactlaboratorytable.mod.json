@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 77,
   "_type": "block",
   "definition": {
     "texture": "textureartifactlaboratorytable",
@@ -96,6 +96,7 @@
         "subtract": false
       }
     ],
+    "customProperties": [],
     "name": "Artifact laboratory table",
     "specialInformation": {
       "fixedValue": []
@@ -104,9 +105,11 @@
     "resistance": 15.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTab": {
-      "value": "CUSTOM:KreativtabAOW"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:KreativtabAOW"
+      }
+    ],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
@@ -119,7 +122,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "IRON"
+      "value": "NONE"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -163,12 +166,12 @@
     },
     "luminance": 2,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "vanillaToolTier": "STONE",
     "isBonemealable": false,
     "hasInventory": true,
     "guiBoundTo": "Artifactlaboratorytablegui",
     "openGUIOnRightClick": true,
-    "inventorySize": 0,
+    "inventorySize": 18,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,

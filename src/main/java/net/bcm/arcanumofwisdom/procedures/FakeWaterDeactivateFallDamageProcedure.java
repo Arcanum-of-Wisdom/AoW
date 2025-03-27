@@ -1,7 +1,7 @@
 package net.bcm.arcanumofwisdom.procedures;
 
 import net.neoforged.neoforge.event.entity.living.LivingFallEvent;
-import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.bus.api.Event;
 
@@ -13,11 +13,11 @@ import net.bcm.arcanumofwisdom.init.ArcanumOfWisdomModBlocks;
 
 import javax.annotation.Nullable;
 
-@Mod.EventBusSubscriber
+@EventBusSubscriber
 public class FakeWaterDeactivateFallDamageProcedure {
 	@SubscribeEvent
 	public static void onEntityFall(LivingFallEvent event) {
-		if (event != null && event.getEntity() != null) {
+		if (event.getEntity() != null) {
 			execute(event, event.getEntity().level(), event.getEntity().getX(), event.getEntity().getY(), event.getEntity().getZ(), event.getEntity());
 		}
 	}

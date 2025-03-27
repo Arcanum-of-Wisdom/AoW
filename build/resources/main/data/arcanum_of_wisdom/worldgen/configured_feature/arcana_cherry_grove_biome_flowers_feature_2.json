@@ -9,11 +9,7 @@
           "to_place": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:pink_petals",
-              "Properties": {
-                "facing": "north",
-                "flower_amount": "1"
-              }
+              "Name": "minecraft:pink_petals"
             }
           }
         }

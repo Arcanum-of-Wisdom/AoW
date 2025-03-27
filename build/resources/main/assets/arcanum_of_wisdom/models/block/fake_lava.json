@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "arcanum_of_wisdom:block/transparent",
-    "particle": "arcanum_of_wisdom:block/transparent"
+    "all": "minecraft:block/lava_still",
+    "particle": "minecraft:block/lava_still"
   },
   "render_type": "translucent"
 }

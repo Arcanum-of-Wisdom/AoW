@@ -1,0 +1,67 @@
+{
+  "_fv": 77,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Raider elixir",
+    "icon": "raiderselixireffect",
+    "color": {
+      "value": -13762429,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "attribute": {
+          "value": "ATTACK_DAMAGE"
+        },
+        "amount": 1.5,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": {
+          "value": "ARMOR"
+        },
+        "amount": 1.5,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": {
+          "value": "JUMP_STRENGTH"
+        },
+        "amount": 0.15,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": {
+          "value": "KNOCKBACK_RESISTANCE"
+        },
+        "amount": 0.1,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": {
+          "value": "NAMETAG_RENDER_DISTANCE"
+        },
+        "amount": -0.25,
+        "operation": "ADD_MULTIPLIED_BASE"
+      },
+      {
+        "attribute": {
+          "value": "SNEAKING_SPEED"
+        },
+        "amount": 0.25,
+        "operation": "ADD_VALUE"
+      }
+    ],
+    "onStarted": {
+      "name": "RaidersElixirEffectStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "RaidersElixirEffectStartedapplied"
+    }
+  }
+}

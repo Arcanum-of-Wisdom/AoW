@@ -10,21 +10,13 @@
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:oak_leaves",
-        "Properties": {
-          "distance": "7",
-          "persistent": "false",
-          "waterlogged": "false"
-        }
+        "Name": "minecraft:oak_leaves"
       }
     },
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:jungle_log",
-        "Properties": {
-          "axis": "y"
-        }
+        "Name": "minecraft:jungle_log"
       }
     },
     "root_placer": {
@@ -32,18 +24,13 @@
       "root_provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:mangrove_roots",
-          "Properties": {
-            "waterlogged": "false"
-          }
+          "Name": "minecraft:mangrove_roots"
         }
       },
       "trunk_offset_y": {
         "type": "uniform",
-        "value": {
-          "min_inclusive": 1,
-          "max_inclusive": 3
-        }
+        "min_inclusive": 1,
+        "max_inclusive": 3
       },
       "above_root_placement": {
         "above_root_placement_chance": 0.5,
@@ -60,10 +47,7 @@
         "muddy_roots_provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:muddy_mangrove_roots",
-            "Properties": {
-              "axis": "y"
-            }
+            "Name": "minecraft:muddy_mangrove_roots"
           }
         },
         "max_root_length": 3,

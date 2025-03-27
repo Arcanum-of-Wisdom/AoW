@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "arcanum_of_wisdom:bottle_of_instant_comeback"
+    },
+    "title": {
+      "translate": "advancements.how_did_we_even_get_here.title"
+    },
+    "description": {
+      "translate": "advancements.how_did_we_even_get_here.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "how_did_we_even_get_here_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100,
+    "recipes": [
+      "arcanum_of_wisdom:altar_of_the_alchemist"
+    ]
+  },
+  "parent": "arcanum_of_wisdom:master_of_alchemy"
+}

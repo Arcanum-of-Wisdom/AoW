@@ -1,0 +1,720 @@
+{
+  "_fv": 77,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 260,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "altarofthealchemistbookgui.png",
+          "use1Xscale": false,
+          "x": 64,
+          "y": 19,
+          "locked": true
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonred",
+          "image": "buttonred.png",
+          "hoveredImage": "buttonredhighlight.png",
+          "onClick": {
+            "name": "OpenAltarOfTheAlchemistGUI"
+          },
+          "x": 338,
+          "y": -5,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_discovered_alchemist",
+          "text": {
+            "fixedValue": "Discovered"
+          },
+          "color": {
+            "value": -16711841,
+            "falpha": 0.0
+          },
+          "x": 131,
+          "y": 39,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_alchemist",
+          "text": {
+            "fixedValue": "alchemist"
+          },
+          "color": {
+            "value": -16711843,
+            "falpha": 0.0
+          },
+          "x": 133,
+          "y": 47,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_potions",
+          "text": {
+            "fixedValue": "potions"
+          },
+          "color": {
+            "value": -16711843,
+            "falpha": 0.0
+          },
+          "x": 139,
+          "y": 55,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "elytraenhancer.png",
+          "use1Xscale": false,
+          "x": 113,
+          "y": 70,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "question_mark_grey.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ElytryenhancerdiscoveredP"
+          },
+          "x": 116,
+          "y": 69,
+          "locked": true
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_elytra_enhancer",
+          "text": {
+            "fixedValue": "Elytra enhancer - phantom membrane or cobweb"
+          },
+          "displayCondition": {
+            "name": "ElytraenhancernotdiscoveredP"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 109,
+          "y": 66,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "regenhp.png",
+          "use1Xscale": false,
+          "x": 136,
+          "y": 70,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "question_mark_grey.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "RegenHPdiscoveredP"
+          },
+          "x": 139,
+          "y": 69,
+          "locked": true
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_regenerative_health_pool",
+          "text": {
+            "fixedValue": "Regenerative health pool - torchflower"
+          },
+          "displayCondition": {
+            "name": "RegenHPnotdiscoveredP"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 133,
+          "y": 66,
+          "locked": true
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_totem",
+          "text": {
+            "fixedValue": "Totem - enchanted golden apple"
+          },
+          "displayCondition": {
+            "name": "TotemnotdiscoveredP"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 157,
+          "y": 66,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "totem.png",
+          "use1Xscale": false,
+          "x": 160,
+          "y": 70,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "question_mark_grey.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "TotemdiscoveredP"
+          },
+          "x": 163,
+          "y": 69,
+          "locked": true
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_instant_saturation",
+          "text": {
+            "fixedValue": "Instant saturation - cooked beef"
+          },
+          "displayCondition": {
+            "name": "InstantsaturationnotdiscoveredP"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 181,
+          "y": 66,
+          "locked": true
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_regenerative_saturation_pool",
+          "text": {
+            "fixedValue": "Regenerative saturation pool - pitcher plant"
+          },
+          "displayCondition": {
+            "name": "RegensatnotdiscoveredP"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 109,
+          "y": 90,
+          "locked": true
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_instant_comeback",
+          "text": {
+            "fixedValue": "Instant comeback - ender eye"
+          },
+          "displayCondition": {
+            "name": "InstantcomebacknotdiscoveredP"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 133,
+          "y": 90,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "regensatpool.png",
+          "use1Xscale": false,
+          "x": 113,
+          "y": 94,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "instantsat.png",
+          "use1Xscale": false,
+          "x": 184,
+          "y": 70,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "question_mark_grey.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "InstantsaturationdiscoveredP"
+          },
+          "x": 187,
+          "y": 69,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "question_mark_grey.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "RegensatdiscoveredP"
+          },
+          "x": 116,
+          "y": 93,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "instantcomeback.png",
+          "use1Xscale": false,
+          "x": 136,
+          "y": 94,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "question_mark_grey.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "InstantcomebackdiscoveredP"
+          },
+          "x": 139,
+          "y": 93,
+          "locked": true
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_elytra_enhancer1",
+          "text": {
+            "fixedValue": "Elytra enhancer"
+          },
+          "displayCondition": {
+            "name": "ElytryenhancerdiscoveredP"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 109,
+          "y": 66,
+          "locked": true
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_regenerative_health_pool1",
+          "text": {
+            "fixedValue": "Regenerative health pool"
+          },
+          "displayCondition": {
+            "name": "RegenHPdiscoveredP"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 133,
+          "y": 66,
+          "locked": true
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_totem1",
+          "text": {
+            "fixedValue": "Totem"
+          },
+          "displayCondition": {
+            "name": "TotemdiscoveredP"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 157,
+          "y": 66,
+          "locked": true
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_instant_saturation1",
+          "text": {
+            "fixedValue": "Instant saturation"
+          },
+          "displayCondition": {
+            "name": "InstantsaturationdiscoveredP"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 181,
+          "y": 66,
+          "locked": true
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_regenerative_saturation_pool1",
+          "text": {
+            "fixedValue": "Regenerative saturation pool"
+          },
+          "displayCondition": {
+            "name": "RegensatdiscoveredP"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 109,
+          "y": 90,
+          "locked": true
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_instant_comeback1",
+          "text": {
+            "fixedValue": "Instant comeback"
+          },
+          "displayCondition": {
+            "name": "InstantcomebackdiscoveredP"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 133,
+          "y": 90,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "armorbooster.png",
+          "use1Xscale": false,
+          "x": 160,
+          "y": 94,
+          "locked": true
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_armor_booster",
+          "text": {
+            "fixedValue": "Armor booster - iron ingot"
+          },
+          "displayCondition": {
+            "name": "ArmorboosternotdiscoveredP"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 157,
+          "y": 90,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "question_mark_grey.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ArmorboosterdiscoveredP"
+          },
+          "x": 163,
+          "y": 93,
+          "locked": true
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_armor_booster1",
+          "text": {
+            "fixedValue": "Armor booster"
+          },
+          "displayCondition": {
+            "name": "ArmorboosterdiscoveredP"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 157,
+          "y": 90,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "miningbooster.png",
+          "use1Xscale": false,
+          "x": 184,
+          "y": 94,
+          "locked": true
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_mining_booster",
+          "text": {
+            "fixedValue": "Mining booster"
+          },
+          "displayCondition": {
+            "name": "MiningboosterdiscoveredP"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 181,
+          "y": 90,
+          "locked": true
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_mining_booster_iron_pickaxe",
+          "text": {
+            "fixedValue": "Mining booster - iron pickaxe"
+          },
+          "displayCondition": {
+            "name": "MiningboosternotdiscoveredP"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 181,
+          "y": 90,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "question_mark_grey.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "MiningboosterdiscoveredP"
+          },
+          "x": 187,
+          "y": 93,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fistbooster.png",
+          "use1Xscale": false,
+          "x": 113,
+          "y": 118,
+          "locked": true
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_fistbooster",
+          "text": {
+            "fixedValue": "Fistbooster"
+          },
+          "displayCondition": {
+            "name": "FistboosterdiscoveredP"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 109,
+          "y": 114,
+          "locked": true
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_fistbooster_blazerod",
+          "text": {
+            "fixedValue": "Fistbooster - Blazerod"
+          },
+          "displayCondition": {
+            "name": "FistboosternotdiscoveredP"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 109,
+          "y": 114,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "question_mark_grey.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FistboosterdiscoveredP"
+          },
+          "x": 116,
+          "y": 117,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fistofdoom.png",
+          "use1Xscale": false,
+          "x": 136,
+          "y": 118,
+          "locked": true
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_fist_of_doom",
+          "text": {
+            "fixedValue": "Fist of doom"
+          },
+          "displayCondition": {
+            "name": "FistOfDoomdiscoveredP"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 133,
+          "y": 114,
+          "locked": true
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_fist_of_doom_lava_bucket",
+          "text": {
+            "fixedValue": "Fist of doom - lava bucket"
+          },
+          "displayCondition": {
+            "name": "FistOfDoomnotdiscoveredP"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 133,
+          "y": 114,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "question_mark_grey.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "FistOfDoomdiscoveredP"
+          },
+          "x": 139,
+          "y": 117,
+          "locked": true
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_aotabookmark",
+          "image": "aotabookmark.png",
+          "hoveredImage": "aotabookmarkhighlighted.png",
+          "onClick": {
+            "name": "OpenAotaDecryptingGUI"
+          },
+          "x": 111,
+          "y": 172,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_chapter_1_decrypting_encrypted",
+          "text": {
+            "fixedValue": "Chapter 1: Decrypting encrypted alchemy book"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 139,
+          "y": 177,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_chapter_1_decrypting_encrypted1",
+          "text": {
+            "fixedValue": "Chapter 1: Decrypting encrypted alchemy book"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 135,
+          "y": 201,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_close",
+          "text": {
+            "fixedValue": "Close"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 342,
+          "y": -2,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

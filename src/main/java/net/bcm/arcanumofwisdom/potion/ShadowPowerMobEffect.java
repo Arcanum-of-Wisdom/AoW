@@ -15,7 +15,7 @@ public class ShadowPowerMobEffect extends MobEffect {
 
 	@Override
 	public void onEffectStarted(LivingEntity entity, int amplifier) {
-		ShadowPowerWennEffektStartetangewendetWirdProcedure.execute(entity);
+		ShadowPowerWennEffektStartetangewendetWirdProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity);
 	}
 
 	@Override
@@ -24,7 +24,8 @@ public class ShadowPowerMobEffect extends MobEffect {
 	}
 
 	@Override
-	public void applyEffectTick(LivingEntity entity, int amplifier) {
+	public boolean applyEffectTick(LivingEntity entity, int amplifier) {
 		ShadowPowerBeimTrankAktivierterTickProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity);
+		return super.applyEffectTick(entity, amplifier);
 	}
 }

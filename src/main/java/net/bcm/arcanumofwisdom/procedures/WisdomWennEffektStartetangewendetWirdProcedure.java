@@ -18,9 +18,9 @@ public class WisdomWennEffektStartetangewendetWirdProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()).getAmplifier() : 0) <= 1
+		if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM).getAmplifier() : 0) <= 1
 				|| entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).lvleffects == false
-				|| (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()).getAmplifier() : 0) <= 1
+				|| (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM).getAmplifier() : 0) <= 1
 						&& entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).lvleffects == false) {
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
@@ -31,7 +31,7 @@ public class WisdomWennEffektStartetangewendetWirdProcedure {
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"attribute @p minecraft:generic.movement_speed base set 0.1");
-		} else if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()).getAmplifier() : 0) == 5) {
+		} else if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM).getAmplifier() : 0) == 5) {
 			if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).lvleffects == true) {
 				if (world instanceof ServerLevel _level)
 					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
@@ -43,7 +43,7 @@ public class WisdomWennEffektStartetangewendetWirdProcedure {
 					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 							"attribute @p minecraft:generic.movement_speed base set 0.13");
 			}
-		} else if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()).getAmplifier() : 0) == 10) {
+		} else if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM).getAmplifier() : 0) == 10) {
 			if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).lvleffects == true) {
 				if (world instanceof ServerLevel _level)
 					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
@@ -55,7 +55,7 @@ public class WisdomWennEffektStartetangewendetWirdProcedure {
 					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 							"attribute @p minecraft:generic.movement_speed base set 0.14");
 			}
-		} else if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()).getAmplifier() : 0) == 20) {
+		} else if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM).getAmplifier() : 0) == 20) {
 			if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).lvleffects == true) {
 				if (world instanceof ServerLevel _level)
 					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
@@ -70,7 +70,7 @@ public class WisdomWennEffektStartetangewendetWirdProcedure {
 					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 							"attribute @p minecraft:generic.attack_speed base set 5.0");
 			}
-		} else if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()).getAmplifier() : 0) == 50) {
+		} else if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM).getAmplifier() : 0) == 50) {
 			if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).lvleffects == true) {
 				if (world instanceof ServerLevel _level)
 					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
@@ -93,7 +93,7 @@ public class WisdomWennEffektStartetangewendetWirdProcedure {
 								"attribute @p minecraft:generic.max_health base set 25");
 				}
 			}
-		} else if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()).getAmplifier() : 0) == 80) {
+		} else if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM).getAmplifier() : 0) == 80) {
 			if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).lvleffects == true) {
 				if (world instanceof ServerLevel _level)
 					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
@@ -116,7 +116,7 @@ public class WisdomWennEffektStartetangewendetWirdProcedure {
 								"attribute @p minecraft:generic.max_health base set 30");
 				}
 			}
-		} else if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM.get()).getAmplifier() : 0) >= 100) {
+		} else if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.WISDOM) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.WISDOM).getAmplifier() : 0) >= 100) {
 			if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).lvleffects == true) {
 				if (world instanceof ServerLevel _level)
 					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),

@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 77,
   "_type": "gui",
   "definition": {
     "type": 0,
@@ -15,7 +15,7 @@
         "data": {
           "name": "label_empty",
           "text": {
-            "fixedValue": "LVL Effects deactivated!"
+            "fixedValue": "LVL Effects deactivated by your admin!"
           },
           "color": {
             "value": -65536,
@@ -24,8 +24,9 @@
           "displayCondition": {
             "name": "LVLEffectsWarningDisplayCondition"
           },
-          "x": 151,
-          "y": 178
+          "x": 113,
+          "y": 178,
+          "locked": false
         }
       },
       {
@@ -34,7 +35,8 @@
           "image": "skilltree2.png",
           "use1Xscale": false,
           "x": 12,
-          "y": 15
+          "y": 15,
+          "locked": false
         }
       },
       {
@@ -49,7 +51,8 @@
             "falpha": 0.0
           },
           "x": 46,
-          "y": 51
+          "y": 51,
+          "locked": false
         }
       },
       {
@@ -67,7 +70,8 @@
           "width": 40,
           "height": 20,
           "x": 82,
-          "y": 60
+          "y": 60,
+          "locked": false
         }
       },
       {
@@ -80,7 +84,8 @@
             "name": "CloseGUIs"
           },
           "x": 196,
-          "y": 0
+          "y": 0,
+          "locked": false
         }
       },
       {
@@ -98,7 +103,8 @@
           "width": 35,
           "height": 20,
           "x": 46,
-          "y": 60
+          "y": 60,
+          "locked": false
         }
       },
       {
@@ -111,7 +117,8 @@
           "width": 24,
           "height": 24,
           "x": 389,
-          "y": 217
+          "y": 217,
+          "locked": false
         }
       },
       {
@@ -126,7 +133,8 @@
             "falpha": 0.0
           },
           "x": 390,
-          "y": 217
+          "y": 217,
+          "locked": false
         }
       },
       {
@@ -141,23 +149,8 @@
             "falpha": 0.0
           },
           "x": 46,
-          "y": 88
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_proc_lvl_effects_status",
-          "text": {
-            "fixedValue": "",
-            "name": "LVLEffectsStatus"
-          },
-          "color": {
-            "value": -1,
-            "falpha": 0.0
-          },
-          "x": 46,
-          "y": 97
+          "y": 88,
+          "locked": false
         }
       },
       {
@@ -172,7 +165,8 @@
             "falpha": 0.0
           },
           "x": 46,
-          "y": 121
+          "y": 121,
+          "locked": false
         }
       },
       {
@@ -188,7 +182,8 @@
             "falpha": 0.0
           },
           "x": 46,
-          "y": 130
+          "y": 130,
+          "locked": false
         }
       },
       {
@@ -203,7 +198,8 @@
             "falpha": 0.0
           },
           "x": 272,
-          "y": 50
+          "y": 50,
+          "locked": false
         }
       },
       {
@@ -218,7 +214,46 @@
             "falpha": 0.0
           },
           "x": 262,
-          "y": 58
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_on",
+          "text": {
+            "fixedValue": "On"
+          },
+          "color": {
+            "value": -16711885,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "LVLEffectsOnStatus"
+          },
+          "x": 46,
+          "y": 97,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_off",
+          "text": {
+            "fixedValue": "Off"
+          },
+          "color": {
+            "value": -65485,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "LVLEffectsOffStatus"
+          },
+          "x": 46,
+          "y": 97,
+          "locked": false
         }
       }
     ],

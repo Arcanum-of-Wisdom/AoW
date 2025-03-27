@@ -1,0 +1,215 @@
+{
+  "_fv": 77,
+  "_type": "block",
+  "definition": {
+    "texture": "altarofthealchemist",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "altarofthealchemist:default",
+    "rotationMode": 1,
+    "enablePitch": false,
+    "emissiveRendering": false,
+    "displayFluidOverlay": false,
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": true,
+    "connectedSides": false,
+    "transparencyType": "CUTOUT",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 2.0,
+        "my": 0.0,
+        "mz": 2.0,
+        "Mx": 14.0,
+        "My": 1.0,
+        "Mz": 14.0,
+        "subtract": false
+      },
+      {
+        "mx": 6.0,
+        "my": 9.75,
+        "mz": 6.0,
+        "Mx": 10.0,
+        "My": 10.75,
+        "Mz": 10.0,
+        "subtract": false
+      },
+      {
+        "mx": 1.0,
+        "my": 9.75,
+        "mz": 1.0,
+        "Mx": 15.0,
+        "My": 10.75,
+        "Mz": 14.0,
+        "subtract": false
+      },
+      {
+        "mx": 2.0,
+        "my": 10.75,
+        "mz": 1.0,
+        "Mx": 14.0,
+        "My": 11.75,
+        "Mz": 2.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.75,
+        "my": 15.25,
+        "mz": 10.25,
+        "Mx": 5.25,
+        "My": 15.75,
+        "Mz": 11.75,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 11.5,
+        "mz": 1.0,
+        "Mx": 9.0,
+        "My": 12.5,
+        "Mz": 8.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.75,
+        "my": 12.5,
+        "mz": 1.0,
+        "Mx": 8.25,
+        "My": 12.75,
+        "Mz": 6.75,
+        "subtract": false
+      },
+      {
+        "mx": 2.0,
+        "my": 14.25,
+        "mz": 9.0,
+        "Mx": 14.0,
+        "My": 15.25,
+        "Mz": 10.0,
+        "subtract": false
+      },
+      {
+        "mx": 6.0,
+        "my": 1.0,
+        "mz": 6.0,
+        "Mx": 10.0,
+        "My": 3.0,
+        "Mz": 10.0,
+        "subtract": false
+      },
+      {
+        "mx": 7.0,
+        "my": 3.0,
+        "mz": 7.0,
+        "Mx": 9.0,
+        "My": 10.0,
+        "Mz": 9.0,
+        "subtract": false
+      }
+    ],
+    "customProperties": [],
+    "name": "Altar of the Alchemist",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hardness": 1.0,
+    "resistance": 8.0,
+    "hasGravity": false,
+    "isWaterloggable": false,
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:KreativtabAOW"
+      }
+    ],
+    "destroyTool": "Not specified",
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": false,
+    "enchantPowerBonus": 0.5,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "WOOD"
+    },
+    "tickRate": 0,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 10.0
+    },
+    "colorOnMap": "BROWN",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 5,
+    "fireSpreadSpeed": 1,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "WOOD"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "luminance": 0,
+    "unbreakable": false,
+    "vanillaToolTier": "STONE",
+    "isBonemealable": false,
+    "hasInventory": true,
+    "guiBoundTo": "AltarOfTheAlchemistGUI",
+    "openGUIOnRightClick": true,
+    "inventorySize": 18,
+    "inventoryStackSize": 1,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "generateFeature": false,
+    "restrictionBiomes": [],
+    "blocksToReplace": [],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

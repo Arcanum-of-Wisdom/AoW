@@ -1,0 +1,417 @@
+{
+  "_fv": 77,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "altbackground.png",
+          "use1Xscale": false,
+          "x": 126,
+          "y": 32,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_click_here_to_craft_the_netherit",
+          "text": {
+            "fixedValue": "Click here to extract all artifacts from a combined artifact!"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 202,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_research",
+          "text": {
+            "fixedValue": "Extract"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 196,
+          "y": 38,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonred",
+          "image": "buttonred.png",
+          "hoveredImage": "buttonredhighlight.png",
+          "onClick": {
+            "name": "CloseGUIs"
+          },
+          "x": 294,
+          "y": 7,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_1_right",
+          "image": "custom_arrow_1_right.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "ALTExtractGUIWork"
+          },
+          "x": 206,
+          "y": 69,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_info",
+          "text": {
+            "fixedValue": "Info"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 303,
+          "y": 192,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_you_can_use_1_diamond_sword_1_n",
+          "text": {
+            "fixedValue": "Use a combined artifact to extract all artifacts."
+          },
+          "width": 24,
+          "height": 24,
+          "x": 303,
+          "y": 185,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_large_button_back",
+          "image": "large_button_back.png",
+          "hoveredImage": "large_button_back_highlight.png",
+          "onClick": {
+            "name": "ALTGUIsBackButtonP"
+          },
+          "x": 326,
+          "y": 13,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:CombinedArtifact"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "color": {
+            "value": -13434727,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 160,
+          "y": 68,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_vanilla_3.png",
+          "use1Xscale": false,
+          "x": 159,
+          "y": 67,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_skill.png",
+          "use1Xscale": false,
+          "x": 233,
+          "y": 54,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_skill.png",
+          "use1Xscale": false,
+          "x": 259,
+          "y": 54,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_skill.png",
+          "use1Xscale": false,
+          "x": 233,
+          "y": 75,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_skill.png",
+          "use1Xscale": false,
+          "x": 259,
+          "y": 75,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_skill.png",
+          "use1Xscale": false,
+          "x": 246,
+          "y": 85,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 234,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 260,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 4,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 234,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 5,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 260,
+          "y": 76,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 6,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 247,
+          "y": 85,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 7,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 247,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_skill.png",
+          "use1Xscale": false,
+          "x": 246,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_combined_artifact_input",
+          "text": {
+            "fixedValue": "Combined artifact input"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 157,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_artifact_outputs",
+          "text": {
+            "fixedValue": "Artifact outputs"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 232,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_artifact_outputs1",
+          "text": {
+            "fixedValue": "Artifact outputs"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 244,
+          "y": 95,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_artifact_outputs2",
+          "text": {
+            "fixedValue": "Artifact outputs"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 256,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_artifact_outputs3",
+          "text": {
+            "fixedValue": "Artifact outputs"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 232,
+          "y": 47,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_artifact_outputs4",
+          "text": {
+            "fixedValue": "Artifact outputs"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 256,
+          "y": 47,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_closee",
+          "text": {
+            "fixedValue": "Close"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 298,
+          "y": 11,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_back",
+          "text": {
+            "fixedValue": "Back"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 324,
+          "y": 11,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

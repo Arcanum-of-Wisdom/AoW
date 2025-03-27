@@ -32,5 +32,10 @@ public class DeactivateAllButtonProcedure {
 			_vars.arcana_active = false;
 			_vars.syncPlayerVariables(entity);
 		}
+		{
+			ArcanumOfWisdomModVariables.PlayerVariables _vars = entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES);
+			_vars.nighthunter_active = false;
+			_vars.syncPlayerVariables(entity);
+		}
 	}
 }

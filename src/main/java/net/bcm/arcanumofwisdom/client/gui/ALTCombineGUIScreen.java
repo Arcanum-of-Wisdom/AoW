@@ -39,17 +39,42 @@ public class ALTCombineGUIScreen extends AbstractContainerScreen<ALTCombineGUIMe
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("arcanum_of_wisdom:textures/screens/alt_combine_gui.png");
+	private static final ResourceLocation texture = ResourceLocation.parse("arcanum_of_wisdom:textures/screens/alt_combine_gui.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(guiGraphics, mouseX, mouseY, partialTicks);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
-		if (mouseX > leftPos + 75 && mouseX < leftPos + 99 && mouseY > topPos + 26 && mouseY < topPos + 50)
+		if (mouseX > leftPos + 75 && mouseX < leftPos + 99 && mouseY > topPos + 25 && mouseY < topPos + 49) {
 			guiGraphics.renderTooltip(font, Component.translatable("gui.arcanum_of_wisdom.alt_combine_gui.tooltip_click_here_to_combine_all_5_arti"), mouseX, mouseY);
-		if (mouseX > leftPos + 174 && mouseX < leftPos + 198 && mouseY > topPos + 147 && mouseY < topPos + 171)
+		}
+		if (mouseX > leftPos + 174 && mouseX < leftPos + 198 && mouseY > topPos + 147 && mouseY < topPos + 171) {
 			guiGraphics.renderTooltip(font, Component.translatable("gui.arcanum_of_wisdom.alt_combine_gui.tooltip_use_all_5_artifacts_to_craft_a_c"), mouseX, mouseY);
+		}
+		if (mouseX > leftPos + 197 && mouseX < leftPos + 221 && mouseY > topPos + -26 && mouseY < topPos + -2) {
+			guiGraphics.renderTooltip(font, Component.translatable("gui.arcanum_of_wisdom.alt_combine_gui.tooltip_back"), mouseX, mouseY);
+		}
+		if (mouseX > leftPos + 171 && mouseX < leftPos + 195 && mouseY > topPos + -26 && mouseY < topPos + -2) {
+			guiGraphics.renderTooltip(font, Component.translatable("gui.arcanum_of_wisdom.alt_combine_gui.tooltip_close"), mouseX, mouseY);
+		}
+		if (mouseX > leftPos + 101 && mouseX < leftPos + 125 && mouseY > topPos + 25 && mouseY < topPos + 49) {
+			guiGraphics.renderTooltip(font, Component.translatable("gui.arcanum_of_wisdom.alt_combine_gui.tooltip_output"), mouseX, mouseY);
+		}
+		if (mouseX > leftPos + 27 && mouseX < leftPos + 51 && mouseY > topPos + 9 && mouseY < topPos + 33) {
+			guiGraphics.renderTooltip(font, Component.translatable("gui.arcanum_of_wisdom.alt_combine_gui.tooltip_artifact_inputs"), mouseX, mouseY);
+		}
+		if (mouseX > leftPos + 51 && mouseX < leftPos + 75 && mouseY > topPos + 9 && mouseY < topPos + 33) {
+			guiGraphics.renderTooltip(font, Component.translatable("gui.arcanum_of_wisdom.alt_combine_gui.tooltip_artifact_inputs1"), mouseX, mouseY);
+		}
+		if (mouseX > leftPos + 27 && mouseX < leftPos + 51 && mouseY > topPos + 33 && mouseY < topPos + 57) {
+			guiGraphics.renderTooltip(font, Component.translatable("gui.arcanum_of_wisdom.alt_combine_gui.tooltip_artifact_inputs2"), mouseX, mouseY);
+		}
+		if (mouseX > leftPos + 51 && mouseX < leftPos + 75 && mouseY > topPos + 33 && mouseY < topPos + 57) {
+			guiGraphics.renderTooltip(font, Component.translatable("gui.arcanum_of_wisdom.alt_combine_gui.tooltip_artifact_inputs3"), mouseX, mouseY);
+		}
+		if (mouseX > leftPos + 38 && mouseX < leftPos + 62 && mouseY > topPos + 57 && mouseY < topPos + 81) {
+			guiGraphics.renderTooltip(font, Component.translatable("gui.arcanum_of_wisdom.alt_combine_gui.tooltip_artifact_inputs4"), mouseX, mouseY);
+		}
 	}
 
 	@Override
@@ -59,19 +84,21 @@ public class ALTCombineGUIScreen extends AbstractContainerScreen<ALTCombineGUIMe
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		guiGraphics.blit(new ResourceLocation("arcanum_of_wisdom:textures/screens/altbackground.png"), this.leftPos + -1, this.topPos + -6, 0, 0, 176, 88, 176, 88);
+		guiGraphics.blit(ResourceLocation.parse("arcanum_of_wisdom:textures/screens/altbackground.png"), this.leftPos + -1, this.topPos + -6, 0, 0, 176, 88, 176, 88);
 
-		guiGraphics.blit(new ResourceLocation("arcanum_of_wisdom:textures/screens/button_vanilla_2_pressed.png"), this.leftPos + 103, this.topPos + 27, 0, 0, 20, 20, 20, 20);
+		guiGraphics.blit(ResourceLocation.parse("arcanum_of_wisdom:textures/screens/button_vanilla_2_pressed.png"), this.leftPos + 103, this.topPos + 27, 0, 0, 20, 20, 20, 20);
 
-		guiGraphics.blit(new ResourceLocation("arcanum_of_wisdom:textures/screens/button_skill.png"), this.leftPos + 54, this.topPos + 16, 0, 0, 20, 20, 20, 20);
+		guiGraphics.blit(ResourceLocation.parse("arcanum_of_wisdom:textures/screens/button_skill.png"), this.leftPos + 54, this.topPos + 16, 0, 0, 20, 20, 20, 20);
 
-		guiGraphics.blit(new ResourceLocation("arcanum_of_wisdom:textures/screens/button_skill.png"), this.leftPos + 28, this.topPos + 16, 0, 0, 20, 20, 20, 20);
+		guiGraphics.blit(ResourceLocation.parse("arcanum_of_wisdom:textures/screens/button_skill.png"), this.leftPos + 28, this.topPos + 16, 0, 0, 20, 20, 20, 20);
 
-		guiGraphics.blit(new ResourceLocation("arcanum_of_wisdom:textures/screens/button_skill.png"), this.leftPos + 28, this.topPos + 38, 0, 0, 20, 20, 20, 20);
+		guiGraphics.blit(ResourceLocation.parse("arcanum_of_wisdom:textures/screens/button_skill.png"), this.leftPos + 28, this.topPos + 38, 0, 0, 20, 20, 20, 20);
 
-		guiGraphics.blit(new ResourceLocation("arcanum_of_wisdom:textures/screens/button_skill.png"), this.leftPos + 54, this.topPos + 38, 0, 0, 20, 20, 20, 20);
+		guiGraphics.blit(ResourceLocation.parse("arcanum_of_wisdom:textures/screens/button_skill.png"), this.leftPos + 54, this.topPos + 38, 0, 0, 20, 20, 20, 20);
 
-		guiGraphics.blit(new ResourceLocation("arcanum_of_wisdom:textures/screens/button_skill.png"), this.leftPos + 41, this.topPos + 51, 0, 0, 20, 20, 20, 20);
+		guiGraphics.blit(ResourceLocation.parse("arcanum_of_wisdom:textures/screens/button_skill.png"), this.leftPos + 41, this.topPos + 49, 0, 0, 20, 20, 20, 20);
+
+		guiGraphics.blit(ResourceLocation.parse("arcanum_of_wisdom:textures/screens/button_skill.png"), this.leftPos + 41, this.topPos + 27, 0, 0, 20, 20, 20, 20);
 
 		RenderSystem.disableBlend();
 	}
@@ -95,9 +122,9 @@ public class ALTCombineGUIScreen extends AbstractContainerScreen<ALTCombineGUIMe
 	public void init() {
 		super.init();
 		imagebutton_custom_arrow_1_right = new ImageButton(this.leftPos + 79, this.topPos + 29, 16, 16,
-				new WidgetSprites(new ResourceLocation("arcanum_of_wisdom:textures/screens/custom_arrow_1_right.png"), new ResourceLocation("arcanum_of_wisdom:textures/screens/custom_arrow_1_right.png")), e -> {
+				new WidgetSprites(ResourceLocation.parse("arcanum_of_wisdom:textures/screens/custom_arrow_1_right.png"), ResourceLocation.parse("arcanum_of_wisdom:textures/screens/custom_arrow_1_right.png")), e -> {
 					if (true) {
-						PacketDistributor.SERVER.noArg().send(new ALTCombineGUIButtonMessage(0, x, y, z));
+						PacketDistributor.sendToServer(new ALTCombineGUIButtonMessage(0, x, y, z));
 						ALTCombineGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
 					}
 				}) {
@@ -109,9 +136,9 @@ public class ALTCombineGUIScreen extends AbstractContainerScreen<ALTCombineGUIMe
 		guistate.put("button:imagebutton_custom_arrow_1_right", imagebutton_custom_arrow_1_right);
 		this.addRenderableWidget(imagebutton_custom_arrow_1_right);
 		imagebutton_buttonred = new ImageButton(this.leftPos + 167, this.topPos + -30, 32, 32,
-				new WidgetSprites(new ResourceLocation("arcanum_of_wisdom:textures/screens/buttonred.png"), new ResourceLocation("arcanum_of_wisdom:textures/screens/buttonredhighlight.png")), e -> {
+				new WidgetSprites(ResourceLocation.parse("arcanum_of_wisdom:textures/screens/buttonred.png"), ResourceLocation.parse("arcanum_of_wisdom:textures/screens/buttonredhighlight.png")), e -> {
 					if (true) {
-						PacketDistributor.SERVER.noArg().send(new ALTCombineGUIButtonMessage(1, x, y, z));
+						PacketDistributor.sendToServer(new ALTCombineGUIButtonMessage(1, x, y, z));
 						ALTCombineGUIButtonMessage.handleButtonAction(entity, 1, x, y, z);
 					}
 				}) {
@@ -123,9 +150,9 @@ public class ALTCombineGUIScreen extends AbstractContainerScreen<ALTCombineGUIMe
 		guistate.put("button:imagebutton_buttonred", imagebutton_buttonred);
 		this.addRenderableWidget(imagebutton_buttonred);
 		imagebutton_large_button_back = new ImageButton(this.leftPos + 199, this.topPos + -24, 20, 20,
-				new WidgetSprites(new ResourceLocation("arcanum_of_wisdom:textures/screens/large_button_back.png"), new ResourceLocation("arcanum_of_wisdom:textures/screens/large_button_back_highlight.png")), e -> {
+				new WidgetSprites(ResourceLocation.parse("arcanum_of_wisdom:textures/screens/large_button_back.png"), ResourceLocation.parse("arcanum_of_wisdom:textures/screens/large_button_back_highlight.png")), e -> {
 					if (true) {
-						PacketDistributor.SERVER.noArg().send(new ALTCombineGUIButtonMessage(2, x, y, z));
+						PacketDistributor.sendToServer(new ALTCombineGUIButtonMessage(2, x, y, z));
 						ALTCombineGUIButtonMessage.handleButtonAction(entity, 2, x, y, z);
 					}
 				}) {

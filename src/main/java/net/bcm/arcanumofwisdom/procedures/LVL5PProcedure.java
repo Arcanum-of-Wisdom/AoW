@@ -1,7 +1,7 @@
 package net.bcm.arcanumofwisdom.procedures;
 
 import net.neoforged.neoforge.event.entity.player.PlayerXpEvent;
-import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.bus.api.Event;
 
@@ -22,11 +22,11 @@ import net.bcm.arcanumofwisdom.init.ArcanumOfWisdomModMobEffects;
 
 import javax.annotation.Nullable;
 
-@Mod.EventBusSubscriber
+@EventBusSubscriber
 public class LVL5PProcedure {
 	@SubscribeEvent
 	public static void onPickupXP(PlayerXpEvent.PickupXp event) {
-		if (event != null && event.getEntity() != null) {
+		if (event.getEntity() != null) {
 			execute(event, event.getEntity().level(), event.getEntity().getX(), event.getEntity().getY(), event.getEntity().getZ(), event.getEntity());
 		}
 	}
@@ -56,7 +56,7 @@ public class LVL5PProcedure {
 			if (world instanceof ServerLevel _level)
 				_level.sendParticles(ParticleTypes.CLOUD, x, y, z, 10, 0, 0.5, 0, 0.5);
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.WISDOM.get(), (int) Double.POSITIVE_INFINITY, 5, false, false));
+				_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.WISDOM, (int) Double.POSITIVE_INFINITY, 5, false, false));
 		}
 	}
 }

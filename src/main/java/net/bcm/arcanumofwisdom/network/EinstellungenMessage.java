@@ -1,9 +1,9 @@
 
 package net.bcm.arcanumofwisdom.network;
 
-import net.neoforged.neoforge.network.handling.PlayPayloadContext;
+import net.neoforged.neoforge.network.handling.IPayloadContext;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.level.Level;
@@ -11,37 +11,32 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.protocol.PacketFlow;
+import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.network.RegistryFriendlyByteBuf;
 
 import net.bcm.arcanumofwisdom.procedures.EinstellungenBeiTastendruckProcedure;
 import net.bcm.arcanumofwisdom.ArcanumOfWisdomMod;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-public record EinstellungenMessage(int type, int pressedms) implements CustomPacketPayload {
-	public static final ResourceLocation ID = new ResourceLocation(ArcanumOfWisdomMod.MODID, "key_einstellungen");
-
-	public EinstellungenMessage(FriendlyByteBuf buffer) {
-		this(buffer.readInt(), buffer.readInt());
-	}
-
-	@Override
-	public void write(final FriendlyByteBuf buffer) {
-		buffer.writeInt(type);
-		buffer.writeInt(pressedms);
-	}
+@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
+public record EinstellungenMessage(int eventType, int pressedms) implements CustomPacketPayload {
+	public static final Type<EinstellungenMessage> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(ArcanumOfWisdomMod.MODID, "key_einstellungen"));
+	public static final StreamCodec<RegistryFriendlyByteBuf, EinstellungenMessage> STREAM_CODEC = StreamCodec.of((RegistryFriendlyByteBuf buffer, EinstellungenMessage message) -> {
+		buffer.writeInt(message.eventType);
+		buffer.writeInt(message.pressedms);
+	}, (RegistryFriendlyByteBuf buffer) -> new EinstellungenMessage(buffer.readInt(), buffer.readInt()));
 
 	@Override
-	public ResourceLocation id() {
-		return ID;
+	public Type<EinstellungenMessage> type() {
+		return TYPE;
 	}
 
-	public static void handleData(final EinstellungenMessage message, final PlayPayloadContext context) {
+	public static void handleData(final EinstellungenMessage message, final IPayloadContext context) {
 		if (context.flow() == PacketFlow.SERVERBOUND) {
-			context.workHandler().submitAsync(() -> {
-				pressAction(context.player().get(), message.type, message.pressedms);
+			context.enqueueWork(() -> {
+				pressAction(context.player(), message.eventType, message.pressedms);
 			}).exceptionally(e -> {
-				context.packetHandler().disconnect(Component.literal(e.getMessage()));
+				context.connection().disconnect(Component.literal(e.getMessage()));
 				return null;
 			});
 		}
@@ -63,6 +58,6 @@ public record EinstellungenMessage(int type, int pressedms) implements CustomPac
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
-		ArcanumOfWisdomMod.addNetworkMessage(EinstellungenMessage.ID, EinstellungenMessage::new, EinstellungenMessage::handleData);
+		ArcanumOfWisdomMod.addNetworkMessage(EinstellungenMessage.TYPE, EinstellungenMessage.STREAM_CODEC, EinstellungenMessage::handleData);
 	}
 }

@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 77,
   "_type": "gui",
   "definition": {
     "type": 0,
@@ -20,7 +20,8 @@
           "width": 24,
           "height": 24,
           "x": 347,
-          "y": 101
+          "y": 101,
+          "locked": false
         }
       },
       {
@@ -33,7 +34,8 @@
           "width": 24,
           "height": 24,
           "x": 348,
-          "y": 154
+          "y": 154,
+          "locked": false
         }
       },
       {
@@ -46,7 +48,8 @@
           "width": 24,
           "height": 24,
           "x": 347,
-          "y": 49
+          "y": 49,
+          "locked": false
         }
       },
       {
@@ -55,7 +58,8 @@
           "image": "artifactofdimensionsbackground2.png",
           "use1Xscale": false,
           "x": 13,
-          "y": 18
+          "y": 18,
+          "locked": false
         }
       },
       {
@@ -68,7 +72,8 @@
             "name": "ArtifactOfDimensionsNetherTravel"
           },
           "x": 351,
-          "y": 54
+          "y": 54,
+          "locked": false
         }
       },
       {
@@ -81,7 +86,8 @@
             "name": "ArtifactOfDimensionsEndTravel"
           },
           "x": 351,
-          "y": 106
+          "y": 106,
+          "locked": false
         }
       },
       {
@@ -94,7 +100,8 @@
             "name": "ArtifactOfDimensionsOverworldTravel"
           },
           "x": 351,
-          "y": 159
+          "y": 159,
+          "locked": false
         }
       },
       {
@@ -109,7 +116,8 @@
             "falpha": 0.0
           },
           "x": 203,
-          "y": 218
+          "y": 218,
+          "locked": false
         }
       },
       {
@@ -122,7 +130,8 @@
           "width": 24,
           "height": 24,
           "x": 202,
-          "y": 220
+          "y": 220,
+          "locked": false
         }
       }
     ],

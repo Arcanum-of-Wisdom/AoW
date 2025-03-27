@@ -5,7 +5,7 @@ import org.checkerframework.checker.units.qual.s;
 
 import net.neoforged.neoforge.event.RegisterCommandsEvent;
 import net.neoforged.neoforge.common.util.FakePlayerFactory;
-import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.level.Level;
@@ -19,12 +19,12 @@ import net.bcm.arcanumofwisdom.procedures.WisdomCMDPProcedure;
 
 import com.mojang.brigadier.arguments.DoubleArgumentType;
 
-@Mod.EventBusSubscriber
+@EventBusSubscriber
 public class WisdomCMDCommand {
 	@SubscribeEvent
 	public static void registerCommand(RegisterCommandsEvent event) {
 		event.getDispatcher()
-				.register(Commands.literal("wisdom").requires(s -> s.hasPermission(4)).then(Commands.argument("players", EntityArgument.players()).then(Commands.argument("wisdom", DoubleArgumentType.doubleArg(0, 100)).executes(arguments -> {
+				.register(Commands.literal("aow_wisdom").requires(s -> s.hasPermission(4)).then(Commands.argument("players", EntityArgument.players()).then(Commands.argument("wisdom", DoubleArgumentType.doubleArg(0, 100)).executes(arguments -> {
 					Level world = arguments.getSource().getUnsidedLevel();
 					double x = arguments.getSource().getPosition().x();
 					double y = arguments.getSource().getPosition().y();
@@ -40,4 +40,5 @@ public class WisdomCMDCommand {
 					return 0;
 				}))));
 	}
+
 }

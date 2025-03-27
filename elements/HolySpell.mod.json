@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 77,
   "_type": "potioneffect",
   "definition": {
     "effectName": "Holy Spell",
@@ -9,10 +9,11 @@
       "falpha": 0.0
     },
     "isInstant": false,
-    "isBad": true,
-    "isBenefitical": false,
+    "mobEffectCategory": "HARMFUL",
     "renderStatusInInventory": true,
     "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [],
     "onStarted": {
       "name": "HolySpellWennEffektStartetangewendetWird"
     },

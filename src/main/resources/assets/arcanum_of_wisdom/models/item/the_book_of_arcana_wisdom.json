@@ -1,0 +1,7 @@
+{
+  "parent": "arcanum_of_wisdom:custom/wisdom_book",
+  "textures": {
+    "0": "arcanum_of_wisdom:block/wisdombooktex",
+    "particle": "arcanum_of_wisdom:item/book_of_wisdom"
+  }
+}

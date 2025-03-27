@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    " d ",
+    "eee"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:ominous_bottle"
+    },
+    "b": {
+      "item": "minecraft:brewing_stand"
+    },
+    "c": {
+      "item": "minecraft:writable_book"
+    },
+    "d": {
+      "item": "minecraft:spruce_log"
+    },
+    "e": {
+      "item": "minecraft:spruce_planks"
+    }
+  },
+  "result": {
+    "id": "arcanum_of_wisdom:altar_of_the_alchemist",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "arcanum_of_wisdom:custom/golden_shield",
+  "textures": {
+    "texture": "arcanum_of_wisdom:block/netheriteartifactshield",
+    "particle": "arcanum_of_wisdom:item/anything"
+  }
+}

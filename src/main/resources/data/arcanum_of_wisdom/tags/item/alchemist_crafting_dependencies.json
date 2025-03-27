@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:phantom_membrane",
+    "minecraft:cobweb",
+    "minecraft:enchanted_golden_apple",
+    "minecraft:glistering_melon_slice"
+  ]
+}

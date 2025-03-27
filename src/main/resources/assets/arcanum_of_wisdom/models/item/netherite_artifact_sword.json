@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "arcanum_of_wisdom:item/netheriteartifactsword"
- }
+    "layer0": "arcanum_of_wisdom:item/netherite_artifact_sword_animated"
+  }
 }

@@ -1,7 +1,7 @@
 package net.bcm.arcanumofwisdom.procedures;
 
 import net.neoforged.neoforge.event.entity.player.PlayerXpEvent;
-import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.bus.api.Event;
 
@@ -23,11 +23,11 @@ import net.bcm.arcanumofwisdom.init.ArcanumOfWisdomModMobEffects;
 
 import javax.annotation.Nullable;
 
-@Mod.EventBusSubscriber
+@EventBusSubscriber
 public class LVL100Procedure {
 	@SubscribeEvent
 	public static void onPickupXP(PlayerXpEvent.PickupXp event) {
-		if (event != null && event.getEntity() != null) {
+		if (event.getEntity() != null) {
 			execute(event, event.getEntity().level(), event.getEntity().getX(), event.getEntity().getY(), event.getEntity().getZ(), event.getEntity());
 		}
 	}
@@ -84,15 +84,15 @@ public class LVL100Procedure {
 			if (world instanceof ServerLevel _level)
 				_level.sendParticles(ParticleTypes.TOTEM_OF_UNDYING, x, y, z, 30, 0, 0, 0, 1);
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.WISDOM.get(), (int) Double.POSITIVE_INFINITY, 100, false, false));
+				_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.WISDOM, (int) Double.POSITIVE_INFINITY, 100, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.LAVA_RACER.get(), (int) Double.POSITIVE_INFINITY, 1, false, false));
+				_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.LAVA_RACER, (int) Double.POSITIVE_INFINITY, 1, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.WATER_RACER.get(), (int) Double.POSITIVE_INFINITY, 1, false, false));
+				_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.WATER_RACER, (int) Double.POSITIVE_INFINITY, 1, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.SHADOW_WARRIOR.get(), (int) Double.POSITIVE_INFINITY, 1, false, false));
+				_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.SHADOW_WARRIOR, (int) Double.POSITIVE_INFINITY, 1, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.ARCANA_WISDOM.get(), (int) Double.POSITIVE_INFINITY, 1, false, false));
+				_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.ARCANA_WISDOM, (int) Double.POSITIVE_INFINITY, 1, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, (int) Double.POSITIVE_INFINITY, 2, false, false));
 		}

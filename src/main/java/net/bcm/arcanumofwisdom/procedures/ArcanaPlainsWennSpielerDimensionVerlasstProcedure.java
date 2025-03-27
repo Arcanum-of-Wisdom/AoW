@@ -16,6 +16,6 @@ public class ArcanaPlainsWennSpielerDimensionVerlasstProcedure {
 				_entity.removeEffect(MobEffects.NIGHT_VISION);
 		}
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.GRACE_OF_THE_ARCANA.get(), 60, 1, true, true));
+			_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.GRACE_OF_THE_ARCANA, 60, 1, true, true));
 	}
 }

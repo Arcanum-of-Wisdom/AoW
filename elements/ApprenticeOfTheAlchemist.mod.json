@@ -1,0 +1,26 @@
+{
+  "_fv": 77,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Apprentice of the alchemist",
+    "achievementDescription": "Right-click an altar of the alchemist",
+    "achievementIcon": {
+      "value": "Items.OMINOUS_BOTTLE"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "AltarOfTheAlchemistRecipe"
+    ],
+    "rewardXP": 35,
+    "achievementType": "goal",
+    "parent": {
+      "value": "CUSTOM:ThePathofWisdom"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"custom_trigger\"></block></next></block></xml>"
+  }
+}

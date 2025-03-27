@@ -1,11 +1,13 @@
 package net.bcm.arcanumofwisdom.procedures;
 
 import net.neoforged.neoforge.event.entity.player.PlayerXpEvent;
-import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.fml.ModList;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.bus.api.Event;
 
 import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.phys.Vec2;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
@@ -14,19 +16,22 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.network.chat.Component;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.BlockPos;
+import net.minecraft.commands.CommandSourceStack;
+import net.minecraft.commands.CommandSource;
 
 import net.bcm.arcanumofwisdom.network.ArcanumOfWisdomModVariables;
 import net.bcm.arcanumofwisdom.init.ArcanumOfWisdomModMobEffects;
 
 import javax.annotation.Nullable;
 
-@Mod.EventBusSubscriber
+@EventBusSubscriber
 public class LVL50Procedure {
 	@SubscribeEvent
 	public static void onPickupXP(PlayerXpEvent.PickupXp event) {
-		if (event != null && event.getEntity() != null) {
+		if (event.getEntity() != null) {
 			execute(event, event.getEntity().level(), event.getEntity().getX(), event.getEntity().getY(), event.getEntity().getZ(), event.getEntity());
 		}
 	}
@@ -77,15 +82,22 @@ public class LVL50Procedure {
 			if (world instanceof ServerLevel _level)
 				_level.sendParticles(ParticleTypes.TOTEM_OF_UNDYING, x, y, z, 5, 0, 0, 0, 1);
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.WISDOM.get(), (int) Double.POSITIVE_INFINITY, 50, false, false));
+				_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.WISDOM, (int) Double.POSITIVE_INFINITY, 50, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.LAVA_RACER.get(), (int) Double.POSITIVE_INFINITY, 1, false, false));
+				_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.LAVA_RACER, (int) Double.POSITIVE_INFINITY, 1, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.WATER_RACER.get(), (int) Double.POSITIVE_INFINITY, 1, false, false));
+				_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.WATER_RACER, (int) Double.POSITIVE_INFINITY, 1, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.SHADOW_WARRIOR.get(), (int) Double.POSITIVE_INFINITY, 1, false, false));
+				_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.SHADOW_WARRIOR, (int) Double.POSITIVE_INFINITY, 1, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.NIGHT_HUNTER.get(), (int) Double.POSITIVE_INFINITY, 1, false, false));
+				_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.NIGHT_HUNTER, (int) Double.POSITIVE_INFINITY, 1, false, false));
+			if (ModList.get().isLoaded("arcanum_of_dimensions") && ArcanumOfWisdomModVariables.WorldVariables.get(world).connect_mods == true) {
+				if (entity instanceof Player _player && !_player.level().isClientSide())
+					_player.displayClientMessage(Component.literal("AoD dimension (Warrior plains) enabled!"), false);
+				if (world instanceof ServerLevel _level)
+					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+							"tag @p add lvl50");
+			}
 		}
 	}
 }

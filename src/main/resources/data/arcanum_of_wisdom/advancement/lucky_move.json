@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "arcanum_of_wisdom:artifact_of_materials"
+    },
+    "title": {
+      "translate": "advancements.lucky_move.title"
+    },
+    "description": {
+      "translate": "advancements.lucky_move.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lucky_move_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 15
+  },
+  "parent": "arcanum_of_wisdom:old_stones"
+}

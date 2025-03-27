@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:root_system",
+  "config": {
+    "root_state_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:rooted_dirt"
+      }
+    },
+    "root_radius": 3,
+    "root_column_max_height": 100,
+    "root_placement_attempts": 20,
+    "root_replaceable": "#azalea_root_replaceable",
+    "feature": {
+      "feature": "fancy_oak",
+      "placement": []
+    },
+    "required_vertical_space_for_tree": 3,
+    "allowed_vertical_water_for_tree": 2,
+    "allowed_tree_position": {
+      "type": "minecraft:matching_blocks",
+      "blocks": "#minecraft:replaceable_by_trees"
+    },
+    "hanging_root_state_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:hanging_roots"
+      }
+    },
+    "hanging_root_radius": 3,
+    "hanging_roots_vertical_span": 2,
+    "hanging_root_placement_attempts": 20
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 77,
   "_type": "overlay",
   "definition": {
     "priority": "HIGHEST",
@@ -11,7 +11,8 @@
           "use1Xscale": true,
           "anchorPoint": "CENTER",
           "x": 299,
-          "y": 233
+          "y": 233,
+          "locked": false
         }
       },
       {
@@ -28,7 +29,8 @@
           },
           "anchorPoint": "CENTER",
           "x": 319,
-          "y": 242
+          "y": 242,
+          "locked": false
         }
       }
     ],

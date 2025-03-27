@@ -1,0 +1,7 @@
+{
+  "parent": "arcanum_of_wisdom:custom/encryptedalchemybook",
+  "textures": {
+    "0": "arcanum_of_wisdom:block/encryptedalchemybook",
+    "particle": "minecraft:item/written_book"
+  }
+}

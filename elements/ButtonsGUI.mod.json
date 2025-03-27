@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 77,
   "_type": "gui",
   "definition": {
     "type": 0,
@@ -16,7 +16,8 @@
           "image": "skilltree2.png",
           "use1Xscale": false,
           "x": 13,
-          "y": 14
+          "y": 14,
+          "locked": false
         }
       },
       {
@@ -29,7 +30,8 @@
             "name": "CloseGUIs"
           },
           "x": 196,
-          "y": 0
+          "y": 0,
+          "locked": false
         }
       },
       {
@@ -44,7 +46,8 @@
             "falpha": 0.0
           },
           "x": 47,
-          "y": 49
+          "y": 49,
+          "locked": false
         }
       },
       {
@@ -59,7 +62,8 @@
             "falpha": 0.0
           },
           "x": 47,
-          "y": 151
+          "y": 151,
+          "locked": false
         }
       },
       {
@@ -74,7 +78,8 @@
             "falpha": 0.0
           },
           "x": 248,
-          "y": 49
+          "y": 49,
+          "locked": false
         }
       },
       {
@@ -89,7 +94,8 @@
             "falpha": 0.0
           },
           "x": 266,
-          "y": 59
+          "y": 59,
+          "locked": false
         }
       },
       {
@@ -105,7 +111,8 @@
             "falpha": 0.0
           },
           "x": 47,
-          "y": 67
+          "y": 67,
+          "locked": false
         }
       },
       {
@@ -121,7 +128,8 @@
             "falpha": 0.0
           },
           "x": 47,
-          "y": 168
+          "y": 168,
+          "locked": false
         }
       },
       {
@@ -136,7 +144,8 @@
             "falpha": 0.0
           },
           "x": 47,
-          "y": 160
+          "y": 160,
+          "locked": false
         }
       },
       {
@@ -151,7 +160,8 @@
             "falpha": 0.0
           },
           "x": 47,
-          "y": 58
+          "y": 58,
+          "locked": false
         }
       }
     ],

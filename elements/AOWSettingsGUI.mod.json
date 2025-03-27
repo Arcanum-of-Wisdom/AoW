@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 77,
   "_type": "gui",
   "definition": {
     "type": 0,
@@ -22,7 +22,8 @@
             "falpha": 0.0
           },
           "x": 99,
-          "y": 64
+          "y": 64,
+          "locked": false
         }
       },
       {
@@ -37,7 +38,8 @@
             "falpha": 0.0
           },
           "x": 99,
-          "y": 76
+          "y": 76,
+          "locked": false
         }
       },
       {
@@ -52,7 +54,8 @@
           "width": 56,
           "height": 20,
           "x": 274,
-          "y": 76
+          "y": 76,
+          "locked": false
         }
       },
       {
@@ -67,7 +70,8 @@
             "falpha": 0.0
           },
           "x": 99,
-          "y": 105
+          "y": 105,
+          "locked": false
         }
       },
       {
@@ -85,7 +89,8 @@
           "width": 51,
           "height": 20,
           "x": 279,
-          "y": 100
+          "y": 100,
+          "locked": false
         }
       },
       {
@@ -103,7 +108,8 @@
             "name": "ToggleWarningResetButton"
           },
           "x": 279,
-          "y": 100
+          "y": 100,
+          "locked": false
         }
       },
       {
@@ -121,7 +127,8 @@
             "name": "ToggleWarningResetButton"
           },
           "x": 262,
-          "y": 110
+          "y": 110,
+          "locked": false
         }
       },
       {
@@ -136,7 +143,8 @@
             "falpha": 0.0
           },
           "x": 99,
-          "y": 124
+          "y": 124,
+          "locked": false
         }
       },
       {
@@ -151,7 +159,8 @@
             "falpha": 0.0
           },
           "x": 98,
-          "y": 132
+          "y": 132,
+          "locked": false
         }
       },
       {
@@ -166,7 +175,8 @@
             "falpha": 0.0
           },
           "x": 99,
-          "y": 140
+          "y": 140,
+          "locked": false
         }
       },
       {
@@ -184,7 +194,8 @@
             "name": "ToggleWarningResetButton"
           },
           "x": 280,
-          "y": 124
+          "y": 124,
+          "locked": false
         }
       },
       {
@@ -202,7 +213,8 @@
             "name": "ToggleWarningResetButton"
           },
           "x": 262,
-          "y": 134
+          "y": 134,
+          "locked": false
         }
       },
       {
@@ -220,7 +232,8 @@
           "width": 51,
           "height": 20,
           "x": 279,
-          "y": 124
+          "y": 124,
+          "locked": false
         }
       },
       {
@@ -235,7 +248,8 @@
             "falpha": 0.0
           },
           "x": 99,
-          "y": 149
+          "y": 149,
+          "locked": false
         }
       },
       {
@@ -248,7 +262,8 @@
           "rotationX": 0,
           "followMouseMovement": false,
           "x": 35,
-          "y": 148
+          "y": 148,
+          "locked": false
         }
       }
     ],

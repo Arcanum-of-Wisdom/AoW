@@ -1,18 +1,19 @@
 {
-  "_fv": 60,
+  "_fv": 77,
   "_type": "potioneffect",
   "definition": {
     "effectName": "Shadow Power",
-    "icon": "shadowpower.png",
+    "icon": "shadowpower",
     "color": {
       "value": -14803426,
       "falpha": 0.0
     },
     "isInstant": false,
-    "isBad": false,
-    "isBenefitical": true,
+    "mobEffectCategory": "BENEFICIAL",
     "renderStatusInInventory": true,
     "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [],
     "onStarted": {
       "name": "ShadowPowerWennEffektStartetangewendetWird"
     },

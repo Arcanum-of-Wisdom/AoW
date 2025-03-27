@@ -39,21 +39,24 @@ public class ArtifactOfDimensionsGUIScreen extends AbstractContainerScreen<Artif
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("arcanum_of_wisdom:textures/screens/artifact_of_dimensions_gui.png");
+	private static final ResourceLocation texture = ResourceLocation.parse("arcanum_of_wisdom:textures/screens/artifact_of_dimensions_gui.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(guiGraphics, mouseX, mouseY, partialTicks);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
-		if (mouseX > leftPos + 221 && mouseX < leftPos + 245 && mouseY > topPos + 64 && mouseY < topPos + 88)
+		if (mouseX > leftPos + 221 && mouseX < leftPos + 245 && mouseY > topPos + 64 && mouseY < topPos + 88) {
 			guiGraphics.renderTooltip(font, Component.translatable("gui.arcanum_of_wisdom.artifact_of_dimensions_gui.tooltip_please_read_the_information_befo1"), mouseX, mouseY);
-		if (mouseX > leftPos + 222 && mouseX < leftPos + 246 && mouseY > topPos + 117 && mouseY < topPos + 141)
+		}
+		if (mouseX > leftPos + 222 && mouseX < leftPos + 246 && mouseY > topPos + 117 && mouseY < topPos + 141) {
 			guiGraphics.renderTooltip(font, Component.translatable("gui.arcanum_of_wisdom.artifact_of_dimensions_gui.tooltip_please_read_the_information_befo2"), mouseX, mouseY);
-		if (mouseX > leftPos + 221 && mouseX < leftPos + 245 && mouseY > topPos + 12 && mouseY < topPos + 36)
+		}
+		if (mouseX > leftPos + 221 && mouseX < leftPos + 245 && mouseY > topPos + 12 && mouseY < topPos + 36) {
 			guiGraphics.renderTooltip(font, Component.translatable("gui.arcanum_of_wisdom.artifact_of_dimensions_gui.tooltip_please_read_the_information_befo"), mouseX, mouseY);
-		if (mouseX > leftPos + 76 && mouseX < leftPos + 100 && mouseY > topPos + 183 && mouseY < topPos + 207)
+		}
+		if (mouseX > leftPos + 76 && mouseX < leftPos + 100 && mouseY > topPos + 183 && mouseY < topPos + 207) {
 			guiGraphics.renderTooltip(font, Component.translatable("gui.arcanum_of_wisdom.artifact_of_dimensions_gui.tooltip_be_careful_when_teleporting_if"), mouseX, mouseY);
+		}
 	}
 
 	@Override
@@ -63,7 +66,7 @@ public class ArtifactOfDimensionsGUIScreen extends AbstractContainerScreen<Artif
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		guiGraphics.blit(new ResourceLocation("arcanum_of_wisdom:textures/screens/artifactofdimensionsbackground2.png"), this.leftPos + -113, this.topPos + -19, 0, 0, 400, 200, 400, 200);
+		guiGraphics.blit(ResourceLocation.parse("arcanum_of_wisdom:textures/screens/artifactofdimensionsbackground2.png"), this.leftPos + -113, this.topPos + -19, 0, 0, 400, 200, 400, 200);
 
 		RenderSystem.disableBlend();
 	}
@@ -86,9 +89,9 @@ public class ArtifactOfDimensionsGUIScreen extends AbstractContainerScreen<Artif
 	public void init() {
 		super.init();
 		imagebutton_custom_arrow_4_right = new ImageButton(this.leftPos + 225, this.topPos + 17, 16, 16,
-				new WidgetSprites(new ResourceLocation("arcanum_of_wisdom:textures/screens/custom_arrow_4_right.png"), new ResourceLocation("arcanum_of_wisdom:textures/screens/custom_arrow_5_right.png")), e -> {
+				new WidgetSprites(ResourceLocation.parse("arcanum_of_wisdom:textures/screens/custom_arrow_4_right.png"), ResourceLocation.parse("arcanum_of_wisdom:textures/screens/custom_arrow_5_right.png")), e -> {
 					if (true) {
-						PacketDistributor.SERVER.noArg().send(new ArtifactOfDimensionsGUIButtonMessage(0, x, y, z));
+						PacketDistributor.sendToServer(new ArtifactOfDimensionsGUIButtonMessage(0, x, y, z));
 						ArtifactOfDimensionsGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
 					}
 				}) {
@@ -100,9 +103,9 @@ public class ArtifactOfDimensionsGUIScreen extends AbstractContainerScreen<Artif
 		guistate.put("button:imagebutton_custom_arrow_4_right", imagebutton_custom_arrow_4_right);
 		this.addRenderableWidget(imagebutton_custom_arrow_4_right);
 		imagebutton_custom_arrow_4_right1 = new ImageButton(this.leftPos + 225, this.topPos + 69, 16, 16,
-				new WidgetSprites(new ResourceLocation("arcanum_of_wisdom:textures/screens/custom_arrow_4_right.png"), new ResourceLocation("arcanum_of_wisdom:textures/screens/custom_arrow_5_right.png")), e -> {
+				new WidgetSprites(ResourceLocation.parse("arcanum_of_wisdom:textures/screens/custom_arrow_4_right.png"), ResourceLocation.parse("arcanum_of_wisdom:textures/screens/custom_arrow_5_right.png")), e -> {
 					if (true) {
-						PacketDistributor.SERVER.noArg().send(new ArtifactOfDimensionsGUIButtonMessage(1, x, y, z));
+						PacketDistributor.sendToServer(new ArtifactOfDimensionsGUIButtonMessage(1, x, y, z));
 						ArtifactOfDimensionsGUIButtonMessage.handleButtonAction(entity, 1, x, y, z);
 					}
 				}) {
@@ -114,9 +117,9 @@ public class ArtifactOfDimensionsGUIScreen extends AbstractContainerScreen<Artif
 		guistate.put("button:imagebutton_custom_arrow_4_right1", imagebutton_custom_arrow_4_right1);
 		this.addRenderableWidget(imagebutton_custom_arrow_4_right1);
 		imagebutton_custom_arrow_4_right2 = new ImageButton(this.leftPos + 225, this.topPos + 122, 16, 16,
-				new WidgetSprites(new ResourceLocation("arcanum_of_wisdom:textures/screens/custom_arrow_4_right.png"), new ResourceLocation("arcanum_of_wisdom:textures/screens/custom_arrow_5_right.png")), e -> {
+				new WidgetSprites(ResourceLocation.parse("arcanum_of_wisdom:textures/screens/custom_arrow_4_right.png"), ResourceLocation.parse("arcanum_of_wisdom:textures/screens/custom_arrow_5_right.png")), e -> {
 					if (true) {
-						PacketDistributor.SERVER.noArg().send(new ArtifactOfDimensionsGUIButtonMessage(2, x, y, z));
+						PacketDistributor.sendToServer(new ArtifactOfDimensionsGUIButtonMessage(2, x, y, z));
 						ArtifactOfDimensionsGUIButtonMessage.handleButtonAction(entity, 2, x, y, z);
 					}
 				}) {

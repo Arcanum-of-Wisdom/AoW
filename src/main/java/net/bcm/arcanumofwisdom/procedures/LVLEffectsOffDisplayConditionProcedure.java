@@ -10,6 +10,6 @@ public class LVLEffectsOffDisplayConditionProcedure {
 	public static boolean execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return false;
-		return entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).lvleffects == true && world.getLevelData().getGameRules().getBoolean(ArcanumOfWisdomModGameRules.AOW_LEVEL_EFFECTS) == true;
+		return entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).lvleffects == true && world.getLevelData().getGameRules().getBoolean(ArcanumOfWisdomModGameRules.AOWLVLEFFECTS) == true;
 	}
 }

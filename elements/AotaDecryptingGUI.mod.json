@@ -1,0 +1,421 @@
+{
+  "_fv": 77,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 1,
+    "height": 1,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "encryptedalchemybookgui.png",
+          "use1Xscale": false,
+          "x": 110,
+          "y": 1,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "aotabookdecrypting.png",
+          "use1Xscale": false,
+          "x": -156,
+          "y": 1,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_encrypted_alchemy_book",
+          "text": {
+            "fixedValue": "Encrypted alchemy book"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 12,
+          "y": 105,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_feather",
+          "text": {
+            "fixedValue": "Feather"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 12,
+          "y": 79,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_ink_sac",
+          "text": {
+            "fixedValue": "Ink sac"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 12,
+          "y": 52,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_paper",
+          "text": {
+            "fixedValue": "Paper"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 12,
+          "y": 25,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.PAPER"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 78,
+          "y": 32,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.DYE#0"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 78,
+          "y": 59,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.FEATHER"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 78,
+          "y": 86,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:EncryptedAlchemyBook"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 78,
+          "y": 113,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "slot_frame_1.png",
+          "use1Xscale": false,
+          "x": 76,
+          "y": 30,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "slot_frame_1.png",
+          "use1Xscale": false,
+          "x": 76,
+          "y": 57,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "slot_frame_1.png",
+          "use1Xscale": false,
+          "x": 76,
+          "y": 84,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "slot_frame_1.png",
+          "use1Xscale": false,
+          "x": 76,
+          "y": 111,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonred",
+          "image": "buttonred.png",
+          "hoveredImage": "buttonredhighlight.png",
+          "onClick": {
+            "name": "CloseGUIs"
+          },
+          "x": 385,
+          "y": 172,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_close",
+          "text": {
+            "fixedValue": "Close"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 389,
+          "y": 176,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_4_left",
+          "image": "custom_arrow_4_left.png",
+          "hoveredImage": "custom_arrow_5_left.png",
+          "onClick": {
+            "name": "OpenAltarOfTheAlchemistBookGUI"
+          },
+          "x": 367,
+          "y": 180,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_back",
+          "text": {
+            "fixedValue": "Back"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 363,
+          "y": 176,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_4_down",
+          "image": "custom_arrow_4_right.png",
+          "hoveredImage": "custom_arrow_5_right.png",
+          "onClick": {
+            "name": "AotaDecryptingGUIWork"
+          },
+          "x": 156,
+          "y": 74,
+          "locked": false
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "color": {
+            "value": -16056115,
+            "falpha": 0.0
+          },
+          "id": 4,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 257,
+          "y": 73,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "slot_frame_1.png",
+          "use1Xscale": false,
+          "x": 255,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_calculate_the_code",
+          "text": {
+            "fixedValue": "Receive a reward for the decryption"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 152,
+          "y": 70,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "question_mark_yellow.png",
+          "use1Xscale": true,
+          "x": 263,
+          "y": 78,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_output_of_secret_items",
+          "text": {
+            "fixedValue": "Output of secret items"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 254,
+          "y": 70,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_paper_input",
+          "text": {
+            "fixedValue": "Paper input"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 75,
+          "y": 29,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_ink_sac_input",
+          "text": {
+            "fixedValue": "Ink sac input"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 75,
+          "y": 56,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_feather_input",
+          "text": {
+            "fixedValue": "Feather input"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 75,
+          "y": 83,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_encrypted_alchemy_book_input",
+          "text": {
+            "fixedValue": "Encrypted alchemy book input"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 75,
+          "y": 110,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

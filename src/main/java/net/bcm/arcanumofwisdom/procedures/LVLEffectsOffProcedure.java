@@ -15,6 +15,8 @@ public class LVLEffectsOffProcedure {
 			_vars.lvleffects = false;
 			_vars.syncPlayerVariables(entity);
 		}
+		if (entity instanceof Player _player)
+			_player.closeContainer();
 		if (entity instanceof Player _player && !_player.level().isClientSide())
 			_player.displayClientMessage(Component.literal(("LVL effects disabled for level: " + Math.abs(entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).wisdom))), true);
 	}

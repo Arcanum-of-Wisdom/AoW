@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 77,
   "_type": "biome",
   "definition": {
     "name": "Arcana Plains Biome",
@@ -53,15 +53,15 @@
     "spawnBiomeNether": false,
     "genTemperature": {
       "min": -0.5,
-      "max": 0.5
+      "max": 1.0
     },
     "genHumidity": {
       "min": -0.5,
-      "max": 0.5
+      "max": 1.0
     },
     "genContinentalness": {
       "min": -2.0,
-      "max": 0.0
+      "max": -0.2
     },
     "genErosion": {
       "min": -2.0,

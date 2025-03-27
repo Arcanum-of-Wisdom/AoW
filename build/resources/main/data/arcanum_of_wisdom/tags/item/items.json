@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "arcanum_of_wisdom:artifact_of_life",
+    "arcanum_of_wisdom:artifact_of_materials",
+    "arcanum_of_wisdom:artifact_of_fluids",
+    "arcanum_of_wisdom:artifact_of_magic",
+    "arcanum_of_wisdom:artifact_of_dimensions",
+    "arcanum_of_wisdom:combined_artifact",
+    "arcanum_of_wisdom:holy_branch",
+    "arcanum_of_wisdom:netherite_artifact_sword",
+    "arcanum_of_wisdom:the_book_of_arcana_wisdom",
+    "arcanum_of_wisdom:netherite_artifact_shield",
+    "arcanum_of_wisdom:bottle_of_elytra_enhancer",
+    "arcanum_of_wisdom:bottle_of_totem",
+    "arcanum_of_wisdom:bottle_of_regenerative_health_pool"
+  ]
+}

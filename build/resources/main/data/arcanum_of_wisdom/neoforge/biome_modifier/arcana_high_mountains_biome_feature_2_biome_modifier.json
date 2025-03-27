@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "arcanum_of_wisdom:arcana_high_mountains_biome",
+  "features": "arcanum_of_wisdom:arcana_high_mountains_biome_feature_2",
+  "step": "vegetal_decoration"
+}

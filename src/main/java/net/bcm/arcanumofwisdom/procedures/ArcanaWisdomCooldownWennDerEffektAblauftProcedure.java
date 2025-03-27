@@ -11,6 +11,6 @@ public class ArcanaWisdomCooldownWennDerEffektAblauftProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.ARCANA_WISDOM.get(), (int) Double.POSITIVE_INFINITY, 1, false, false));
+			_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.ARCANA_WISDOM, (int) Double.POSITIVE_INFINITY, 1, false, false));
 	}
 }

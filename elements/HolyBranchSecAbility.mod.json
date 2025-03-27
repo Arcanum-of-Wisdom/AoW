@@ -1,9 +1,9 @@
 {
-  "_fv": 60,
+  "_fv": 77,
   "_type": "keybind",
   "definition": {
     "triggerKey": "C",
-    "keyBindingName": "Holy Branch: Secondary Ability",
+    "keyBindingName": "Holy Branch: Secondary Ability (Stun)",
     "keyBindingCategoryKey": "aow",
     "onKeyPressed": {
       "name": "HolyBranchSecAbilityP"

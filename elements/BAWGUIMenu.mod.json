@@ -1,0 +1,414 @@
+{
+  "_fv": 77,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 300,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bookofwisdom_open.png",
+          "use1Xscale": false,
+          "x": 65,
+          "y": 20,
+          "locked": true
+        }
+      },
+      {
+        "type": "entitymodel",
+        "data": {
+          "entityModel": {
+            "name": "GUIEntityReturn"
+          },
+          "scale": 62,
+          "rotationX": 0,
+          "followMouseMovement": true,
+          "x": 150,
+          "y": 148,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_book_of_arcana_wisdom",
+          "text": {
+            "fixedValue": "AoW"
+          },
+          "color": {
+            "value": -14241,
+            "falpha": 0.0
+          },
+          "x": 273,
+          "y": 47,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_artifacts",
+          "text": {
+            "fixedValue": "Artifacts"
+          },
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "x": 236,
+          "y": 73,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_laboratory_table",
+          "text": {
+            "fixedValue": "Blocks"
+          },
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "x": 236,
+          "y": 109,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_wisdom",
+          "text": {
+            "fixedValue": "Wisdom"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 236,
+          "y": 127,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_arcana",
+          "text": {
+            "fixedValue": "Arcana"
+          },
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "x": 236,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_4_right",
+          "image": "custom_arrow_4_right.png",
+          "hoveredImage": "custom_arrow_5_right.png",
+          "onClick": {
+            "name": "OpenBAWGUIArcana"
+          },
+          "x": 312,
+          "y": 53,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_4_right1",
+          "image": "custom_arrow_4_right.png",
+          "hoveredImage": "custom_arrow_5_right.png",
+          "onClick": {
+            "name": "OpenBAWGUIArtifacts"
+          },
+          "x": 312,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_4_right2",
+          "image": "custom_arrow_4_right.png",
+          "hoveredImage": "custom_arrow_5_right.png",
+          "onClick": {
+            "name": "OpenBAWGUIBlocks"
+          },
+          "x": 312,
+          "y": 107,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_4_right3",
+          "image": "custom_arrow_4_right.png",
+          "hoveredImage": "custom_arrow_5_right.png",
+          "onClick": {
+            "name": "OpenBAWGUIWisdom"
+          },
+          "x": 312,
+          "y": 124,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_welcome",
+          "text": {
+            "fixedValue": "Welcome,"
+          },
+          "color": {
+            "value": -13312,
+            "falpha": 0.0
+          },
+          "x": 235,
+          "y": 159,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_gui_entity_name_return",
+          "text": {
+            "fixedValue": "",
+            "name": "GUIEntityNameReturn"
+          },
+          "color": {
+            "value": -13312,
+            "falpha": 0.0
+          },
+          "x": 235,
+          "y": 167,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonred",
+          "image": "buttonred.png",
+          "hoveredImage": "buttonredhighlight.png",
+          "onClick": {
+            "name": "CloseBAWGUI"
+          },
+          "x": 340,
+          "y": 4,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_items",
+          "text": {
+            "fixedValue": "Items"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 236,
+          "y": 91,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_4_right4",
+          "image": "custom_arrow_4_right.png",
+          "hoveredImage": "custom_arrow_5_right.png",
+          "onClick": {
+            "name": "OpenBAWGUIItems"
+          },
+          "x": 312,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_close",
+          "text": {
+            "fixedValue": "Close"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 343,
+          "y": 8,
+          "locked": false
+        }
+      },
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "altcombinebuttonhovered.png",
+          "spritesCount": 3,
+          "spriteIndex": {
+            "fixedValue": 1.0
+          },
+          "x": 138,
+          "y": 55,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_mod_support",
+          "text": {
+            "fixedValue": "Miscellaneous"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 236,
+          "y": 145,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_custom_arrow_4_right5",
+          "image": "custom_arrow_4_right.png",
+          "hoveredImage": "custom_arrow_5_right.png",
+          "onClick": {
+            "name": "OpenBAWGUIModSupport"
+          },
+          "x": 312,
+          "y": 142,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_yes_thats_you_d",
+          "text": {
+            "fixedValue": "You look great today! :D"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 148,
+          "y": 145,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_yes_thats_your_name",
+          "text": {
+            "fixedValue": "Forgot your name? Well here it is."
+          },
+          "width": 24,
+          "height": 24,
+          "x": 234,
+          "y": 157,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_forgot_your_name_well_here_it_i",
+          "text": {
+            "fixedValue": "Forgot your name? Well here it is."
+          },
+          "width": 24,
+          "height": 24,
+          "x": 258,
+          "y": 157,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_you_look_great_today_d",
+          "text": {
+            "fixedValue": "You look great today! :D"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 148,
+          "y": 121,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_you_look_great_today_d1",
+          "text": {
+            "fixedValue": "You look great today! :D"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 148,
+          "y": 97,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_you_look_great_today_d2",
+          "text": {
+            "fixedValue": "You look great today! :D"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 148,
+          "y": 73,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_arcanum_of_wisdom",
+          "text": {
+            "fixedValue": "Arcanum of wisdom"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 269,
+          "y": 40,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "arcanum_of_wisdom:custom/artifact_crafting_table",
+  "textures": {
+    "all": "arcanum_of_wisdom:block/textureartifactcraftingtable",
+    "particle": "arcanum_of_wisdom:block/textureartifactcraftingtable",
+    "0": "arcanum_of_wisdom:block/textureartifactcraftingtable"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,104 @@
+{
+  "_fv": 77,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "naahelmetanimated",
+    "enableBody": true,
+    "textureBody": "naachestplateanimated",
+    "enableLeggings": true,
+    "textureLeggings": "naaleggingsanimated",
+    "enableBoots": true,
+    "textureBoots": "naabootsanimated",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:KreativtabAOW"
+      }
+    ],
+    "armorTextureFile": "netherite_artifact",
+    "helmetName": "Netherite Artifact Helmet",
+    "bodyName": "Netherite Artifact Chestplate",
+    "leggingsName": "Netherite Artifact Leggings",
+    "bootsName": "Netherite Artifact Boots",
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
+    "helmetModelName": "ModelCustomModel",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "texturenaahelmet.png",
+    "bodyModelName": "ModelNAA_chestplate_model",
+    "bodyModelPart": "Body2",
+    "armsModelPartL": "ArmLeft",
+    "armsModelPartR": "ArmRight",
+    "bodyModelTexture": "naa_chestplate_texture.png",
+    "leggingsModelName": "ModelNAALeggingsModel",
+    "leggingsModelPartL": "RightLeg",
+    "leggingsModelPartR": "RightLeg",
+    "leggingsModelTexture": "naaleggingstexture.png",
+    "bootsModelName": "ModelNAABootsModel",
+    "bootsModelPartL": "LeftLeg",
+    "bootsModelPartR": "RightLeg",
+    "bootsModelTexture": "naabootstexture.png",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "helmetGlowCondition": {
+      "fixedValue": false
+    },
+    "bodyGlowCondition": {
+      "fixedValue": false
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": false
+    },
+    "bootsGlowCondition": {
+      "fixedValue": false
+    },
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "maxDamage": 40,
+    "damageValueHelmet": 3,
+    "damageValueBody": 8,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 3,
+    "enchantability": 100,
+    "toughness": 3.0,
+    "knockbackResistance": 0.3,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:CombinedArtifact"
+      }
+    ]
+  }
+}

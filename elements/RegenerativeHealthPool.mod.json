@@ -1,0 +1,21 @@
+{
+  "_fv": 77,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Regenerative health pool",
+    "icon": "regenhealthpool",
+    "color": {
+      "value": -12203,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": true,
+    "modifiers": [],
+    "onActiveTick": {
+      "name": "RegenerativeHealthPoolOnEffectActiveTick"
+    }
+  }
+}

@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[2,)"
+loaderVersion="[47,)"
 license="MIT License"
 
 [[mods]]
@@ -16,54 +16,14 @@ description="Welcome to Arcanum of Wisdom! Earned experience levels unlock new d
 # End of user code block mod configuration
 
 [[dependencies.arcanum_of_wisdom]]
-    modId="neoforge"
-    type="required"
-    versionRange="[20.4.223,)"
-    ordering="NONE"
-    side="BOTH"
-
-[[dependencies.arcanum_of_wisdom]]
     modId="minecraft"
-    type="required"
-    versionRange="[1.20.4]"
-    ordering="NONE"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
     side="BOTH"
 
 
-[[dependencies.arcanum_of_wisdom]]
-    modId="pehkui"
-    type="optional"
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.arcanum_of_wisdom]]
-    modId="mousetweaks"
-    type="optional"
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.arcanum_of_wisdom]]
-    modId="rei"
-    type="optional"
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.arcanum_of_wisdom]]
-    modId="patchouli"
-    type="optional"
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.arcanum_of_wisdom]]
-    modId="jade"
-    type="optional"
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.arcanum_of_wisdom]]
-    modId="appleskin"
-    type="optional"
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

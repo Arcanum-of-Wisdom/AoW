@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "arcanum_of_wisdom:artifact_of_life",
+    "arcanum_of_wisdom:artifact_of_materials",
+    "arcanum_of_wisdom:artifact_of_fluids",
+    "arcanum_of_wisdom:artifact_of_magic",
+    "arcanum_of_wisdom:artifact_of_dimensions",
+    "arcanum_of_wisdom:combined_artifact"
+  ]
+}

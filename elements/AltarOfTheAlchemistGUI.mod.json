@@ -1,0 +1,88 @@
+{
+  "_fv": 77,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 260,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "alatarofthealchemistgui.png",
+          "use1Xscale": false,
+          "x": 84,
+          "y": 18,
+          "locked": true
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_altarofthealchemistbook",
+          "image": "altarofthealchemistbook.png",
+          "hoveredImage": "altarofthealchemistbookhover.png",
+          "onClick": {
+            "name": "OpenAltarOfTheAlchemistBookGUI"
+          },
+          "x": 148,
+          "y": 107,
+          "locked": true
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_altarofthealchemistpotions",
+          "image": "altarofthealchemistpotions.png",
+          "hoveredImage": "altarofthealchemistpotionshover.png",
+          "onClick": {
+            "name": "OpenAltarOfTheAlchemistPotionsGUI"
+          },
+          "x": 95,
+          "y": 19,
+          "locked": true
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonredhighlight",
+          "image": "buttonred.png",
+          "hoveredImage": "buttonredhighlight.png",
+          "onClick": {
+            "name": "CloseGUIs"
+          },
+          "x": 316,
+          "y": 16,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_close",
+          "text": {
+            "fixedValue": "Close"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 320,
+          "y": 19,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

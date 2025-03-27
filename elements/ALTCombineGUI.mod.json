@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 77,
   "_type": "gui",
   "definition": {
     "type": 1,
@@ -15,12 +15,13 @@
         "data": {
           "name": "tooltip_click_here_to_combine_all_5_arti",
           "text": {
-            "fixedValue": "Click here to combine all 5 artifacts!"
+            "fixedValue": "Click here to combine all 6 artifacts!"
           },
           "width": 24,
           "height": 24,
           "x": 202,
-          "y": 63
+          "y": 62,
+          "locked": false
         }
       },
       {
@@ -29,7 +30,8 @@
           "image": "altbackground.png",
           "use1Xscale": false,
           "x": 126,
-          "y": 31
+          "y": 31,
+          "locked": false
         }
       },
       {
@@ -44,7 +46,8 @@
             "falpha": 0.0
           },
           "x": 195,
-          "y": 20
+          "y": 20,
+          "locked": false
         }
       },
       {
@@ -57,7 +60,8 @@
             "name": "ALTCombineWorkP"
           },
           "x": 206,
-          "y": 66
+          "y": 66,
+          "locked": false
         }
       },
       {
@@ -75,7 +79,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 156,
-          "y": 54
+          "y": 54,
+          "locked": false
         }
       },
       {
@@ -93,7 +98,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 169,
-          "y": 89
+          "y": 87,
+          "locked": false
         }
       },
       {
@@ -111,7 +117,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 182,
-          "y": 54
+          "y": 54,
+          "locked": false
         }
       },
       {
@@ -129,7 +136,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 156,
-          "y": 76
+          "y": 76,
+          "locked": false
         }
       },
       {
@@ -147,7 +155,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 182,
-          "y": 76
+          "y": 76,
+          "locked": false
         }
       },
       {
@@ -159,7 +168,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 231,
-          "y": 66
+          "y": 66,
+          "locked": false
         }
       },
       {
@@ -168,7 +178,8 @@
           "image": "button_vanilla_2_pressed.png",
           "use1Xscale": false,
           "x": 230,
-          "y": 64
+          "y": 64,
+          "locked": false
         }
       },
       {
@@ -177,7 +188,8 @@
           "image": "button_skill.png",
           "use1Xscale": false,
           "x": 181,
-          "y": 53
+          "y": 53,
+          "locked": false
         }
       },
       {
@@ -186,7 +198,8 @@
           "image": "button_skill.png",
           "use1Xscale": false,
           "x": 155,
-          "y": 53
+          "y": 53,
+          "locked": false
         }
       },
       {
@@ -195,7 +208,8 @@
           "image": "button_skill.png",
           "use1Xscale": false,
           "x": 155,
-          "y": 75
+          "y": 75,
+          "locked": false
         }
       },
       {
@@ -204,7 +218,8 @@
           "image": "button_skill.png",
           "use1Xscale": false,
           "x": 181,
-          "y": 75
+          "y": 75,
+          "locked": false
         }
       },
       {
@@ -213,7 +228,8 @@
           "image": "button_skill.png",
           "use1Xscale": false,
           "x": 168,
-          "y": 88
+          "y": 86,
+          "locked": false
         }
       },
       {
@@ -226,7 +242,8 @@
             "name": "CloseGUIs"
           },
           "x": 294,
-          "y": 7
+          "y": 7,
+          "locked": false
         }
       },
       {
@@ -241,7 +258,8 @@
             "falpha": 0.0
           },
           "x": 302,
-          "y": 192
+          "y": 192,
+          "locked": false
         }
       },
       {
@@ -249,12 +267,13 @@
         "data": {
           "name": "tooltip_use_all_5_artifacts_to_craft_a_c",
           "text": {
-            "fixedValue": "Use all 5 artifacts to craft a combined artifact!"
+            "fixedValue": "Use all 6 artifacts to craft a combined artifact!"
           },
           "width": 24,
           "height": 24,
           "x": 301,
-          "y": 184
+          "y": 184,
+          "locked": false
         }
       },
       {
@@ -267,7 +286,149 @@
             "name": "ALTGUIsBackButtonP"
           },
           "x": 326,
-          "y": 13
+          "y": 13,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_skill.png",
+          "use1Xscale": false,
+          "x": 168,
+          "y": 64,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:ArtifactOfDeformation"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 6,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 169,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_back",
+          "text": {
+            "fixedValue": "Back"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 324,
+          "y": 11,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_close",
+          "text": {
+            "fixedValue": "Close"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 298,
+          "y": 11,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_output",
+          "text": {
+            "fixedValue": "Output"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 228,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_artifact_inputs",
+          "text": {
+            "fixedValue": "Artifact inputs"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 154,
+          "y": 46,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_artifact_inputs1",
+          "text": {
+            "fixedValue": "Artifact inputs"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 178,
+          "y": 46,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_artifact_inputs2",
+          "text": {
+            "fixedValue": "Artifact inputs"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 154,
+          "y": 70,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_artifact_inputs3",
+          "text": {
+            "fixedValue": "Artifact inputs"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 178,
+          "y": 70,
+          "locked": false
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_artifact_inputs4",
+          "text": {
+            "fixedValue": "Artifact inputs"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 165,
+          "y": 94,
+          "locked": false
         }
       }
     ],

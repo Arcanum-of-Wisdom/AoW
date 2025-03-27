@@ -6,6 +6,7 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundSource;
@@ -20,6 +21,7 @@ import net.minecraft.commands.CommandSource;
 
 import net.bcm.arcanumofwisdom.network.ArcanumOfWisdomModVariables;
 import net.bcm.arcanumofwisdom.init.ArcanumOfWisdomModItems;
+import net.bcm.arcanumofwisdom.ArcanumOfWisdomMod;
 
 public class NetheriteArtifactSwordEntitySwingsItemProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -41,9 +43,9 @@ public class NetheriteArtifactSwordEntitySwingsItemProcedure {
 						_level.sendParticles(ParticleTypes.NAUTILUS, x, y, z, 8, 1, 1, 1, 2);
 					if (world instanceof Level _level) {
 						if (!_level.isClientSide()) {
-							_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("entity.shulker_bullet.hit")), SoundSource.PLAYERS, (float) 0.5, 2);
+							_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.shulker_bullet.hit")), SoundSource.PLAYERS, (float) 0.5, 2);
 						} else {
-							_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("entity.shulker_bullet.hit")), SoundSource.PLAYERS, (float) 0.5, 2, false);
+							_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.shulker_bullet.hit")), SoundSource.PLAYERS, (float) 0.5, 2, false);
 						}
 					}
 				}
@@ -55,9 +57,9 @@ public class NetheriteArtifactSwordEntitySwingsItemProcedure {
 						_level.sendParticles(ParticleTypes.FIREWORK, x, y, z, 8, 0, 0, 0, 1);
 					if (world instanceof Level _level) {
 						if (!_level.isClientSide()) {
-							_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("entity.shulker_bullet.hit")), SoundSource.PLAYERS, (float) 0.5, 2);
+							_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.shulker_bullet.hit")), SoundSource.PLAYERS, (float) 0.5, 2);
 						} else {
-							_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("entity.shulker_bullet.hit")), SoundSource.PLAYERS, (float) 0.5, 2, false);
+							_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.shulker_bullet.hit")), SoundSource.PLAYERS, (float) 0.5, 2, false);
 						}
 					}
 				}
@@ -71,9 +73,9 @@ public class NetheriteArtifactSwordEntitySwingsItemProcedure {
 						_level.sendParticles(ParticleTypes.CAMPFIRE_SIGNAL_SMOKE, x, y, z, 8, 1, 1, 1, 1);
 					if (world instanceof Level _level) {
 						if (!_level.isClientSide()) {
-							_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("entity.shulker_bullet.hit")), SoundSource.PLAYERS, (float) 0.5, 2);
+							_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.shulker_bullet.hit")), SoundSource.PLAYERS, (float) 0.5, 2);
 						} else {
-							_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("entity.shulker_bullet.hit")), SoundSource.PLAYERS, (float) 0.5, 2, false);
+							_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.shulker_bullet.hit")), SoundSource.PLAYERS, (float) 0.5, 2, false);
 						}
 					}
 				}
@@ -91,9 +93,9 @@ public class NetheriteArtifactSwordEntitySwingsItemProcedure {
 						_level.sendParticles(ParticleTypes.HEART, x, y, z, 8, 1, 1, 1, 1);
 					if (world instanceof Level _level) {
 						if (!_level.isClientSide()) {
-							_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("entity.shulker_bullet.hit")), SoundSource.PLAYERS, (float) 0.5, 2);
+							_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.shulker_bullet.hit")), SoundSource.PLAYERS, (float) 0.5, 2);
 						} else {
-							_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("entity.shulker_bullet.hit")), SoundSource.PLAYERS, (float) 0.5, 2, false);
+							_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.shulker_bullet.hit")), SoundSource.PLAYERS, (float) 0.5, 2, false);
 						}
 					}
 				}
@@ -113,11 +115,30 @@ public class NetheriteArtifactSwordEntitySwingsItemProcedure {
 						_level.sendParticles(ParticleTypes.COMPOSTER, x, y, z, 8, 1, 1, 1, 1);
 					if (world instanceof Level _level) {
 						if (!_level.isClientSide()) {
-							_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("entity.shulker_bullet.hit")), SoundSource.PLAYERS, (float) 0.5, 2);
+							_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.shulker_bullet.hit")), SoundSource.PLAYERS, (float) 0.5, 2);
 						} else {
-							_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("entity.shulker_bullet.hit")), SoundSource.PLAYERS, (float) 0.5, 2, false);
+							_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.shulker_bullet.hit")), SoundSource.PLAYERS, (float) 0.5, 2, false);
 						}
 					}
+				}
+				if ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == ArcanumOfWisdomModItems.ARTIFACT_OF_DEFORMATION.get()) {
+					if (world instanceof ServerLevel _level)
+						_level.sendParticles(ParticleTypes.DUST_PLUME, x, y, z, 8, 1, 1, 1, 1);
+					if (world instanceof ServerLevel _level)
+						_level.sendParticles(ParticleTypes.ASH, x, y, z, 8, 1, 1, 1, 1);
+					if (world instanceof Level _level) {
+						if (!_level.isClientSide()) {
+							_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.shulker_bullet.hit")), SoundSource.PLAYERS, (float) 0.5, 2);
+						} else {
+							_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.shulker_bullet.hit")), SoundSource.PLAYERS, (float) 0.5, 2, false);
+						}
+					}
+					if (entity instanceof LivingEntity _livingEntity41 && _livingEntity41.getAttributes().hasAttribute(Attributes.ARMOR))
+						_livingEntity41.getAttribute(Attributes.ARMOR).setBaseValue(2);
+					ArcanumOfWisdomMod.queueServerWork(20, () -> {
+						if (entity instanceof LivingEntity _livingEntity42 && _livingEntity42.getAttributes().hasAttribute(Attributes.ARMOR))
+							_livingEntity42.getAttribute(Attributes.ARMOR).setBaseValue(0);
+					});
 				}
 			} else {
 				if (entity instanceof Player _player && !_player.level().isClientSide())

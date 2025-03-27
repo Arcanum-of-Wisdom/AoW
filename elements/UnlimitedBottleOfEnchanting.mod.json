@@ -1,0 +1,70 @@
+{
+  "_fv": 77,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "unlimitedxpbottle",
+    "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
+    "name": "Unlimited Bottle o' Enchanting",
+    "rarity": "EPIC",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:KreativtabAOW"
+      }
+    ],
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.2,
+    "specialInformation": {
+      "fixedValue": [
+        "An unlimited bottle of enchanting. You have to throw/put it away or burn it to remove it from your inventory.",
+        "When placed in a dispenser, a normal Bottle o' Experience is thrown, but without inaccuracy and faster than an arrow.",
+        "This item is only available in creative mode or via cheats!"
+      ]
+    },
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "inventorySize": 0,
+    "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "UnlimitedBottleOfEnchantingRightclicked"
+    },
+    "enableRanged": true,
+    "shootConstantly": true,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "Arrow"
+    },
+    "projectileDisableAmmoCheck": true,
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "none",
+    "isMusicDisc": false,
+    "musicDiscMusic": {
+      "value": ""
+    },
+    "musicDiscDescription": "",
+    "musicDiscLengthInTicks": 100,
+    "musicDiscAnalogOutput": 0
+  }
+}

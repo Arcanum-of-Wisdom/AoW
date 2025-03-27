@@ -39,11 +39,10 @@ public class ButtonsGUIScreen extends AbstractContainerScreen<ButtonsGUIMenu> {
 		this.imageHeight = 0;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("arcanum_of_wisdom:textures/screens/buttons_gui.png");
+	private static final ResourceLocation texture = ResourceLocation.parse("arcanum_of_wisdom:textures/screens/buttons_gui.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(guiGraphics, mouseX, mouseY, partialTicks);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
 	}
@@ -55,7 +54,7 @@ public class ButtonsGUIScreen extends AbstractContainerScreen<ButtonsGUIMenu> {
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		guiGraphics.blit(new ResourceLocation("arcanum_of_wisdom:textures/screens/skilltree2.png"), this.leftPos + -201, this.topPos + -106, 0, 0, 400, 200, 400, 200);
+		guiGraphics.blit(ResourceLocation.parse("arcanum_of_wisdom:textures/screens/skilltree2.png"), this.leftPos + -201, this.topPos + -106, 0, 0, 400, 200, 400, 200);
 
 		RenderSystem.disableBlend();
 	}
@@ -89,9 +88,9 @@ public class ButtonsGUIScreen extends AbstractContainerScreen<ButtonsGUIMenu> {
 	public void init() {
 		super.init();
 		imagebutton_buttonred = new ImageButton(this.leftPos + -18, this.topPos + -120, 32, 32,
-				new WidgetSprites(new ResourceLocation("arcanum_of_wisdom:textures/screens/buttonred.png"), new ResourceLocation("arcanum_of_wisdom:textures/screens/buttonredhighlight.png")), e -> {
+				new WidgetSprites(ResourceLocation.parse("arcanum_of_wisdom:textures/screens/buttonred.png"), ResourceLocation.parse("arcanum_of_wisdom:textures/screens/buttonredhighlight.png")), e -> {
 					if (true) {
-						PacketDistributor.SERVER.noArg().send(new ButtonsGUIButtonMessage(0, x, y, z));
+						PacketDistributor.sendToServer(new ButtonsGUIButtonMessage(0, x, y, z));
 						ButtonsGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
 					}
 				}) {

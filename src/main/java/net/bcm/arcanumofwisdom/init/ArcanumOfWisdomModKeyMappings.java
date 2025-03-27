@@ -7,9 +7,9 @@ package net.bcm.arcanumofwisdom.init;
 import org.lwjgl.glfw.GLFW;
 
 import net.neoforged.neoforge.network.PacketDistributor;
-import net.neoforged.neoforge.event.TickEvent;
 import net.neoforged.neoforge.client.event.RegisterKeyMappingsEvent;
-import net.neoforged.fml.common.Mod;
+import net.neoforged.neoforge.client.event.ClientTickEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
@@ -23,7 +23,7 @@ import net.bcm.arcanumofwisdom.network.HolyBranchSecAbilityMessage;
 import net.bcm.arcanumofwisdom.network.EinstellungenMessage;
 import net.bcm.arcanumofwisdom.network.ArcanaDimensionEnterMessage;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
+@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class ArcanumOfWisdomModKeyMappings {
 	public static final KeyMapping TALENT_UEBERSICHT = new KeyMapping("key.arcanum_of_wisdom.talent_uebersicht", GLFW.GLFW_KEY_X, "key.categories.aow") {
 		private boolean isDownOld = false;
@@ -32,7 +32,7 @@ public class ArcanumOfWisdomModKeyMappings {
 		public void setDown(boolean isDown) {
 			super.setDown(isDown);
 			if (isDownOld != isDown && isDown) {
-				PacketDistributor.SERVER.noArg().send(new TalentUebersichtMessage(0, 0));
+				PacketDistributor.sendToServer(new TalentUebersichtMessage(0, 0));
 				TalentUebersichtMessage.pressAction(Minecraft.getInstance().player, 0, 0);
 			}
 			isDownOld = isDown;
@@ -45,7 +45,7 @@ public class ArcanumOfWisdomModKeyMappings {
 		public void setDown(boolean isDown) {
 			super.setDown(isDown);
 			if (isDownOld != isDown && isDown) {
-				PacketDistributor.SERVER.noArg().send(new EinstellungenMessage(0, 0));
+				PacketDistributor.sendToServer(new EinstellungenMessage(0, 0));
 				EinstellungenMessage.pressAction(Minecraft.getInstance().player, 0, 0);
 			}
 			isDownOld = isDown;
@@ -58,7 +58,7 @@ public class ArcanumOfWisdomModKeyMappings {
 		public void setDown(boolean isDown) {
 			super.setDown(isDown);
 			if (isDownOld != isDown && isDown) {
-				PacketDistributor.SERVER.noArg().send(new HolyBranchSecAbilityMessage(0, 0));
+				PacketDistributor.sendToServer(new HolyBranchSecAbilityMessage(0, 0));
 				HolyBranchSecAbilityMessage.pressAction(Minecraft.getInstance().player, 0, 0);
 			}
 			isDownOld = isDown;
@@ -71,7 +71,7 @@ public class ArcanumOfWisdomModKeyMappings {
 		public void setDown(boolean isDown) {
 			super.setDown(isDown);
 			if (isDownOld != isDown && isDown) {
-				PacketDistributor.SERVER.noArg().send(new HolyBranchUltAbilityMessage(0, 0));
+				PacketDistributor.sendToServer(new HolyBranchUltAbilityMessage(0, 0));
 				HolyBranchUltAbilityMessage.pressAction(Minecraft.getInstance().player, 0, 0);
 			}
 			isDownOld = isDown;
@@ -84,7 +84,7 @@ public class ArcanumOfWisdomModKeyMappings {
 		public void setDown(boolean isDown) {
 			super.setDown(isDown);
 			if (isDownOld != isDown && isDown) {
-				PacketDistributor.SERVER.noArg().send(new ShadowPowerKeyMessage(0, 0));
+				PacketDistributor.sendToServer(new ShadowPowerKeyMessage(0, 0));
 				ShadowPowerKeyMessage.pressAction(Minecraft.getInstance().player, 0, 0);
 			}
 			isDownOld = isDown;
@@ -97,7 +97,7 @@ public class ArcanumOfWisdomModKeyMappings {
 		public void setDown(boolean isDown) {
 			super.setDown(isDown);
 			if (isDownOld != isDown && isDown) {
-				PacketDistributor.SERVER.noArg().send(new ArcanaDimensionEnterMessage(0, 0));
+				PacketDistributor.sendToServer(new ArcanaDimensionEnterMessage(0, 0));
 				ArcanaDimensionEnterMessage.pressAction(Minecraft.getInstance().player, 0, 0);
 			}
 			isDownOld = isDown;
@@ -114,10 +114,10 @@ public class ArcanumOfWisdomModKeyMappings {
 		event.register(ARCANA_DIMENSION_ENTER);
 	}
 
-	@Mod.EventBusSubscriber({Dist.CLIENT})
+	@EventBusSubscriber({Dist.CLIENT})
 	public static class KeyEventListener {
 		@SubscribeEvent
-		public static void onClientTick(TickEvent.ClientTickEvent event) {
+		public static void onClientTick(ClientTickEvent.Post event) {
 			if (Minecraft.getInstance().screen == null) {
 				TALENT_UEBERSICHT.consumeClick();
 				EINSTELLUNGEN.consumeClick();

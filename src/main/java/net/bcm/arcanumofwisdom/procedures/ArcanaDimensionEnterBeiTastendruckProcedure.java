@@ -21,15 +21,52 @@ import net.minecraft.core.BlockPos;
 import net.bcm.arcanumofwisdom.network.ArcanumOfWisdomModVariables;
 import net.bcm.arcanumofwisdom.init.ArcanumOfWisdomModMobEffects;
 import net.bcm.arcanumofwisdom.init.ArcanumOfWisdomModGameRules;
+import net.bcm.arcanumofwisdom.ArcanumOfWisdomMod;
 
 public class ArcanaDimensionEnterBeiTastendruckProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
+<<<<<<< Updated upstream
 		if (world.getLevelData().getGameRules().getBoolean(ArcanumOfWisdomModGameRules.AOW_ARCANA_DIMENSION) == true) {
 			if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).arcana_active == true) {
 				if ((entity.level().dimension()) == Level.OVERWORLD) {
 					if (entity instanceof LivingEntity _livEnt4 && _livEnt4.hasEffect(ArcanumOfWisdomModMobEffects.ARCANA_WISDOM.get())) {
+=======
+		if (world.getLevelData().getGameRules().getBoolean(ArcanumOfWisdomModGameRules.AOWARCANADIMENSION) == true) {
+			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == ArcanumOfWisdomModItems.COMBINED_ARTIFACT.get()) {
+				if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).arcana_active == true) {
+					if ((entity.level().dimension()) == Level.OVERWORLD) {
+						if (entity instanceof LivingEntity _livEnt6 && _livEnt6.hasEffect(ArcanumOfWisdomModMobEffects.ARCANA_WISDOM)) {
+							if (entity instanceof ServerPlayer _player && !_player.level().isClientSide()) {
+								ResourceKey<Level> destinationType = ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("arcanum_of_wisdom:arcana_plains"));
+								if (_player.level().dimension() == destinationType)
+									return;
+								ServerLevel nextLevel = _player.server.getLevel(destinationType);
+								if (nextLevel != null) {
+									_player.connection.send(new ClientboundGameEventPacket(ClientboundGameEventPacket.WIN_GAME, 0));
+									_player.teleportTo(nextLevel, _player.getX(), _player.getY(), _player.getZ(), _player.getYRot(), _player.getXRot());
+									_player.connection.send(new ClientboundPlayerAbilitiesPacket(_player.getAbilities()));
+									for (MobEffectInstance _effectinstance : _player.getActiveEffects())
+										_player.connection.send(new ClientboundUpdateMobEffectPacket(_player.getId(), _effectinstance, false));
+									_player.connection.send(new ClientboundLevelEventPacket(1032, BlockPos.ZERO, 0, false));
+								}
+							}
+							if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+								_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.ARCANA_WISDOM_COOLDOWN, 1000, 1, false, false));
+							if (entity instanceof LivingEntity _entity)
+								_entity.removeEffect(ArcanumOfWisdomModMobEffects.ARCANA_WISDOM);
+						} else if (entity instanceof LivingEntity _livEnt10 && _livEnt10.hasEffect(ArcanumOfWisdomModMobEffects.ARCANA_WISDOM_COOLDOWN)) {
+							if (entity instanceof Player _player && !_player.level().isClientSide())
+								_player.displayClientMessage(Component.literal(("The countdown hasn't ended yet! Time left: "
+										+ (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.ARCANA_WISDOM_COOLDOWN) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.ARCANA_WISDOM_COOLDOWN).getDuration() : 0))),
+										true);
+						} else if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).wisdom < 100) {
+							if (entity instanceof Player _player && !_player.level().isClientSide())
+								_player.displayClientMessage(Component.literal("The Arcana Dimension is available at LVL 100!"), true);
+						}
+					} else if ((entity.level().dimension()) == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("arcanum_of_wisdom:arcana_plains"))) {
+>>>>>>> Stashed changes
 						if (entity instanceof ServerPlayer _player && !_player.level().isClientSide()) {
 							ResourceKey<Level> destinationType = ResourceKey.create(Registries.DIMENSION, new ResourceLocation("arcanum_of_wisdom:arcana_plains"));
 							if (_player.level().dimension() == destinationType)
@@ -40,10 +77,11 @@ public class ArcanaDimensionEnterBeiTastendruckProcedure {
 								_player.teleportTo(nextLevel, _player.getX(), _player.getY(), _player.getZ(), _player.getYRot(), _player.getXRot());
 								_player.connection.send(new ClientboundPlayerAbilitiesPacket(_player.getAbilities()));
 								for (MobEffectInstance _effectinstance : _player.getActiveEffects())
-									_player.connection.send(new ClientboundUpdateMobEffectPacket(_player.getId(), _effectinstance));
+									_player.connection.send(new ClientboundUpdateMobEffectPacket(_player.getId(), _effectinstance, false));
 								_player.connection.send(new ClientboundLevelEventPacket(1032, BlockPos.ZERO, 0, false));
 							}
 						}
+<<<<<<< Updated upstream
 						if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 							_entity.addEffect(new MobEffectInstance(ArcanumOfWisdomModMobEffects.ARCANA_WISDOM_COOLDOWN.get(), 1000, 1, false, false));
 						if (entity instanceof LivingEntity _entity)
@@ -54,6 +92,15 @@ public class ArcanaDimensionEnterBeiTastendruckProcedure {
 									? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.ARCANA_WISDOM_COOLDOWN.get()).getDuration()
 									: 0))), true);
 					} else if (entity.getData(ArcanumOfWisdomModVariables.PLAYER_VARIABLES).wisdom < 100) {
+=======
+						ArcanumOfWisdomMod.queueServerWork(20, () -> {
+							if (entity instanceof Player _player && !_player.level().isClientSide())
+								_player.displayClientMessage(Component.literal(("Cooldown: "
+										+ (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.ARCANA_WISDOM_COOLDOWN) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.ARCANA_WISDOM_COOLDOWN).getDuration() : 0))),
+										true);
+						});
+					} else {
+>>>>>>> Stashed changes
 						if (entity instanceof Player _player && !_player.level().isClientSide())
 							_player.displayClientMessage(Component.literal("The Arcana Dimension is available at LVL 100!"), true);
 					}
@@ -81,8 +128,36 @@ public class ArcanaDimensionEnterBeiTastendruckProcedure {
 						_player.displayClientMessage(Component.literal("You have to be in the Overworld to use the Arcana Dimension Ability!"), true);
 				}
 			} else {
+<<<<<<< Updated upstream
 				if (entity instanceof Player _player && !_player.level().isClientSide())
 					_player.displayClientMessage(Component.literal("Arcana Dimension disabled!"), true);
+=======
+				if ((entity.level().dimension()) == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("arcanum_of_wisdom:arcana_plains"))) {
+					if (entity instanceof ServerPlayer _player && !_player.level().isClientSide()) {
+						ResourceKey<Level> destinationType = Level.OVERWORLD;
+						if (_player.level().dimension() == destinationType)
+							return;
+						ServerLevel nextLevel = _player.server.getLevel(destinationType);
+						if (nextLevel != null) {
+							_player.connection.send(new ClientboundGameEventPacket(ClientboundGameEventPacket.WIN_GAME, 0));
+							_player.teleportTo(nextLevel, _player.getX(), _player.getY(), _player.getZ(), _player.getYRot(), _player.getXRot());
+							_player.connection.send(new ClientboundPlayerAbilitiesPacket(_player.getAbilities()));
+							for (MobEffectInstance _effectinstance : _player.getActiveEffects())
+								_player.connection.send(new ClientboundUpdateMobEffectPacket(_player.getId(), _effectinstance, false));
+							_player.connection.send(new ClientboundLevelEventPacket(1032, BlockPos.ZERO, 0, false));
+						}
+					}
+					ArcanumOfWisdomMod.queueServerWork(20, () -> {
+						if (entity instanceof Player _player && !_player.level().isClientSide())
+							_player.displayClientMessage(Component.literal(("Cooldown: "
+									+ (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(ArcanumOfWisdomModMobEffects.ARCANA_WISDOM_COOLDOWN) ? _livEnt.getEffect(ArcanumOfWisdomModMobEffects.ARCANA_WISDOM_COOLDOWN).getDuration() : 0))),
+									true);
+					});
+				} else {
+					if (entity instanceof Player _player && !_player.level().isClientSide())
+						_player.displayClientMessage(Component.literal("You have to hold the combined artifact in your off-hand to enable the Arcana Dimension!"), false);
+				}
+>>>>>>> Stashed changes
 			}
 		} else {
 			if (entity instanceof Player _player && !_player.level().isClientSide())

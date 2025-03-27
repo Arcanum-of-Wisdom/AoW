@@ -30,11 +30,11 @@ public class ArtifactOfLifeItem extends Item {
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, level, list, flag);
-		list.add(Component
-				.literal("A very powerful artifact that can be combined with the remaining 4 artifacts. The artifact heals the player for two seconds and villagers/iron golems for three seconds when it is used with the netherite artifact sword. "));
-		list.add(Component.literal("Otherwise it can be used with a right click."));
+	@OnlyIn(Dist.CLIENT)
+	public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, context, list, flag);
+		list.add(Component.translatable("item.arcanum_of_wisdom.artifact_of_life.description_0"));
+		list.add(Component.translatable("item.arcanum_of_wisdom.artifact_of_life.description_1"));
 	}
 
 	@Override

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "arcanum_of_wisdom:encrypted_alchemy_book"
+    },
+    "title": {
+      "translate": "advancements.decrypting_trader.title"
+    },
+    "description": {
+      "translate": "advancements.decrypting_trader.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "decrypting_trader_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 15,
+    "recipes": [
+      "arcanum_of_wisdom:altar_of_the_alchemist"
+    ]
+  },
+  "parent": "arcanum_of_wisdom:apprentice_of_the_alchemist"
+}

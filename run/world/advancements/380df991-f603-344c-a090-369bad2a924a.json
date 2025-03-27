@@ -1,0 +1,22 @@
+{
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-12-07 09:11:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-12-07 09:10:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2024-12-07 09:10:51 +0100",
+      "minecraft:plains": "2024-12-07 09:10:27 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 3955
+}

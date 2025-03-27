@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 77,
   "_type": "achievement",
   "definition": {
     "achievementName": "Recruit of the Wise",
@@ -13,8 +13,11 @@
     "announceToChat": true,
     "hideIfNotCompleted": false,
     "rewardLoot": [],
-    "rewardRecipes": [],
-    "rewardFunction": "No function",
+    "rewardRecipes": [
+      "ALTRecipe",
+      "ACTRecipe",
+      "HolyBranchRecipe"
+    ],
     "rewardXP": 5,
     "achievementType": "task",
     "parent": {

@@ -1,0 +1,9 @@
+{
+  "parent": "arcanum_of_wisdom:custom/altarofthealchemist",
+  "textures": {
+    "all": "arcanum_of_wisdom:block/altarofthealchemist",
+    "particle": "arcanum_of_wisdom:block/altarofthealchemist",
+    "0": "arcanum_of_wisdom:block/altarofthealchemist"
+  },
+  "render_type": "cutout"
+}

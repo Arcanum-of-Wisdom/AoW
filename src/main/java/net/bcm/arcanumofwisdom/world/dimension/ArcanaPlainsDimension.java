@@ -3,7 +3,7 @@ package net.bcm.arcanumofwisdom.world.dimension;
 
 import net.neoforged.neoforge.event.entity.player.PlayerEvent;
 import net.neoforged.neoforge.client.event.RegisterDimensionSpecialEffectsEvent;
-import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
@@ -18,10 +18,10 @@ import net.minecraft.client.renderer.DimensionSpecialEffects;
 import net.bcm.arcanumofwisdom.procedures.ArcanaPlainsWennSpielerDimensionVerlasstProcedure;
 import net.bcm.arcanumofwisdom.procedures.ArcanaPlainsWennSpielerDimensionBetrittProcedure;
 
-@Mod.EventBusSubscriber
+@EventBusSubscriber
 public class ArcanaPlainsDimension {
-	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-	public static class DimensionSpecialEffectsHandler {
+	@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+	public static class ArcanaPlainsSpecialEffectsHandler {
 		@SubscribeEvent
 		public static void registerDimensionSpecialEffects(RegisterDimensionSpecialEffectsEvent event) {
 			DimensionSpecialEffects customEffect = new DimensionSpecialEffects(Float.NaN, true, DimensionSpecialEffects.SkyType.NONE, false, false) {
@@ -35,7 +35,7 @@ public class ArcanaPlainsDimension {
 					return false;
 				}
 			};
-			event.register(new ResourceLocation("arcanum_of_wisdom:arcana_plains"), customEffect);
+			event.register(ResourceLocation.parse("arcanum_of_wisdom:arcana_plains"), customEffect);
 		}
 	}
 
@@ -46,10 +46,10 @@ public class ArcanaPlainsDimension {
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
-		if (event.getFrom() == ResourceKey.create(Registries.DIMENSION, new ResourceLocation("arcanum_of_wisdom:arcana_plains"))) {
+		if (event.getFrom() == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("arcanum_of_wisdom:arcana_plains"))) {
 			ArcanaPlainsWennSpielerDimensionVerlasstProcedure.execute(entity);
 		}
-		if (event.getTo() == ResourceKey.create(Registries.DIMENSION, new ResourceLocation("arcanum_of_wisdom:arcana_plains"))) {
+		if (event.getTo() == ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("arcanum_of_wisdom:arcana_plains"))) {
 			ArcanaPlainsWennSpielerDimensionBetrittProcedure.execute(entity);
 		}
 	}

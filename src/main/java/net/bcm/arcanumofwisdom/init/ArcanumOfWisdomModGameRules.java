@@ -5,23 +5,23 @@
 package net.bcm.arcanumofwisdom.init;
 
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.level.GameRules;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class ArcanumOfWisdomModGameRules {
-	public static GameRules.Key<GameRules.BooleanValue> AOW_AUTOMATIC_COUNTDOWN_RESETS;
-	public static GameRules.Key<GameRules.BooleanValue> AOW_NO_COOLDOWNS;
-	public static GameRules.Key<GameRules.BooleanValue> AOW_ARCANA_DIMENSION;
-	public static GameRules.Key<GameRules.BooleanValue> AOW_LEVEL_EFFECTS;
+	public static GameRules.Key<GameRules.BooleanValue> AOWLVLEFFECTS;
+	public static GameRules.Key<GameRules.BooleanValue> AOWARCANADIMENSION;
+	public static GameRules.Key<GameRules.BooleanValue> AOWNOCOOLDOWNS;
+	public static GameRules.Key<GameRules.BooleanValue> AOWAUTOMATICCOOLDOWNRESETS;
 
 	@SubscribeEvent
 	public static void registerGameRules(FMLCommonSetupEvent event) {
-		AOW_AUTOMATIC_COUNTDOWN_RESETS = GameRules.register("aOWAutomaticCountdownResets", GameRules.Category.MISC, GameRules.BooleanValue.create(true));
-		AOW_NO_COOLDOWNS = GameRules.register("noCooldowns", GameRules.Category.MISC, GameRules.BooleanValue.create(false));
-		AOW_ARCANA_DIMENSION = GameRules.register("arcanaDimension", GameRules.Category.MISC, GameRules.BooleanValue.create(true));
-		AOW_LEVEL_EFFECTS = GameRules.register("aOWLevelEffects", GameRules.Category.MISC, GameRules.BooleanValue.create(true));
+		AOWLVLEFFECTS = GameRules.register("aowlvleffects", GameRules.Category.MISC, GameRules.BooleanValue.create(true));
+		AOWARCANADIMENSION = GameRules.register("aowarcanadimension", GameRules.Category.MISC, GameRules.BooleanValue.create(true));
+		AOWNOCOOLDOWNS = GameRules.register("aownocooldowns", GameRules.Category.MISC, GameRules.BooleanValue.create(false));
+		AOWAUTOMATICCOOLDOWNRESETS = GameRules.register("aowautomaticcooldownresets", GameRules.Category.MISC, GameRules.BooleanValue.create(true));
 	}
 }

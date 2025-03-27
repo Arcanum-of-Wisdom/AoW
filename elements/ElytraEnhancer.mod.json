@@ -1,0 +1,40 @@
+{
+  "_fv": 77,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Elytra enhancer",
+    "icon": "elytraenhancer",
+    "color": {
+      "value": -12149249,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": true,
+    "modifiers": [
+      {
+        "attribute": {
+          "value": "FLYING_SPEED"
+        },
+        "amount": 0.5,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": {
+          "value": "ENTITY_GRAVITY"
+        },
+        "amount": -0.019999999999999997,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": {
+          "value": "FALL_DAMAGE_MULTIPLIER"
+        },
+        "amount": -0.04,
+        "operation": "ADD_VALUE"
+      }
+    ]
+  }
+}

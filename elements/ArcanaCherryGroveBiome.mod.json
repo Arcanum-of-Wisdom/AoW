@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 77,
   "_type": "biome",
   "definition": {
     "name": "Arcana Plains Biome",
@@ -13,6 +13,10 @@
       "value": "Blocks.MUD"
     },
     "airColor": {
+      "value": -3760385,
+      "falpha": 0.0
+    },
+    "fogColor": {
       "value": -3760385,
       "falpha": 0.0
     },
@@ -57,23 +61,23 @@
     "spawnBiomeNether": false,
     "genTemperature": {
       "min": -2.0,
-      "max": 1.0
+      "max": 2.0
     },
     "genHumidity": {
       "min": -2.0,
-      "max": 0.0
+      "max": 1.0
     },
     "genContinentalness": {
-      "min": -0.11,
-      "max": 1.2
+      "min": 0.4,
+      "max": 0.6
     },
     "genErosion": {
       "min": -1.0,
-      "max": -0.7799
+      "max": 0.0
     },
     "genWeirdness": {
       "min": -1.0,
-      "max": -0.9333
+      "max": -0.943
     },
     "treesPerChunk": 0,
     "vanillaTreeType": "Default",

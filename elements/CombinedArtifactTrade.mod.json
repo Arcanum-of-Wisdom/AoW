@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 77,
   "_type": "villagertrade",
   "definition": {
     "tradeEntries": [
@@ -267,7 +267,7 @@
             "countOffer": 1,
             "level": 5,
             "maxTrades": 1,
-            "xp": 5,
+            "xp": 10,
             "priceMultiplier": 0.3
           },
           {
@@ -287,6 +287,31 @@
             "maxTrades": 10,
             "xp": 5,
             "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "ARMORER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:CombinedArtifact"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": "Items.SHIELD"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:NetheriteArtifactShield"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 1,
+            "xp": 10,
+            "priceMultiplier": 0.4
           }
         ]
       }

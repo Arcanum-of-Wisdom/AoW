@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "arcanum_of_wisdom:netherite_artifact_armor_chestplate"
+    },
+    "title": {
+      "translate": "advancements.cover_me_in_artifacts.title"
+    },
+    "description": {
+      "translate": "advancements.cover_me_in_artifacts.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cover_me_in_artifacts_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "arcanum_of_wisdom:combined_powers"
+}

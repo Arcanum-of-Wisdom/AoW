@@ -15,13 +15,13 @@ public class ArcanaPlainsWennSpielerDimensionBetrittProcedure {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 60, 1, false, false));
 		}
-		if (entity instanceof LivingEntity _livEnt2 && _livEnt2.hasEffect(ArcanumOfWisdomModMobEffects.STUNNED.get())) {
+		if (entity instanceof LivingEntity _livEnt2 && _livEnt2.hasEffect(ArcanumOfWisdomModMobEffects.STUNNED)) {
 			if (entity instanceof LivingEntity _entity)
-				_entity.removeEffect(ArcanumOfWisdomModMobEffects.STUNNED.get());
+				_entity.removeEffect(ArcanumOfWisdomModMobEffects.STUNNED);
 		}
-		if (entity instanceof LivingEntity _livEnt4 && _livEnt4.hasEffect(ArcanumOfWisdomModMobEffects.HOLY_SPELL.get())) {
+		if (entity instanceof LivingEntity _livEnt4 && _livEnt4.hasEffect(ArcanumOfWisdomModMobEffects.HOLY_SPELL)) {
 			if (entity instanceof LivingEntity _entity)
-				_entity.removeEffect(ArcanumOfWisdomModMobEffects.HOLY_SPELL.get());
+				_entity.removeEffect(ArcanumOfWisdomModMobEffects.HOLY_SPELL);
 		}
 		if (entity instanceof LivingEntity _livEnt6 && _livEnt6.hasEffect(MobEffects.BAD_OMEN)) {
 			if (entity instanceof LivingEntity _entity)

@@ -25,8 +25,9 @@ public class CombinedArtifactItem extends Item {
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, level, list, flag);
-		list.add(Component.literal("The combined artifact has no abilities but can be traded against rare items and crafted into a netherite artifact sword."));
+	@OnlyIn(Dist.CLIENT)
+	public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, context, list, flag);
+		list.add(Component.translatable("item.arcanum_of_wisdom.combined_artifact.description_0"));
 	}
 }

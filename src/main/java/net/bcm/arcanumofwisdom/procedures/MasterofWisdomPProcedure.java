@@ -1,7 +1,7 @@
 package net.bcm.arcanumofwisdom.procedures;
 
 import net.neoforged.neoforge.event.entity.player.PlayerXpEvent;
-import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.bus.api.Event;
 
@@ -15,11 +15,11 @@ import net.minecraft.advancements.AdvancementHolder;
 
 import javax.annotation.Nullable;
 
-@Mod.EventBusSubscriber
+@EventBusSubscriber
 public class MasterofWisdomPProcedure {
 	@SubscribeEvent
 	public static void onPickupXP(PlayerXpEvent.PickupXp event) {
-		if (event != null && event.getEntity() != null) {
+		if (event.getEntity() != null) {
 			execute(event, event.getEntity());
 		}
 	}
@@ -32,9 +32,9 @@ public class MasterofWisdomPProcedure {
 		if (entity == null)
 			return;
 		if ((entity instanceof Player _plr ? _plr.experienceLevel : 0) >= 100 && !(entity instanceof ServerPlayer _plr1 && _plr1.level() instanceof ServerLevel
-				&& _plr1.getAdvancements().getOrStartProgress(_plr1.server.getAdvancements().get(new ResourceLocation("arcanum_of_wisdom:masterof_wisdom"))).isDone())) {
+				&& _plr1.getAdvancements().getOrStartProgress(_plr1.server.getAdvancements().get(ResourceLocation.parse("arcanum_of_wisdom:masterof_wisdom"))).isDone())) {
 			if (entity instanceof ServerPlayer _player) {
-				AdvancementHolder _adv = _player.server.getAdvancements().get(new ResourceLocation("arcanum_of_wisdom:masterof_wisdom"));
+				AdvancementHolder _adv = _player.server.getAdvancements().get(ResourceLocation.parse("arcanum_of_wisdom:masterof_wisdom"));
 				if (_adv != null) {
 					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
 					if (!_ap.isDone()) {

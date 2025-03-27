@@ -10,6 +10,6 @@ public class ArcanaWisdomCooldownBeimTrankAktivierterTickProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity)
-			_entity.removeEffect(ArcanumOfWisdomModMobEffects.ARCANA_WISDOM.get());
+			_entity.removeEffect(ArcanumOfWisdomModMobEffects.ARCANA_WISDOM);
 	}
 }
